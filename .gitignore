@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+paper/*_page_*.png
+paper/pdf_render_check_*.png

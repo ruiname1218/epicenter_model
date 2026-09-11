@@ -1,0 +1,15 @@
+Observed package versions in the original experiment environment (not a lockfile):
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+matplotlib==3.10.9
+scikit-learn==1.7.2
+torch==2.14.0+cpu
+stim==1.16.0
+pymatching==2.4.0
+joblib==1.6.0
+pytest==8.4.2
+
+The CPU PyTorch build may require its original package index. These versions describe
+the recorded environment, not a guarantee of availability on every platform.
+For main-branch figure reproduction, only requirements-figures.txt is needed.

@@ -1,0 +1,44 @@
+[
+  {
+    "domain": "ID",
+    "law": "ballistic",
+    "parameter": "apparent_speed_m_per_s",
+    "minimum": 12.11941386752043,
+    "maximum": 39.99726396045556
+  },
+  {
+    "domain": "ID",
+    "law": "diffusive",
+    "parameter": "diffusion_coefficient_mm2_per_ms",
+    "minimum": 5.0079087413048535,
+    "maximum": 19.98236122294077
+  },
+  {
+    "domain": "noise2",
+    "law": "ballistic",
+    "parameter": "apparent_speed_m_per_s",
+    "minimum": 12.11941386752043,
+    "maximum": 39.99726396045556
+  },
+  {
+    "domain": "noise2",
+    "law": "diffusive",
+    "parameter": "diffusion_coefficient_mm2_per_ms",
+    "minimum": 5.0079087413048535,
+    "maximum": 19.98236122294077
+  },
+  {
+    "domain": "slow",
+    "law": "ballistic",
+    "parameter": "apparent_speed_m_per_s",
+    "minimum": 2.0628975569542227,
+    "maximum": 5.887940052637655
+  },
+  {
+    "domain": "slow",
+    "law": "diffusive",
+    "parameter": "diffusion_coefficient_mm2_per_ms",
+    "minimum": 0.5171933155998611,
+    "maximum": 1.9871851761298285
+  }
+]
