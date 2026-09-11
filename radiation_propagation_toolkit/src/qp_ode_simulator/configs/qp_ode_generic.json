@@ -1,0 +1,63 @@
+{
+  "base_profile": "generic.json",
+  "profile_name": "generic_qec_qp_ode",
+  "n_events": 8,
+  "time": {
+    "start_ms": 0.0,
+    "end_ms": 5.0,
+    "dt_ms": 0.002
+  },
+  "event_timing": {
+    "onset_time_ms": [0.1, 0.3],
+    "control_fraction": 0.1
+  },
+  "temporal_model": {
+    "backend": "qp_ode",
+    "qp_ode": {
+      "trapping_rate_per_us": 0.05,
+      "recombination_rate_per_us": 100.0,
+      "generation_scale_per_us": [1e-10, 3e-07],
+      "baseline_t1_us": 100.0,
+      "baseline_t2_us": 200.0,
+      "measurement_exposure_us": [0.2, 2.0],
+      "al_gap_uev": 191.0,
+      "qubit_frequency_ghz": 5.0,
+      "maximum_radiation_probability": 0.999,
+      "source_decay_mode": "independent_lognormal",
+      "source_lifetime_ms": {
+        "log_mean": 2.70805020110221,
+        "log_sd": 0.8,
+        "bounds_ms": [1.0, 100.0]
+      }
+    }
+  },
+  "hardware_hierarchy": {
+    "enabled": true,
+    "mode": "fixed_device",
+    "qubit_t1_log_sd": 0.10,
+    "qubit_t2_log_sd": 0.05,
+    "qubit_frequency_sd_ghz": 0.05,
+    "run_t1_log_sd": 0.0,
+    "run_t2_log_sd": 0.0,
+    "run_frequency_sd_ghz": 0.0,
+    "event_t1_log_sd": 0.0,
+    "event_t2_log_sd": 0.0,
+    "event_frequency_sd_ghz": 0.0
+  },
+  "output": {
+    "save_probabilities": true,
+    "save_physics_diagnostics": true
+  },
+  "qp_model_provenance": {
+    "equation": "dx_qp/dt = g(t,q) - s*x_qp - r*x_qp^2",
+    "physical_reference": "Yelton et al., arXiv:2402.15471",
+    "google_data_role": "guide for broad event scales only; no Sycamore coordinate correction or per-event matching",
+    "google_qp_parameter_calibration": false,
+    "generation_prior_selection": "synthetic non-saturation check only; 128 generated events, no real syndrome outcomes used",
+    "generation_quantity": "local QP-generation density proxy sampled at each qubit coordinate; summing over qubits is not deposited energy",
+    "energy_conservation_scope": "not modeled; required only for particle-energy, dose, material, or chip-geometry prediction",
+    "hardware_semantics": "one persistent 100 us / 200 us / 5 GHz reference device and per-qubit calibration map is sampled once; run/event hardware drift is disabled",
+    "reference_hardware": "Baity et al., arXiv:2602.06202; replace with measured calibration for a target device",
+    "intended_use": "phenomenological superconducting-QEC stress-test data generation and sensitivity studies; not absolute hardware prediction"
+  }
+}

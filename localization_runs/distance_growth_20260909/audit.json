@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "new_events": 3456,
+  "validation_events": 432,
+  "test_events": 432,
+  "training": {
+    "720": {
+      "events": 720,
+      "weak_events": 288
+    },
+    "1440": {
+      "events": 1440,
+      "weak_events": 576
+    },
+    "2880": {
+      "events": 2880,
+      "weak_events": 1152
+    }
+  },
+  "old_validation_test_in_training": false,
+  "generation_seed_overlap": 0,
+  "hardware_equal_to_parent": true,
+  "all_input_shapes": [
+    2,
+    24,
+    2047
+  ],
+  "source_sha256": "1bfa85c23485dcf7dfebd28f37263e64e03ae9fdaa2fdb6626e1db2c85dac734",
+  "protocol_sha256": "d4d7feb53b85e129c5a8b22e7be05346737672c56c9f2c70a5b543b20878eccf",
+  "data_manifest_sha256": "24794404c36923f69a6d1a2dfc2c10acbb297a44a5098fb5f93bde95fb7e730a"
+}

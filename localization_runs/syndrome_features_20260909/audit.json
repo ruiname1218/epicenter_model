@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "test_events": 720,
+  "binary_shape": [
+    2,
+    24,
+    2047
+  ],
+  "seed_overlap": 0,
+  "frozen_selection_hash": "aef4c28e898936bf0d75456429295f3eb2b59381c8bfa9842b254d71eec62379",
+  "model_checksums": "passed",
+  "data_checksums": "passed",
+  "rei_answer_rate": 1.0,
+  "hardware_equal_to_parent": true,
+  "all_old_seed_overlap": 0,
+  "balanced_36_strata": true,
+  "no_old_holdouts_in_training": true,
+  "all_feature_cache_hashes": "passed",
+  "tests": {
+    "tests": 106,
+    "failures": 0,
+    "errors": 0
+  },
+  "report_source_hash": "543351d02af0863f5b7bb47df76af3a9f221925dfd48ed4daa152c94de1cf2a9"
+}

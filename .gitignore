@@ -1,0 +1,35 @@
+# Environments, version-control internals and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+node_modules/
+build/
+dist/
+
+# Raw arrays, feature caches and model/checkpoint artifacts are local-only
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
+*.onnx
+
+# Never publish credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Additional per-file 25 MiB limit is applied by publication/create_snapshot.py.

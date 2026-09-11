@@ -1,0 +1,1822 @@
+[
+  {
+    "group": "ordinary",
+    "model": "expert/weak",
+    "reference": "parent",
+    "difference_mm": 0.6734428044873649,
+    "ci95": [
+      0.5887837888545072,
+      0.7575786062505653
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "expert/weak",
+    "reference": "prior",
+    "difference_mm": -0.05961717386661623,
+    "ci95": [
+      -0.07126211550018578,
+      -0.04768233466569234
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle/overlap_two",
+    "reference": "parent",
+    "difference_mm": -0.037655775400658204,
+    "ci95": [
+      -0.055801972445667494,
+      -0.02009767297973404
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle/overlap_two",
+    "reference": "prior",
+    "difference_mm": -0.7707157537546394,
+    "ci95": [
+      -0.862083539614224,
+      -0.6784162024695126
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle/strict_two",
+    "reference": "parent",
+    "difference_mm": 0.07119333802099635,
+    "ci95": [
+      0.04303307678323327,
+      0.09908165526948562
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle/strict_two",
+    "reference": "prior",
+    "difference_mm": -0.6618666403329848,
+    "ci95": [
+      -0.7491745789793175,
+      -0.5770422929526721
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle/three",
+    "reference": "parent",
+    "difference_mm": -0.06065002119068123,
+    "ci95": [
+      -0.08838553368171143,
+      -0.032642924954550664
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle/three",
+    "reference": "prior",
+    "difference_mm": -0.7937099995446624,
+    "ci95": [
+      -0.8861269220601626,
+      -0.7018612117137446
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.02161968660177766,
+    "ci95": [
+      -0.03021164432718008,
+      -0.013059727526106436
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -0.7546796649557588,
+    "ci95": [
+      -0.844934971565277,
+      -0.6641574721543007
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -0.7330599783539811,
+    "ci95": [
+      -0.8220075580801454,
+      -0.6437792271416733
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.04222493111306288,
+    "ci95": [
+      0.028051658107743477,
+      0.05604244761181124
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -0.6908350472409183,
+    "ci95": [
+      -0.776201746112994,
+      -0.604973460103354
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "three/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.02013235238460845,
+    "ci95": [
+      -0.03535461182285692,
+      -0.005151296317526678
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "three/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -0.7531923307385896,
+    "ci95": [
+      -0.8430311661834116,
+      -0.6643484040867831
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "three/ET16/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.004669503297597257,
+    "ci95": [
+      -0.004511484798941161,
+      0.013906388952980976
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "three/ET16/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -0.7283904750563839,
+    "ci95": [
+      -0.8165275029966245,
+      -0.6401738815114528
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "parent",
+    "difference_mm": -0.01537672793537726,
+    "ci95": [
+      -0.03267681363223932,
+      0.0015312933551800947
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "prior",
+    "difference_mm": -0.7484367062893583,
+    "ci95": [
+      -0.8375473045214891,
+      -0.6593029394644253
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle/strict_two",
+    "reference": "routed_only/strict_two",
+    "difference_mm": -0.036196426666284524,
+    "ci95": [
+      -0.050499246257147204,
+      -0.022495294230816833
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle_matched/strict_two",
+    "reference": "strict_two/logistic1/soft/0.5",
+    "difference_mm": -0.018237087195038023,
+    "ci95": [
+      -0.025188279083713593,
+      -0.01151998739776621
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle/overlap_two",
+    "reference": "routed_only/overlap_two",
+    "difference_mm": -0.012242300686767614,
+    "ci95": [
+      -0.01994964203636432,
+      -0.0045253731064249635
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle_matched/overlap_two",
+    "reference": "overlap_two/ET16/hard/0.5",
+    "difference_mm": -0.007591974763605241,
+    "ci95": [
+      -0.011530527192629451,
+      -0.0036151950891724384
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle/three",
+    "reference": "routed_only/three",
+    "difference_mm": -0.061755904036257595,
+    "ci95": [
+      -0.09316483682434902,
+      -0.030731310293622995
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "oracle_matched/three",
+    "reference": "three/ET16/hard/0.5",
+    "difference_mm": -0.028478704100673595,
+    "ci95": [
+      -0.04471577189517873,
+      -0.012540971828335145
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "expert/weak",
+    "reference": "parent",
+    "difference_mm": 2.040386326004882,
+    "ci95": [
+      1.8734965481333405,
+      2.1994371697304467
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "expert/weak",
+    "reference": "prior",
+    "difference_mm": -0.15950824283312667,
+    "ci95": [
+      -0.1887942179912828,
+      -0.1308018269730185
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle/overlap_two",
+    "reference": "parent",
+    "difference_mm": 0.011918952843808393,
+    "ci95": [
+      -0.04066323622758513,
+      0.06409039810261898
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle/overlap_two",
+    "reference": "prior",
+    "difference_mm": -2.1879756159942,
+    "ci95": [
+      -2.3557039915135345,
+      -2.0071596777300145
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle/strict_two",
+    "reference": "parent",
+    "difference_mm": -0.01078186172546975,
+    "ci95": [
+      -0.038488432869781146,
+      0.015605032537714543
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle/strict_two",
+    "reference": "prior",
+    "difference_mm": -2.2106764305634785,
+    "ci95": [
+      -2.378349604032067,
+      -2.0343309319083764
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle/three",
+    "reference": "parent",
+    "difference_mm": -0.01078186172546975,
+    "ci95": [
+      -0.038488432869781146,
+      0.015605032537714543
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle/three",
+    "reference": "prior",
+    "difference_mm": -2.2106764305634785,
+    "ci95": [
+      -2.378349604032067,
+      -2.0343309319083764
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.015286373357291641,
+    "ci95": [
+      -0.03906375337047566,
+      0.00831806097757585
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -2.2151809421953006,
+    "ci95": [
+      -2.3814573102524634,
+      -2.037891394602739
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -2.1998945688380087,
+    "ci95": [
+      -2.365718200551018,
+      -2.025234354240459
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.03617361289209623,
+    "ci95": [
+      0.013742709574290015,
+      0.06095293693207895
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -2.1637209559459127,
+    "ci95": [
+      -2.331433314191953,
+      -1.9880176883948952
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "three/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.019054325087050093,
+    "ci95": [
+      -0.051488561092766505,
+      0.013875333853376703
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "three/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -2.2189488939250586,
+    "ci95": [
+      -2.387337310296787,
+      -2.0437730755846184
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "three/ET16/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.00419446647313729,
+    "ci95": [
+      -0.020902155477642695,
+      0.029052120814577514
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "three/ET16/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -2.1957001023648717,
+    "ci95": [
+      -2.361437298545619,
+      -2.022554225473447
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "parent",
+    "difference_mm": -0.02265409296238697,
+    "ci95": [
+      -0.058471475820475606,
+      0.01389180221543669
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "prior",
+    "difference_mm": -2.2225486618003956,
+    "ci95": [
+      -2.390175179421908,
+      -2.046532291982137
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle/strict_two",
+    "reference": "routed_only/strict_two",
+    "difference_mm": -0.10903308703497736,
+    "ci95": [
+      -0.1583377769491059,
+      -0.06723257343247584
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle_matched/strict_two",
+    "reference": "strict_two/logistic1/soft/0.5",
+    "difference_mm": -0.049661482823642245,
+    "ci95": [
+      -0.07370586740677278,
+      -0.029491805099503315
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle/overlap_two",
+    "reference": "routed_only/overlap_two",
+    "difference_mm": -0.017782254103320832,
+    "ci95": [
+      -0.037175023723859286,
+      -0.0017289722583644649
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle_matched/overlap_two",
+    "reference": "overlap_two/ET16/hard/0.5",
+    "difference_mm": -0.012832657708220075,
+    "ci95": [
+      -0.02326605011369293,
+      -0.004012192307392719
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle/three",
+    "reference": "routed_only/three",
+    "difference_mm": -0.043100701474607504,
+    "ci95": [
+      -0.11596416191087423,
+      0.022306825565346005
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "oracle_matched/three",
+    "reference": "three/ET16/hard/0.5",
+    "difference_mm": 0.005566455155504092,
+    "ci95": [
+      -0.028895502087946775,
+      0.03810308174433492
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "expert/weak",
+    "reference": "parent",
+    "difference_mm": 0.0063808761572341725,
+    "ci95": [
+      -0.044707324398974166,
+      0.05676547341691646
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "expert/weak",
+    "reference": "prior",
+    "difference_mm": -0.009168690127018275,
+    "ci95": [
+      -0.026168064119914475,
+      0.00767373476324005
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle/overlap_two",
+    "reference": "parent",
+    "difference_mm": -7.898235055927665e-05,
+    "ci95": [
+      -0.02249035875575969,
+      0.022407178956057507
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle/overlap_two",
+    "reference": "prior",
+    "difference_mm": -0.015628548634811713,
+    "ci95": [
+      -0.07715514393143151,
+      0.04671825949882916
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle/strict_two",
+    "reference": "parent",
+    "difference_mm": 0.0063808761572341725,
+    "ci95": [
+      -0.044707324398974166,
+      0.05676547341691646
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle/strict_two",
+    "reference": "prior",
+    "difference_mm": -0.009168690127018275,
+    "ci95": [
+      -0.026168064119914475,
+      0.00767373476324005
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle/three",
+    "reference": "parent",
+    "difference_mm": 0.0063808761572341725,
+    "ci95": [
+      -0.044707324398974166,
+      0.05676547341691646
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle/three",
+    "reference": "prior",
+    "difference_mm": -0.009168690127018275,
+    "ci95": [
+      -0.026168064119914475,
+      0.00767373476324005
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.0018838201638966476,
+    "ci95": [
+      -0.013708020421749284,
+      0.009870606531970715
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -0.017433386448149093,
+    "ci95": [
+      -0.07638121407233828,
+      0.04241730021290666
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -0.015549566284252444,
+    "ci95": [
+      -0.07128460134283947,
+      0.04090073605446012
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "parent",
+    "difference_mm": -0.013750939875991656,
+    "ci95": [
+      -0.03350794062819448,
+      0.005584489538466176
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -0.029300506160244096,
+    "ci95": [
+      -0.06788996659364396,
+      0.009868565020807431
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "three/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.017642457220722822,
+    "ci95": [
+      -0.04104135053800972,
+      0.0048708715323789245
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "three/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -0.033192023504975264,
+    "ci95": [
+      -0.07886172761382958,
+      0.013364319231663131
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "three/ET16/soft/0.5",
+    "reference": "parent",
+    "difference_mm": -0.007819570247029598,
+    "ci95": [
+      -0.019790303225261846,
+      0.0037565288402860546
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "three/ET16/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -0.023369136531282034,
+    "ci95": [
+      -0.07120749403488232,
+      0.025671606549113886
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "parent",
+    "difference_mm": -0.010483736472985635,
+    "ci95": [
+      -0.039852001781919076,
+      0.017461529520671454
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "prior",
+    "difference_mm": -0.026033302757238072,
+    "ci95": [
+      -0.06838873978344402,
+      0.016866651444149578
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle/strict_two",
+    "reference": "routed_only/strict_two",
+    "difference_mm": 0.013352262089774268,
+    "ci95": [
+      -0.002453741884309464,
+      0.029223022134211046
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle_matched/strict_two",
+    "reference": "strict_two/logistic1/soft/0.5",
+    "difference_mm": 0.0006873478215780359,
+    "ci95": [
+      -0.007245951987202437,
+      0.008683209615618484
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle/overlap_two",
+    "reference": "routed_only/overlap_two",
+    "difference_mm": -0.0022833550032929574,
+    "ci95": [
+      -0.01194554504315841,
+      0.007149870015789857
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle_matched/overlap_two",
+    "reference": "overlap_two/ET16/hard/0.5",
+    "difference_mm": -0.000661398350097415,
+    "ci95": [
+      -0.005518731571952981,
+      0.004111754198808587
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle/three",
+    "reference": "routed_only/three",
+    "difference_mm": 0.011702412840333727,
+    "ci95": [
+      -0.028380319425840735,
+      0.05244702089272197
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "oracle_matched/three",
+    "reference": "three/ET16/hard/0.5",
+    "difference_mm": 0.004578865166309201,
+    "ci95": [
+      -0.015737929961352922,
+      0.025133953072574152
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "expert/weak",
+    "reference": "parent",
+    "difference_mm": 0.5115507234640952,
+    "ci95": [
+      0.43539527129572886,
+      0.5884027596579103
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "expert/weak",
+    "reference": "prior",
+    "difference_mm": -0.06119662587636791,
+    "ci95": [
+      -0.07824542278954519,
+      -0.0447003935951397
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle/overlap_two",
+    "reference": "parent",
+    "difference_mm": -0.09687192000906866,
+    "ci95": [
+      -0.12467848087088661,
+      -0.06909268605354273
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle/overlap_two",
+    "reference": "prior",
+    "difference_mm": -0.6696192693495319,
+    "ci95": [
+      -0.7711378671429852,
+      -0.5691968004439945
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle/strict_two",
+    "reference": "parent",
+    "difference_mm": 0.1974215222902299,
+    "ci95": [
+      0.15795345197085298,
+      0.23714493192296485
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle/strict_two",
+    "reference": "prior",
+    "difference_mm": -0.3753258270502332,
+    "ci95": [
+      -0.42447928154960457,
+      -0.3268858322095328
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle/three",
+    "reference": "parent",
+    "difference_mm": -0.13218687573896404,
+    "ci95": [
+      -0.17592121552123677,
+      -0.0883690888181322
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle/three",
+    "reference": "prior",
+    "difference_mm": -0.7049342250794272,
+    "ci95": [
+      -0.8171887125782651,
+      -0.5937688185214643
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.04444804957126025,
+    "ci95": [
+      -0.05720776718232611,
+      -0.031887354772493194
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -0.6171953989117235,
+    "ci95": [
+      -0.7062778000940471,
+      -0.529247911535397
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -0.5727473493404632,
+    "ci95": [
+      -0.6537598718392774,
+      -0.49285126069918267
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.11384501469708264,
+    "ci95": [
+      0.09035363646395644,
+      0.13736140084517842
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -0.45890233464338054,
+    "ci95": [
+      -0.5205224384943898,
+      -0.39941466482581867
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "three/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.008445414445644029,
+    "ci95": [
+      -0.03572922779082355,
+      0.018325680350194704
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "three/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -0.5811927637861073,
+    "ci95": [
+      -0.668034776082348,
+      -0.4964382385901773
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "three/ET16/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.023612697637726603,
+    "ci95": [
+      0.012856267718893324,
+      0.0344890565760981
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "three/ET16/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -0.5491346517027365,
+    "ci95": [
+      -0.62462150785472,
+      -0.47539241149353084
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "parent",
+    "difference_mm": 0.0009038938981542973,
+    "ci95": [
+      -0.02683584845639615,
+      0.027424919463489968
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "prior",
+    "difference_mm": -0.5718434554423089,
+    "ci95": [
+      -0.6542474414126321,
+      -0.49120934241755027
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle/strict_two",
+    "reference": "routed_only/strict_two",
+    "difference_mm": -0.05538647694117816,
+    "ci95": [
+      -0.07632090918173864,
+      -0.03437486968024725
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle_matched/strict_two",
+    "reference": "strict_two/logistic1/soft/0.5",
+    "difference_mm": -0.02450046880905402,
+    "ci95": [
+      -0.03471687202554665,
+      -0.014262312325334793
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle/overlap_two",
+    "reference": "routed_only/overlap_two",
+    "difference_mm": -0.02183096551076502,
+    "ci95": [
+      -0.03730223690956877,
+      -0.006300658879450766
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle_matched/overlap_two",
+    "reference": "overlap_two/ET16/hard/0.5",
+    "difference_mm": -0.012432535565769402,
+    "ci95": [
+      -0.020292697053012468,
+      -0.0045466909591469025
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle/three",
+    "reference": "routed_only/three",
+    "difference_mm": -0.1608534318823444,
+    "ci95": [
+      -0.22272394315531327,
+      -0.09982894073887313
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "oracle_matched/three",
+    "reference": "three/ET16/hard/0.5",
+    "difference_mm": -0.08370729067459459,
+    "ci95": [
+      -0.11571593392150441,
+      -0.05215763094763055
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "expert/weak",
+    "reference": "parent",
+    "difference_mm": 2.1858685745995237,
+    "ci95": [
+      2.0732714945242776,
+      2.29675249105093
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "expert/weak",
+    "reference": "prior",
+    "difference_mm": -0.15843174007971772,
+    "ci95": [
+      -0.17812806079768512,
+      -0.13886493900293564
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle/overlap_two",
+    "reference": "parent",
+    "difference_mm": 0.008770940279886615,
+    "ci95": [
+      -0.028857387757926692,
+      0.04581753399929699
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle/overlap_two",
+    "reference": "prior",
+    "difference_mm": -2.3355293743993553,
+    "ci95": [
+      -2.451380264176025,
+      -2.2159440072279772
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle/strict_two",
+    "reference": "parent",
+    "difference_mm": -0.031209984257708084,
+    "ci95": [
+      -0.05205618099566602,
+      -0.011145970232252932
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle/strict_two",
+    "reference": "prior",
+    "difference_mm": -2.37551029893695,
+    "ci95": [
+      -2.4923888992261936,
+      -2.2565718258658354
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle/three",
+    "reference": "parent",
+    "difference_mm": -0.031209984257708084,
+    "ci95": [
+      -0.05205618099566602,
+      -0.011145970232252932
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle/three",
+    "reference": "prior",
+    "difference_mm": -2.37551029893695,
+    "ci95": [
+      -2.4923888992261936,
+      -2.2565718258658354
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.015360533447933082,
+    "ci95": [
+      -0.03307666033531292,
+      0.0023337035884125356
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -2.3596608481271746,
+    "ci95": [
+      -2.4746354371570454,
+      -2.2396037716586648
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -2.344300314679242,
+    "ci95": [
+      -2.4606174629017215,
+      -2.2252587031159643
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.023555059407614338,
+    "ci95": [
+      0.006446479297520073,
+      0.04158688475194703
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -2.3207452552716274,
+    "ci95": [
+      -2.4385961155526483,
+      -2.201219164108973
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "three/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.03377017183867932,
+    "ci95": [
+      -0.05477936085573724,
+      -0.011730815594278769
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "three/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -2.3780704865179207,
+    "ci95": [
+      -2.4953843878436412,
+      -2.257276232735196
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "three/ET16/soft/0.5",
+    "reference": "parent",
+    "difference_mm": -0.0020221359101352137,
+    "ci95": [
+      -0.022110824253724248,
+      0.01868484675972684
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "three/ET16/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -2.3463224505893767,
+    "ci95": [
+      -2.464071532458355,
+      -2.226866086299
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "parent",
+    "difference_mm": -0.04018902374480529,
+    "ci95": [
+      -0.06475014596282015,
+      -0.01587490857746896
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "prior",
+    "difference_mm": -2.384489338424047,
+    "ci95": [
+      -2.5022523463805566,
+      -2.263438621081824
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle/strict_two",
+    "reference": "routed_only/strict_two",
+    "difference_mm": -0.1029733953317961,
+    "ci95": [
+      -0.13616369796876096,
+      -0.0739467234936292
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle_matched/strict_two",
+    "reference": "strict_two/logistic1/soft/0.5",
+    "difference_mm": -0.046610338411940205,
+    "ci95": [
+      -0.06277285427398065,
+      -0.03263510402393941
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle/overlap_two",
+    "reference": "routed_only/overlap_two",
+    "difference_mm": -0.015382558254521473,
+    "ci95": [
+      -0.02717543012789938,
+      -0.004641594094862996
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle_matched/overlap_two",
+    "reference": "overlap_two/ET16/hard/0.5",
+    "difference_mm": -0.012302331847256326,
+    "ci95": [
+      -0.01870403860895587,
+      -0.006574403467697924
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle/three",
+    "reference": "routed_only/three",
+    "difference_mm": -0.02678909178593705,
+    "ci95": [
+      -0.07050213635864865,
+      0.014268564702051189
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "oracle_matched/three",
+    "reference": "three/ET16/hard/0.5",
+    "difference_mm": 0.010714892834353455,
+    "ci95": [
+      -0.010579451352165077,
+      0.031269040413424966
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "expert/weak",
+    "reference": "parent",
+    "difference_mm": 2.3313508231941653,
+    "ci95": [
+      2.1722515679565957,
+      2.4853039699265613
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "expert/weak",
+    "reference": "prior",
+    "difference_mm": -0.15735523732630877,
+    "ci95": [
+      -0.1837688769479797,
+      -0.13012813250803987
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle/overlap_two",
+    "reference": "parent",
+    "difference_mm": 0.005622927715964841,
+    "ci95": [
+      -0.04644797395609525,
+      0.057952785328488916
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle/overlap_two",
+    "reference": "prior",
+    "difference_mm": -2.4830831328045098,
+    "ci95": [
+      -2.6439514783439213,
+      -2.3228722036614573
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle/strict_two",
+    "reference": "parent",
+    "difference_mm": -0.05163810678994641,
+    "ci95": [
+      -0.08229686447371903,
+      -0.022520506698062926
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle/strict_two",
+    "reference": "prior",
+    "difference_mm": -2.540344167310421,
+    "ci95": [
+      -2.696925772606116,
+      -2.3775750145971255
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle/three",
+    "reference": "parent",
+    "difference_mm": -0.05163810678994641,
+    "ci95": [
+      -0.08229686447371903,
+      -0.022520506698062926
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle/three",
+    "reference": "prior",
+    "difference_mm": -2.540344167310421,
+    "ci95": [
+      -2.696925772606116,
+      -2.3775750145971255
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.015434693538574518,
+    "ci95": [
+      -0.04091035122356532,
+      0.010263367904127425
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -2.504140754059049,
+    "ci95": [
+      -2.6633689758899934,
+      -2.3415098948482878
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -2.488706060520474,
+    "ci95": [
+      -2.647429676829127,
+      -2.325873123869647
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.010936505923132452,
+    "ci95": [
+      -0.013349308841262347,
+      0.03748423595349772
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -2.477769554597342,
+    "ci95": [
+      -2.6381049884251806,
+      -2.3112755171042036
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "three/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.04848601859030854,
+    "ci95": [
+      -0.07564057603971197,
+      -0.02039284146655852
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "three/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -2.537192079110783,
+    "ci95": [
+      -2.6955446028730368,
+      -2.373149310928047
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "three/ET16/soft/0.5",
+    "reference": "parent",
+    "difference_mm": -0.008238738293407722,
+    "ci95": [
+      -0.039996090180476215,
+      0.024366049703321936
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "three/ET16/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -2.496944798813882,
+    "ci95": [
+      -2.6585002478760513,
+      -2.3310403871927186
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "parent",
+    "difference_mm": -0.057723954527223606,
+    "ci95": [
+      -0.09053790942226121,
+      -0.025888345854506525
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "prior",
+    "difference_mm": -2.5464300150476977,
+    "ci95": [
+      -2.706192006570701,
+      -2.3806317409454176
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle/strict_two",
+    "reference": "routed_only/strict_two",
+    "difference_mm": -0.09691370362861486,
+    "ci95": [
+      -0.14243041370086934,
+      -0.058389671980037416
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle_matched/strict_two",
+    "reference": "strict_two/logistic1/soft/0.5",
+    "difference_mm": -0.04355919400023816,
+    "ci95": [
+      -0.06562117811588646,
+      -0.02493237137035452
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle/overlap_two",
+    "reference": "routed_only/overlap_two",
+    "difference_mm": -0.01298286240572211,
+    "ci95": [
+      -0.027443019780998338,
+      0.00014253549778311687
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle_matched/overlap_two",
+    "reference": "overlap_two/ET16/hard/0.5",
+    "difference_mm": -0.011772005986292576,
+    "ci95": [
+      -0.019361817832843378,
+      -0.004984919487930289
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle/three",
+    "reference": "routed_only/three",
+    "difference_mm": -0.0104774820972666,
+    "ci95": [
+      -0.06236249131210521,
+      0.037780963724598896
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "oracle_matched/three",
+    "reference": "three/ET16/hard/0.5",
+    "difference_mm": 0.01586333051320282,
+    "ci95": [
+      -0.009433266266913978,
+      0.04103384340020313
+    ]
+  },
+  {
+    "group": "all",
+    "model": "expert/weak",
+    "reference": "parent",
+    "difference_mm": 0.9012667247402846,
+    "ci95": [
+      0.8195812555080613,
+      0.9866838449639364
+    ]
+  },
+  {
+    "group": "all",
+    "model": "expert/weak",
+    "reference": "prior",
+    "difference_mm": -0.07626568536103465,
+    "ci95": [
+      -0.08731875032724194,
+      -0.06510790378448805
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle/overlap_two",
+    "reference": "parent",
+    "difference_mm": -0.029393320693247106,
+    "ci95": [
+      -0.04686240762088036,
+      -0.01210047957870871
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle/overlap_two",
+    "reference": "prior",
+    "difference_mm": -1.0069257307945663,
+    "ci95": [
+      -1.0995165572356764,
+      -0.917683588414538
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle/strict_two",
+    "reference": "parent",
+    "difference_mm": 0.05753080472991867,
+    "ci95": [
+      0.03407742315267004,
+      0.08138399868523301
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle/strict_two",
+    "reference": "prior",
+    "difference_mm": -0.9200016053714004,
+    "ci95": [
+      -1.0093377666759846,
+      -0.8338688008826673
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle/three",
+    "reference": "parent",
+    "difference_mm": -0.052338661279812654,
+    "ci95": [
+      -0.07572786524557978,
+      -0.02871219298125714
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle/three",
+    "reference": "prior",
+    "difference_mm": -1.0298710713811317,
+    "ci95": [
+      -1.1231938861178354,
+      -0.9406211253603135
+    ]
+  },
+  {
+    "group": "all",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.020564134394363325,
+    "ci95": [
+      -0.028907972805081145,
+      -0.012292594396411751
+    ]
+  },
+  {
+    "group": "all",
+    "model": "overlap_two/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -0.9980965444956824,
+    "ci95": [
+      -1.0905553871724325,
+      -0.9094929220649426
+    ]
+  },
+  {
+    "group": "all",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "all",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -0.977532410101319,
+    "ci95": [
+      -1.0689247403019275,
+      -0.8905934975495574
+    ]
+  },
+  {
+    "group": "all",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.041216378076235106,
+    "ci95": [
+      0.028835144568908674,
+      0.05349923995357128
+    ]
+  },
+  {
+    "group": "all",
+    "model": "strict_two/logistic1/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -0.9363160320250838,
+    "ci95": [
+      -1.0247784645561986,
+      -0.8514986845070789
+    ]
+  },
+  {
+    "group": "all",
+    "model": "three/ET16/hard/0.5",
+    "reference": "parent",
+    "difference_mm": -0.019952681168348724,
+    "ci95": [
+      -0.03378946944772686,
+      -0.006136163096886929
+    ]
+  },
+  {
+    "group": "all",
+    "model": "three/ET16/hard/0.5",
+    "reference": "prior",
+    "difference_mm": -0.9974850912696678,
+    "ci95": [
+      -1.0893280899083024,
+      -0.9088995733137609
+    ]
+  },
+  {
+    "group": "all",
+    "model": "three/ET16/soft/0.5",
+    "reference": "parent",
+    "difference_mm": 0.004590330493520595,
+    "ci95": [
+      -0.0041313891820234025,
+      0.01332829536809901
+    ]
+  },
+  {
+    "group": "all",
+    "model": "three/ET16/soft/0.5",
+    "reference": "prior",
+    "difference_mm": -0.9729420796077985,
+    "ci95": [
+      -1.0636370058543112,
+      -0.8868635058976571
+    ]
+  },
+  {
+    "group": "all",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "parent",
+    "difference_mm": -0.016589622106545545,
+    "ci95": [
+      -0.03208066154799487,
+      -0.0010517189318206821
+    ]
+  },
+  {
+    "group": "all",
+    "model": "three/logistic1/soft/1.0",
+    "reference": "prior",
+    "difference_mm": -0.9941220322078644,
+    "ci95": [
+      -1.0857467376082939,
+      -0.9061615795156367
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle/strict_two",
+    "reference": "routed_only/strict_two",
+    "difference_mm": -0.04833587006106666,
+    "ci95": [
+      -0.06254098981329428,
+      -0.03462445614407277
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle_matched/strict_two",
+    "reference": "strict_two/logistic1/soft/0.5",
+    "difference_mm": -0.02347448646647206,
+    "ci95": [
+      -0.030402915473610792,
+      -0.01678506321513573
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle/overlap_two",
+    "reference": "routed_only/overlap_two",
+    "difference_mm": -0.01316562625619315,
+    "ci95": [
+      -0.020369198619462413,
+      -0.005908937125678915
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle_matched/overlap_two",
+    "reference": "overlap_two/ET16/hard/0.5",
+    "difference_mm": -0.008465421921041048,
+    "ci95": [
+      -0.012183788885564182,
+      -0.004719101733361731
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle/three",
+    "reference": "routed_only/three",
+    "difference_mm": -0.058646703609315926,
+    "ci95": [
+      -0.08742586856431273,
+      -0.030375261078816208
+    ]
+  },
+  {
+    "group": "all",
+    "model": "oracle_matched/three",
+    "reference": "three/ET16/hard/0.5",
+    "difference_mm": -0.02280451089131065,
+    "ci95": [
+      -0.03730461686492088,
+      -0.008349280297871322
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "source_sha256": "5d4b2fce1bf5341130f322d3764e44d3039763dfb5f6c1455122e7be5a76780c",
+  "model_sha256": "75cd1f7472a9fa4637606145a23225b20055de3fb106a2ddbb7b38b7b867630d",
+  "dataset_sha256": "3186218bb9d373ba1435e8db5c5446b9ddeef49c13cdb235d34cb52e53ef0777",
+  "policy": "frozen diagnostic models, fresh events only; no retuning"
+}

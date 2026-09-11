@@ -1,0 +1,6 @@
+{
+  "geometry": ["circular", "elliptical"],
+  "propagation_law": ["ballistic", "diffusive"],
+  "epicenter_region": ["inside", "edge", "outside"],
+  "generation_bands_per_us": [[1e-10, 1e-9], [1e-9, 1e-8], [1e-8, 3e-7]]
+}

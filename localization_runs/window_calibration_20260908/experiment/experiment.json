@@ -1,0 +1,36 @@
+{
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "windows_rounds": [
+    1024,
+    2048
+  ],
+  "normalization": [
+    false,
+    true
+  ],
+  "epochs": 40,
+  "patience": 8,
+  "batch_size": 64,
+  "dataset_manifest_sha256": "ae9d32fe02cf57a7292a3524c288759d0a038e444a367b476b04f7e9969ee37f",
+  "plan_sha256": "297f7e08ee7eab5a77d54f08bbe7516924fa47f344c95203ea0872c7952bf1da",
+  "calibration_sha256": "aea8be72c2bc6d27c448bde9f0b9f0a88f408e27e231bee7f465d44f5b87accf",
+  "source_hashes": {
+    "window_calibration.py": "d19bc26a0ab962d1f602ad8d2f6796c2441d45a77f36c314a61726189237063d",
+    "temporal_localization.py": "f78ee53b155828466325f41241226443dbe5423d1ce8600509fdf22e63f29048",
+    "learning_plan.py": "c15d7a41d6d2f8266df74f8d19328c3494936614c6fd3f9945828cdb6fdce2f9",
+    "dataset.py": "7bef7372e014560a62970abd53ac34eef7a5e81758a5c5b09c4f8c5edb5034ad",
+    "localization.py": "1f70eefa5662a0591904020187e50f93d7fd1c43f9003206e0f8df60fd8fcb66"
+  },
+  "versions": {
+    "torch": "2.14.0+cpu",
+    "numpy": "2.2.6",
+    "stim": "1.16.0",
+    "scikit-learn": "1.7.2"
+  },
+  "selection": "smallest seed-mean validation distance; representative seed is first seed",
+  "test_policy": "all models frozen before any test errors; same new test events for all four arms"
+}

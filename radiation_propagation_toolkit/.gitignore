@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+qp_ode_output/
+qp_ode_stim_output/
+qp_ode_proxy_syndrome/
+channel_validation_output/
+propagation_validation_output/
+*.npz

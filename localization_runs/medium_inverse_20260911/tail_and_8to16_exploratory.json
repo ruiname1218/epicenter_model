@@ -1,0 +1,178 @@
+[
+  {
+    "model": "n864_h16_binomial",
+    "reference": "reference",
+    "metric": "mean_mm",
+    "difference": -0.25898008818951923,
+    "ci95": [
+      -0.3726061902963397,
+      -0.14657695947923283
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "reference",
+    "metric": "p90_mm",
+    "difference": -0.5749858938135826,
+    "ci95": [
+      -0.9573161038843374,
+      -0.03932977276312499
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "reference",
+    "metric": "within_1mm",
+    "difference": 0.030555555555555558,
+    "ci95": [
+      -0.0222222222222222,
+      0.08333333333333331
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "reference",
+    "metric": "over_3mm",
+    "difference": -0.05833333333333335,
+    "ci95": [
+      -0.09722222222222224,
+      -0.01944444444444443
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "n864_h8_binomial",
+    "metric": "mean_mm",
+    "difference": -0.014590797573734715,
+    "ci95": [
+      -0.09164848641244522,
+      0.06279904521399578
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "n864_h8_binomial",
+    "metric": "p90_mm",
+    "difference": -0.21028521818565205,
+    "ci95": [
+      -0.44592592839488754,
+      0.1567465586598833
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "n864_h8_binomial",
+    "metric": "within_1mm",
+    "difference": -0.01944444444444443,
+    "ci95": [
+      -0.06388888888888888,
+      0.025000000000000022
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "n864_h8_binomial",
+    "metric": "over_3mm",
+    "difference": -0.011111111111111127,
+    "ci95": [
+      -0.03888888888888889,
+      0.013888888888888895
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h8_GLS",
+    "metric": "mean_mm",
+    "difference": -0.020258851713170767,
+    "ci95": [
+      -0.08828987933403885,
+      0.048380595724396076
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h8_GLS",
+    "metric": "p90_mm",
+    "difference": -0.14140411100849448,
+    "ci95": [
+      -0.39865100870699477,
+      0.16538679339323759
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h8_GLS",
+    "metric": "within_1mm",
+    "difference": -0.011111111111111127,
+    "ci95": [
+      -0.05277777777777776,
+      0.030555555555555558
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h8_GLS",
+    "metric": "over_3mm",
+    "difference": 0.0,
+    "ci95": [
+      -0.02777777777777779,
+      0.03055555555555553
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h16_binomial",
+    "metric": "mean_mm",
+    "difference": -0.047917824968558564,
+    "ci95": [
+      -0.08385682754589713,
+      -0.012468874164945668
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h16_binomial",
+    "metric": "p90_mm",
+    "difference": -0.13097215001634765,
+    "ci95": [
+      -0.4156317331291516,
+      0.10265432571624054
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h16_binomial",
+    "metric": "within_1mm",
+    "difference": 0.008333333333333304,
+    "ci95": [
+      -0.022222222222222254,
+      0.03888888888888892
+    ],
+    "exploratory": true
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h16_binomial",
+    "metric": "over_3mm",
+    "difference": 0.005555555555555564,
+    "ci95": [
+      -0.013888888888888895,
+      0.027777777777777762
+    ],
+    "exploratory": true
+  }
+]

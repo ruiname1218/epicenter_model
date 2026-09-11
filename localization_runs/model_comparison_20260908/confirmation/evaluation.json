@@ -1,0 +1,7 @@
+{
+  "model_sha256": "5b3951a3168c8c340a270a4626c3135d6183b87f109bd1fb2a9cd3734df2f0ff",
+  "selected_before_test": "svr_17",
+  "dataset_sha256": "b5257893af08ef9984bdb47055fdbcf9f636c38ddaabedc50b9a450658db0a0e",
+  "source_sha256": "6386c70c7456826fe51fc4a8cb74aa9a92b02832cda074e6ef805d189218bbd4",
+  "policy": "no fitting or model reselection on these events"
+}

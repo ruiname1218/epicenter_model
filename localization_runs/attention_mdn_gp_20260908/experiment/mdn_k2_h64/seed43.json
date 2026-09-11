@@ -1,0 +1,130 @@
+{
+  "name": "mdn_k2_h64",
+  "family": "mdn",
+  "seed": 43,
+  "validation_error_mm": 2.7942850403509145,
+  "epoch": 18,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_error_mm": 2.929541253560252
+    },
+    {
+      "epoch": 2,
+      "validation_error_mm": 2.850658226956443
+    },
+    {
+      "epoch": 3,
+      "validation_error_mm": 2.8340240731032935
+    },
+    {
+      "epoch": 4,
+      "validation_error_mm": 2.818071992098515
+    },
+    {
+      "epoch": 5,
+      "validation_error_mm": 2.8293538383174983
+    },
+    {
+      "epoch": 6,
+      "validation_error_mm": 2.817880942546128
+    },
+    {
+      "epoch": 7,
+      "validation_error_mm": 2.814622620444193
+    },
+    {
+      "epoch": 8,
+      "validation_error_mm": 2.8228788117728585
+    },
+    {
+      "epoch": 9,
+      "validation_error_mm": 2.8167630630432434
+    },
+    {
+      "epoch": 10,
+      "validation_error_mm": 2.814688239551255
+    },
+    {
+      "epoch": 11,
+      "validation_error_mm": 2.8122157957200193
+    },
+    {
+      "epoch": 12,
+      "validation_error_mm": 2.8026470909976964
+    },
+    {
+      "epoch": 13,
+      "validation_error_mm": 2.802659177992897
+    },
+    {
+      "epoch": 14,
+      "validation_error_mm": 2.800422109682631
+    },
+    {
+      "epoch": 15,
+      "validation_error_mm": 2.818888548334211
+    },
+    {
+      "epoch": 16,
+      "validation_error_mm": 2.7993664629766606
+    },
+    {
+      "epoch": 17,
+      "validation_error_mm": 2.8056681675392943
+    },
+    {
+      "epoch": 18,
+      "validation_error_mm": 2.7942850403509145
+    },
+    {
+      "epoch": 19,
+      "validation_error_mm": 2.804715827939772
+    },
+    {
+      "epoch": 20,
+      "validation_error_mm": 2.8036422710042137
+    },
+    {
+      "epoch": 21,
+      "validation_error_mm": 2.8058194701481134
+    },
+    {
+      "epoch": 22,
+      "validation_error_mm": 2.805651750528133
+    },
+    {
+      "epoch": 23,
+      "validation_error_mm": 2.7997795201535745
+    },
+    {
+      "epoch": 24,
+      "validation_error_mm": 2.8022171757790844
+    },
+    {
+      "epoch": 25,
+      "validation_error_mm": 2.8010364236524605
+    },
+    {
+      "epoch": 26,
+      "validation_error_mm": 2.805809585577114
+    },
+    {
+      "epoch": 27,
+      "validation_error_mm": 2.807958263814638
+    },
+    {
+      "epoch": 28,
+      "validation_error_mm": 2.809312780906221
+    },
+    {
+      "epoch": 29,
+      "validation_error_mm": 2.8084762341777596
+    },
+    {
+      "epoch": 30,
+      "validation_error_mm": 2.8174714664564826
+    }
+  ],
+  "parameters": 8522
+}

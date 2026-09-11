@@ -1,0 +1,38 @@
+{
+  "environment": {
+    "python": "3.10.12",
+    "machine": "x86_64",
+    "cpu_count": 22,
+    "tree_jobs": 1
+  },
+  "scope": "48 timed calls/model, 16 physical events x3 repeats, one shot each, cached models, includes feature extraction, excludes loading/acquisition/training. Other system workloads may affect wall time; not real-time certification.",
+  "selected": "MiddleOnlySVR",
+  "prediction_equivalence": "passed",
+  "models": {
+    "REI": {
+      "median_ms": 0.3535220000685513,
+      "p90_ms": 0.390306699955545,
+      "mean_ms": 0.36223306247507026
+    },
+    "SVR": {
+      "median_ms": 2.80501950010148,
+      "p90_ms": 3.363663099889891,
+      "mean_ms": 2.9448722708877995
+    },
+    "ThreeHard": {
+      "median_ms": 88.42980450003779,
+      "p90_ms": 96.7072909000308,
+      "mean_ms": 90.37768989583128
+    },
+    "MiddleOnlySVR": {
+      "median_ms": 89.54936550026105,
+      "p90_ms": 103.65980330007007,
+      "mean_ms": 92.15207475002292
+    },
+    "ErrorGate_r0.01_t0": {
+      "median_ms": 88.79004050004369,
+      "p90_ms": 101.9033652998587,
+      "mean_ms": 91.5523106250286
+    }
+  }
+}

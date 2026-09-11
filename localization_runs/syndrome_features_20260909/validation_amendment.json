@@ -1,0 +1,15 @@
+{
+  "stage": "exploratory validation only; no new test generated or read",
+  "reason": "Initial search omitted old-selected C1/high-gamma SVR and leaf3 ET. Add equal-budget matched controls to all five input variants before final selection.",
+  "added_settings": {
+    "SVR": {
+      "C": 1,
+      "gamma": ".57 / feature_dimension"
+    },
+    "ExtraTrees": {
+      "min_samples_leaf": 3
+    }
+  },
+  "total_fits": 45,
+  "source_hash": "11f3a550efdcc369f55b057dd6c5cd16599cef13a6c93a2531a59cdb5b24afec"
+}

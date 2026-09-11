@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "events": 1080,
+  "old_seed_overlap": 0,
+  "hashes": "passed",
+  "balanced_strata": true,
+  "selection": "Current",
+  "tests": {
+    "tests": 120,
+    "failures": 0,
+    "errors": 0
+  },
+  "hardware_equal": true,
+  "report_source_hash": "da3af798c30b6454f4e2805fcd5de54ae99a7145b2b2992cec224aa4464a9d60"
+}

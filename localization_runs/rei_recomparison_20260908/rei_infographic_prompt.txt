@@ -1,0 +1,32 @@
+Create one polished educational infographic, English only, landscape 3:2, high resolution, large legible sans-serif typography. White background, dark navy text, restrained blue/teal/orange accents, crisp flat scientific illustrations. Title: "How REI Finds a Radiation Event". Subtitle: "Radiation Event Identification • Fixed rules, no model training". Show a clear numbered 5-step flow with arrows, organized in two spacious rows. Do not create performance charts. Explain Algorithm 1 of Vallero et al., arXiv:2506.16834, in simple language.
+
+Step 1 heading "1. Collect recent syndromes"
+Text: "Keep the latest K measurements and discard the oldest."
+Visual: small binary matrix, rows labeled Time and columns Checks, sliding window bracket. Also show a small chip-coordinate map entering the next stage, labeled "Known qubit positions".
+
+Step 2 heading "2. Calculate defect scores"
+Text: "Average each check over time. Map the check scores to qubits."
+Formula: "f_j = (1/K) Σ_t s_(t,j)"
+Visual: matrix becomes a row of score bars, then colored dots on a schematic chip. Important: scores are syndrome-based, not directly observed physical errors.
+
+Step 3 heading "3. Check for a spatial cluster"
+Text: "Keep scores above a threshold. Require at least 3 nearby points."
+Visual: a nearby cluster and a separate sparse schematic rejected example. Decision arrows: "Pass" to step 4, "Fail" to a small box "No event identified". Do not imply a connected-component clustering algorithm; this is a nearest-neighbor distance check across the retained set. No suggestion it removes arbitrary distant outliers individually.
+
+Step 4 heading "4. Estimate the center"
+Text: "Normalize the retained scores and square them. Higher scores get more weight."
+Formula: "w_i = u_i²"
+Formula: "x̂ = Σ_i w_i x_i / Σ_i w_i"
+Formula: "ŷ = Σ_i w_i y_i / Σ_i w_i"
+Visual: unequal-sized weighted points with a clear orange cross inside their convex hull, label "Estimated center". u_i means normalized defect score. Keep this relation clear with label "u_i: normalized score".
+
+Step 5 heading "5. Estimate the affected area"
+Text: "Use twice the weighted mean distance from the center."
+Formula: "R̂ = 2 Σ_i w_i d_i / Σ_i w_i"
+Label: "d_i: distance to the estimated center"
+Visual: same points and orange center with dashed circle, radial line R̂. Label "Estimated radius" (not confidence interval).
+Output capsule: "Output: center (x̂, ŷ) and radius R̂"
+
+Small distinct bottom ribbon, concise: "Our experiment: adapted detector-event input → final-window center estimate; radius was not evaluated."
+Tiny reference line: "Based on Vallero et al. (2025), Algorithm 1 • arXiv:2506.16834"
+Do not add claims of accuracy, guaranteed detection, learned weights, real device proof, percentages, photorealism, characters, decorative objects, or Japanese. Arrows must clearly read steps 1→2→3→4→5. All formulas must be readable and accurate. Do not confuse weighted coordinates with score normalization. Diagram is conceptual, not experimental data.

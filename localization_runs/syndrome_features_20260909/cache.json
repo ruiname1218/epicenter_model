@@ -1,0 +1,22 @@
+{
+  "training_events": 2880,
+  "validation_events": 360,
+  "feature_dimensions": {
+    "baseline": 169,
+    "multiscale": 649,
+    "whitened": 649,
+    "correlation": 1009,
+    "combined": 1489
+  },
+  "calibration_hash": "946d029bd9c215d52e11f1df7423130cc5300539f2012179f7262094f9c3adbc",
+  "hashes": {
+    "features_baseline.npy": "cc1d8a281a728c4d57f97838f38b3de62c59583bd5216a531b52995d15b5fefd",
+    "features_correlation.npy": "cb8c7ec4c263a01b1d9c7fc3cc99a80610c13ed67525ba66d0be38d4831704f5",
+    "calibration_bits.npz": "a016e77e600a99393dc10cec1097099054957e7bdd765ebbbb92168e31012361",
+    "features_combined.npy": "6656acc6f0c79a11ea776e5e152041b59b2d763abff884a0a6c07737d3f1a936",
+    "signal.npy": "ad93093052ac4efaeea6475367f4476a68a26e239a5c599688d27791e849156b",
+    "rows.csv": "b99e1673f467f750be91d3be13a918d7289ad19cb5612c444f00309044d79269",
+    "features_multiscale.npy": "6aadc478660d87d4b7d09e33445f18cd53fdc7a515af60aafa113bdcaeeb73bd",
+    "features_whitened.npy": "f674503864be6dc99b91daed59ac6fdf9c54bd6736f64484bdd7a0b5f49afba5"
+  }
+}

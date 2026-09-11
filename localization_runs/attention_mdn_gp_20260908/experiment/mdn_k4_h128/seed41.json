@@ -1,0 +1,118 @@
+{
+  "name": "mdn_k4_h128",
+  "family": "mdn",
+  "seed": 41,
+  "validation_error_mm": 2.7975294846277037,
+  "epoch": 15,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_error_mm": 2.8974731749655125
+    },
+    {
+      "epoch": 2,
+      "validation_error_mm": 2.8522088074848493
+    },
+    {
+      "epoch": 3,
+      "validation_error_mm": 2.8354640355693776
+    },
+    {
+      "epoch": 4,
+      "validation_error_mm": 2.8244530309313607
+    },
+    {
+      "epoch": 5,
+      "validation_error_mm": 2.829526348632919
+    },
+    {
+      "epoch": 6,
+      "validation_error_mm": 2.804375551315623
+    },
+    {
+      "epoch": 7,
+      "validation_error_mm": 2.807787108098477
+    },
+    {
+      "epoch": 8,
+      "validation_error_mm": 2.8197078867134024
+    },
+    {
+      "epoch": 9,
+      "validation_error_mm": 2.804323165505193
+    },
+    {
+      "epoch": 10,
+      "validation_error_mm": 2.8086145395680857
+    },
+    {
+      "epoch": 11,
+      "validation_error_mm": 2.811593572075838
+    },
+    {
+      "epoch": 12,
+      "validation_error_mm": 2.807269347295666
+    },
+    {
+      "epoch": 13,
+      "validation_error_mm": 2.8125751437295365
+    },
+    {
+      "epoch": 14,
+      "validation_error_mm": 2.8234681109985824
+    },
+    {
+      "epoch": 15,
+      "validation_error_mm": 2.7975294846277037
+    },
+    {
+      "epoch": 16,
+      "validation_error_mm": 2.7992881362025783
+    },
+    {
+      "epoch": 17,
+      "validation_error_mm": 2.8032305728586113
+    },
+    {
+      "epoch": 18,
+      "validation_error_mm": 2.819901940355001
+    },
+    {
+      "epoch": 19,
+      "validation_error_mm": 2.814770370518996
+    },
+    {
+      "epoch": 20,
+      "validation_error_mm": 2.816842541802362
+    },
+    {
+      "epoch": 21,
+      "validation_error_mm": 2.8234850796850606
+    },
+    {
+      "epoch": 22,
+      "validation_error_mm": 2.8099292264439653
+    },
+    {
+      "epoch": 23,
+      "validation_error_mm": 2.8150771269186974
+    },
+    {
+      "epoch": 24,
+      "validation_error_mm": 2.8246431085660553
+    },
+    {
+      "epoch": 25,
+      "validation_error_mm": 2.8153502343718566
+    },
+    {
+      "epoch": 26,
+      "validation_error_mm": 2.8270583670463862
+    },
+    {
+      "epoch": 27,
+      "validation_error_mm": 2.828709481165273
+    }
+  ],
+  "parameters": 26516
+}

@@ -1,0 +1,7 @@
+{
+  "model_sha256": "1c90d6a21434d96ec34e9a6e2bb92791db7e92dc619b80bf92b87d6d32074f3b",
+  "selected_before_test": "fixed_ridge_100.0",
+  "dataset_sha256": "6e93f762f38e4236471cbcab8f0c5e48c994c2006af6a5d5a75dcdfa05c306a1",
+  "source_sha256": "3df85d82b53e64f80243f094e30e4e6057c695e5205ebd7dfcb4e81f1d2cfcd6",
+  "policy": "no fitting or model reselection on these events"
+}

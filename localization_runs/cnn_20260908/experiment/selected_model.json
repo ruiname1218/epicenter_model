@@ -1,0 +1,7 @@
+{
+  "model": "cnn",
+  "train_events": 720,
+  "representative_seed": 41,
+  "directory": "cnn_n720_seed41",
+  "criterion": "lowest mean validation distance over seeds; representative artifact uses first seed"
+}

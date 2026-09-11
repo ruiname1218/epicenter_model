@@ -1,0 +1,13 @@
+{
+  "hashes": {
+    "fit_base.npy": "ece8a37f15bee3f6469263fe7892271dc1e7763f0ecf4386b686b7bc1452d8f8",
+    "fit_nuisance.npy": "4b09a5291ebb51f34faafa7abbc41f934034ff3e757667efcc95115cca6e5d90",
+    "fit_dense.npy": "83e9a4224c08d056ac7c3408a691329be0edf8b97e4fb50ee6df99329e3f013d",
+    "fit_coinc.npy": "8b5735ded2f5ccad5d3e3198aa28ea818d6cf25fae11baa19cb295e11fe5cf48",
+    "fit_counts.npy": "1226b886893ff3285b375d6b8963b20f6ac4cfab9dd31bcc86cbe43999e09a54",
+    "fit_privileged_mean.npy": "51bc5110d04fc4e18ea2fa03001df7fcece8ee67f2fcfc0c5eb0fd77a22ebd90",
+    "fit_pair.npy": "40db0f837e9621c2931dc7803c7d89ffc7376618f818a76bb1032c01c21cc9ab",
+    "fit_time.npy": "bbe3dda49d8e92f612a27b7ea4d3527933b4ad2422ce0a14e39b24c29e7440a8"
+  },
+  "rows_hash": "d3e3c13eaeb129dc63519ad0b2d2a88cd9ea930f8447e13f4d94f145a64831d5"
+}

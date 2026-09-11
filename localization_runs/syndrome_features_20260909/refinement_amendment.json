@@ -1,0 +1,8 @@
+{
+  "stage": "Validation only; no fresh test generated or read",
+  "reason": "Initial feature additions did not improve ordinary validation. Try training-only PCA denoising and observable learned weak-signal gates.",
+  "PCA": "multiscale/combined; 32/128 components; C10 gamma .057/components or C1 gamma .57/components; 8 fits",
+  "gate": "baseline features; LogisticRegression C1 or ExtraTrees leaf16/64; 3 classifier fits; 24 mixtures of parent with prior/weak expert; weights 0.5/1 * P(weak)^1/2",
+  "total_fits": 56,
+  "source_hash": "aa0f9ccc19af71e44b063ebdb54dbe44ce70a589d30f4be237cbde1ac924729e"
+}

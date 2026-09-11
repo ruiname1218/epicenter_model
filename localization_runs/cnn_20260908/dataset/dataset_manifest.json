@@ -1,0 +1,658 @@
+{
+  "format": "qp_syndrome_shards_v1",
+  "status": "complete",
+  "source_id": "5de6c12e02a9e36835018cc3abb08e3288d1688130193055566a10d153a20ef7",
+  "circuit_id": "40e7c1e926d548c341f8a0ae2c7641b7d92cfd9d7fbf9f1eec73f98502b40052",
+  "code": {
+    "task": "surface_code:rotated_memory_z",
+    "distance": 3
+  },
+  "simulator_config": {
+    "time": {
+      "start_ms": 0.0,
+      "end_ms": 1.03,
+      "dt_ms": 0.002
+    },
+    "epicenter": {
+      "region_probabilities": {
+        "inside": 0.7,
+        "edge": 0.2,
+        "outside": 0.1
+      },
+      "outside_margin_mm": [
+        0.25,
+        1.0
+      ]
+    },
+    "shape": {
+      "geometry_choices": [
+        "circular",
+        "elliptical"
+      ],
+      "initial_beta": [
+        1.7,
+        2.5
+      ],
+      "late_beta": [
+        0.8,
+        1.7
+      ],
+      "beta_transition_ms": [
+        2.0,
+        10.0
+      ],
+      "axis_ratio": [
+        1.0,
+        2.5
+      ],
+      "angle_degrees": [
+        0.0,
+        180.0
+      ]
+    },
+    "propagation": {
+      "law_choices": [
+        "ballistic",
+        "diffusive"
+      ],
+      "apparent_speed_m_per_s": [
+        12.0,
+        40.0
+      ],
+      "ballistic_speed_m_per_s": [
+        12.0,
+        40.0
+      ],
+      "diffusion_coefficient_mm2_per_ms": [
+        5.0,
+        20.0
+      ],
+      "front_width_ms": [
+        0.02,
+        0.12
+      ],
+      "arrival_jitter_sd_us": [
+        0.0,
+        80.0
+      ],
+      "arrival_jitter_correlation_length_mm": [
+        0.4,
+        2.0
+      ]
+    },
+    "source_model": {
+      "source_count_choices": [
+        1
+      ],
+      "separation_mm": [
+        0.5,
+        3.0
+      ],
+      "secondary_strength": [
+        0.2,
+        0.8
+      ]
+    },
+    "boundary_reflection": {
+      "enabled": false,
+      "coefficient": [
+        0.05,
+        0.4
+      ],
+      "boundary_margin_mm": [
+        0.0,
+        1.0
+      ]
+    },
+    "halo": {
+      "enabled": false,
+      "strength": [
+        0.1,
+        0.4
+      ],
+      "lambda_multiplier": [
+        1.5,
+        4.0
+      ],
+      "beta": [
+        0.5,
+        1.3
+      ],
+      "front_width_multiplier": [
+        1.0,
+        3.0
+      ]
+    },
+    "range": {
+      "initial_lambda_mm": [
+        2.0,
+        3.8
+      ],
+      "maximum_lambda_mm": [
+        3.5,
+        6.5
+      ],
+      "maximum_distance_mm": [
+        5.0,
+        10.0
+      ],
+      "spread_time_ms": [
+        0.15,
+        0.6
+      ],
+      "cutoff_width_mm": [
+        0.1,
+        0.5
+      ]
+    },
+    "strength": {
+      "maximum_amplitude": [
+        0.8,
+        1.0
+      ],
+      "prompt_fraction": [
+        0.0,
+        0.8
+      ],
+      "rise_time_ms": [
+        0.08,
+        0.5
+      ],
+      "peak_time_ms": [
+        0.5,
+        1.2
+      ],
+      "decay_time_ms": [
+        20.0,
+        35.0
+      ]
+    },
+    "noise": {
+      "baseline_total_errors": [
+        2.8,
+        3.4
+      ],
+      "qubit_baseline_log_sd": 0.18,
+      "qubit_sensitivity_log_sd": 0.12,
+      "baseline_drift_fraction": [
+        0.0,
+        0.08
+      ],
+      "missing_qubit_probability": 0.0
+    },
+    "hierarchical_sensitivity": {
+      "enabled": true,
+      "device_log_sd": 0.2,
+      "correlation_length_mm": 1.5,
+      "event_log_sd": 0.1
+    },
+    "spatial_residual": {
+      "enabled": true,
+      "initial_log_sd": [
+        0.1,
+        0.65
+      ],
+      "correlation_length_mm": [
+        0.3,
+        2.5
+      ],
+      "decay_time_ms": [
+        0.15,
+        2.5
+      ],
+      "late_fraction": [
+        0.1,
+        0.6
+      ]
+    },
+    "output": {
+      "save_probabilities": true,
+      "save_physics_diagnostics": true
+    },
+    "profile_name": "diverse_localization_training_v1",
+    "event_timing": {
+      "onset_time_ms": [
+        0.05,
+        0.65
+      ],
+      "control_fraction": 0.0
+    },
+    "temporal_model": {
+      "backend": "qp_ode",
+      "qp_ode": {
+        "trapping_rate_per_us": 0.05,
+        "recombination_rate_per_us": 100.0,
+        "generation_scale_per_us": [
+          1e-10,
+          3e-07
+        ],
+        "baseline_t1_us": 100.0,
+        "baseline_t2_us": 200.0,
+        "measurement_exposure_us": [
+          0.2,
+          2.0
+        ],
+        "al_gap_uev": 191.0,
+        "qubit_frequency_ghz": 5.0,
+        "maximum_radiation_probability": 0.999,
+        "source_decay_mode": "independent_lognormal",
+        "source_lifetime_ms": {
+          "log_mean": 2.70805020110221,
+          "log_sd": 0.8,
+          "bounds_ms": [
+            1.0,
+            100.0
+          ]
+        }
+      }
+    },
+    "hardware_hierarchy": {
+      "enabled": true,
+      "mode": "fixed_device",
+      "qubit_t1_log_sd": 0.1,
+      "qubit_t2_log_sd": 0.05,
+      "qubit_frequency_sd_ghz": 0.05,
+      "run_t1_log_sd": 0.0,
+      "run_t2_log_sd": 0.0,
+      "run_frequency_sd_ghz": 0.0,
+      "event_t1_log_sd": 0.0,
+      "event_t2_log_sd": 0.0,
+      "event_frequency_sd_ghz": 0.0
+    },
+    "qp_model_provenance": {
+      "equation": "dx_qp/dt = g(t,q) - s*x_qp - r*x_qp^2",
+      "physical_reference": "Yelton et al., arXiv:2402.15471",
+      "google_data_role": "guide for broad event scales only; no Sycamore coordinate correction or per-event matching",
+      "google_qp_parameter_calibration": false,
+      "generation_prior_selection": "synthetic non-saturation check only; 128 generated events, no real syndrome outcomes used",
+      "generation_quantity": "local QP-generation density proxy sampled at each qubit coordinate; summing over qubits is not deposited energy",
+      "energy_conservation_scope": "not modeled; required only for particle-energy, dose, material, or chip-geometry prediction",
+      "hardware_semantics": "one persistent 100 us / 200 us / 5 GHz reference device and per-qubit calibration map is sampled once; run/event hardware drift is disabled",
+      "reference_hardware": "Baity et al., arXiv:2602.06202; replace with measured calibration for a target device",
+      "intended_use": "phenomenological superconducting-QEC stress-test data generation and sensitivity studies; not absolute hardware prediction"
+    },
+    "resolved_device_profile": "examples/localization_training_simulator.json"
+  },
+  "stim_config": {
+    "schema_version": 1,
+    "backend": "stim_surface_code",
+    "task": "surface_code:rotated_memory_z",
+    "distance": 3,
+    "rounds": 1024,
+    "round_duration_ms": 0.001,
+    "start_time_ms": 0.0,
+    "window_role": "onset_and_peak",
+    "shots_per_event": 2,
+    "layout": {
+      "qubit_pitch_mm": 1.0,
+      "rotation_degrees": 0.0,
+      "center_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "circuit_noise": {
+      "after_clifford_depolarization": 0.0005,
+      "before_round_data_depolarization": 0.0,
+      "before_measure_flip_probability": 0.001,
+      "after_reset_flip_probability": 0.001
+    },
+    "gate_schedule": {
+      "mode": "explicit",
+      "tick_durations_ns": [
+        30.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        30.0,
+        780.0
+      ]
+    },
+    "noise_accounting": {
+      "depolarizing_channels_exclude_t1_t2": true
+    },
+    "radiation_channel": {
+      "targets": "all",
+      "timing": "gate_slices"
+    },
+    "decoder": {
+      "enabled": false,
+      "mode": "fixed_circuit"
+    },
+    "seed": 20260908
+  },
+  "sampling": {
+    "geometry": [
+      "circular",
+      "elliptical"
+    ],
+    "propagation_law": [
+      "ballistic",
+      "diffusive"
+    ],
+    "epicenter_region": [
+      "inside",
+      "edge",
+      "outside"
+    ],
+    "generation_bands_per_us": [
+      [
+        1e-10,
+        1e-09
+      ],
+      [
+        1e-09,
+        1e-08
+      ],
+      [
+        1e-08,
+        3e-07
+      ]
+    ]
+  },
+  "generation": {
+    "n_events": 1440,
+    "seed": 20260909,
+    "device_seed": 123,
+    "syndrome_seed": 20260910,
+    "source_hashes": {
+      "dataset.py": "7bef7372e014560a62970abd53ac34eef7a5e81758a5c5b09c4f8c5edb5034ad",
+      "api.py": "2426f7656eec60926209691f6d0bfc1399de326b04f384ba29bcc91569480661",
+      "layouts.py": "541100f814bed683751da02aaea6b6f8fab31e322fbf7ca1d52339d0a34631c9",
+      "simulator.py": "023e1021ba1ba054491910cc88155b745783bde19dd8c7835496a6c75d7c81f1",
+      "stim_qec.py": "e04a34a06e6fd1ee86b3266fb8ecd544730504b48310c8c394ac75b200f3b86c",
+      "syndrome.py": "4849e2efd6cc18e8beea8e87fbc6dbb853faf4123d5bf414ad6af4dd31006037"
+    },
+    "runtime_versions": {
+      "python": "3.10.12",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "stim": "1.16.0"
+    }
+  },
+  "completed_events": 1440,
+  "shards": [
+    {
+      "npz": "events_00000000_00000036.npz",
+      "csv": "events_00000000_00000036.csv",
+      "events": 36,
+      "npz_sha256": "db756dae8df85bc279e32909575877ccddf29ab90ef6d846d4d827992e42f357",
+      "csv_sha256": "c1ad72adf13352e96933637904d1f89796278bd5cb68730c5704bd5d7865603a"
+    },
+    {
+      "npz": "events_00000036_00000072.npz",
+      "csv": "events_00000036_00000072.csv",
+      "events": 36,
+      "npz_sha256": "e833834e5fd8fc6e85a0d86e4467b8344682f57edb20800b6f5c322bdae56cfc",
+      "csv_sha256": "c5fae9a3212eb17da93c5cf4d754dbd2162f48b24fd4227713222376d24f6754"
+    },
+    {
+      "npz": "events_00000072_00000108.npz",
+      "csv": "events_00000072_00000108.csv",
+      "events": 36,
+      "npz_sha256": "d5619eb34332a939f7ef9be1fd0955e7758b5b60dc87b7bb9b6125b89bdfcc57",
+      "csv_sha256": "4844cb46dd481332daa3d54ab33bc1043560f55f257f0a2aa2c4f9060c3ff9e2"
+    },
+    {
+      "npz": "events_00000108_00000144.npz",
+      "csv": "events_00000108_00000144.csv",
+      "events": 36,
+      "npz_sha256": "0c30406327df0412179063aca3c6c610bd83a96b978479f55cd9ccba047f00df",
+      "csv_sha256": "e88183648a90fa7e465d5da324907e4b8607a40f99273b4a5805dcdabf948928"
+    },
+    {
+      "npz": "events_00000144_00000180.npz",
+      "csv": "events_00000144_00000180.csv",
+      "events": 36,
+      "npz_sha256": "5c30181342037f9ed89988a3d99f6bc8fb2fd6843f180733543082fe4f7f4f4e",
+      "csv_sha256": "f96f638705916ff3042087883daadf9f8430abd356d912585295e0fe539e0953"
+    },
+    {
+      "npz": "events_00000180_00000216.npz",
+      "csv": "events_00000180_00000216.csv",
+      "events": 36,
+      "npz_sha256": "16e26a5e29803776b5a1f8af44c4b27a26798381d83c46ef27dcaa4d15d1fdb1",
+      "csv_sha256": "e2a5423d68c3342ce9298fa5ec58851e253b50c8bac5e2d12a50169d11556b52"
+    },
+    {
+      "npz": "events_00000216_00000252.npz",
+      "csv": "events_00000216_00000252.csv",
+      "events": 36,
+      "npz_sha256": "1aecb3817cc4ab3046ee6de0963d66c0b759f220868c40f2844c64c7f8537395",
+      "csv_sha256": "e9567196939bf6334ac9f66334cd7d9f5b509471847e852b0344ca7a0525af0c"
+    },
+    {
+      "npz": "events_00000252_00000288.npz",
+      "csv": "events_00000252_00000288.csv",
+      "events": 36,
+      "npz_sha256": "f8ce1da7936e551bf7a6135218bf0088b2db11997d8b178b9f6afbdd87ffed3b",
+      "csv_sha256": "30273e62f12c74252c981459d22badf15171cf369a0076089ae8112f426b819b"
+    },
+    {
+      "npz": "events_00000288_00000324.npz",
+      "csv": "events_00000288_00000324.csv",
+      "events": 36,
+      "npz_sha256": "62159fe1c2b15531a9acaa179ca25a399df48ab5dadd824b2cdd6de5c5c8481d",
+      "csv_sha256": "2ee9ad34b78929015274ec00d2c65b4b8e4f010ebaeb5a0e3fbd51eb0927bf31"
+    },
+    {
+      "npz": "events_00000324_00000360.npz",
+      "csv": "events_00000324_00000360.csv",
+      "events": 36,
+      "npz_sha256": "b4f80e3aae203de1b936b8767a82e0afdce61938ef38a6acca7e3e6e18a22606",
+      "csv_sha256": "37bae66aa4a8fa5c46f8051dd58a091460f63a5512ef0022745c2edfdb86c452"
+    },
+    {
+      "npz": "events_00000360_00000396.npz",
+      "csv": "events_00000360_00000396.csv",
+      "events": 36,
+      "npz_sha256": "d83c65576202cdca815c470eb05b4bb81085c83dd1811f581ea32b4c6e0eff0f",
+      "csv_sha256": "8cec8b07c8b8eb4b74ff783f52d79918d9644f2a0d46405845977e1102d9364b"
+    },
+    {
+      "npz": "events_00000396_00000432.npz",
+      "csv": "events_00000396_00000432.csv",
+      "events": 36,
+      "npz_sha256": "21172e43e0960e29562c25c00edbfd308e14b65a657867fe1b592eb44d82ff20",
+      "csv_sha256": "233eb2791ef5af4a96033153b06416e5d22b3c435e83614c0e458aaa1e58cf17"
+    },
+    {
+      "npz": "events_00000432_00000468.npz",
+      "csv": "events_00000432_00000468.csv",
+      "events": 36,
+      "npz_sha256": "4840afddcfa43e4892a48cb787559c217af7648650120416675ff2589f3cbc3e",
+      "csv_sha256": "94ffe477bdcceca1d9bbcba36f618d02f04a72c3795d49e6b10d56ee756cbd45"
+    },
+    {
+      "npz": "events_00000468_00000504.npz",
+      "csv": "events_00000468_00000504.csv",
+      "events": 36,
+      "npz_sha256": "48c911b046d7b295a7a0d8db06968dade7bc546137778b8983908ea6a97ed163",
+      "csv_sha256": "82166c45eee2b7da3ac75bcd2a0be4022583adaec75fb5c408628523b034907b"
+    },
+    {
+      "npz": "events_00000504_00000540.npz",
+      "csv": "events_00000504_00000540.csv",
+      "events": 36,
+      "npz_sha256": "734ec28bfa45b6324f07858cabe89f97369502f249297f60f3f56e1919ff1277",
+      "csv_sha256": "3fd995015d15309cae5620f697920ea94d1690d4d54cc5fc17dbc650ad672ef3"
+    },
+    {
+      "npz": "events_00000540_00000576.npz",
+      "csv": "events_00000540_00000576.csv",
+      "events": 36,
+      "npz_sha256": "f9505d8f7cf13a69d76c2072e6f6ff2185bb155d40b287dd52bd7f621aa278c4",
+      "csv_sha256": "9da35f7bf878b168bbbf2ef9ee22c4b5615e506e530d1fdb696f497b953efed4"
+    },
+    {
+      "npz": "events_00000576_00000612.npz",
+      "csv": "events_00000576_00000612.csv",
+      "events": 36,
+      "npz_sha256": "a73036fae06fb07866f4712be8f03b7398faaa95135c2b44f949ba5f3d0171ce",
+      "csv_sha256": "f1f932cdcf8c874707b407c056ed8599ea9f8508c84a1a95c632fcebd839d804"
+    },
+    {
+      "npz": "events_00000612_00000648.npz",
+      "csv": "events_00000612_00000648.csv",
+      "events": 36,
+      "npz_sha256": "980eec19d818a4650c6426a6d54ff61e6b9104c70a9cad55d93a1795652671e2",
+      "csv_sha256": "dead7080df0d3a521faac136006eed43d84cd94656c345a8f7eb9782324c6902"
+    },
+    {
+      "npz": "events_00000648_00000684.npz",
+      "csv": "events_00000648_00000684.csv",
+      "events": 36,
+      "npz_sha256": "e66dbdea480590ae8f12c6262c3e8f87fd18dcdf734a31f1173c76958ab4bcf2",
+      "csv_sha256": "a632692a780fb585012738d87fb1904f9ebeefae78d67ceb90e26ac782c04d68"
+    },
+    {
+      "npz": "events_00000684_00000720.npz",
+      "csv": "events_00000684_00000720.csv",
+      "events": 36,
+      "npz_sha256": "9c37c1f54ac3c103207d315fe02ffe962593191498dc1be5f986dba4a163a1fc",
+      "csv_sha256": "8ad35f63ebb9f0bccec652c00614dea536e06741a43b9b62289edd0895606534"
+    },
+    {
+      "npz": "events_00000720_00000756.npz",
+      "csv": "events_00000720_00000756.csv",
+      "events": 36,
+      "npz_sha256": "0851f763b8ba18e285649fba3c42129078328ef7d52031b4a7bcffde93d0077b",
+      "csv_sha256": "adc7a8dbdb57beee2f279ae42abaec5a1ec3bf3666e163e321b0b5824a3a75c1"
+    },
+    {
+      "npz": "events_00000756_00000792.npz",
+      "csv": "events_00000756_00000792.csv",
+      "events": 36,
+      "npz_sha256": "e320b4d5b2a74e1470f732ee92c23cc851ee65ffa3ee1b1e9bbb81315f791c65",
+      "csv_sha256": "9680758011eec5abaafc5bc660caba6e53de5fe73e00419e0be03b31b8574e51"
+    },
+    {
+      "npz": "events_00000792_00000828.npz",
+      "csv": "events_00000792_00000828.csv",
+      "events": 36,
+      "npz_sha256": "f8b27b3c5c461e86e7c6c862dd14094e26ea9749ff93b9f496332f819d2b32d5",
+      "csv_sha256": "78d23c325b756884f1ce2dc5c433a6ef9759a05c41b2d7ebcddec11d0b41f6f9"
+    },
+    {
+      "npz": "events_00000828_00000864.npz",
+      "csv": "events_00000828_00000864.csv",
+      "events": 36,
+      "npz_sha256": "2d196b15a848b9c95d2b8be486b3e8d6dd2c69d93a138085e95725a59126c1a7",
+      "csv_sha256": "d49901eebd26dab4d6f420ba5dbd2d97334c15b67dab1b5617a6f17525ebc925"
+    },
+    {
+      "npz": "events_00000864_00000900.npz",
+      "csv": "events_00000864_00000900.csv",
+      "events": 36,
+      "npz_sha256": "fbb221dfacb3e18ef2b810d58aa29fad2df04d2765dd116119b221ea2eaa9990",
+      "csv_sha256": "2f7b0f12b30b25700daf66aafa8305539ab7c009020248d08d167711ef242c30"
+    },
+    {
+      "npz": "events_00000900_00000936.npz",
+      "csv": "events_00000900_00000936.csv",
+      "events": 36,
+      "npz_sha256": "e4820324d0b471701c9f267675be1f1431b47aad42eefe83401bcfb36faad093",
+      "csv_sha256": "017d9a41397e97b4fe4a6e7f7849bc51c9a4a844f9c1fe38259cd3e9038fd843"
+    },
+    {
+      "npz": "events_00000936_00000972.npz",
+      "csv": "events_00000936_00000972.csv",
+      "events": 36,
+      "npz_sha256": "1ec3658c213b9469ca3b302889575df97019546442841901cc13a28e0f452827",
+      "csv_sha256": "f294f94a90028874cce55f1a285c64e67156b17b11ea96d33ab71b9466fdbdf6"
+    },
+    {
+      "npz": "events_00000972_00001008.npz",
+      "csv": "events_00000972_00001008.csv",
+      "events": 36,
+      "npz_sha256": "82c6b3c9dde16729e41cd241e5534d7fb0599b8e60ff3584730e3f2cc691a2ef",
+      "csv_sha256": "9a24a0c117b006ae8208ef357b0037523ed5097fc05ede039cdcf7d3032ae3dc"
+    },
+    {
+      "npz": "events_00001008_00001044.npz",
+      "csv": "events_00001008_00001044.csv",
+      "events": 36,
+      "npz_sha256": "f782e7ded07d5043aa8f1efbce933aac906b4e8ce91a3fb2785e0cb483994505",
+      "csv_sha256": "df55e53b12679b16baf94de521d7b19c0d4ffd56d94ed79f26c212d965f58665"
+    },
+    {
+      "npz": "events_00001044_00001080.npz",
+      "csv": "events_00001044_00001080.csv",
+      "events": 36,
+      "npz_sha256": "88dcdbe5987111453514bae4260e41d72c4436b1afe871e4beaf2458a6a76994",
+      "csv_sha256": "a599aae1d2f4b065ca58099cd838827af831ebd4453c7d34f5751b262a999b58"
+    },
+    {
+      "npz": "events_00001080_00001116.npz",
+      "csv": "events_00001080_00001116.csv",
+      "events": 36,
+      "npz_sha256": "57f4a16b4116d30019d32aaed1469abcca5ec6819667d1f53b8bc0beba71fefd",
+      "csv_sha256": "714de0288c66ad81e6532452a8b59777573aa82c48d094d4948a526b751db886"
+    },
+    {
+      "npz": "events_00001116_00001152.npz",
+      "csv": "events_00001116_00001152.csv",
+      "events": 36,
+      "npz_sha256": "7ae40d6257d3c80f769ae76eaa46907454f2d595a6d5195a16e01690f9c72020",
+      "csv_sha256": "e07d6d1225099a49811783675bce8a47c34d761c1a6b350ec351a3a69231b66a"
+    },
+    {
+      "npz": "events_00001152_00001188.npz",
+      "csv": "events_00001152_00001188.csv",
+      "events": 36,
+      "npz_sha256": "ef9fed3af70361d40bc228757201411170f38ef903b63d1413999bf3fe82bfa2",
+      "csv_sha256": "0abc4e81228ab14961db2f14aea93c6e07db08cc9a40bd42cc43eb12d99fd237"
+    },
+    {
+      "npz": "events_00001188_00001224.npz",
+      "csv": "events_00001188_00001224.csv",
+      "events": 36,
+      "npz_sha256": "731f6610075c82951ce9666ffdf3f52fa00236552dde622897431d75ca0e38f1",
+      "csv_sha256": "5fa08e95fb79fccbc44659ffd49f5a82f9d678c635d97b7d2e27857eb5b1a0f9"
+    },
+    {
+      "npz": "events_00001224_00001260.npz",
+      "csv": "events_00001224_00001260.csv",
+      "events": 36,
+      "npz_sha256": "8828f7ec5a658f913284dfce6f11e0e345c985f341070d1784e67757e1de17a1",
+      "csv_sha256": "812ae72f5a6be578b7036748be79659e581de85876d9b041d2934c6088b7de7a"
+    },
+    {
+      "npz": "events_00001260_00001296.npz",
+      "csv": "events_00001260_00001296.csv",
+      "events": 36,
+      "npz_sha256": "730d1ff3c5b6605527a3db45a8e7e14680850e2c132de449871803b2e7bcbc3f",
+      "csv_sha256": "2851cb4dc0c5d62e5d5b5761d79e7387b998e20a4fb1fe600b203ab344379868"
+    },
+    {
+      "npz": "events_00001296_00001332.npz",
+      "csv": "events_00001296_00001332.csv",
+      "events": 36,
+      "npz_sha256": "f1cb5d9d97ccdda7839a85621d70ed3f29befdef88b95ba4ac20c5d24cab3a9f",
+      "csv_sha256": "4e38c7711c781067238fb0b726176511c62c1f440bbb360bef14bcb6a7e78146"
+    },
+    {
+      "npz": "events_00001332_00001368.npz",
+      "csv": "events_00001332_00001368.csv",
+      "events": 36,
+      "npz_sha256": "fbc8df2008f28f652ff0d633ccebf279fc70c60b0229e05db4e9f6de1d8ef414",
+      "csv_sha256": "2d59bbad08b51f12492e0f26d85d36a37586cfaa34adfcc897cc18c44fd6bdae"
+    },
+    {
+      "npz": "events_00001368_00001404.npz",
+      "csv": "events_00001368_00001404.csv",
+      "events": 36,
+      "npz_sha256": "65fc194b69e0e840a62d84eff7a98532ab25dda94363430158162d863a9daf23",
+      "csv_sha256": "3793bae758b5c98999e8d7650be411495a66234ba0d326c742ce441a6a071c91"
+    },
+    {
+      "npz": "events_00001404_00001440.npz",
+      "csv": "events_00001404_00001440.csv",
+      "events": 36,
+      "npz_sha256": "0c50e4a9321f8e77c13d0cb73baecc63575c52284ca9c646f7ca5239509ad514",
+      "csv_sha256": "8ebd66910bb0e146d3101433d83cbcaba4eae3f24ae7ddd2e2850cec2f3e676b"
+    }
+  ],
+  "coordinate_convention": "x_mm=epicenter_row, y_mm=epicenter_col"
+}

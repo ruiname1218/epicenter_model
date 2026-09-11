@@ -1,0 +1,9 @@
+{
+  "variants": 288,
+  "families": 48,
+  "wall_seconds_this_run": 614.4276127980002,
+  "workers": 4,
+  "mean_cpu_seconds_per_variant": 8.47444329151736,
+  "mean_bytes_per_variant": 44743.29513888889,
+  "max_worker_peak_rss_mib": 181.91796875
+}

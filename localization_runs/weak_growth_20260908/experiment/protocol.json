@@ -1,0 +1,39 @@
+{
+  "sources": [
+    "../localization_runs/window_calibration_20260908/dataset",
+    "../localization_runs/temporal_diagnosis_20260908/fresh_dataset",
+    "../localization_runs/adaptive_features_20260908/fresh_dataset",
+    "../localization_runs/model_comparison_20260908/fresh_dataset",
+    "/home/rui/Downloads/epicenter_model/localization_runs/learning_curve_20260908/fresh_dataset",
+    "/home/rui/Downloads/epicenter_model/localization_runs/attention_mdn_gp_20260908/fresh_dataset"
+  ],
+  "train_sizes": [
+    1800,
+    3600
+  ],
+  "old_tests_promoted_to_training": true,
+  "new_counts": {
+    "train": 1080,
+    "validation": 360,
+    "test": 360
+  },
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "low_weight_multipliers": [
+    3.0,
+    10.0
+  ],
+  "gate": "ExtraTreesClassifier leaf12; trained low-band label; observed features only at inference",
+  "correlation_features": 108,
+  "correlation_svr_gammas": [
+    0.001,
+    0.0003454545454545455
+  ],
+  "weak_selection": "minimum low-band validation error with ordinary mean <= baseline + .02 mm",
+  "primary": "minimum ordinary validation mean",
+  "baseline": "blend_n3600",
+  "source_sha256": "ae02ca0ea88cd1f887187e426c3099ad5e0803bb50efc53cd7388064f525fae2"
+}

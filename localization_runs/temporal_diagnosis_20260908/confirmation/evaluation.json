@@ -1,0 +1,33 @@
+{
+  "source_sha256": "cb32c8f2b5cab9896e73b02ed212634abfb711c3437f7d0cd601e609ae054d26",
+  "dataset_sha256": "3186218bb9d373ba1435e8db5c5446b9ddeef49c13cdb235d34cb52e53ef0777",
+  "frozen_experiment_sha256": "65d972d16141096faf7405d4d7e42210fd4bb7ca5537298c2df1d859fcbc025c",
+  "selected_model": {
+    "arm": "original",
+    "seed": 41,
+    "directory": "original_seed41"
+  },
+  "checkpoint_hashes": {
+    "original_seed41": "d5161ab3fdc5f51b53807749866d479e8fc3a431fcb24c08decded7cb2d9ec27",
+    "original_seed42": "04bb00a705dc80101f17dc27c1b01e8748767bfbe4c9849c821e1b1850af0043",
+    "original_seed43": "5a29e47274badfcc9ea3c3ca1955e93a417e77f5bca52b73ac583866932229a8",
+    "original_joint_seed41": "9706407ccbbe64bc436fed2cb0768af299b6ddb9c39b1c82befc554cd354fd11",
+    "original_joint_seed42": "218593171fcee685fe38e6c877bc3e3cb4b6f01000d7b324d8a7a2cd4d47db4a",
+    "original_joint_seed43": "a79114c90ea2772e3f7e98ada0120956d5594224765aa8c58f5d9e5a3f516e6b",
+    "multiscale_seed41": "88d722c56f6d0d7e8b23871f5c4dfdc27b677afd93bcef28f15e906fe184b267",
+    "multiscale_seed42": "af3efc3c41920d5bbe78439bc878b87b2c5b623566b26e16cc4c7acd80a41eb5",
+    "multiscale_seed43": "0b3806fb6846b8fd2a87a10035e94bfd0b7245d9d267602db74a90be728d0fd9",
+    "multiscale_joint_seed41": "87b0012ff1c12a796a2db939005d26ca7ee4891b4e90450c799c1ead7596d0a6",
+    "multiscale_joint_seed42": "3185fb0940a6a38f0b1ff19a5b1ef0c330a106da220a22ba8f10ffacba8fe0a1",
+    "multiscale_joint_seed43": "d524a8644a487a5003ec67c29cbadafe77e0a63f2286ec41c0c7531aaf026f95",
+    "oracle_onset_seed41": "5fa994911579b73d63ef6726fa728816357f1cd89adc6c47ff234c93701abb87",
+    "oracle_onset_seed42": "45719d53c9af2fdb806e3906df841e0af8353be3c142e1a675381b11dda1fc2c",
+    "oracle_onset_seed43": "debb1b6347ea3addde64dfa633673ef9267a9bc7f18c67c6ad7c0591b731a88b",
+    "oracle_parameters_seed41": "3a4321ae71c9e8b0131d236fda7ac122b1c6c4759c4d8dcd93889985d24fbaf6",
+    "oracle_parameters_seed42": "836a854f7adcf19fbf91c82ec114ec46d18766af6d9a391260f17188e613823e",
+    "oracle_parameters_seed43": "2462040955c292d95d8e33879a4608bad09cc937dd624d4b7ff9e1add5ca6c64"
+  },
+  "independent_events": 720,
+  "seed_overlap_checks": "event_uid, generation_seed, syndrome_seed disjoint",
+  "policy": "all fresh events are test only; no tuning or model reselection"
+}

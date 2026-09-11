@@ -1,0 +1,30 @@
+{
+  "seed": 20260901,
+  "trials_per_law": 60,
+  "layout": {
+    "points_per_axis": 9,
+    "half_extent_mm": 3.0
+  },
+  "time": {
+    "start_ms": -0.2,
+    "end_ms": 9.0,
+    "dt_ms": 0.005
+  },
+  "truth_ranges": {
+    "ballistic_speed_m_per_s": [12.0, 40.0],
+    "diffusion_coefficient_mm2_per_ms": [5.0, 20.0],
+    "lambda_mm": [2.0, 6.5],
+    "epicenter_half_extent_mm": 1.2
+  },
+  "field": {
+    "event_onset_ms": 0.25,
+    "front_width_ms": 0.02,
+    "beta": 1.6,
+    "maximum_amplitude": 0.55,
+    "baseline_probability": 0.02
+  },
+  "nuisance": {
+    "arrival_jitter_sd_us": 30.0,
+    "qubit_response_log_sd": 0.1
+  }
+}

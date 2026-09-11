@@ -1,0 +1,200 @@
+[
+  {
+    "family": "cnn",
+    "split": "id",
+    "reference": "svr",
+    "reference_size": 1800,
+    "difference_mm": 0.06725951363950425,
+    "ci95_mm": [
+      0.010182845429081893,
+      0.1254212755130936
+    ]
+  },
+  {
+    "family": "cnn",
+    "split": "id",
+    "reference": "gnn",
+    "reference_size": 1800,
+    "difference_mm": 0.01696025148969226,
+    "ci95_mm": [
+      -0.013651649356945364,
+      0.04758000464167586
+    ]
+  },
+  {
+    "family": "cnn",
+    "split": "id",
+    "reference": "cnn",
+    "reference_size": 360,
+    "difference_mm": -0.06415288316578592,
+    "ci95_mm": [
+      -0.10208104237216045,
+      -0.02810594351610773
+    ]
+  },
+  {
+    "family": "cnn",
+    "split": "ood",
+    "reference": "svr",
+    "reference_size": 1800,
+    "difference_mm": 0.4069089528971082,
+    "ci95_mm": [
+      0.25867831017864523,
+      0.5703794612097742
+    ]
+  },
+  {
+    "family": "cnn",
+    "split": "ood",
+    "reference": "gnn",
+    "reference_size": 1800,
+    "difference_mm": 0.11345976368284542,
+    "ci95_mm": [
+      0.028644666557174618,
+      0.2015452234589005
+    ]
+  },
+  {
+    "family": "cnn",
+    "split": "ood",
+    "reference": "cnn",
+    "reference_size": 360,
+    "difference_mm": -0.2506278277693619,
+    "ci95_mm": [
+      -0.3447696703760119,
+      -0.15550690173127438
+    ]
+  },
+  {
+    "family": "extra_trees",
+    "split": "id",
+    "reference": "svr",
+    "reference_size": 1800,
+    "difference_mm": 0.021712057569281247,
+    "ci95_mm": [
+      -0.03054441680323876,
+      0.07306200161738924
+    ]
+  },
+  {
+    "family": "extra_trees",
+    "split": "id",
+    "reference": "gnn",
+    "reference_size": 1800,
+    "difference_mm": -0.028587204580530726,
+    "ci95_mm": [
+      -0.0702063276054352,
+      0.013052826914975963
+    ]
+  },
+  {
+    "family": "extra_trees",
+    "split": "id",
+    "reference": "extra_trees",
+    "reference_size": 360,
+    "difference_mm": -0.03106221496879922,
+    "ci95_mm": [
+      -0.07277717955118833,
+      0.009874327334084582
+    ]
+  },
+  {
+    "family": "extra_trees",
+    "split": "ood",
+    "reference": "svr",
+    "reference_size": 1800,
+    "difference_mm": 0.01255587395718545,
+    "ci95_mm": [
+      -0.0971555607698228,
+      0.12781936744433334
+    ]
+  },
+  {
+    "family": "extra_trees",
+    "split": "ood",
+    "reference": "gnn",
+    "reference_size": 1800,
+    "difference_mm": -0.2808933152570772,
+    "ci95_mm": [
+      -0.4401699251963448,
+      -0.14430168120630632
+    ]
+  },
+  {
+    "family": "extra_trees",
+    "split": "ood",
+    "reference": "extra_trees",
+    "reference_size": 360,
+    "difference_mm": -0.25036192224166787,
+    "ci95_mm": [
+      -0.3405964837894555,
+      -0.1652463373799185
+    ]
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "split": "id",
+    "reference": "svr",
+    "reference_size": 1800,
+    "difference_mm": 0.023601711613894155,
+    "ci95_mm": [
+      -0.02116405582838718,
+      0.06677895427963197
+    ]
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "split": "id",
+    "reference": "gnn",
+    "reference_size": 1800,
+    "difference_mm": -0.02669755053591783,
+    "ci95_mm": [
+      -0.06867001318130142,
+      0.015023900291744954
+    ]
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "split": "id",
+    "reference": "hist_gradient_boosting",
+    "reference_size": 360,
+    "difference_mm": -0.04653232052467642,
+    "ci95_mm": [
+      -0.10244789063407166,
+      0.009526150978528578
+    ]
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "split": "ood",
+    "reference": "svr",
+    "reference_size": 1800,
+    "difference_mm": 0.077994868832609,
+    "ci95_mm": [
+      -0.024573272690014435,
+      0.18509276366595834
+    ]
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "split": "ood",
+    "reference": "gnn",
+    "reference_size": 1800,
+    "difference_mm": -0.2154543203816537,
+    "ci95_mm": [
+      -0.3697334358621661,
+      -0.07513969850386615
+    ]
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "split": "ood",
+    "reference": "hist_gradient_boosting",
+    "reference_size": 360,
+    "difference_mm": -0.12144615487832496,
+    "ci95_mm": [
+      -0.232702612681583,
+      -0.012899598497076056
+    ]
+  }
+]

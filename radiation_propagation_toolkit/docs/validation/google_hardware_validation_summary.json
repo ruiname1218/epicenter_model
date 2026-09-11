@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "evaluation": "Google RReCS measured-data comparison",
+  "paper": {
+    "title": "Resolving catastrophic error bursts from cosmic rays in large arrays of superconducting qubits",
+    "doi": "10.1038/s41567-021-01432-8",
+    "arxiv": "2104.05219",
+    "observable": "repeated excited-state preparation, 1 us wait, and binary relaxation readout (RReCS)",
+    "not_surface_code_syndrome_data": true
+  },
+  "raw_archives": {
+    "MAIN_DATASETS.7z": {
+      "sha256": "22414fa018fb00182c772291ea3265d3d91a556b2a0f8a3f0ecd25ee969f1e7b",
+      "recordings": 91,
+      "sampling_interval_us": 100.0,
+      "measured_channels": 27
+    },
+    "FAST_DATASETS.7z": {
+      "sha256": "dc64375f96913e96edabcfaa81d109e510decf55f132afdc443850d1a2b78f7b",
+      "recordings": 3,
+      "sampling_interval_us": 3.0,
+      "published_coordinates": 26
+    }
+  },
+  "main_event_bank": {
+    "strong_events": 315,
+    "selection": "matched_height >= 4 errors",
+    "window_ms": [-20.0, 100.0],
+    "recording_level_split": {
+      "calibration": {"recordings": 60, "strong_events": 206},
+      "validation": {"recordings": 15, "strong_events": 56},
+      "test": {"recordings": 16, "strong_events": 53}
+    },
+    "overlap_between_splits": 0,
+    "derived_event_bank_sha256": "106de5924cb94d3332b169ad7324a033d95fb83ba3ff625b91dd0409e6977237"
+  },
+  "model_scope": {
+    "profile": "google_general_spatial_v5_qp_ode",
+    "simulated_events": 256,
+    "seed": 20260825,
+    "calibration": "population and observation-layer distributions use MAIN calibration recordings; QP coefficients were not fitted to Google QP measurements",
+    "test_use": "test recordings were excluded from QP tuning, but had been inspected during earlier profile development",
+    "implementation_relation": "the toolkit and companion experiment use the same simulator calculation core; packaging and default-layout imports differ"
+  },
+  "main_test": {
+    "qp_ode_absolute": {
+      "inside_95pct": 49,
+      "real_events": 53,
+      "inside_95pct_fraction": 0.9245283018867925,
+      "mean_nearest_rmse": 0.036508169165635485
+    },
+    "qp_ode_normalized_shape": {
+      "inside_95pct": 48,
+      "real_events": 53,
+      "inside_95pct_fraction": 0.9056603773584906,
+      "mean_nearest_rmse": 0.15104626534174534
+    },
+    "empirical_absolute_mean_nearest_rmse": 0.03605065354604986,
+    "empirical_shape_mean_nearest_rmse": 0.14704140565173984,
+    "qp_ode_decay_time_wasserstein_ms": 4.9464525614940404,
+    "empirical_decay_time_wasserstein_ms": 2.0035955411688704
+  },
+  "fast_leave_one_event_out": {
+    "unique_real_events": 3,
+    "seeds": 5,
+    "evaluations": 15,
+    "apparent_speed_inside_95pct": 15,
+    "arrival_shape_inside_95pct": 15,
+    "rise_width_inside_95pct": 10,
+    "warning": "15 evaluations are three unique events repeated across five simulation seeds; candidate ranges were informed by prior inspection of these events"
+  },
+  "fast_posterior_predictive": {
+    "evaluation_type": "in-sample posterior predictive check",
+    "real_events": 3,
+    "simulated_events": 256,
+    "all_summary_values_inside_simulation_90pct": true,
+    "figure": "google_fast/fidelity_evaluation.png",
+    "figure_sha256": "2ae02108aa2da58278cc43fd07538508064225e7c83fdd5c7977d996f89cb9b3",
+    "warning": "simulation ranges were calibrated after inspecting the same three real events; this is not independent validation"
+  },
+  "main_spatial_zero_shot": {
+    "profile_fitted_to_main": false,
+    "test_events": 53,
+    "normalized_map_inside_95pct": 26,
+    "pairwise_structure_inside_95pct": 35,
+    "channel_mapping_assumption": "zero-based MAIN channel 26 is treated as the undocumented extra channel"
+  },
+  "source_result_hashes": {
+    "qp_ode_fidelity_summary_csv": "342c1519dc74f37410e4c6bd26bf429a0d947e4d6d3782401b1109f6d4c4824c",
+    "qp_ode_scalar_comparison_csv": "26812b7e6de1ef9f5342f64487c1d9e8f869273026e3e822b6b5be92c22afa02",
+    "fast_heldout_summary_csv": "2aa0a2a07b6c5aa0dd5e6e24a28e2f735c64c58f9f0c70d2f5571919b071c5de",
+    "fast_fidelity_summary_metrics_csv": "775e9156f1c9084552253c6f1ea53d90ce5fa9c089d1d35b8cda8b6e5d41895d",
+    "fast_real_data_comparison_csv": "df01fd484dd0b292ced4253d95a925480cad0f51aeed0686151bfcfdfb9de0a8",
+    "main_spatial_fidelity_summary_csv": "116a859791ab6d070c4de57aec6734690aecd0ce39e56ca165c12043d7c9f4ac"
+  },
+  "conclusion": "The Google-calibrated model has moderate temporal consistency with recording-separated MAIN events and tentative FAST wavefront support, but it does not outperform the empirical temporal backend and its zero-shot spatial transfer is weak. This is not evidence of cross-device generalization or microscopic radiation-transport accuracy."
+}

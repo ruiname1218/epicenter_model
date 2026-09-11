@@ -1,0 +1,28 @@
+{
+  "status": "exploratory reanalysis of previously inspected test data",
+  "input": "interior detector events; one row per extraction round",
+  "primary_repetitions": 1,
+  "sensitivity_repetitions": 2048,
+  "mapping_caveat": "Neither interpretation is certified as author input semantics.",
+  "history_grid": [
+    16,
+    64,
+    256,
+    1024,
+    2047
+  ],
+  "spatial_multiplier": 2,
+  "selection": "validation mean position error, train-center fallback for abstentions",
+  "fallback": [
+    0.06716702750762076,
+    -0.036605708987703364
+  ],
+  "test_model_names": [
+    "constant",
+    "cnn_single",
+    "cnn_ensemble",
+    "fixed_ridge_100.0",
+    "svr_17"
+  ],
+  "script_sha256": "40011bcf1a48ac94dfc9d625fc67283bdd578c81a3d890f7e1864c6aacf82256"
+}

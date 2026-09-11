@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-05T16:32:06.431334+00:00",
+  "argv": [
+    ".venv/bin/qp-ode-stim",
+    "--n-events",
+    "2",
+    "--stim-config",
+    "examples/stim_smoke.json",
+    "--output",
+    "../analysis_outputs/stim"
+  ],
+  "git_commit": "5de1632983f3a0d5bfdc907802f98ce5fb29e889",
+  "git_dirty": false,
+  "git_status": [],
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0"
+  },
+  "source_sha256": {
+    "src/qp_ode_simulator/simulator.py": "3d3781a51ca9d30cfa16db33140457feae0da79d72c4978bac7fb82d57c9849a",
+    "src/qp_ode_simulator/stim_qec.py": "0d2aa99aab7c214417edeffbc8f83667b77fa6da5e5d2862807db0fffda319d3",
+    "src/qp_ode_simulator/api.py": "1128acf38ae10fa0c68bca318bfea4c44bc87e6daf57d1f26db4c89d33a67ab2"
+  },
+  "resolved_simulator_config_sha256": "d9eefdf4b21ea5d2da257fea0b8d534bc018fd82d943f2c1ddeb5309c2e0205d",
+  "resolved_stim_config_sha256": "7bd386f79fea19e7baab5d4f38965466bd01cf04b328ffecd60581958b55d9ab",
+  "template_circuit_sha256": "3917d24f34440c17bd37fe047b99ef5d157abfab2d3e6c249003301d31ee2283",
+  "seeds": {
+    "simulation": 20260814,
+    "syndrome": 7
+  }
+}

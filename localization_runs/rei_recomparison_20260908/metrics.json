@@ -1,0 +1,466 @@
+[
+  {
+    "candidate": "cnn_ensemble",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.002494548722065,
+    "p90_mm": 4.261305378450865
+  },
+  {
+    "candidate": "cnn_ensemble",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.1566387265882185,
+    "p90_mm": 3.6857328045715056
+  },
+  {
+    "candidate": "cnn_single",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0038678300449457,
+    "p90_mm": 4.280886682340451
+  },
+  {
+    "candidate": "cnn_single",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.167412736369363,
+    "p90_mm": 3.5957591998497382
+  },
+  {
+    "candidate": "constant",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.300001720194091,
+    "p90_mm": 4.299961956409549
+  },
+  {
+    "candidate": "constant",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 3.3147236897401675,
+    "p90_mm": 4.481752373231605
+  },
+  {
+    "candidate": "fixed_ridge_100.0",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 2.9945231978928732,
+    "p90_mm": 4.557393669812335
+  },
+  {
+    "candidate": "fixed_ridge_100.0",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.0280651754778645,
+    "p90_mm": 3.2985046345698836
+  },
+  {
+    "candidate": "rei_legacy",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0827743605408022,
+    "p90_mm": 4.292841896038312
+  },
+  {
+    "candidate": "rei_legacy",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4331182072185453,
+    "p90_mm": 3.6163890894326762
+  },
+  {
+    "candidate": "rei_legacy_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0827743605408022,
+    "p90_mm": 4.292841896038312
+  },
+  {
+    "candidate": "rei_legacy_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4331182072185453,
+    "p90_mm": 3.6163890894326762
+  },
+  {
+    "candidate": "rei_prose_gate_sensitivity",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 0.0,
+    "mean_mm": null,
+    "p90_mm": null
+  },
+  {
+    "candidate": "rei_prose_gate_sensitivity",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 0.0,
+    "mean_mm": null,
+    "p90_mm": null
+  },
+  {
+    "candidate": "rei_prose_gate_sensitivity_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.300001720194091,
+    "p90_mm": 4.299961956409549
+  },
+  {
+    "candidate": "rei_prose_gate_sensitivity_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 3.3147236897401675,
+    "p90_mm": 4.481752373231605
+  },
+  {
+    "candidate": "rei_r1_k1024",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0616414855178,
+    "p90_mm": 4.301778847563459
+  },
+  {
+    "candidate": "rei_r1_k1024",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4122248094028373,
+    "p90_mm": 3.52440512115983
+  },
+  {
+    "candidate": "rei_r1_k1024_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0616414855178,
+    "p90_mm": 4.301778847563459
+  },
+  {
+    "candidate": "rei_r1_k1024_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4122248094028373,
+    "p90_mm": 3.52440512115983
+  },
+  {
+    "candidate": "rei_r1_k16",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 0.505,
+    "mean_mm": 3.440324156667421,
+    "p90_mm": 5.161613716506304
+  },
+  {
+    "candidate": "rei_r1_k16",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 0.7583333333333333,
+    "mean_mm": 2.860725515294371,
+    "p90_mm": 4.548906011523773
+  },
+  {
+    "candidate": "rei_r1_k16_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.3761210114732583,
+    "p90_mm": 4.660876642587493
+  },
+  {
+    "candidate": "rei_r1_k16_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.989063366289401,
+    "p90_mm": 4.64811821494787
+  },
+  {
+    "candidate": "rei_r1_k2047",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0827743605408022,
+    "p90_mm": 4.292841896038312
+  },
+  {
+    "candidate": "rei_r1_k2047",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4331182072185453,
+    "p90_mm": 3.6163890894326762
+  },
+  {
+    "candidate": "rei_r1_k2047_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0827743605408022,
+    "p90_mm": 4.292841896038312
+  },
+  {
+    "candidate": "rei_r1_k2047_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4331182072185453,
+    "p90_mm": 3.6163890894326762
+  },
+  {
+    "candidate": "rei_r1_k256",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.171989406885725,
+    "p90_mm": 4.468093045774125
+  },
+  {
+    "candidate": "rei_r1_k256",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.5944270498941138,
+    "p90_mm": 3.8119663136960007
+  },
+  {
+    "candidate": "rei_r1_k256_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.171989406885725,
+    "p90_mm": 4.468093045774125
+  },
+  {
+    "candidate": "rei_r1_k256_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.5944270498941138,
+    "p90_mm": 3.8119663136960007
+  },
+  {
+    "candidate": "rei_r1_k64",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 0.9816666666666667,
+    "mean_mm": 3.345608085782951,
+    "p90_mm": 4.993821772438923
+  },
+  {
+    "candidate": "rei_r1_k64",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 0.9916666666666667,
+    "mean_mm": 2.725665928064673,
+    "p90_mm": 4.119216524745242
+  },
+  {
+    "candidate": "rei_r1_k64_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.3499201965030596,
+    "p90_mm": 4.993671916511902
+  },
+  {
+    "candidate": "rei_r1_k64_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.7331969276834505,
+    "p90_mm": 4.116310573155171
+  },
+  {
+    "candidate": "rei_r2048_k1024",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0616414855178,
+    "p90_mm": 4.301778847563459
+  },
+  {
+    "candidate": "rei_r2048_k1024",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4122248094028373,
+    "p90_mm": 3.52440512115983
+  },
+  {
+    "candidate": "rei_r2048_k1024_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0616414855178,
+    "p90_mm": 4.301778847563459
+  },
+  {
+    "candidate": "rei_r2048_k1024_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4122248094028373,
+    "p90_mm": 3.52440512115983
+  },
+  {
+    "candidate": "rei_r2048_k16",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 0.505,
+    "mean_mm": 3.440324156667421,
+    "p90_mm": 5.161613716506304
+  },
+  {
+    "candidate": "rei_r2048_k16",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 0.7583333333333333,
+    "mean_mm": 2.860725515294371,
+    "p90_mm": 4.548906011523773
+  },
+  {
+    "candidate": "rei_r2048_k16_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.3761210114732583,
+    "p90_mm": 4.660876642587493
+  },
+  {
+    "candidate": "rei_r2048_k16_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.989063366289401,
+    "p90_mm": 4.64811821494787
+  },
+  {
+    "candidate": "rei_r2048_k2047",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0827743605408022,
+    "p90_mm": 4.292841896038312
+  },
+  {
+    "candidate": "rei_r2048_k2047",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4331182072185453,
+    "p90_mm": 3.6163890894326762
+  },
+  {
+    "candidate": "rei_r2048_k2047_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.0827743605408022,
+    "p90_mm": 4.292841896038312
+  },
+  {
+    "candidate": "rei_r2048_k2047_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.4331182072185453,
+    "p90_mm": 3.6163890894326762
+  },
+  {
+    "candidate": "rei_r2048_k256",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.171989406885725,
+    "p90_mm": 4.468093045774125
+  },
+  {
+    "candidate": "rei_r2048_k256",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.5944270498941138,
+    "p90_mm": 3.8119663136960007
+  },
+  {
+    "candidate": "rei_r2048_k256_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.171989406885725,
+    "p90_mm": 4.468093045774125
+  },
+  {
+    "candidate": "rei_r2048_k256_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.5944270498941138,
+    "p90_mm": 3.8119663136960007
+  },
+  {
+    "candidate": "rei_r2048_k64",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 0.9816666666666667,
+    "mean_mm": 3.345608085782951,
+    "p90_mm": 4.993821772438923
+  },
+  {
+    "candidate": "rei_r2048_k64",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 0.9916666666666667,
+    "mean_mm": 2.725665928064673,
+    "p90_mm": 4.119216524745242
+  },
+  {
+    "candidate": "rei_r2048_k64_fallback",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 3.3499201965030596,
+    "p90_mm": 4.993671916511902
+  },
+  {
+    "candidate": "rei_r2048_k64_fallback",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 2.7331969276834505,
+    "p90_mm": 4.116310573155171
+  },
+  {
+    "candidate": "svr_17",
+    "split": "test_id",
+    "events": 300,
+    "coverage": 1.0,
+    "mean_mm": 2.996100339021446,
+    "p90_mm": 4.809404981803363
+  },
+  {
+    "candidate": "svr_17",
+    "split": "test_ood",
+    "events": 60,
+    "coverage": 1.0,
+    "mean_mm": 1.9380825328921703,
+    "p90_mm": 3.3164420988714567
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "selection": "minimum validation mean Euclidean error separately per acquisition and family; include prior",
+  "conditions": [
+    "nominal",
+    "quiet10"
+  ],
+  "rounds": [
+    2048,
+    4096,
+    8192
+  ],
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "physical_inverse_temperatures": [
+    0.0,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "bin_rounds": 32,
+  "onset_candidates_rounds": [
+    50,
+    150,
+    250,
+    350,
+    450,
+    550,
+    650
+  ],
+  "onset_training": "supervised true-onset segmentation; prediction marginalizes candidate cuts using uniform or observed-change weights",
+  "template_semantics": "training simulated exact categorical-Pauli detector marginals only; finite nuisance Monte Carlo bank; binned composite score is not a full joint likelihood",
+  "gls_semantics": "alternative Gaussian score with train-only within-bin 8x8 residual covariance, 10 percent off-diagonal shrinkage; not a full spatiotemporal likelihood",
+  "weak_conditional_study": true,
+  "no_background_removal_from_observed_data": true,
+  "baseline": "best fixed-segmentation model by validation; prior also separately reported",
+  "confidence_interval": "paired physical-event bootstrap 10000; shots clustered; no multiplicity correction",
+  "source_sha256": "d91aebe1b1d7e90699f5d50b3b060f460b779ae82695d937f83f0b25cfe0b66a",
+  "generation_protocol_sha256": "3bf8fbdabfb2f18f6eb07d1ce93ab6c7f316b6dd349330a4b66f8111cf4cef5d"
+}

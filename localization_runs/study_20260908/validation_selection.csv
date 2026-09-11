@@ -1,0 +1,13 @@
+window_ms,bin_width_us,protocol,validation_mean_error_mm,leaf
+0.512,64.0,all_conditions,3.738677942273663,4
+0.512,64.0,held_out_combination,3.7907587862487153,1
+0.512,16.0,all_conditions,3.797767052649331,4
+0.512,16.0,held_out_combination,3.8063328616080088,1
+1.024,64.0,all_conditions,3.5669685404428293,4
+1.024,64.0,held_out_combination,3.712195982157195,1
+1.024,16.0,all_conditions,3.7881782574536453,1
+1.024,16.0,held_out_combination,3.7594656920455294,4
+2.048,64.0,all_conditions,3.3606254070973125,1
+2.048,64.0,held_out_combination,3.5231288640349674,1
+2.048,16.0,all_conditions,3.8224071410604035,4
+2.048,16.0,held_out_combination,3.81832295448137,1

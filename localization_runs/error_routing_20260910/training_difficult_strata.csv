@@ -1,0 +1,16 @@
+strength_band,epicenter_region,geometry,events,oof_error
+0,edge,circular,192,3.4247825724735317
+0,edge,elliptical,192,3.44359873012117
+0,inside,circular,192,2.2927223486911634
+0,inside,elliptical,192,2.36883422461369
+0,outside,circular,192,4.026065746232356
+0,outside,elliptical,192,3.9584443376599645
+1,edge,circular,192,2.7958443610402495
+1,edge,elliptical,192,2.9602521614960415
+1,inside,circular,192,1.891441202403482
+1,inside,elliptical,192,1.9831525738492448
+1,outside,circular,192,3.402860049534956
+1,outside,elliptical,192,3.469190780104016
+2,edge,circular,192,0.6635325637822839
+2,inside,circular,192,0.6211874506348953
+2,outside,circular,192,0.9195655230011847

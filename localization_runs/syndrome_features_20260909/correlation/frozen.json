@@ -1,0 +1,98 @@
+{
+  "logs": {
+    "Ridge100": {
+      "ordinary": 2.8395244162980386,
+      "weak": 3.381266781494923,
+      "seconds": 0.25722404499538243,
+      "config": {
+        "alpha": 100
+      }
+    },
+    "Ridge1000": {
+      "ordinary": 2.711115386264955,
+      "weak": 3.325415223654801,
+      "seconds": 0.25964571999793407,
+      "config": {
+        "alpha": 1000
+      }
+    },
+    "SVR10": {
+      "ordinary": 2.637924832627502,
+      "weak": 3.3297027766428275,
+      "seconds": 50.23233607999282,
+      "config": {
+        "C": 10,
+        "gamma": 5.6491575817641234e-05
+      }
+    },
+    "SVR100": {
+      "ordinary": 2.8075493228232813,
+      "weak": 3.4686068527179614,
+      "seconds": 54.66135076900537,
+      "config": {
+        "C": 100,
+        "gamma": 5.6491575817641234e-05
+      }
+    },
+    "ET8": {
+      "ordinary": 2.6971454170916567,
+      "weak": 3.2555803224774897,
+      "seconds": 89.49015261800378,
+      "config": {
+        "min_samples_leaf": 8
+      }
+    },
+    "ET16": {
+      "ordinary": 2.713972456843935,
+      "weak": 3.2653002210790345,
+      "seconds": 64.71028023299004,
+      "config": {
+        "min_samples_leaf": 16
+      }
+    },
+    "ET_weak": {
+      "ordinary": 2.7765599829052103,
+      "weak": 3.24508087047703,
+      "seconds": 96.60814627898799,
+      "config": {
+        "min_samples_leaf": 16
+      }
+    },
+    "blend": {
+      "ordinary": 2.624787189376459,
+      "weak": 3.2722908493038947
+    },
+    "SVR_parent": {
+      "ordinary": 2.669345041579221,
+      "weak": 3.3327156603697867,
+      "config": {
+        "C": 1.0,
+        "gamma": 0.0005649157581764122
+      },
+      "seconds": 31.194554816989694
+    },
+    "ET_parent": {
+      "ordinary": 2.6971759294895827,
+      "weak": 3.2714397211960753,
+      "config": {
+        "min_samples_leaf": 3
+      },
+      "seconds": 83.57218866000767
+    }
+  },
+  "blend": [
+    "SVR10",
+    "ET8"
+  ],
+  "hashes": {
+    "ET8.joblib": "935ec40bedcf84718ae096203f74bd975cf0fde8cbd3daa834aa46812b92a178",
+    "SVR_parent.joblib": "c2718ebe8fc71a87caa434601fef271e4f66aa1003a6a13c8421034ce296327c",
+    "SVR100.joblib": "9820a6dce10e827fefbbb5496df2e2f2b373e35901b2d09a1594817f276c4719",
+    "ET_weak.joblib": "05f70675dbf0fe989862b322487b9b436c653d40c9ccf335988a804ad5649391",
+    "ET16.joblib": "096fead0ce0632f868dc596ae3c7660934097826ea05cd32cf783ff219752ca3",
+    "SVR10.joblib": "c58db265ea717b4107dcc7290d863f75d1ee162125028846c4e02cd88fba5e55",
+    "ET_parent.joblib": "044eae9401f94e779d34a88df17143b91392fe51f53d63bd01e3f5fd7b1fb978",
+    "Ridge100.joblib": "a513f7be58601379054e9c707592b39854b519f7c38be2ad01764829138e766d",
+    "Ridge1000.joblib": "52ef32765a42ee3b78bf209daaf054c6a0eb750fb79dc9a335d86d22b5d805c4"
+  }
+}

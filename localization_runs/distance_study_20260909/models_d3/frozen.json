@@ -1,0 +1,71 @@
+{
+  "distance": 3,
+  "selected": {
+    "Ridge": {
+      "config": {
+        "alpha": 1000.0
+      },
+      "validation_mm": 2.8890481196647113
+    },
+    "SVR": {
+      "config": {
+        "C": 10.0,
+        "gamma": 0.001
+      },
+      "validation_mm": 2.8461990970557025
+    },
+    "ExtraTrees": {
+      "config": {
+        "leaf": 3
+      },
+      "validation_mm": 2.8715620034033207
+    },
+    "SVR_ET_blend": {
+      "validation_mm": 2.830813038169625
+    },
+    "REI": {
+      "history": 1024,
+      "validation_mm": 3.0070194229503406,
+      "answer_rate": 1.0
+    },
+    "prior": {
+      "validation_mm": 3.2779086832183784
+    },
+    "CNN": {
+      "validation_mm": 2.926813096995341,
+      "seeds": [
+        41,
+        42,
+        43
+      ],
+      "aggregation": "coordinate ensemble"
+    }
+  },
+  "cut": 339,
+  "quiet": [
+    0.026399151196873475,
+    0.021910875671714704,
+    0.037974780166096726,
+    0.03048668783585735,
+    0.030498137518319493,
+    0.04002808988764045,
+    0.021994840009770394,
+    0.027498320713238888
+  ],
+  "center": [
+    0.07694101321174088,
+    -0.06649480845632474
+  ],
+  "scale": 2.3808675510288744,
+  "train_events": 720,
+  "validation_events": 240,
+  "best_family": "SVR_ET_blend",
+  "hashes": {
+    "CNN_41.pt": "5c3f8de1e395d4314960c5a3ebf0ab809a58de54d7045cf470f45632375fb0ae",
+    "CNN_43.pt": "6efb3874e3742041700db57c18ee69209b7aa7b918efe8a47aca6c8fc67e0c5d",
+    "Ridge.joblib": "816d34fe4ed9292fa05eeba94cf303f7424bc601c183db5d30429ed169ec5797",
+    "SVR.joblib": "56e511a30183a7cf65f08dc9f7e4ce63aa3cbfefd7adb7d453278e93168cdf7d",
+    "ExtraTrees.joblib": "cb3927f5c9774a452068e78334b398fd16290d3bb6f53e2c43d1eedcc18f6b45",
+    "CNN_42.pt": "f1d27c3e3949028d30ff8bb3d901a4a7e4404ee73749a23d75c7d6667d7b1963"
+  }
+}

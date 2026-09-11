@@ -1,0 +1,26 @@
+[
+  {
+    "candidate": "grid5_leaf4",
+    "nll": 2.868223697980384,
+    "brier": 0.9152167701007872,
+    "unseen_class_samples": 0
+  },
+  {
+    "candidate": "grid5_leaf12",
+    "nll": 2.8985346207516254,
+    "brier": 0.9227045739219951,
+    "unseen_class_samples": 0
+  },
+  {
+    "candidate": "grid9_leaf4",
+    "nll": 4.168384205169182,
+    "brier": 0.9744838551013559,
+    "unseen_class_samples": 0
+  },
+  {
+    "candidate": "grid9_leaf12",
+    "nll": 4.051800811523191,
+    "brier": 0.975163962913312,
+    "unseen_class_samples": 0
+  }
+]

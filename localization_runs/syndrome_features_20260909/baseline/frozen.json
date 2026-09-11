@@ -1,0 +1,218 @@
+{
+  "logs": {
+    "Ridge100": {
+      "ordinary": 2.64202288844772,
+      "weak": 3.33056633272367,
+      "seconds": 0.027928230992984027,
+      "config": {
+        "alpha": 100
+      }
+    },
+    "Ridge1000": {
+      "ordinary": 2.6379175911405928,
+      "weak": 3.3112462527310544,
+      "seconds": 0.018359996000071988,
+      "config": {
+        "alpha": 1000
+      }
+    },
+    "SVR10": {
+      "ordinary": 2.605779161516339,
+      "weak": 3.3615498917640574,
+      "seconds": 7.882352137006819,
+      "config": {
+        "C": 10,
+        "gamma": 0.00033727810650887577
+      }
+    },
+    "SVR100": {
+      "ordinary": 2.635732882569563,
+      "weak": 3.3945025907333717,
+      "seconds": 14.131154634000268,
+      "config": {
+        "C": 100,
+        "gamma": 0.00033727810650887577
+      }
+    },
+    "ET8": {
+      "ordinary": 2.6612953021389654,
+      "weak": 3.2556407523301565,
+      "seconds": 13.935778040002333,
+      "config": {
+        "min_samples_leaf": 8
+      }
+    },
+    "ET16": {
+      "ordinary": 2.690678153852061,
+      "weak": 3.269020079223798,
+      "seconds": 11.158975521990214,
+      "config": {
+        "min_samples_leaf": 16
+      }
+    },
+    "ET_weak": {
+      "ordinary": 2.7398549795090457,
+      "weak": 3.24788944293523,
+      "seconds": 12.086182362996624,
+      "config": {
+        "min_samples_leaf": 16
+      }
+    },
+    "blend": {
+      "ordinary": 2.58881550369455,
+      "weak": 3.2988505840794784
+    },
+    "SVR_parent": {
+      "ordinary": 2.59957017964175,
+      "weak": 3.371872630205333,
+      "config": {
+        "C": 1.0,
+        "gamma": 0.003372781065088757
+      },
+      "seconds": 10.454662699004984
+    },
+    "ET_parent": {
+      "ordinary": 2.647888655681638,
+      "weak": 3.2663414629273952,
+      "config": {
+        "min_samples_leaf": 3
+      },
+      "seconds": 21.60617453600571
+    },
+    "learned_logistic_center_0.5_1": {
+      "ordinary": 2.6013627025988817,
+      "weak": 3.2745698322169647
+    },
+    "learned_logistic_center_0.5_2": {
+      "ordinary": 2.593027825994393,
+      "weak": 3.284247841964527
+    },
+    "learned_logistic_center_1.0_1": {
+      "ordinary": 2.6232281005210205,
+      "weak": 3.2640815702304726
+    },
+    "learned_logistic_center_1.0_2": {
+      "ordinary": 2.601947531860248,
+      "weak": 3.277204395734747
+    },
+    "learned_logistic_expert_0.5_1": {
+      "ordinary": 2.5937412406001914,
+      "weak": 3.280235128268064
+    },
+    "learned_logistic_expert_0.5_2": {
+      "ordinary": 2.5900026841771084,
+      "weak": 3.287804941113377
+    },
+    "learned_logistic_expert_1.0_1": {
+      "ordinary": 2.604286591809431,
+      "weak": 3.2702642217018933
+    },
+    "learned_logistic_expert_1.0_2": {
+      "ordinary": 2.5942445183768927,
+      "weak": 3.2817657670082436
+    },
+    "learned_ET16_center_0.5_1": {
+      "ordinary": 2.619171435790175,
+      "weak": 3.2743567906054247
+    },
+    "learned_ET16_center_0.5_2": {
+      "ordinary": 2.5971672264148116,
+      "weak": 3.28574777870553
+    },
+    "learned_ET16_center_1.0_1": {
+      "ordinary": 2.6621244990111133,
+      "weak": 3.2591608672240877
+    },
+    "learned_ET16_center_1.0_2": {
+      "ordinary": 2.6085322768780443,
+      "weak": 3.2758424242979753
+    },
+    "learned_ET16_expert_0.5_1": {
+      "ordinary": 2.6002191905499155,
+      "weak": 3.2799070005098625
+    },
+    "learned_ET16_expert_0.5_2": {
+      "ordinary": 2.5920293818748643,
+      "weak": 3.2887849441120456
+    },
+    "learned_ET16_expert_1.0_1": {
+      "ordinary": 2.6172370959929516,
+      "weak": 3.2666740862381065
+    },
+    "learned_ET16_expert_1.0_2": {
+      "ordinary": 2.596946255714459,
+      "weak": 3.280929975537273
+    },
+    "learned_ET64_center_0.5_1": {
+      "ordinary": 2.626074517659288,
+      "weak": 3.2748109559161716
+    },
+    "learned_ET64_center_0.5_2": {
+      "ordinary": 2.599185958602413,
+      "weak": 3.2863735728414123
+    },
+    "learned_ET64_center_1.0_1": {
+      "ordinary": 2.680113695568556,
+      "weak": 3.2593892299626344
+    },
+    "learned_ET64_center_1.0_2": {
+      "ordinary": 2.6130021739235505,
+      "weak": 3.2766858815659266
+    },
+    "learned_ET64_expert_0.5_1": {
+      "ordinary": 2.601668251190928,
+      "weak": 3.2802702219887467
+    },
+    "learned_ET64_expert_0.5_2": {
+      "ordinary": 2.592697065888597,
+      "weak": 3.2892574127093415
+    },
+    "learned_ET64_expert_1.0_1": {
+      "ordinary": 2.6205573073607122,
+      "weak": 3.2669804197826653
+    },
+    "learned_ET64_expert_1.0_2": {
+      "ordinary": 2.5982247087578605,
+      "weak": 3.281622250822137
+    }
+  },
+  "blend": [
+    "SVR_parent",
+    "ET_parent"
+  ],
+  "hashes": {
+    "learned_ET16_center_0.5_1.joblib": "e55f93228c3db3bead80075e9c52c9bcd7d1352f0932a1784497e7561133ffe1",
+    "learned_ET64_expert_0.5_1.joblib": "8839fa3ab75533e126327b299e31770d66fdec671a3f6804f33ca3fa213b7cb2",
+    "ET8.joblib": "e7aaa43f115646b1beaba9c66608cb48cb7e6b472408e18293fb6c1360c2d6f7",
+    "SVR_parent.joblib": "151e1e95aa0deee8de43b562e3ca8e9543a14d32aebb9be5f095c9672febd33f",
+    "learned_logistic_expert_0.5_2.joblib": "fa1120da1371dbca054bf7179df2ae16e24ccd26759f56b7891d343886c03eed",
+    "learned_logistic_center_1.0_2.joblib": "bb7c88e5cbd50e03fc830045523afc2980fe5a8a657aca211d595fbc1817e320",
+    "SVR100.joblib": "996d2079c6612eb90db88302d112bbb8bbe34ddb91c342ac5073edf3b81bad88",
+    "learned_ET64_center_1.0_2.joblib": "91514e24f1ab056adfbd812867501f4719fc9e444cf0f9d557141677058fa7ad",
+    "ET_weak.joblib": "84f0f637869024655e82821e5b199ac31a462a4c30a03885e8285a6d7ea684b6",
+    "learned_ET64_center_0.5_2.joblib": "c0e2d052bc0f6951d317bbcd02aad7db51f3f34f23caa237f3ff985e62a3e8b0",
+    "learned_ET64_center_0.5_1.joblib": "8e118eb22fba8c753314fa0cda5985cf23629f67983b21b5ba33e0694c038bcd",
+    "learned_logistic_expert_0.5_1.joblib": "3bdde623eb7944fbf474e8dccb49c4ea8cf7c99e988b56acac74ca43a1fd9c58",
+    "learned_logistic_center_0.5_2.joblib": "89a0dcc765386d13160faa37725f9195283677bda534de3ecdba953de69801a1",
+    "learned_logistic_expert_1.0_1.joblib": "22ee325d932e2d27777f72601c6538431ed1c4d0ebdeda610e205c2f6122fa99",
+    "learned_ET16_center_1.0_2.joblib": "57f3c05de8051ed5ba9b4b2503232cdfa7c4c706875acc0a1b8cf1a6d6272164",
+    "learned_ET64_center_1.0_1.joblib": "fbc38520553c3a9019e7a7cdff3fa55b7724b49d0cfe2337b5378938d2d60a0a",
+    "ET16.joblib": "b43f1e83fb5a65368cf57ed336d69aa8374b54ef57b4c3ed713778d5b52ae644",
+    "learned_logistic_center_0.5_1.joblib": "92593bddbef9c283bf2a4f4dd0a1e4591404edaa3f1dcbfc3249c37cc7637ff0",
+    "learned_logistic_expert_1.0_2.joblib": "fed7f4240c3d1782c07d4658bbbe30646e1638bff9e6b971f2e50863357f0005",
+    "learned_ET16_expert_1.0_1.joblib": "fc2cabcec98340109a5f2c6ce5ed125afb6735ea4a09d64730ec69aacbf029c2",
+    "learned_ET16_center_1.0_1.joblib": "782ffe57b60dd48a4fe37089af71862066f024e85dd50c1155f3892e05029850",
+    "SVR10.joblib": "844b361c18212fd564ef90de2d0ab146d340f8b94323d271a2235d6f828308a8",
+    "learned_ET64_expert_0.5_2.joblib": "e716a24cb447fdc7e1b887b36016d53409b06a0cd4bcd83c59c1bb65e2ba46b0",
+    "learned_ET16_expert_1.0_2.joblib": "3010cc0fc8ec4fbccde53a0b9b742eb5ff5765e3ad670e1cfa4c2880134056fe",
+    "learned_ET16_expert_0.5_2.joblib": "f50b2e146efc9a17a06d665731969eaa8c6df8c495beb7aaf79fbbb183dd246e",
+    "ET_parent.joblib": "40935233114db167be4ada846505580ab7983faf28238b3f65868ac8734ebfb5",
+    "Ridge100.joblib": "623a63c34b3cd7a9aa1dd681efbe832a72d93b984383d3310784c5fe96dbeaa4",
+    "learned_ET64_expert_1.0_1.joblib": "1b7566c3b8ae864abfe847dcea1b30f3eb06a0ad58cf65e11d8a2de6bbbf6e78",
+    "learned_ET64_expert_1.0_2.joblib": "326ccfa3a88f9add7239a4afd6ccfbcf272bfdef66974ecd8676852a8b1b1e03",
+    "learned_ET16_expert_0.5_1.joblib": "18886efa5445695a796ed4a6838c12f0b15fe3196508cc0a534916310d91ebd8",
+    "learned_logistic_center_1.0_1.joblib": "37999e80a6febc7b3c5ae1f96bc42c790e59a4644364217cdd217cb9f74c71cb",
+    "learned_ET16_center_0.5_2.joblib": "750f4e21f9ab2d8f50e5fd4f6f0f481843dea3a053d782cf3b5f3d90f1694805",
+    "Ridge1000.joblib": "c250a6d50c06c2871cd636af971bf90091544ba71dbca39d6ebd1170c8dc5d7b"
+  }
+}

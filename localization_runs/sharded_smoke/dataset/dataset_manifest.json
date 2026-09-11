@@ -1,0 +1,411 @@
+{
+  "format": "qp_syndrome_shards_v1",
+  "status": "complete",
+  "source_id": "9c7fd1d29f756bee4efe87670fd1f536db89d422eee3c83b50bdf08b1e961c54",
+  "circuit_id": "40e7c1e926d548c341f8a0ae2c7641b7d92cfd9d7fbf9f1eec73f98502b40052",
+  "code": {
+    "task": "surface_code:rotated_memory_z",
+    "distance": 3
+  },
+  "simulator_config": {
+    "time": {
+      "start_ms": 0.0,
+      "end_ms": 1.03,
+      "dt_ms": 0.002
+    },
+    "epicenter": {
+      "region_probabilities": {
+        "inside": 0.7,
+        "edge": 0.2,
+        "outside": 0.1
+      },
+      "outside_margin_mm": [
+        0.25,
+        1.0
+      ]
+    },
+    "shape": {
+      "geometry_choices": [
+        "circular",
+        "elliptical"
+      ],
+      "initial_beta": [
+        1.7,
+        2.5
+      ],
+      "late_beta": [
+        0.8,
+        1.7
+      ],
+      "beta_transition_ms": [
+        2.0,
+        10.0
+      ],
+      "axis_ratio": [
+        1.0,
+        2.5
+      ],
+      "angle_degrees": [
+        0.0,
+        180.0
+      ]
+    },
+    "propagation": {
+      "law_choices": [
+        "ballistic",
+        "diffusive"
+      ],
+      "apparent_speed_m_per_s": [
+        12.0,
+        40.0
+      ],
+      "ballistic_speed_m_per_s": [
+        12.0,
+        40.0
+      ],
+      "diffusion_coefficient_mm2_per_ms": [
+        5.0,
+        20.0
+      ],
+      "front_width_ms": [
+        0.02,
+        0.12
+      ],
+      "arrival_jitter_sd_us": [
+        0.0,
+        80.0
+      ],
+      "arrival_jitter_correlation_length_mm": [
+        0.4,
+        2.0
+      ]
+    },
+    "source_model": {
+      "source_count_choices": [
+        1
+      ],
+      "separation_mm": [
+        0.5,
+        3.0
+      ],
+      "secondary_strength": [
+        0.2,
+        0.8
+      ]
+    },
+    "boundary_reflection": {
+      "enabled": false,
+      "coefficient": [
+        0.05,
+        0.4
+      ],
+      "boundary_margin_mm": [
+        0.0,
+        1.0
+      ]
+    },
+    "halo": {
+      "enabled": false,
+      "strength": [
+        0.1,
+        0.4
+      ],
+      "lambda_multiplier": [
+        1.5,
+        4.0
+      ],
+      "beta": [
+        0.5,
+        1.3
+      ],
+      "front_width_multiplier": [
+        1.0,
+        3.0
+      ]
+    },
+    "range": {
+      "initial_lambda_mm": [
+        2.0,
+        3.8
+      ],
+      "maximum_lambda_mm": [
+        3.5,
+        6.5
+      ],
+      "maximum_distance_mm": [
+        5.0,
+        10.0
+      ],
+      "spread_time_ms": [
+        0.15,
+        0.6
+      ],
+      "cutoff_width_mm": [
+        0.1,
+        0.5
+      ]
+    },
+    "strength": {
+      "maximum_amplitude": [
+        0.8,
+        1.0
+      ],
+      "prompt_fraction": [
+        0.0,
+        0.8
+      ],
+      "rise_time_ms": [
+        0.08,
+        0.5
+      ],
+      "peak_time_ms": [
+        0.5,
+        1.2
+      ],
+      "decay_time_ms": [
+        20.0,
+        35.0
+      ]
+    },
+    "noise": {
+      "baseline_total_errors": [
+        2.8,
+        3.4
+      ],
+      "qubit_baseline_log_sd": 0.18,
+      "qubit_sensitivity_log_sd": 0.12,
+      "baseline_drift_fraction": [
+        0.0,
+        0.08
+      ],
+      "missing_qubit_probability": 0.0
+    },
+    "hierarchical_sensitivity": {
+      "enabled": true,
+      "device_log_sd": 0.2,
+      "correlation_length_mm": 1.5,
+      "event_log_sd": 0.1
+    },
+    "spatial_residual": {
+      "enabled": true,
+      "initial_log_sd": [
+        0.1,
+        0.65
+      ],
+      "correlation_length_mm": [
+        0.3,
+        2.5
+      ],
+      "decay_time_ms": [
+        0.15,
+        2.5
+      ],
+      "late_fraction": [
+        0.1,
+        0.6
+      ]
+    },
+    "output": {
+      "save_probabilities": true,
+      "save_physics_diagnostics": true
+    },
+    "profile_name": "syndrome_localization_single_source",
+    "event_timing": {
+      "onset_time_ms": [
+        0.05,
+        0.15
+      ],
+      "control_fraction": 0.0
+    },
+    "temporal_model": {
+      "backend": "qp_ode",
+      "qp_ode": {
+        "trapping_rate_per_us": 0.05,
+        "recombination_rate_per_us": 100.0,
+        "generation_scale_per_us": [
+          1e-10,
+          3e-07
+        ],
+        "baseline_t1_us": 100.0,
+        "baseline_t2_us": 200.0,
+        "measurement_exposure_us": [
+          0.2,
+          2.0
+        ],
+        "al_gap_uev": 191.0,
+        "qubit_frequency_ghz": 5.0,
+        "maximum_radiation_probability": 0.999,
+        "source_decay_mode": "independent_lognormal",
+        "source_lifetime_ms": {
+          "log_mean": 2.70805020110221,
+          "log_sd": 0.8,
+          "bounds_ms": [
+            1.0,
+            100.0
+          ]
+        }
+      }
+    },
+    "hardware_hierarchy": {
+      "enabled": true,
+      "mode": "fixed_device",
+      "qubit_t1_log_sd": 0.1,
+      "qubit_t2_log_sd": 0.05,
+      "qubit_frequency_sd_ghz": 0.05,
+      "run_t1_log_sd": 0.0,
+      "run_t2_log_sd": 0.0,
+      "run_frequency_sd_ghz": 0.0,
+      "event_t1_log_sd": 0.0,
+      "event_t2_log_sd": 0.0,
+      "event_frequency_sd_ghz": 0.0
+    },
+    "qp_model_provenance": {
+      "equation": "dx_qp/dt = g(t,q) - s*x_qp - r*x_qp^2",
+      "physical_reference": "Yelton et al., arXiv:2402.15471",
+      "google_data_role": "guide for broad event scales only; no Sycamore coordinate correction or per-event matching",
+      "google_qp_parameter_calibration": false,
+      "generation_prior_selection": "synthetic non-saturation check only; 128 generated events, no real syndrome outcomes used",
+      "generation_quantity": "local QP-generation density proxy sampled at each qubit coordinate; summing over qubits is not deposited energy",
+      "energy_conservation_scope": "not modeled; required only for particle-energy, dose, material, or chip-geometry prediction",
+      "hardware_semantics": "one persistent 100 us / 200 us / 5 GHz reference device and per-qubit calibration map is sampled once; run/event hardware drift is disabled",
+      "reference_hardware": "Baity et al., arXiv:2602.06202; replace with measured calibration for a target device",
+      "intended_use": "phenomenological superconducting-QEC stress-test data generation and sensitivity studies; not absolute hardware prediction"
+    },
+    "resolved_device_profile": "examples/localization_simulator.json"
+  },
+  "stim_config": {
+    "schema_version": 1,
+    "backend": "stim_surface_code",
+    "task": "surface_code:rotated_memory_z",
+    "distance": 3,
+    "rounds": 1024,
+    "round_duration_ms": 0.001,
+    "start_time_ms": 0.0,
+    "window_role": "onset_and_peak",
+    "shots_per_event": 4,
+    "layout": {
+      "qubit_pitch_mm": 1.0,
+      "rotation_degrees": 0.0,
+      "center_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "circuit_noise": {
+      "after_clifford_depolarization": 0.0005,
+      "before_round_data_depolarization": 0.0,
+      "before_measure_flip_probability": 0.001,
+      "after_reset_flip_probability": 0.001
+    },
+    "gate_schedule": {
+      "mode": "explicit",
+      "tick_durations_ns": [
+        30.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        30.0,
+        780.0
+      ]
+    },
+    "noise_accounting": {
+      "depolarizing_channels_exclude_t1_t2": true
+    },
+    "radiation_channel": {
+      "targets": "all",
+      "timing": "gate_slices"
+    },
+    "decoder": {
+      "enabled": false,
+      "mode": "fixed_circuit"
+    },
+    "seed": 20260907
+  },
+  "sampling": {
+    "geometry": [
+      "circular",
+      "elliptical"
+    ],
+    "propagation_law": [
+      "ballistic",
+      "diffusive"
+    ],
+    "epicenter_region": [
+      "inside",
+      "edge",
+      "outside"
+    ],
+    "generation_bands_per_us": [
+      [
+        1e-10,
+        1e-09
+      ],
+      [
+        1e-09,
+        1e-08
+      ],
+      [
+        1e-08,
+        3e-07
+      ]
+    ]
+  },
+  "generation": {
+    "n_events": 36,
+    "seed": 42,
+    "device_seed": 123,
+    "syndrome_seed": 456,
+    "source_hashes": {
+      "dataset.py": "703f527ddfaa9907253d90d6d08483a0abdf1b0cc5fb8c034afea25817ebc72a",
+      "simulator.py": "023e1021ba1ba054491910cc88155b745783bde19dd8c7835496a6c75d7c81f1",
+      "stim_qec.py": "0d2aa99aab7c214417edeffbc8f83667b77fa6da5e5d2862807db0fffda319d3"
+    }
+  },
+  "completed_events": 36,
+  "shards": [
+    {
+      "npz": "events_00000000_00000006.npz",
+      "csv": "events_00000000_00000006.csv",
+      "events": 6,
+      "npz_sha256": "bd51fbc41dcbbf8e7ca3ed7c9bfe3678c4651481f785cfdfc3d2b37148de4f5e",
+      "csv_sha256": "322c97a9c2c19c5ac980b119c1d5a5e0243aa9fded1da05a977cc95740cf6d76"
+    },
+    {
+      "npz": "events_00000006_00000012.npz",
+      "csv": "events_00000006_00000012.csv",
+      "events": 6,
+      "npz_sha256": "d987e338b964bc1fe8d2c11eeaf1e4fbec5953be02321c672c70b803b72a5efa",
+      "csv_sha256": "49af3cecfd0a01d8fc9b900361eaea6ee24df3a214df44e5d07874952254a9e0"
+    },
+    {
+      "npz": "events_00000012_00000018.npz",
+      "csv": "events_00000012_00000018.csv",
+      "events": 6,
+      "npz_sha256": "67410ffca35d3856ef26c5f8ebba018e81fd69a1f87cad8c131d6d99480f22bf",
+      "csv_sha256": "8b966539c84a663c8a151d77440573c26cfc4ea2bbe8b12485f3c908ad793668"
+    },
+    {
+      "npz": "events_00000018_00000024.npz",
+      "csv": "events_00000018_00000024.csv",
+      "events": 6,
+      "npz_sha256": "425da55ffb5d9a94ee87dd737646e4e2778dc4209daf63c58ae0c25108aff9f1",
+      "csv_sha256": "3acc649e14e3d488093ebaaa5fe2181b1d5834ff71cf2fa052fc3e565d494dac"
+    },
+    {
+      "npz": "events_00000024_00000030.npz",
+      "csv": "events_00000024_00000030.csv",
+      "events": 6,
+      "npz_sha256": "1a24a2f813f069a348ec24d7b129e3e53b2394fa776c3a03c3919e23819450fc",
+      "csv_sha256": "326266eeeeaa7197f77b46d91b604c5e79ad9797becf30772d1723a44bf73758"
+    },
+    {
+      "npz": "events_00000030_00000036.npz",
+      "csv": "events_00000030_00000036.csv",
+      "events": 6,
+      "npz_sha256": "4862f6059417e61134d769fedc0f622847aa88df8fa15b81563cf62f8be87a1b",
+      "csv_sha256": "c0db7114cb60c4574b123b459590861e9b7278bbb4b7674e029351028e941bca"
+    }
+  ],
+  "coordinate_convention": "x_mm=epicenter_row, y_mm=epicenter_col"
+}

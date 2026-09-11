@@ -1,0 +1,62 @@
+{
+  "diagnostic_only": true,
+  "scope": "Expected total detector count increase vs quiet shot-to-shot total count SD. Spatial/time information not captured; not an information bound.",
+  "results": {
+    "nom2": {
+      "baseline_expected_total": 1536.2419496287089,
+      "calibration_total_sd": 57.72747841977755,
+      "extra_expected_count_quantiles": [
+        1.898595487413315,
+        5.153679624032023,
+        15.122646643779944
+      ],
+      "total_count_snr_quantiles": [
+        0.032888938498357355,
+        0.08927602183757194,
+        0.26196617378317527
+      ]
+    },
+    "nom4": {
+      "baseline_expected_total": 3073.2343838444367,
+      "calibration_total_sd": 76.43162032682753,
+      "extra_expected_count_quantiles": [
+        5.297737928243082,
+        13.631907477762189,
+        36.77705876573093
+      ],
+      "total_count_snr_quantiles": [
+        0.06931343213174788,
+        0.17835429131910455,
+        0.48117596628815895
+      ]
+    },
+    "quiet2": {
+      "baseline_expected_total": 158.33805577091942,
+      "calibration_total_sd": 20.17703509185726,
+      "extra_expected_count_quantiles": [
+        2.02246890177764,
+        5.491903663279295,
+        16.113441820340483
+      ],
+      "total_count_snr_quantiles": [
+        0.10023617903077531,
+        0.2721858607212134,
+        0.7986030527767334
+      ]
+    },
+    "quiet4": {
+      "baseline_expected_total": 316.7534628148095,
+      "calibration_total_sd": 29.355557552040747,
+      "extra_expected_count_quantiles": [
+        5.636161372407978,
+        14.530566957450105,
+        39.21403486931341
+      ],
+      "total_count_snr_quantiles": [
+        0.19199640008255137,
+        0.4949852146971048,
+        1.3358300144630473
+      ]
+    }
+  }
+}

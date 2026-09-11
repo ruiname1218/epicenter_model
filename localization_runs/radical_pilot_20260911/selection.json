@@ -1,0 +1,158 @@
+{
+  "selected": "template_inverse",
+  "objective": {
+    "base_SVR": 1.6116111031810085,
+    "base_ET": 1.9067253837227165,
+    "dense_SVR": 1.45660438547903,
+    "dense_ET": 1.734392008392946,
+    "pair_SVR": 1.697330012839831,
+    "pair_ET": 1.9638366989580993,
+    "oracle_onset_SVR": 1.6073254580188003,
+    "oracle_onset_ET": 1.9062403586488934,
+    "oracle_nuisance_SVR": 1.6844919725793506,
+    "oracle_nuisance_ET": 1.9231969919654832,
+    "oracle_nuisance_only_SVR": 3.2795701647718785,
+    "oracle_nuisance_only_ET": 3.2319512294250226,
+    "oracle_mean_SVR": 0.6761491338555607,
+    "oracle_mean_ET": 0.6275020534145157,
+    "rates_plain_41": 1.7249157127300647,
+    "rates_plain_42": 1.8307018213810364,
+    "rates_plain_43": 1.8612612189350553,
+    "rates_plain": 1.728118526662423,
+    "coinc_plain_41": 1.7451204478425122,
+    "coinc_plain_42": 1.784874472690162,
+    "coinc_plain_43": 1.828901524146461,
+    "coinc_plain": 1.7156721560374153,
+    "coinc_joint_41": 1.7520591006428519,
+    "coinc_joint_42": 1.7847431214265634,
+    "coinc_joint_43": 1.8307757930343558,
+    "coinc_joint": 1.7112311831080913,
+    "coinc_aux_41": 1.716238199555797,
+    "coinc_aux_42": 1.7947240685491554,
+    "coinc_aux_43": 1.8365183035575727,
+    "coinc_aux": 1.711905405165892,
+    "forward_inverse": 2.7551457411355944,
+    "template_inverse": 1.5351255933765657,
+    "Prior": 3.1280843652905723
+  },
+  "primary": [
+    "template_inverse",
+    "dense_SVR",
+    "pair_SVR"
+  ],
+  "primary_reference": "base_SVR",
+  "primary_groups": [
+    "medium",
+    "strong"
+  ],
+  "primary_interval": 0.9916666666666667,
+  "seed_repeats": "Neural initialization seeds only; common training events. Three fresh test generation roots.",
+  "inverse_settings": {
+    "forward_inverse": 10.0,
+    "template_inverse": 1.0
+  },
+  "forward_validation_probability_rmse": 0.024936251487366813,
+  "cost": {
+    "base_SVR": 0.16125260700005128,
+    "base_ET": 1.6321520679998684,
+    "dense_SVR": 0.33804243600002337,
+    "dense_ET": 3.020480237000129,
+    "pair_SVR": 0.2728680089999216,
+    "pair_ET": 3.093207530999962,
+    "oracle_onset_SVR": 0.235372032999976,
+    "oracle_onset_ET": 1.6635875549998218,
+    "oracle_nuisance_SVR": 0.2561055700000452,
+    "oracle_nuisance_ET": 1.905703960999972,
+    "oracle_nuisance_only_SVR": 0.13445020000017394,
+    "oracle_nuisance_only_ET": 0.40120979500011344,
+    "oracle_mean_SVR": 0.3316319730001851,
+    "oracle_mean_ET": 3.892565293999951,
+    "rates_plain_41": {
+      "seconds": 13.964569234999999,
+      "best_epoch": 5
+    },
+    "rates_plain_42": {
+      "seconds": 13.013179590999698,
+      "best_epoch": 6
+    },
+    "rates_plain_43": {
+      "seconds": 12.993160916999841,
+      "best_epoch": 6
+    },
+    "coinc_plain_41": {
+      "seconds": 12.90495386199973,
+      "best_epoch": 5
+    },
+    "coinc_plain_42": {
+      "seconds": 13.04872515299985,
+      "best_epoch": 4
+    },
+    "coinc_plain_43": {
+      "seconds": 12.995670923999569,
+      "best_epoch": 4
+    },
+    "coinc_joint_41": {
+      "seconds": 13.31646448299989,
+      "best_epoch": 5
+    },
+    "coinc_joint_42": {
+      "seconds": 13.095623703000001,
+      "best_epoch": 4
+    },
+    "coinc_joint_43": {
+      "seconds": 13.22046656700013,
+      "best_epoch": 5
+    },
+    "coinc_aux_41": {
+      "seconds": 13.920124178999686,
+      "best_epoch": 5
+    },
+    "coinc_aux_42": {
+      "seconds": 13.948419682999884,
+      "best_epoch": 4
+    },
+    "coinc_aux_43": {
+      "seconds": 13.928009642999768,
+      "best_epoch": 4
+    }
+  },
+  "prior": [
+    -0.07679469378454033,
+    0.04213892700183838
+  ],
+  "source_hash": "79935deeceb6e8d558e6e8e87c7fc13d4745c5cbc036d735a9d1d5c00952c7a2",
+  "protocol_hash": "83582a1b660806d098d888877857ae17f32ed7772a07ef88e5483fc2516e7ec2",
+  "fit_cache_hash": "f924c8034a310b41caff4456141f41a99f2d3173c141f3706cc3cd91d41d0595",
+  "quiet_hash": "de07c2801b1fd17493a42a356ac5058cb2facc770a912173d943373f9dcd0c11",
+  "hashes": {
+    "base_SVR.joblib": "461602b8f4b5e886cba37e4e5c808c7668d0f8ef297b64c8969db47f97f4ac95",
+    "base_ET.joblib": "38278eb902555bbd5024238572a1ce3254c6e5d417cd81858f10d57a5c788e09",
+    "dense_SVR.joblib": "775d65d739d4e41963162a468ac89c5b15f470360cafc75181b42ba5d3c22059",
+    "dense_ET.joblib": "e06ea4c92a581e7237f2016b0a094a4a8f1a61cbfa48cf4d1c009aa71db3a51a",
+    "pair_SVR.joblib": "64288ce4f022f2f41ae4fce1192b7c99deeeba4bb240c8e7ce33aa7bbff70315",
+    "pair_ET.joblib": "19021fd511b624c087fa897601d9993a704139b8b4925e5dca30e56c2c18fb36",
+    "oracle_onset_SVR.joblib": "85039be66c3f6471d79e91ec4bc58e282b31c9fb7ad3713dd0e51bff636b1dfc",
+    "oracle_onset_ET.joblib": "ede9155d6aa3d328c128b15326e073db97829cef7bd40366582693c1c780ce9b",
+    "oracle_nuisance_SVR.joblib": "c908b57c8db52329b9949c9f0154582bcd620b9246e0b662b8337f9178017338",
+    "oracle_nuisance_ET.joblib": "53681780bd4a06357e6d89138d94d3bdd0eb70e71c1d398657be801e02fc89f3",
+    "oracle_nuisance_only_SVR.joblib": "b763bcb08b96208d7a27d415db42a34242d8f9227ed56bbecd8ce79ada8f3ecd",
+    "oracle_nuisance_only_ET.joblib": "1b8aa7adaf6ba469ff10c55e467c2844adcf0a3c850036047331696fbf2ba63a",
+    "oracle_mean_SVR.joblib": "2cea0298d7391a822ab3b3af99ee1d13aab08726cb426f01b1fa2d692c3835bb",
+    "oracle_mean_ET.joblib": "2c3f45425de0ca97a2afb88b90685a99befaa25faad038952017355722b0266d",
+    "rates_plain_41.joblib": "d947c52f0e8e2a7dd82d9a8288c8a315ab332793a4483478de9befc98b14e193",
+    "rates_plain_42.joblib": "1d5efc79c493ffc693c1a69c9c839359344053e02ab24dddda7f26a0abe9a6ec",
+    "rates_plain_43.joblib": "57d555d683d1f6591d117b66a92369f137c64c9164aa0a4bed4863f0142e4249",
+    "coinc_plain_41.joblib": "762657f633685fa815253e8f25d82513f47a62cccc56bfa4b8ac3932142c7225",
+    "coinc_plain_42.joblib": "d7cfcee30a0e6e003a6df3cc025b7de8dbbf7fa928b9e2c774bc62dc956b6629",
+    "coinc_plain_43.joblib": "c995dc81573f9de4b50e7cceefed83dadfa028fd3b06feb1d8932f3614dace76",
+    "coinc_joint_41.joblib": "3c3ad9f591e5c61ca7707cd99407baace84ad5e37e8004903dcd75f7b0a3a3b6",
+    "coinc_joint_42.joblib": "1af887064e41c0937a3f08c441ca17ae39eab9addfef59ffcb53de2292a8b96d",
+    "coinc_joint_43.joblib": "e6b7b575ba9061ef5834ccb262035aa01c90326620c341874bdd53c797f2b925",
+    "coinc_aux_41.joblib": "0adfb5cb30694d93c8219ed708c47bd87d180a83b6112cbe29889c1a86c9f2cf",
+    "coinc_aux_42.joblib": "5f35b989f791cac830d83f03b46828c884ac40afe45582ed48e1c558caec147d",
+    "coinc_aux_43.joblib": "49865ae00ca7336d7428b09c4435228660e2964729c6bd7d59cd7e516ce78e52",
+    "forward_inverse.joblib": "fb4ce7ce7d1d4de2c514749be63efb86f33931bbf6d320829fbef7e2deffb4e8",
+    "template_inverse.joblib": "bebf76d2abed4e8b8eecfedbeeb9a1ea06171e5ca83c4cd010d56fb92683ab69",
+    "forward_surrogate.joblib": "a6530be334c17a92b925d4872c1ebb01ea1cf76c39f49b7b92325cb5a4cacc1b"
+  }
+}

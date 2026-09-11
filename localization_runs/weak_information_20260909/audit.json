@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "train": 1728,
+  "validation": 288,
+  "test": 576,
+  "old_generation_seed_overlap": 0,
+  "baseline_hardware_equal": true,
+  "paired_conditions": true,
+  "binary_shapes": [
+    2,
+    24,
+    4095
+  ],
+  "template_bank_train_only": true,
+  "balanced_12_strata": true,
+  "hashes": "passed",
+  "tests": {
+    "tests": 113,
+    "failures": 0,
+    "errors": 0
+  },
+  "selection_hash": "7a52561e7c0f0234723a14a75254b722a42372672d58ecfd93120fa28b2174cd",
+  "report_hash": "f72a3572ac062af576d323514c5046ac29a7077d9b6068a26ef91909c58a57c8"
+}

@@ -1,0 +1,9 @@
+path,reason
+radiation_propagation_toolkit/.git,"environment, VCS, cache, build or symlink"
+radiation_propagation_toolkit/.pytest_cache,"environment, VCS, cache, build or symlink"
+radiation_propagation_toolkit/.venv,"environment, VCS, cache, build or symlink"
+radiation_propagation_toolkit/examples/__pycache__,"environment, VCS, cache, build or symlink"
+radiation_propagation_toolkit/src/qp_ode_simulator.egg-info,"environment, VCS, cache, build or symlink"
+radiation_propagation_toolkit/src/qp_ode_simulator/__pycache__,"environment, VCS, cache, build or symlink"
+radiation_propagation_toolkit/src/qp_ode_simulator/cli/__pycache__,"environment, VCS, cache, build or symlink"
+radiation_propagation_toolkit/tests/__pycache__,"environment, VCS, cache, build or symlink"

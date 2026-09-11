@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "backend": "graph_repetition_proxy",
+  "graph_maximum_edge_mm": 1.01,
+  "require_css_commutation": true,
+  "data_error_model": "pauli_frame",
+  "qec_round_duration_ms": 0.001,
+  "fault_probability_backend": "t1_pauli",
+  "t1_pauli_model": {
+    "pure_dephasing_time_us": 100.0
+  },
+  "measurement_error_rate_per_ms": 0.010005003335835342,
+  "measurement_error_radiation_rate_per_ms": 0.0,
+  "allow_static_response_baseline": false,
+  "include_final_boundary": true,
+  "output": {
+    "include_intermediate_arrays": false
+  },
+  "seed": 20260825
+}

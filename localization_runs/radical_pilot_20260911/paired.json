@@ -1,0 +1,1667 @@
+[
+  {
+    "model": "base_ET",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.08779668593073252,
+    "ci95": [
+      -0.1465049124765021,
+      -0.027159553971339886
+    ],
+    "ci_primary": [
+      -0.16708717022158917,
+      -0.004407627517837094
+    ],
+    "primary": false
+  },
+  {
+    "model": "base_ET",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.23857210283634306,
+    "ci95": [
+      0.1688192370622324,
+      0.3079629638215313
+    ],
+    "ci_primary": [
+      0.14324142344617585,
+      0.32912114071173226
+    ],
+    "primary": false
+  },
+  {
+    "model": "base_ET",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.2056764750130388,
+    "ci95": [
+      0.13428944723882386,
+      0.28096321602055024
+    ],
+    "ci_primary": [
+      0.11081702403334351,
+      0.3066150865969313
+    ],
+    "primary": false
+  },
+  {
+    "model": "dense_SVR",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.11836929822617841,
+    "ci95": [
+      -0.23502602730744554,
+      -0.005907601382234729
+    ],
+    "ci_primary": [
+      -0.27615803362003843,
+      0.03307019462258614
+    ],
+    "primary": false
+  },
+  {
+    "model": "dense_SVR",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": -0.21830795846097537,
+    "ci95": [
+      -0.3167318866376234,
+      -0.11812030123392613
+    ],
+    "ci_primary": [
+      -0.349388451297565,
+      -0.08393921346599387
+    ],
+    "primary": true
+  },
+  {
+    "model": "dense_SVR",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.03424030705413597,
+    "ci95": [
+      -0.01896162269071265,
+      0.08832040414298924
+    ],
+    "ci_primary": [
+      -0.03677209805718108,
+      0.10640504408294911
+    ],
+    "primary": true
+  },
+  {
+    "model": "dense_ET",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.11251444046491628,
+    "ci95": [
+      -0.20544194154726664,
+      -0.016925021238615886
+    ],
+    "ci_primary": [
+      -0.23869773675562986,
+      0.01739601261306017
+    ],
+    "primary": false
+  },
+  {
+    "model": "dense_ET",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.16194569112195628,
+    "ci95": [
+      0.07213786157347074,
+      0.25270219441963765
+    ],
+    "ci_primary": [
+      0.03976057498862648,
+      0.28356287701152466
+    ],
+    "primary": false
+  },
+  {
+    "model": "dense_ET",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.12063577952586257,
+    "ci95": [
+      0.044373305857473316,
+      0.20141126721687524
+    ],
+    "ci_primary": [
+      0.017332531081988282,
+      0.23069122595009886
+    ],
+    "primary": false
+  },
+  {
+    "model": "pair_SVR",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.022030887693153308,
+    "ci95": [
+      -0.08369846110192954,
+      0.04066560054903654
+    ],
+    "ci_primary": [
+      -0.10275284781678891,
+      0.06101857774380026
+    ],
+    "primary": false
+  },
+  {
+    "model": "pair_SVR",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.10971803082495907,
+    "ci95": [
+      0.05283790436234602,
+      0.16421735765686124
+    ],
+    "ci_primary": [
+      0.03276850752696605,
+      0.18403033808273617
+    ],
+    "primary": true
+  },
+  {
+    "model": "pair_SVR",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.06505581788283285,
+    "ci95": [
+      0.02648386534824029,
+      0.10482633015084983
+    ],
+    "ci_primary": [
+      0.01288649826123539,
+      0.1179216800698769
+    ],
+    "primary": true
+  },
+  {
+    "model": "pair_ET",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.0923002013669943,
+    "ci95": [
+      -0.1596342476841646,
+      -0.02330284397408367
+    ],
+    "ci_primary": [
+      -0.18135874525951512,
+      -0.0003279254991501995
+    ],
+    "primary": false
+  },
+  {
+    "model": "pair_ET",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.28597824443374353,
+    "ci95": [
+      0.2092850759971576,
+      0.36101996190676294
+    ],
+    "ci_primary": [
+      0.18359171041266917,
+      0.38703930669213504
+    ],
+    "primary": false
+  },
+  {
+    "model": "pair_ET",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.22622127560261754,
+    "ci95": [
+      0.14890086208177786,
+      0.3063885336853545
+    ],
+    "ci_primary": [
+      0.12098137277204289,
+      0.3369197927993308
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_onset_SVR",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.0052575262991920195,
+    "ci95": [
+      -0.012145642753958269,
+      0.001553224539498329
+    ],
+    "ci_primary": [
+      -0.014620762244315315,
+      0.004166897008795648
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_onset_SVR",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.0008825423257800628,
+    "ci95": [
+      -0.005745240161431018,
+      0.007605499113247644
+    ],
+    "ci_primary": [
+      -0.008290246020523298,
+      0.009865559812985647
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_onset_SVR",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.0027616249548277905,
+    "ci95": [
+      -0.0014069784711640337,
+      0.007027412637670452
+    ],
+    "ci_primary": [
+      -0.0027832745210074447,
+      0.008422498188476136
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_onset_ET",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.08522061681427573,
+    "ci95": [
+      -0.1435578197537205,
+      -0.024512893066296514
+    ],
+    "ci_primary": [
+      -0.1626737234135912,
+      -0.002952993225833403
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_onset_ET",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.2351628033510565,
+    "ci95": [
+      0.16617536943620737,
+      0.30305199044891373
+    ],
+    "ci_primary": [
+      0.14188980886789046,
+      0.323861974185366
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_onset_ET",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.20488040157970358,
+    "ci95": [
+      0.13153481749658455,
+      0.28268228660596834
+    ],
+    "ci_primary": [
+      0.10584356618356837,
+      0.31167392396694876
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_SVR",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.0018957237370015188,
+    "ci95": [
+      -0.033962647749507684,
+      0.03770624992922606
+    ],
+    "ci_primary": [
+      -0.04732316616759514,
+      0.04782749416133359
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_SVR",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.006253782398344948,
+    "ci95": [
+      -0.02693086309060199,
+      0.03948387273571086
+    ],
+    "ci_primary": [
+      -0.038795172928937915,
+      0.050494324330189355
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_SVR",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.04846054462171203,
+    "ci95": [
+      0.02238055540846579,
+      0.07515545377865245
+    ],
+    "ci_primary": [
+      0.013328597771621905,
+      0.08544919568496412
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_ET",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.08278173500714953,
+    "ci95": [
+      -0.14552580276203667,
+      -0.017563558606604624
+    ],
+    "ci_primary": [
+      -0.16619870139413404,
+      0.003912022001187826
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_ET",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.2563266987195858,
+    "ci95": [
+      0.18262430028229223,
+      0.328982116240353
+    ],
+    "ci_primary": [
+      0.1582938313302617,
+      0.3515337675312038
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_ET",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.21577809263276826,
+    "ci95": [
+      0.14298273059937103,
+      0.2915263936230018
+    ],
+    "ci_primary": [
+      0.1198068602982538,
+      0.319327792906984
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_only_SVR",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.12465983879403215,
+    "ci95": [
+      -0.037060593838310694,
+      0.2831686076213351
+    ],
+    "ci_primary": [
+      -0.09563009428348161,
+      0.33999643369701726
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_only_SVR",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.7491965449190572,
+    "ci95": [
+      0.5936600025506238,
+      0.9016222787992956
+    ],
+    "ci_primary": [
+      0.5390717965216892,
+      0.9533227032490603
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_only_SVR",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 2.528050107924225,
+    "ci95": [
+      2.3552804305493207,
+      2.7037672895845795
+    ],
+    "ci_primary": [
+      2.287146529714131,
+      2.7630665185537104
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_only_ET",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.019042960834687463,
+    "ci95": [
+      -0.09015914428832641,
+      0.1290047096433201
+    ],
+    "ci_primary": [
+      -0.12591384335690878,
+      0.1701686284230422
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_only_ET",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.7079466654369762,
+    "ci95": [
+      0.5781945832711196,
+      0.8378643877704848
+    ],
+    "ci_primary": [
+      0.5367037538140557,
+      0.8812180867789126
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_nuisance_only_ET",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 2.407625390613601,
+    "ci95": [
+      2.253690857678853,
+      2.5596593966415755
+    ],
+    "ci_primary": [
+      2.199070106751257,
+      2.6122669958014493
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_mean_SVR",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.8972415525631916,
+    "ci95": [
+      -1.0173013117150165,
+      -0.7806220758846649
+    ],
+    "ci_primary": [
+      -1.0590268628503527,
+      -0.7401381694573345
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_mean_SVR",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": -1.879904380808642,
+    "ci95": [
+      -2.0085223837575095,
+      -1.7481388390216683
+    ],
+    "ci_primary": [
+      -2.0555197500273397,
+      -1.702911611457638
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_mean_SVR",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.18241470922143338,
+    "ci95": [
+      0.04580322601220091,
+      0.3247689013760351
+    ],
+    "ci_primary": [
+      -0.0021345167518832977,
+      0.37262365115210944
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_mean_ET",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -2.569637031546689,
+    "ci95": [
+      -2.7204294079042697,
+      -2.4165440354665435
+    ],
+    "ci_primary": [
+      -2.765522179155841,
+      -2.3643717956440424
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_mean_ET",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": -1.9034991344789274,
+    "ci95": [
+      -2.0447383212231647,
+      -1.7621858721280725
+    ],
+    "ci_primary": [
+      -2.087683763780767,
+      -1.7130093311896766
+    ],
+    "primary": false
+  },
+  {
+    "model": "oracle_mean_ET",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": -0.039265039594098966,
+    "ci95": [
+      -0.117202853759883,
+      0.03791552686892526
+    ],
+    "ci_primary": [
+      -0.1464622929375461,
+      0.06317980487234685
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain_41",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.01786003145104208,
+    "ci95": [
+      -0.0605930085955097,
+      0.09780374009626579
+    ],
+    "ci_primary": [
+      -0.08654210624413529,
+      0.1259475187984755
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain_41",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.09577692242446213,
+    "ci95": [
+      0.017714297490061544,
+      0.17407053383235938
+    ],
+    "ci_primary": [
+      -0.009240405168325779,
+      0.19889405128115942
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain_41",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.3427573797563834,
+    "ci95": [
+      0.2626741889420325,
+      0.4246800350931048
+    ],
+    "ci_primary": [
+      0.23905633328513265,
+      0.4492333060993449
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain_42",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.0735238303953548,
+    "ci95": [
+      -0.021786949315902557,
+      0.17068705360148986
+    ],
+    "ci_primary": [
+      -0.056057723277304836,
+      0.2005558063723839
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain_42",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.23621557033341734,
+    "ci95": [
+      0.14480242465966894,
+      0.3259543961267754
+    ],
+    "ci_primary": [
+      0.11402238185531982,
+      0.35823256525382285
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain_42",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.3198711118379862,
+    "ci95": [
+      0.24686729179259517,
+      0.3941831584783969
+    ],
+    "ci_primary": [
+      0.2226552601653013,
+      0.4182665598037004
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain_43",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.024913501481743712,
+    "ci95": [
+      -0.06008360826036243,
+      0.11295766934579828
+    ],
+    "ci_primary": [
+      -0.09077305140090185,
+      0.1449991443528446
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain_43",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.1481354912994507,
+    "ci95": [
+      0.05903985118525877,
+      0.237242689292472
+    ],
+    "ci_primary": [
+      0.02756846814666757,
+      0.2643062759943266
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain_43",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.3388450139859783,
+    "ci95": [
+      0.2613961136427355,
+      0.4157389667991635
+    ],
+    "ci_primary": [
+      0.2367849603450972,
+      0.4418365979257516
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.015344859576327035,
+    "ci95": [
+      -0.06267243690405003,
+      0.09705619011907328
+    ],
+    "ci_primary": [
+      -0.0905383547499689,
+      0.1218978895439549
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.13266716142672882,
+    "ci95": [
+      0.052599004593255616,
+      0.2119065985249474
+    ],
+    "ci_primary": [
+      0.02534614671958838,
+      0.23976128423660878
+    ],
+    "primary": false
+  },
+  {
+    "model": "rates_plain",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.22738969826119582,
+    "ci95": [
+      0.15850052894997338,
+      0.29673906518659665
+    ],
+    "ci_primary": [
+      0.13557761409669297,
+      0.32061744485702026
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain_41",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.0858331562005251,
+    "ci95": [
+      -0.021244930886813684,
+      0.19395073450535655
+    ],
+    "ci_primary": [
+      -0.05652329626621437,
+      0.22902985962902322
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain_41",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.1406213801581141,
+    "ci95": [
+      0.04160923358878366,
+      0.23852275784879806
+    ],
+    "ci_primary": [
+      0.009480530905693247,
+      0.2724371219311291
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain_41",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.3725566680990113,
+    "ci95": [
+      0.29501714865819806,
+      0.45383660949092103
+    ],
+    "ci_primary": [
+      0.2673012744792752,
+      0.4828797795264582
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain_42",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.0015016214699674895,
+    "ci95": [
+      -0.08548009606777394,
+      0.09135096056093564
+    ],
+    "ci_primary": [
+      -0.11539022018618776,
+      0.12315066393111597
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain_42",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.09728799397188885,
+    "ci95": [
+      0.015408723091072205,
+      0.17874521272733043
+    ],
+    "ci_primary": [
+      -0.011654138444196238,
+      0.20874164709818124
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain_42",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.39471614694532425,
+    "ci95": [
+      0.3104159282768498,
+      0.4803718817300842
+    ],
+    "ci_primary": [
+      0.28165969691272275,
+      0.5106797545534744
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain_43",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.0569854048695845,
+    "ci95": [
+      -0.03595446927755626,
+      0.14982449729918404
+    ],
+    "ci_primary": [
+      -0.06438600797853822,
+      0.18240743095321374
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain_43",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.1175794314409431,
+    "ci95": [
+      0.03207245133110123,
+      0.2033311204034524
+    ],
+    "ci_primary": [
+      0.0016383472679210656,
+      0.2338679006936956
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain_43",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.26887007467438395,
+    "ci95": [
+      0.18942621499874687,
+      0.3488964936350748
+    ],
+    "ci_primary": [
+      0.16064536449511366,
+      0.37767341437442115
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.01268949152311582,
+    "ci95": [
+      -0.06858523646917793,
+      0.09606844091423435
+    ],
+    "ci_primary": [
+      -0.09640272992250017,
+      0.12561492598921964
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.08512921303868372,
+    "ci95": [
+      0.009813143861045766,
+      0.16018184493913495
+    ],
+    "ci_primary": [
+      -0.01314606273591947,
+      0.1858168558059113
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.22476789322108887,
+    "ci95": [
+      0.1575021764765309,
+      0.2945824617022372
+    ],
+    "ci_primary": [
+      0.1338140444107445,
+      0.3163444708002957
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint_41",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.10229161517459917,
+    "ci95": [
+      -0.008936820840550693,
+      0.2141663343200815
+    ],
+    "ci_primary": [
+      -0.04538253918542253,
+      0.2521417479050903
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint_41",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.13940722906150724,
+    "ci95": [
+      0.038642528613918696,
+      0.2396854526635196
+    ],
+    "ci_primary": [
+      0.006239869873083369,
+      0.275307204687352
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint_41",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.39647916718684745,
+    "ci95": [
+      0.3153279777757013,
+      0.4814086869074201
+    ],
+    "ci_primary": [
+      0.2877216077258603,
+      0.5112687342747221
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint_42",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.0036500827280135334,
+    "ci95": [
+      -0.08347795503744247,
+      0.09301640123642507
+    ],
+    "ci_primary": [
+      -0.11412332135585206,
+      0.12395710531707273
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint_42",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.08890025511889489,
+    "ci95": [
+      0.009013461642313878,
+      0.16904053144034
+    ],
+    "ci_primary": [
+      -0.01614732160771041,
+      0.19711508647943782
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint_42",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.36106749434459123,
+    "ci95": [
+      0.2761663841572964,
+      0.44546985708844755
+    ],
+    "ci_primary": [
+      0.2496685533330509,
+      0.47434195850490496
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint_43",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.0098815759035896,
+    "ci95": [
+      -0.08355185213565029,
+      0.10464974482202687
+    ],
+    "ci_primary": [
+      -0.1145566822380903,
+      0.137821482019602
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint_43",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.1634159009531601,
+    "ci95": [
+      0.068784614145006,
+      0.2575833125372948
+    ],
+    "ci_primary": [
+      0.03901091696560016,
+      0.2899944666450324
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint_43",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.2423662038752877,
+    "ci95": [
+      0.1694354315263092,
+      0.31596000984366923
+    ],
+    "ci_primary": [
+      0.14518426188692635,
+      0.3370599757492156
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.00600788466355967,
+    "ci95": [
+      -0.08578376170201975,
+      0.07603483477649647
+    ],
+    "ci_primary": [
+      -0.11390513587917424,
+      0.10637283124041667
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.086269746273985,
+    "ci95": [
+      0.010341939540199283,
+      0.16195070354814464
+    ],
+    "ci_primary": [
+      -0.012607525499320904,
+      0.18740300370744006
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.19349939280844272,
+    "ci95": [
+      0.12580281655590417,
+      0.26145356341355613
+    ],
+    "ci_primary": [
+      0.10254343889971003,
+      0.2816635057252258
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux_41",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.06127950321219229,
+    "ci95": [
+      -0.026434580264719718,
+      0.14969948095322233
+    ],
+    "ci_primary": [
+      -0.056205085294914726,
+      0.1838044248050889
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux_41",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.13529393736795875,
+    "ci95": [
+      0.055427056039059695,
+      0.2131260085825412
+    ],
+    "ci_primary": [
+      0.027820880290561758,
+      0.2402077477254656
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux_41",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.34397992807924044,
+    "ci95": [
+      0.26627550731517086,
+      0.4220705976679466
+    ],
+    "ci_primary": [
+      0.24047274307983707,
+      0.448578585303656
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux_42",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.004784406733872388,
+    "ci95": [
+      -0.08806252461787409,
+      0.10006257916363503
+    ],
+    "ci_primary": [
+      -0.11998147743188861,
+      0.13162320695459084
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux_42",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.08374274208521605,
+    "ci95": [
+      -0.0009961057415686031,
+      0.1674176230140617
+    ],
+    "ci_primary": [
+      -0.027397554329669758,
+      0.1978718644179556
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux_42",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.4062080220888293,
+    "ci95": [
+      0.3156231880563637,
+      0.4969925978831047
+    ],
+    "ci_primary": [
+      0.2865619278139431,
+      0.5287389384974432
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux_43",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.022229558874459383,
+    "ci95": [
+      -0.06192257332327824,
+      0.10782182163051782
+    ],
+    "ci_primary": [
+      -0.08949684966585611,
+      0.13680359451965537
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux_43",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.09635527759295408,
+    "ci95": [
+      0.012338748179437831,
+      0.18015395417611602
+    ],
+    "ci_primary": [
+      -0.013594756307909569,
+      0.2087057449587439
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux_43",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.4093613134726733,
+    "ci95": [
+      0.3133526063366991,
+      0.511254520882248
+    ],
+    "ci_primary": [
+      0.2778998328243715,
+      0.5475650976534264
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.0022942166139351874,
+    "ci95": [
+      -0.0728693612245861,
+      0.07969954360663514
+    ],
+    "ci_primary": [
+      -0.09944180681061536,
+      0.10530902464106955
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.07809963992396164,
+    "ci95": [
+      0.00840923260265881,
+      0.14661496655073633
+    ],
+    "ci_primary": [
+      -0.012491810497977778,
+      0.17119060186288654
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.2546372587208526,
+    "ci95": [
+      0.183471802328346,
+      0.3245845803197807
+    ],
+    "ci_primary": [
+      0.16058875774090264,
+      0.35060677523392264
+    ],
+    "primary": false
+  },
+  {
+    "model": "forward_inverse",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.05862213989124262,
+    "ci95": [
+      -0.13958253093557138,
+      0.025511495148982405
+    ],
+    "ci_primary": [
+      -0.1684810429339039,
+      0.05385718739697623
+    ],
+    "primary": false
+  },
+  {
+    "model": "forward_inverse",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.6032994432822099,
+    "ci95": [
+      0.4926243144675475,
+      0.7134391731384407
+    ],
+    "ci_primary": [
+      0.4525823781025553,
+      0.7474567502518317
+    ],
+    "primary": false
+  },
+  {
+    "model": "forward_inverse",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 1.7347860336642782,
+    "ci95": [
+      1.58402634196316,
+      1.8839511243796667
+    ],
+    "ci_primary": [
+      1.5375650837901906,
+      1.9361517451245194
+    ],
+    "primary": false
+  },
+  {
+    "model": "template_inverse",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": 0.060245383810704954,
+    "ci95": [
+      -0.02498681778801722,
+      0.1451924328188258
+    ],
+    "ci_primary": [
+      -0.05224454610955205,
+      0.1739925254024547
+    ],
+    "primary": false
+  },
+  {
+    "model": "template_inverse",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": -0.36323597342510083,
+    "ci95": [
+      -0.4794719719668596,
+      -0.24748420657260384
+    ],
+    "ci_primary": [
+      -0.5177553540678296,
+      -0.2070957353279869
+    ],
+    "primary": true
+  },
+  {
+    "model": "template_inverse",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.30735812586782507,
+    "ci95": [
+      0.21109511771577952,
+      0.4062123375963741
+    ],
+    "ci_primary": [
+      0.1743267531474953,
+      0.444636219955871
+    ],
+    "primary": true
+  },
+  {
+    "model": "Prior",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.07141618603641452,
+    "ci95": [
+      -0.15654665938682055,
+      0.016927078541561356
+    ],
+    "ci_primary": [
+      -0.18474487193166314,
+      0.046905591190735264
+    ],
+    "primary": false
+  },
+  {
+    "model": "Prior",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.6035829376821616,
+    "ci95": [
+      0.4865168996257471,
+      0.7210937225438906
+    ],
+    "ci_primary": [
+      0.44651734602684384,
+      0.7597356818590342
+    ],
+    "primary": false
+  },
+  {
+    "model": "Prior",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 2.39250196679019,
+    "ci95": [
+      2.2492624796352265,
+      2.528293351394609
+    ],
+    "ci_primary": [
+      2.202398072117314,
+      2.571341513830167
+    ],
+    "primary": false
+  },
+  {
+    "model": "Adapted_REI",
+    "reference": "base_SVR",
+    "group": "weak",
+    "difference_mm": -0.07529329070753919,
+    "ci95": [
+      -0.1568188693948718,
+      0.006233500986484157
+    ],
+    "ci_primary": [
+      -0.1814190696705134,
+      0.03504362320871454
+    ],
+    "primary": false
+  },
+  {
+    "model": "Adapted_REI",
+    "reference": "base_SVR",
+    "group": "medium",
+    "difference_mm": 0.42770151699096026,
+    "ci95": [
+      0.33243143490830185,
+      0.5202491109446896
+    ],
+    "ci_primary": [
+      0.30133599721185167,
+      0.5521470930285088
+    ],
+    "primary": false
+  },
+  {
+    "model": "Adapted_REI",
+    "reference": "base_SVR",
+    "group": "strong",
+    "difference_mm": 0.867956853862664,
+    "ci95": [
+      0.7657876067528148,
+      0.9698992830034207
+    ],
+    "ci_primary": [
+      0.7291833076636253,
+      1.0062425784905609
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain",
+    "reference": "rates_plain",
+    "group": "weak",
+    "difference_mm": -0.0026553680532112175,
+    "ci95": [
+      -0.055551262468738226,
+      0.04850321990042619
+    ],
+    "ci_primary": [
+      -0.07314764726058916,
+      0.06760426576537164
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain",
+    "reference": "rates_plain",
+    "group": "medium",
+    "difference_mm": -0.04753794838804514,
+    "ci95": [
+      -0.09089757777679548,
+      -0.0032571819331579776
+    ],
+    "ci_primary": [
+      -0.10515561583709179,
+      0.010893280866067953
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_plain",
+    "reference": "rates_plain",
+    "group": "strong",
+    "difference_mm": -0.002621805040107001,
+    "ci95": [
+      -0.04627025454301279,
+      0.04166356374624288
+    ],
+    "ci_primary": [
+      -0.06023022605926384,
+      0.05684224969403827
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint",
+    "reference": "coinc_plain",
+    "group": "weak",
+    "difference_mm": -0.018697376186675486,
+    "ci95": [
+      -0.04452881982927597,
+      0.00680957931463706
+    ],
+    "ci_primary": [
+      -0.05339270633366657,
+      0.015467336111980402
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint",
+    "reference": "coinc_plain",
+    "group": "medium",
+    "difference_mm": 0.00114053323530129,
+    "ci95": [
+      -0.021181338932831598,
+      0.023488077401795437
+    ],
+    "ci_primary": [
+      -0.028146588747152434,
+      0.030342983223228724
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_joint",
+    "reference": "coinc_plain",
+    "group": "strong",
+    "difference_mm": -0.03126850041264612,
+    "ci95": [
+      -0.04999297047463453,
+      -0.013261937086563582
+    ],
+    "ci_primary": [
+      -0.05674672902907458,
+      -0.007120551384075772
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux",
+    "reference": "coinc_plain",
+    "group": "weak",
+    "difference_mm": -0.010395274909180649,
+    "ci95": [
+      -0.02811073736426782,
+      0.007028791727365925
+    ],
+    "ci_primary": [
+      -0.03374403494254453,
+      0.013097489245079577
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux",
+    "reference": "coinc_plain",
+    "group": "medium",
+    "difference_mm": -0.0070295731147221,
+    "ci95": [
+      -0.023998343192485724,
+      0.009646291206000296
+    ],
+    "ci_primary": [
+      -0.029428063994971478,
+      0.015143680231987162
+    ],
+    "primary": false
+  },
+  {
+    "model": "coinc_aux",
+    "reference": "coinc_plain",
+    "group": "strong",
+    "difference_mm": 0.029869365499763722,
+    "ci95": [
+      -0.01381478470503573,
+      0.07400694669328142
+    ],
+    "ci_primary": [
+      -0.027434658770833033,
+      0.08868452688677718
+    ],
+    "primary": false
+  },
+  {
+    "model": "forward_inverse",
+    "reference": "template_inverse",
+    "group": "weak",
+    "difference_mm": -0.11886752370194757,
+    "ci95": [
+      -0.22535099283910254,
+      -0.010337295131231473
+    ],
+    "ci_primary": [
+      -0.26334457706486614,
+      0.028215178156137725
+    ],
+    "primary": false
+  },
+  {
+    "model": "forward_inverse",
+    "reference": "template_inverse",
+    "group": "medium",
+    "difference_mm": 0.9665354167073108,
+    "ci95": [
+      0.7851523586308613,
+      1.1452058860801486
+    ],
+    "ci_primary": [
+      0.7182728671943902,
+      1.2104661849053682
+    ],
+    "primary": false
+  },
+  {
+    "model": "forward_inverse",
+    "reference": "template_inverse",
+    "group": "strong",
+    "difference_mm": 1.427427907796453,
+    "ci95": [
+      1.2550527277926193,
+      1.603103670709795
+    ],
+    "ci_primary": [
+      1.192321372873727,
+      1.6621721942071646
+    ],
+    "primary": false
+  }
+]

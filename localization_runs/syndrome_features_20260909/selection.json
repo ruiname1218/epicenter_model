@@ -1,0 +1,713 @@
+{
+  "primary": "parent",
+  "weak_specialist": "baseline/learned_logistic_expert_0.5_1",
+  "by_variant": {
+    "baseline": "baseline/blend",
+    "multiscale": "multiscale/PCA128_SVR10",
+    "whitened": "whitened/blend",
+    "correlation": "correlation/blend",
+    "combined": "combined/blend"
+  },
+  "scores": {
+    "parent": {
+      "ordinary": 2.588207389425433,
+      "weak": 3.2980391643135474
+    },
+    "prior": {
+      "ordinary": 3.2520853280732216,
+      "weak": 3.2447862426484835
+    },
+    "baseline/Ridge100": {
+      "ordinary": 2.64202288844772,
+      "weak": 3.33056633272367
+    },
+    "baseline/Ridge1000": {
+      "ordinary": 2.6379175911405928,
+      "weak": 3.3112462527310544
+    },
+    "baseline/SVR10": {
+      "ordinary": 2.605779161516339,
+      "weak": 3.3615498917640574
+    },
+    "baseline/SVR100": {
+      "ordinary": 2.635732882569563,
+      "weak": 3.3945025907333717
+    },
+    "baseline/ET8": {
+      "ordinary": 2.6612953021389654,
+      "weak": 3.2556407523301565
+    },
+    "baseline/ET16": {
+      "ordinary": 2.690678153852061,
+      "weak": 3.269020079223798
+    },
+    "baseline/ET_weak": {
+      "ordinary": 2.7398549795090457,
+      "weak": 3.24788944293523
+    },
+    "baseline/blend": {
+      "ordinary": 2.58881550369455,
+      "weak": 3.2988505840794784
+    },
+    "baseline/SVR_parent": {
+      "ordinary": 2.59957017964175,
+      "weak": 3.371872630205333
+    },
+    "baseline/ET_parent": {
+      "ordinary": 2.647888655681638,
+      "weak": 3.2663414629273952
+    },
+    "baseline/learned_logistic_center_0.5_1": {
+      "ordinary": 2.6013627025988817,
+      "weak": 3.2745698322169647
+    },
+    "baseline/learned_logistic_center_0.5_2": {
+      "ordinary": 2.593027825994393,
+      "weak": 3.284247841964527
+    },
+    "baseline/learned_logistic_center_1.0_1": {
+      "ordinary": 2.6232281005210205,
+      "weak": 3.2640815702304726
+    },
+    "baseline/learned_logistic_center_1.0_2": {
+      "ordinary": 2.601947531860248,
+      "weak": 3.277204395734747
+    },
+    "baseline/learned_logistic_expert_0.5_1": {
+      "ordinary": 2.5937412406001914,
+      "weak": 3.280235128268064
+    },
+    "baseline/learned_logistic_expert_0.5_2": {
+      "ordinary": 2.5900026841771084,
+      "weak": 3.287804941113377
+    },
+    "baseline/learned_logistic_expert_1.0_1": {
+      "ordinary": 2.604286591809431,
+      "weak": 3.2702642217018933
+    },
+    "baseline/learned_logistic_expert_1.0_2": {
+      "ordinary": 2.5942445183768927,
+      "weak": 3.2817657670082436
+    },
+    "baseline/learned_ET16_center_0.5_1": {
+      "ordinary": 2.619171435790175,
+      "weak": 3.2743567906054247
+    },
+    "baseline/learned_ET16_center_0.5_2": {
+      "ordinary": 2.5971672264148116,
+      "weak": 3.28574777870553
+    },
+    "baseline/learned_ET16_center_1.0_1": {
+      "ordinary": 2.6621244990111133,
+      "weak": 3.2591608672240877
+    },
+    "baseline/learned_ET16_center_1.0_2": {
+      "ordinary": 2.6085322768780443,
+      "weak": 3.2758424242979753
+    },
+    "baseline/learned_ET16_expert_0.5_1": {
+      "ordinary": 2.6002191905499155,
+      "weak": 3.2799070005098625
+    },
+    "baseline/learned_ET16_expert_0.5_2": {
+      "ordinary": 2.5920293818748643,
+      "weak": 3.2887849441120456
+    },
+    "baseline/learned_ET16_expert_1.0_1": {
+      "ordinary": 2.6172370959929516,
+      "weak": 3.2666740862381065
+    },
+    "baseline/learned_ET16_expert_1.0_2": {
+      "ordinary": 2.596946255714459,
+      "weak": 3.280929975537273
+    },
+    "baseline/learned_ET64_center_0.5_1": {
+      "ordinary": 2.626074517659288,
+      "weak": 3.2748109559161716
+    },
+    "baseline/learned_ET64_center_0.5_2": {
+      "ordinary": 2.599185958602413,
+      "weak": 3.2863735728414123
+    },
+    "baseline/learned_ET64_center_1.0_1": {
+      "ordinary": 2.680113695568556,
+      "weak": 3.2593892299626344
+    },
+    "baseline/learned_ET64_center_1.0_2": {
+      "ordinary": 2.6130021739235505,
+      "weak": 3.2766858815659266
+    },
+    "baseline/learned_ET64_expert_0.5_1": {
+      "ordinary": 2.601668251190928,
+      "weak": 3.2802702219887467
+    },
+    "baseline/learned_ET64_expert_0.5_2": {
+      "ordinary": 2.592697065888597,
+      "weak": 3.2892574127093415
+    },
+    "baseline/learned_ET64_expert_1.0_1": {
+      "ordinary": 2.6205573073607122,
+      "weak": 3.2669804197826653
+    },
+    "baseline/learned_ET64_expert_1.0_2": {
+      "ordinary": 2.5982247087578605,
+      "weak": 3.281622250822137
+    },
+    "multiscale/Ridge100": {
+      "ordinary": 2.714092273410993,
+      "weak": 3.362025346047658
+    },
+    "multiscale/Ridge1000": {
+      "ordinary": 2.674740630837797,
+      "weak": 3.32453225184417
+    },
+    "multiscale/SVR10": {
+      "ordinary": 2.6326736776253785,
+      "weak": 3.357449643606939
+    },
+    "multiscale/SVR100": {
+      "ordinary": 2.7230953642058657,
+      "weak": 3.4358777267413956
+    },
+    "multiscale/ET8": {
+      "ordinary": 2.67931876157927,
+      "weak": 3.258854949450205
+    },
+    "multiscale/ET16": {
+      "ordinary": 2.7027505127662987,
+      "weak": 3.2638316302925214
+    },
+    "multiscale/ET_weak": {
+      "ordinary": 2.7640077597610073,
+      "weak": 3.2586562060106803
+    },
+    "multiscale/blend": {
+      "ordinary": 2.61295094461008,
+      "weak": 3.286781982620796
+    },
+    "multiscale/SVR_parent": {
+      "ordinary": 2.6249309066696065,
+      "weak": 3.352944143455659
+    },
+    "multiscale/ET_parent": {
+      "ordinary": 2.6771606608592298,
+      "weak": 3.268229168695412
+    },
+    "multiscale/PCA32_SVR10": {
+      "ordinary": 2.6650840853821274,
+      "weak": 3.449308348304631
+    },
+    "multiscale/PCA32_SVR1": {
+      "ordinary": 2.9400086562997307,
+      "weak": 3.4131718311969883
+    },
+    "multiscale/PCA128_SVR10": {
+      "ordinary": 2.6119473876974837,
+      "weak": 3.376510428498183
+    },
+    "multiscale/PCA128_SVR1": {
+      "ordinary": 2.77443438356127,
+      "weak": 3.3908373246600547
+    },
+    "whitened/Ridge100": {
+      "ordinary": 2.7164236596047098,
+      "weak": 3.363132550761025
+    },
+    "whitened/Ridge1000": {
+      "ordinary": 2.6804217620890536,
+      "weak": 3.327729773170129
+    },
+    "whitened/SVR10": {
+      "ordinary": 2.639139314099574,
+      "weak": 3.36064361718359
+    },
+    "whitened/SVR100": {
+      "ordinary": 2.727851435050618,
+      "weak": 3.4406872840619442
+    },
+    "whitened/ET8": {
+      "ordinary": 2.6854833481102527,
+      "weak": 3.25630343988958
+    },
+    "whitened/ET16": {
+      "ordinary": 2.7096337414015856,
+      "weak": 3.262505193365387
+    },
+    "whitened/ET_weak": {
+      "ordinary": 2.7697287542179856,
+      "weak": 3.25245174174799
+    },
+    "whitened/blend": {
+      "ordinary": 2.615177357914725,
+      "weak": 3.2859687737642655
+    },
+    "whitened/SVR_parent": {
+      "ordinary": 2.628768246098811,
+      "weak": 3.3535166866158153
+    },
+    "whitened/ET_parent": {
+      "ordinary": 2.678748838225928,
+      "weak": 3.2649137542265385
+    },
+    "correlation/Ridge100": {
+      "ordinary": 2.8395244162980386,
+      "weak": 3.381266781494923
+    },
+    "correlation/Ridge1000": {
+      "ordinary": 2.711115386264955,
+      "weak": 3.325415223654801
+    },
+    "correlation/SVR10": {
+      "ordinary": 2.637924832627502,
+      "weak": 3.3297027766428275
+    },
+    "correlation/SVR100": {
+      "ordinary": 2.8075493228232813,
+      "weak": 3.4686068527179614
+    },
+    "correlation/ET8": {
+      "ordinary": 2.6971454170916567,
+      "weak": 3.2555803224774897
+    },
+    "correlation/ET16": {
+      "ordinary": 2.713972456843935,
+      "weak": 3.2653002210790345
+    },
+    "correlation/ET_weak": {
+      "ordinary": 2.7765599829052103,
+      "weak": 3.24508087047703
+    },
+    "correlation/blend": {
+      "ordinary": 2.624787189376459,
+      "weak": 3.2722908493038947
+    },
+    "correlation/SVR_parent": {
+      "ordinary": 2.669345041579221,
+      "weak": 3.3327156603697867
+    },
+    "correlation/ET_parent": {
+      "ordinary": 2.6971759294895827,
+      "weak": 3.2714397211960753
+    },
+    "combined/Ridge100": {
+      "ordinary": 2.901920279611372,
+      "weak": 3.3939305250550302
+    },
+    "combined/Ridge1000": {
+      "ordinary": 2.749844978868142,
+      "weak": 3.3348502793533976
+    },
+    "combined/SVR10": {
+      "ordinary": 2.6493627226750034,
+      "weak": 3.329223213922896
+    },
+    "combined/SVR100": {
+      "ordinary": 2.858984183844255,
+      "weak": 3.456358872712686
+    },
+    "combined/ET8": {
+      "ordinary": 2.6903727817023038,
+      "weak": 3.2541421167148936
+    },
+    "combined/ET16": {
+      "ordinary": 2.7154830042218734,
+      "weak": 3.2611635895906144
+    },
+    "combined/ET_weak": {
+      "ordinary": 2.778313985038336,
+      "weak": 3.2487009103234312
+    },
+    "combined/blend": {
+      "ordinary": 2.6292920126105273,
+      "weak": 3.274579514117983
+    },
+    "combined/SVR_parent": {
+      "ordinary": 2.658995178666189,
+      "weak": 3.3208496084564785
+    },
+    "combined/ET_parent": {
+      "ordinary": 2.689670298151119,
+      "weak": 3.2604246308796703
+    },
+    "combined/PCA32_SVR10": {
+      "ordinary": 2.768227321212366,
+      "weak": 3.4224334104228262
+    },
+    "combined/PCA32_SVR1": {
+      "ordinary": 2.995485925567051,
+      "weak": 3.334328779423297
+    },
+    "combined/PCA128_SVR10": {
+      "ordinary": 2.6591806938792333,
+      "weak": 3.3904379517482663
+    },
+    "combined/PCA128_SVR1": {
+      "ordinary": 2.8930867694330673,
+      "weak": 3.392790769406472
+    },
+    "parent@gate0": {
+      "ordinary": 2.6110247187853206,
+      "weak": 3.3131677339033585
+    },
+    "parent@gate1": {
+      "ordinary": 2.6374406087444413,
+      "weak": 3.2738625390683302
+    },
+    "parent@gate2": {
+      "ordinary": 2.7064842356389307,
+      "weak": 3.252736219422525
+    },
+    "baseline/blend@gate0": {
+      "ordinary": 2.6113550112372654,
+      "weak": 3.313341883441881
+    },
+    "baseline/blend@gate1": {
+      "ordinary": 2.637682953961068,
+      "weak": 3.273782341011162
+    },
+    "baseline/blend@gate2": {
+      "ordinary": 2.7066716252223197,
+      "weak": 3.2526350057556734
+    },
+    "multiscale/blend@gate0": {
+      "ordinary": 2.637407950386489,
+      "weak": 3.304157554943226
+    },
+    "multiscale/blend@gate1": {
+      "ordinary": 2.6653612068243473,
+      "weak": 3.272014427254311
+    },
+    "multiscale/blend@gate2": {
+      "ordinary": 2.727162029385012,
+      "weak": 3.252156963999847
+    },
+    "whitened/blend@gate0": {
+      "ordinary": 2.6418125507707044,
+      "weak": 3.312011713505667
+    },
+    "whitened/blend@gate1": {
+      "ordinary": 2.6668583592502957,
+      "weak": 3.2732012232403314
+    },
+    "whitened/blend@gate2": {
+      "ordinary": 2.7287211090966585,
+      "weak": 3.2525005259536446
+    },
+    "correlation/blend@gate0": {
+      "ordinary": 2.6488139052150474,
+      "weak": 3.298615406066483
+    },
+    "correlation/blend@gate1": {
+      "ordinary": 2.672709853763871,
+      "weak": 3.2700060794311603
+    },
+    "correlation/blend@gate2": {
+      "ordinary": 2.729622323789883,
+      "weak": 3.252306685310338
+    },
+    "combined/blend@gate0": {
+      "ordinary": 2.6504032826954607,
+      "weak": 3.291670435805658
+    },
+    "combined/blend@gate1": {
+      "ordinary": 2.676922814200243,
+      "weak": 3.2650426798474355
+    },
+    "combined/blend@gate2": {
+      "ordinary": 2.734965207761445,
+      "weak": 3.2506640238389037
+    },
+    "baseline/ET_weak@gate0": {
+      "ordinary": 2.7540415891664383,
+      "weak": 3.2636790465568413
+    },
+    "baseline/ET_weak@gate1": {
+      "ordinary": 2.773640054847505,
+      "weak": 3.254401347022218
+    },
+    "baseline/ET_weak@gate2": {
+      "ordinary": 2.818932818273367,
+      "weak": 3.2477752906674584
+    },
+    "multiscale/ET_weak@gate0": {
+      "ordinary": 2.7733121212237837,
+      "weak": 3.267784102165201
+    },
+    "multiscale/ET_weak@gate1": {
+      "ordinary": 2.787706740105765,
+      "weak": 3.2547508289925
+    },
+    "multiscale/ET_weak@gate2": {
+      "ordinary": 2.8268739091446378,
+      "weak": 3.2478500857929253
+    },
+    "whitened/ET_weak@gate0": {
+      "ordinary": 2.778888098894542,
+      "weak": 3.264043120220605
+    },
+    "whitened/ET_weak@gate1": {
+      "ordinary": 2.792668411874503,
+      "weak": 3.2530069650162017
+    },
+    "whitened/ET_weak@gate2": {
+      "ordinary": 2.8307867305686707,
+      "weak": 3.247022750436805
+    },
+    "correlation/ET_weak@gate0": {
+      "ordinary": 2.7885227557066514,
+      "weak": 3.258238803477605
+    },
+    "correlation/ET_weak@gate1": {
+      "ordinary": 2.8048834518638865,
+      "weak": 3.251319126017457
+    },
+    "correlation/ET_weak@gate2": {
+      "ordinary": 2.841984318495801,
+      "weak": 3.2467328665786264
+    },
+    "combined/ET_weak@gate0": {
+      "ordinary": 2.7904661583564985,
+      "weak": 3.2621618109629007
+    },
+    "combined/ET_weak@gate1": {
+      "ordinary": 2.8044477763238365,
+      "weak": 3.2541100358958963
+    },
+    "combined/ET_weak@gate2": {
+      "ordinary": 2.8410356729979913,
+      "weak": 3.2478289297215763
+    }
+  },
+  "gates": {
+    "parent@gate0": {
+      "base": "parent",
+      "threshold": 6.360934701188659e-05
+    },
+    "parent@gate1": {
+      "base": "parent",
+      "threshold": 0.0012034888454649072
+    },
+    "parent@gate2": {
+      "base": "parent",
+      "threshold": 0.0032186329588014973
+    },
+    "baseline/blend@gate0": {
+      "base": "baseline/blend",
+      "threshold": 6.360934701188659e-05
+    },
+    "baseline/blend@gate1": {
+      "base": "baseline/blend",
+      "threshold": 0.0012034888454649072
+    },
+    "baseline/blend@gate2": {
+      "base": "baseline/blend",
+      "threshold": 0.0032186329588014973
+    },
+    "multiscale/blend@gate0": {
+      "base": "multiscale/blend",
+      "threshold": 6.360934701188659e-05
+    },
+    "multiscale/blend@gate1": {
+      "base": "multiscale/blend",
+      "threshold": 0.0012034888454649072
+    },
+    "multiscale/blend@gate2": {
+      "base": "multiscale/blend",
+      "threshold": 0.0032186329588014973
+    },
+    "whitened/blend@gate0": {
+      "base": "whitened/blend",
+      "threshold": 6.360934701188659e-05
+    },
+    "whitened/blend@gate1": {
+      "base": "whitened/blend",
+      "threshold": 0.0012034888454649072
+    },
+    "whitened/blend@gate2": {
+      "base": "whitened/blend",
+      "threshold": 0.0032186329588014973
+    },
+    "correlation/blend@gate0": {
+      "base": "correlation/blend",
+      "threshold": 6.360934701188659e-05
+    },
+    "correlation/blend@gate1": {
+      "base": "correlation/blend",
+      "threshold": 0.0012034888454649072
+    },
+    "correlation/blend@gate2": {
+      "base": "correlation/blend",
+      "threshold": 0.0032186329588014973
+    },
+    "combined/blend@gate0": {
+      "base": "combined/blend",
+      "threshold": 6.360934701188659e-05
+    },
+    "combined/blend@gate1": {
+      "base": "combined/blend",
+      "threshold": 0.0012034888454649072
+    },
+    "combined/blend@gate2": {
+      "base": "combined/blend",
+      "threshold": 0.0032186329588014973
+    },
+    "baseline/ET_weak@gate0": {
+      "base": "baseline/ET_weak",
+      "threshold": 6.360934701188659e-05
+    },
+    "baseline/ET_weak@gate1": {
+      "base": "baseline/ET_weak",
+      "threshold": 0.0012034888454649072
+    },
+    "baseline/ET_weak@gate2": {
+      "base": "baseline/ET_weak",
+      "threshold": 0.0032186329588014973
+    },
+    "multiscale/ET_weak@gate0": {
+      "base": "multiscale/ET_weak",
+      "threshold": 6.360934701188659e-05
+    },
+    "multiscale/ET_weak@gate1": {
+      "base": "multiscale/ET_weak",
+      "threshold": 0.0012034888454649072
+    },
+    "multiscale/ET_weak@gate2": {
+      "base": "multiscale/ET_weak",
+      "threshold": 0.0032186329588014973
+    },
+    "whitened/ET_weak@gate0": {
+      "base": "whitened/ET_weak",
+      "threshold": 6.360934701188659e-05
+    },
+    "whitened/ET_weak@gate1": {
+      "base": "whitened/ET_weak",
+      "threshold": 0.0012034888454649072
+    },
+    "whitened/ET_weak@gate2": {
+      "base": "whitened/ET_weak",
+      "threshold": 0.0032186329588014973
+    },
+    "correlation/ET_weak@gate0": {
+      "base": "correlation/ET_weak",
+      "threshold": 6.360934701188659e-05
+    },
+    "correlation/ET_weak@gate1": {
+      "base": "correlation/ET_weak",
+      "threshold": 0.0012034888454649072
+    },
+    "correlation/ET_weak@gate2": {
+      "base": "correlation/ET_weak",
+      "threshold": 0.0032186329588014973
+    },
+    "combined/ET_weak@gate0": {
+      "base": "combined/ET_weak",
+      "threshold": 6.360934701188659e-05
+    },
+    "combined/ET_weak@gate1": {
+      "base": "combined/ET_weak",
+      "threshold": 0.0012034888454649072
+    },
+    "combined/ET_weak@gate2": {
+      "base": "combined/ET_weak",
+      "threshold": 0.0032186329588014973
+    }
+  },
+  "center": [
+    -0.03564167161940805,
+    0.02767704796776556
+  ],
+  "status": "Frozen before fresh test generation",
+  "parent_hashes": {
+    "fixed_Ridge.joblib": "2ca9ecf9cda1b9e2ba41cbe4aa83ddcb859909e63ce7d3e78c89d8e02788b05b",
+    "CNN_41.pt": "94e425a985aeedf67f20dead3ced192471f844bcd02175d9009bfaa93b82add9",
+    "fixed_SVR.joblib": "97a10630942257113800ac5d3634ebf5fbf9bd5e01390b6ebcf74c1d04a3eeb5",
+    "fixed_ExtraTrees.joblib": "16ef032181600da8bdf8fdd2f7833ca370a46e68c23ffbc621c06640f78614d6",
+    "CNN_43.pt": "207dc2057a8ae1b60ed4273ce1c1024e8808bc2d3cb86d48ac84d77d639df441",
+    "Ridge.joblib": "2ca9ecf9cda1b9e2ba41cbe4aa83ddcb859909e63ce7d3e78c89d8e02788b05b",
+    "SVR.joblib": "97a10630942257113800ac5d3634ebf5fbf9bd5e01390b6ebcf74c1d04a3eeb5",
+    "ExtraTrees.joblib": "16ef032181600da8bdf8fdd2f7833ca370a46e68c23ffbc621c06640f78614d6",
+    "CNN_42.pt": "66310b190ea0a8d3a200cee9440ea0ab3e53efbd5d543184c9c4ac2968d79ec1"
+  },
+  "source_hash": "5cc41703db63639c23456938e7139a9c0a80e0c133305a10a3fa96410408c93c",
+  "protocol_hash": "b271b70ad238a8582f53f1aca7bd09c3a70f63176e0ee7f49fe0e545684e8a5e",
+  "model_hashes": {
+    "baseline/learned_ET16_center_0.5_1.joblib": "e55f93228c3db3bead80075e9c52c9bcd7d1352f0932a1784497e7561133ffe1",
+    "baseline/learned_ET64_expert_0.5_1.joblib": "8839fa3ab75533e126327b299e31770d66fdec671a3f6804f33ca3fa213b7cb2",
+    "baseline/ET8.joblib": "e7aaa43f115646b1beaba9c66608cb48cb7e6b472408e18293fb6c1360c2d6f7",
+    "baseline/SVR_parent.joblib": "151e1e95aa0deee8de43b562e3ca8e9543a14d32aebb9be5f095c9672febd33f",
+    "baseline/learned_logistic_expert_0.5_2.joblib": "fa1120da1371dbca054bf7179df2ae16e24ccd26759f56b7891d343886c03eed",
+    "baseline/learned_logistic_center_1.0_2.joblib": "bb7c88e5cbd50e03fc830045523afc2980fe5a8a657aca211d595fbc1817e320",
+    "baseline/SVR100.joblib": "996d2079c6612eb90db88302d112bbb8bbe34ddb91c342ac5073edf3b81bad88",
+    "baseline/learned_ET64_center_1.0_2.joblib": "91514e24f1ab056adfbd812867501f4719fc9e444cf0f9d557141677058fa7ad",
+    "baseline/ET_weak.joblib": "84f0f637869024655e82821e5b199ac31a462a4c30a03885e8285a6d7ea684b6",
+    "baseline/learned_ET64_center_0.5_2.joblib": "c0e2d052bc0f6951d317bbcd02aad7db51f3f34f23caa237f3ff985e62a3e8b0",
+    "baseline/learned_ET64_center_0.5_1.joblib": "8e118eb22fba8c753314fa0cda5985cf23629f67983b21b5ba33e0694c038bcd",
+    "baseline/learned_logistic_expert_0.5_1.joblib": "3bdde623eb7944fbf474e8dccb49c4ea8cf7c99e988b56acac74ca43a1fd9c58",
+    "baseline/learned_logistic_center_0.5_2.joblib": "89a0dcc765386d13160faa37725f9195283677bda534de3ecdba953de69801a1",
+    "baseline/learned_logistic_expert_1.0_1.joblib": "22ee325d932e2d27777f72601c6538431ed1c4d0ebdeda610e205c2f6122fa99",
+    "baseline/learned_ET16_center_1.0_2.joblib": "57f3c05de8051ed5ba9b4b2503232cdfa7c4c706875acc0a1b8cf1a6d6272164",
+    "baseline/learned_ET64_center_1.0_1.joblib": "fbc38520553c3a9019e7a7cdff3fa55b7724b49d0cfe2337b5378938d2d60a0a",
+    "baseline/ET16.joblib": "b43f1e83fb5a65368cf57ed336d69aa8374b54ef57b4c3ed713778d5b52ae644",
+    "baseline/learned_logistic_center_0.5_1.joblib": "92593bddbef9c283bf2a4f4dd0a1e4591404edaa3f1dcbfc3249c37cc7637ff0",
+    "baseline/learned_logistic_expert_1.0_2.joblib": "fed7f4240c3d1782c07d4658bbbe30646e1638bff9e6b971f2e50863357f0005",
+    "baseline/learned_ET16_expert_1.0_1.joblib": "fc2cabcec98340109a5f2c6ce5ed125afb6735ea4a09d64730ec69aacbf029c2",
+    "baseline/learned_ET16_center_1.0_1.joblib": "782ffe57b60dd48a4fe37089af71862066f024e85dd50c1155f3892e05029850",
+    "baseline/SVR10.joblib": "844b361c18212fd564ef90de2d0ab146d340f8b94323d271a2235d6f828308a8",
+    "baseline/learned_ET64_expert_0.5_2.joblib": "e716a24cb447fdc7e1b887b36016d53409b06a0cd4bcd83c59c1bb65e2ba46b0",
+    "baseline/learned_ET16_expert_1.0_2.joblib": "3010cc0fc8ec4fbccde53a0b9b742eb5ff5765e3ad670e1cfa4c2880134056fe",
+    "baseline/learned_ET16_expert_0.5_2.joblib": "f50b2e146efc9a17a06d665731969eaa8c6df8c495beb7aaf79fbbb183dd246e",
+    "baseline/ET_parent.joblib": "40935233114db167be4ada846505580ab7983faf28238b3f65868ac8734ebfb5",
+    "baseline/Ridge100.joblib": "623a63c34b3cd7a9aa1dd681efbe832a72d93b984383d3310784c5fe96dbeaa4",
+    "baseline/learned_ET64_expert_1.0_1.joblib": "1b7566c3b8ae864abfe847dcea1b30f3eb06a0ad58cf65e11d8a2de6bbbf6e78",
+    "baseline/learned_ET64_expert_1.0_2.joblib": "326ccfa3a88f9add7239a4afd6ccfbcf272bfdef66974ecd8676852a8b1b1e03",
+    "baseline/learned_ET16_expert_0.5_1.joblib": "18886efa5445695a796ed4a6838c12f0b15fe3196508cc0a534916310d91ebd8",
+    "baseline/learned_logistic_center_1.0_1.joblib": "37999e80a6febc7b3c5ae1f96bc42c790e59a4644364217cdd217cb9f74c71cb",
+    "baseline/learned_ET16_center_0.5_2.joblib": "750f4e21f9ab2d8f50e5fd4f6f0f481843dea3a053d782cf3b5f3d90f1694805",
+    "baseline/Ridge1000.joblib": "c250a6d50c06c2871cd636af971bf90091544ba71dbca39d6ebd1170c8dc5d7b",
+    "multiscale/ET8.joblib": "b702c3fae60e3296c9d6235d0643354a17572d3073e0ff02bd3d71f097fbe7a7",
+    "multiscale/SVR_parent.joblib": "c1773266d96763bb4b339a3be9b8801613ba0d82c55840f3a1126612d049fedc",
+    "multiscale/PCA128_SVR1.joblib": "b35dca5eefeaf094207dd13f76641e08260412d7cfa516560597b1aa91d19524",
+    "multiscale/PCA128_SVR10.joblib": "2d38f3d9953d2f95a9bb6cc9d34109cfd4e5991431ea34cdde35b835c3fbc8df",
+    "multiscale/SVR100.joblib": "bc20fd557bac8a017f3dba995ae77f6e2ef1c936fda7bbcf32c53608e00b18fa",
+    "multiscale/ET_weak.joblib": "cb71bcada9ce83ef885a25a3aac5f25f6293f1fcb787c7f4427f9e038aa33434",
+    "multiscale/PCA32_SVR1.joblib": "78e91e11f7f5724d2bb27a5ecde64108d9e6f61a61bc9b93c6b9568a08306b7b",
+    "multiscale/ET16.joblib": "2dc9df68f1135ee7020339d03352e07b6ae2b09347d80b823fa607e653b3dcbf",
+    "multiscale/SVR10.joblib": "1fe1952f8d560a4adbf04aee4b5e677d719327e67cc7083d426482f55d2ec7b8",
+    "multiscale/PCA32_SVR10.joblib": "bc81534f8608f29d9b36d7d29e5ba0ab915de44eab19676a65966d857ddc0ba8",
+    "multiscale/ET_parent.joblib": "03d65ff9fb15af2054760a525ae70caf418a07c0be749705a6885dd5178fe682",
+    "multiscale/Ridge100.joblib": "2fffc249b2959e0513f1fb05148bae42990e6cfb1d8fa166ff56d30b9dabcbb9",
+    "multiscale/Ridge1000.joblib": "345d99f6e5c495b3b76413e48d03aca728cce8e56369e96b0fdf25492d84b733",
+    "whitened/ET8.joblib": "6c5acbd3198a4c940f075bb1fc713bad9ad874f2c02e21d06dd813f6ac36dfd4",
+    "whitened/SVR_parent.joblib": "93d27b10ed237a37a441bbf345d91f4f5622d16632292932b2f436e7e193ad52",
+    "whitened/SVR100.joblib": "c82517bcd5f5bde3b944cab67d1211ac87a3caed93f4b5c9dff6e262b9726646",
+    "whitened/ET_weak.joblib": "e21437c9b7b1d610cfcc3d6fa75d953cdcfaea8a25ddae52ea13cf2b28540d18",
+    "whitened/ET16.joblib": "48f797e06307fa2235f975b75cb85b854661ac62ff351b7dd60c37bcd2c0c414",
+    "whitened/SVR10.joblib": "bf444e96ded8357d3f74e189ccbeddf4f091b83ef4e7074383789b0098477bf8",
+    "whitened/ET_parent.joblib": "bac95a99e1b1121df03a391cd26c578218ae44a172a3bc6bcc1a274147c50ed8",
+    "whitened/Ridge100.joblib": "93fde11338e670ce103a06dcf2752a100222a29a920f6c7d96494df87118f5c3",
+    "whitened/Ridge1000.joblib": "79304f208d7eb12b5643f3c3c88d0909127681d580a7e51322c35bd6873f8b92",
+    "correlation/ET8.joblib": "935ec40bedcf84718ae096203f74bd975cf0fde8cbd3daa834aa46812b92a178",
+    "correlation/SVR_parent.joblib": "c2718ebe8fc71a87caa434601fef271e4f66aa1003a6a13c8421034ce296327c",
+    "correlation/SVR100.joblib": "9820a6dce10e827fefbbb5496df2e2f2b373e35901b2d09a1594817f276c4719",
+    "correlation/ET_weak.joblib": "05f70675dbf0fe989862b322487b9b436c653d40c9ccf335988a804ad5649391",
+    "correlation/ET16.joblib": "096fead0ce0632f868dc596ae3c7660934097826ea05cd32cf783ff219752ca3",
+    "correlation/SVR10.joblib": "c58db265ea717b4107dcc7290d863f75d1ee162125028846c4e02cd88fba5e55",
+    "correlation/ET_parent.joblib": "044eae9401f94e779d34a88df17143b91392fe51f53d63bd01e3f5fd7b1fb978",
+    "correlation/Ridge100.joblib": "a513f7be58601379054e9c707592b39854b519f7c38be2ad01764829138e766d",
+    "correlation/Ridge1000.joblib": "52ef32765a42ee3b78bf209daaf054c6a0eb750fb79dc9a335d86d22b5d805c4",
+    "combined/ET8.joblib": "9604e827cb12347274a3b464ed797e23b1ca6a0e20d1f0b2351f5dc66d9c84bd",
+    "combined/SVR_parent.joblib": "ff2b7f7b4c916ea42e34759ad9be9469107776d63611d4d5ec3eec67cc32d2fc",
+    "combined/PCA128_SVR1.joblib": "d7f8daa364abdb5ed184af280e1a78e052e6ab33af2319c431ca4d4f884b831f",
+    "combined/PCA128_SVR10.joblib": "c0d40a0cc23bb83edf1822cb6313b4959f8ff717156d95a2f37a832949f5fb1a",
+    "combined/SVR100.joblib": "2ec2c93cebef05c7ef76317de47bef74103bf646f42b0a3d9b2a7804485a84be",
+    "combined/ET_weak.joblib": "992240524297359411790d5d242de532e8729610a641c9ddbf478c4ac8401f33",
+    "combined/PCA32_SVR1.joblib": "218fd70be745bf9369332998c8b8a4e23a53ffad5d734b73f8a469aea9fd115e",
+    "combined/ET16.joblib": "035421386a57181b3ea0a4844fbbff9277b69414a1e0e8852063ac2600de28cf",
+    "combined/SVR10.joblib": "67c37d40e7aaf23b04de6cb4118c1b3c43c133a0aa4dcc053e11d486885e65b5",
+    "combined/PCA32_SVR10.joblib": "deae810e21a59e4ddc07164e5dc1db188dfbce123dad5f8c7808f79a625263b5",
+    "combined/ET_parent.joblib": "23b11ecf2712939b7d9b32f139a46d998a8024e434e0882a456a82664da98e9b",
+    "combined/Ridge100.joblib": "6415360b6a7ee4e5851d33c08b9bd492c4fbe949d4f44079cfb8fe816ad60b58",
+    "combined/Ridge1000.joblib": "39153f3dfa1b7ebaebdc9e512c5299af7c2db00195a9d322a23c8b65c596f4e7"
+  },
+  "calibration_hash": "946d029bd9c215d52e11f1df7423130cc5300539f2012179f7262094f9c3adbc"
+}

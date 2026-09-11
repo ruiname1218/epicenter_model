@@ -1,0 +1,98 @@
+{
+  "logs": {
+    "Ridge100": {
+      "ordinary": 2.7164236596047098,
+      "weak": 3.363132550761025,
+      "seconds": 0.08854991300904658,
+      "config": {
+        "alpha": 100
+      }
+    },
+    "Ridge1000": {
+      "ordinary": 2.6804217620890536,
+      "weak": 3.327729773170129,
+      "seconds": 0.06924930900277104,
+      "config": {
+        "alpha": 1000
+      }
+    },
+    "SVR10": {
+      "ordinary": 2.639139314099574,
+      "weak": 3.36064361718359,
+      "seconds": 31.83189558199956,
+      "config": {
+        "C": 10,
+        "gamma": 8.782742681047766e-05
+      }
+    },
+    "SVR100": {
+      "ordinary": 2.727851435050618,
+      "weak": 3.4406872840619442,
+      "seconds": 39.11850802200206,
+      "config": {
+        "C": 100,
+        "gamma": 8.782742681047766e-05
+      }
+    },
+    "ET8": {
+      "ordinary": 2.6854833481102527,
+      "weak": 3.25630343988958,
+      "seconds": 62.462814539001556,
+      "config": {
+        "min_samples_leaf": 8
+      }
+    },
+    "ET16": {
+      "ordinary": 2.7096337414015856,
+      "weak": 3.262505193365387,
+      "seconds": 53.14893267600564,
+      "config": {
+        "min_samples_leaf": 16
+      }
+    },
+    "ET_weak": {
+      "ordinary": 2.7697287542179856,
+      "weak": 3.25245174174799,
+      "seconds": 61.85250860900851,
+      "config": {
+        "min_samples_leaf": 16
+      }
+    },
+    "blend": {
+      "ordinary": 2.615177357914725,
+      "weak": 3.2859687737642655
+    },
+    "SVR_parent": {
+      "ordinary": 2.628768246098811,
+      "weak": 3.3535166866158153,
+      "config": {
+        "C": 1.0,
+        "gamma": 0.0008782742681047765
+      },
+      "seconds": 34.917529320999165
+    },
+    "ET_parent": {
+      "ordinary": 2.678748838225928,
+      "weak": 3.2649137542265385,
+      "config": {
+        "min_samples_leaf": 3
+      },
+      "seconds": 89.34938092899392
+    }
+  },
+  "blend": [
+    "SVR_parent",
+    "ET_parent"
+  ],
+  "hashes": {
+    "ET8.joblib": "6c5acbd3198a4c940f075bb1fc713bad9ad874f2c02e21d06dd813f6ac36dfd4",
+    "SVR_parent.joblib": "93d27b10ed237a37a441bbf345d91f4f5622d16632292932b2f436e7e193ad52",
+    "SVR100.joblib": "c82517bcd5f5bde3b944cab67d1211ac87a3caed93f4b5c9dff6e262b9726646",
+    "ET_weak.joblib": "e21437c9b7b1d610cfcc3d6fa75d953cdcfaea8a25ddae52ea13cf2b28540d18",
+    "ET16.joblib": "48f797e06307fa2235f975b75cb85b854661ac62ff351b7dd60c37bcd2c0c414",
+    "SVR10.joblib": "bf444e96ded8357d3f74e189ccbeddf4f091b83ef4e7074383789b0098477bf8",
+    "ET_parent.joblib": "bac95a99e1b1121df03a391cd26c578218ae44a172a3bc6bcc1a274147c50ed8",
+    "Ridge100.joblib": "93fde11338e670ce103a06dcf2752a100222a29a920f6c7d96494df87118f5c3",
+    "Ridge1000.joblib": "79304f208d7eb12b5643f3c3c88d0909127681d580a7e51322c35bd6873f8b92"
+  }
+}

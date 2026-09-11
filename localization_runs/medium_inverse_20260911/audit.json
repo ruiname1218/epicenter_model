@@ -1,0 +1,11 @@
+{
+  "train_events": 864,
+  "validation_events": 96,
+  "test_events": 180,
+  "test_shots": 360,
+  "hash_checks": true,
+  "unseen_test_generation_seeds": true,
+  "medium_only": true,
+  "primary": "n864_h16_binomial",
+  "note": "Paired shot prefixes, frozen validation selection. Ancillary contrasts exploratory, training sample common not independent repeats. Physical latent targets training only."
+}

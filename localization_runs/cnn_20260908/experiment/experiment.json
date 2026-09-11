@@ -1,0 +1,32 @@
+{
+  "plan_sha256": "8d6c628383188998be14aa2c0b299c10a83f0390d33289c4ff8419c454e7c406",
+  "dataset_manifest_sha256": "54b1823c0fe429066ceb251f3fcb02e19ac52426ad11314adb5d6136c5daea77",
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "epochs": 40,
+  "patience": 8,
+  "batch_size": 64,
+  "bins": 16,
+  "threads": 2,
+  "models": [
+    "mlp",
+    "cnn"
+  ],
+  "source_sha256": "f78ee53b155828466325f41241226443dbe5423d1ce8600509fdf22e63f29048",
+  "dependency_source_sha256": {
+    "learning_plan.py": "c15d7a41d6d2f8266df74f8d19328c3494936614c6fd3f9945828cdb6fdce2f9",
+    "localization.py": "1f70eefa5662a0591904020187e50f93d7fd1c43f9003206e0f8df60fd8fcb66",
+    "dataset.py": "7bef7372e014560a62970abd53ac34eef7a5e81758a5c5b09c4f8c5edb5034ad"
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "torch": "2.14.0+cpu",
+    "scikit-learn": "1.7.2",
+    "stim": "1.16.0"
+  },
+  "selection_rule": "lowest mean validation distance over seeds; representative artifact uses first seed",
+  "test_policy": "evaluate all predeclared runs only after completing training; no test-based tuning"
+}

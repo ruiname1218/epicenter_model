@@ -1,0 +1,88 @@
+{
+  "seed": 20260814,
+  "n_events": 32,
+  "time": {
+    "start_ms": -1.0,
+    "end_ms": 40.0,
+    "dt_ms": 0.003
+  },
+  "epicenter": {
+    "region_probabilities": {
+      "inside": 0.6,
+      "edge": 0.25,
+      "outside": 0.15
+    },
+    "outside_margin_mm": [0.25, 2.0]
+  },
+  "shape": {
+    "geometry_choices": ["circular", "elliptical"],
+    "initial_beta": [1.7, 2.5],
+    "late_beta": [0.8, 1.7],
+    "beta_transition_ms": [2.0, 10.0],
+    "axis_ratio": [1.0, 2.5],
+    "angle_degrees": [0.0, 180.0]
+  },
+  "propagation": {
+    "law_choices": ["ballistic", "diffusive"],
+    "apparent_speed_m_per_s": [12.0, 40.0],
+    "ballistic_speed_m_per_s": [12.0, 40.0],
+    "diffusion_coefficient_mm2_per_ms": [5.0, 20.0],
+    "front_width_ms": [0.02, 0.12],
+    "arrival_jitter_sd_us": [0.0, 80.0],
+    "arrival_jitter_correlation_length_mm": [0.4, 2.0]
+  },
+  "source_model": {
+    "source_count_choices": [1],
+    "separation_mm": [0.5, 3.0],
+    "secondary_strength": [0.2, 0.8]
+  },
+  "boundary_reflection": {
+    "enabled": false,
+    "coefficient": [0.05, 0.4],
+    "boundary_margin_mm": [0.0, 1.0]
+  },
+  "halo": {
+    "enabled": false,
+    "strength": [0.1, 0.4],
+    "lambda_multiplier": [1.5, 4.0],
+    "beta": [0.5, 1.3],
+    "front_width_multiplier": [1.0, 3.0]
+  },
+  "range": {
+    "initial_lambda_mm": [2.0, 3.8],
+    "maximum_lambda_mm": [3.5, 6.5],
+    "maximum_distance_mm": [5.0, 10.0],
+    "spread_time_ms": [0.15, 0.6],
+    "cutoff_width_mm": [0.1, 0.5]
+  },
+  "strength": {
+    "maximum_amplitude": [0.8, 1.0],
+    "prompt_fraction": [0.35, 0.75],
+    "rise_time_ms": [0.08, 0.5],
+    "peak_time_ms": [0.5, 1.2],
+    "decay_time_ms": [20.0, 35.0]
+  },
+  "noise": {
+    "baseline_total_errors": [2.8, 3.4],
+    "qubit_baseline_log_sd": 0.18,
+    "qubit_sensitivity_log_sd": 0.12,
+    "baseline_drift_fraction": [0.0, 0.08],
+    "missing_qubit_probability": 0.0
+  },
+  "hierarchical_sensitivity": {
+    "enabled": true,
+    "device_log_sd": 0.18,
+    "correlation_length_mm": 1.5,
+    "event_log_sd": 0.08
+  },
+  "spatial_residual": {
+    "enabled": true,
+    "initial_log_sd": [0.15, 0.55],
+    "correlation_length_mm": [0.4, 2.0],
+    "decay_time_ms": [0.2, 2.0],
+    "late_fraction": [0.1, 0.5]
+  },
+  "output": {
+    "save_probabilities": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "supplementary comparison after primary experiment; old baselines chosen by their pre-existing frozen protocol, not current test rank",
+  "source_sha256": "9009722d8403736404067e5b296969dc610ff8fba32675efcc630a0eadc3ddef",
+  "references": [
+    "previous_mdn3600",
+    "previous_blend3600",
+    "previous_prior"
+  ],
+  "old_artifact_hashes": {
+    "/home/rui/Downloads/epicenter_model/localization_runs/weak_growth_20260908/experiment/models.joblib": "67ae9b067fd740af6a01f82bd50f7f5a145c473b6d6d8674656ab4ce76b41c6b",
+    "/home/rui/Downloads/epicenter_model/localization_runs/weak_growth_20260908/experiment/mdn_n3600_w1/preprocessing.joblib": "d17bfd114728152d9e3eb748e2a17cbffc4e26427671f1d77733fc61a052d336",
+    "/home/rui/Downloads/epicenter_model/localization_runs/weak_growth_20260908/experiment/mdn_n3600_w1/seed41.pt": "cd0d5a5fd9fbc0401972c6a7d5806fc5ec179b31aaa6f775b0f6f32c22e9595a",
+    "/home/rui/Downloads/epicenter_model/localization_runs/weak_growth_20260908/experiment/mdn_n3600_w1/seed42.pt": "e851f51b3b0a75cbb376953a5dca86583bb01c8e58a6f84878ecd5eee98a97d3",
+    "/home/rui/Downloads/epicenter_model/localization_runs/weak_growth_20260908/experiment/mdn_n3600_w1/seed43.pt": "5bbd3716e4a30ccef12e5c674af525c65994d75667c00775c0a68ee47ac16f9b"
+  },
+  "input": "nominal 2048-round prefix only; no query physical truth"
+}

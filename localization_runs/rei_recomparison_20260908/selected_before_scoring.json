@@ -1,0 +1,14 @@
+{
+  "1": {
+    "repetitions": 1,
+    "history": 1024,
+    "coverage": 1.0,
+    "validation_error_mm": 2.9965114136714606
+  },
+  "2048": {
+    "repetitions": 2048,
+    "history": 1024,
+    "coverage": 1.0,
+    "validation_error_mm": 2.9965114136714606
+  }
+}

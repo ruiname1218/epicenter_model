@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qp-ode-simulator"
+version = "0.1.0"
+description = "Phenomenological quasiparticle ODE radiation-event and superconducting-QEC toolkit"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Rui Suzuki"}]
+dependencies = [
+  "numpy>=1.23,<3",
+  "pandas>=1.5,<3",
+  "scipy>=1.9,<2",
+]
+
+[project.optional-dependencies]
+qec = ["stim==1.16.0", "pymatching==2.4.0"]
+plot = ["matplotlib>=3.6,<4"]
+dev = ["pytest>=8,<9"]
+localization = ["scikit-learn>=1.4,<2"]
+temporal = ["scikit-learn>=1.4,<2", "torch>=2.6,<3"]
+all = [
+  "stim==1.16.0",
+  "pymatching==2.4.0",
+  "matplotlib>=3.6,<4",
+  "pytest>=8,<9",
+  "scikit-learn>=1.4,<2",
+]
+
+[project.scripts]
+qp-ode-simulate = "qp_ode_simulator.cli.simulate:main"
+qp-ode-stim = "qp_ode_simulator.cli.stim:main"
+qp-ode-syndrome = "qp_ode_simulator.cli.syndrome:main"
+qp-ode-validate-channel = "qp_ode_simulator.cli.validate_channel:main"
+qp-ode-validate-propagation = "qp_ode_simulator.cli.validate_propagation:main"
+qp-ode-localize = "qp_ode_simulator.cli.localize:main"
+qp-ode-dataset = "qp_ode_simulator.cli.dataset:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+qp_ode_simulator = ["configs/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

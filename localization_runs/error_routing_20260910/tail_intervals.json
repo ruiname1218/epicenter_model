@@ -1,0 +1,290 @@
+[
+  {
+    "group": "weak",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "within1",
+    "difference": 0.1388888888888891,
+    "ci95": [
+      0.0,
+      0.4166666666666669
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "weak",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "over3",
+    "difference": -0.2777777777777768,
+    "ci95": [
+      -1.1111111111111183,
+      0.5555555555555536
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "weak",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "p90",
+    "difference": 0.015138300737259414,
+    "ci95": [
+      -0.014992942340263937,
+      0.0576687164255895
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "weak",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "p95",
+    "difference": 0.011886776111360575,
+    "ci95": [
+      -0.0046202816062228536,
+      0.08831947098402274
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "weak",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "within1",
+    "difference": 0.5555555555555557,
+    "ci95": [
+      -0.5555555555555557,
+      1.8055555555555554
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "weak",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "over3",
+    "difference": -0.9722222222222299,
+    "ci95": [
+      -3.472222222222221,
+      1.5277777777777724
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "weak",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "p90",
+    "difference": 0.04973763394205122,
+    "ci95": [
+      -0.02526700959052135,
+      0.12757379989511988
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "weak",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "p95",
+    "difference": 0.06944491911112571,
+    "ci95": [
+      -0.03499108789061584,
+      0.19267423737735015
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "medium",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "within1",
+    "difference": 0.5555555555555564,
+    "ci95": [
+      -0.4166666666666666,
+      1.527777777777778
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "medium",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "over3",
+    "difference": -0.2777777777777768,
+    "ci95": [
+      -1.250000000000001,
+      0.694444444444442
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "medium",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "p90",
+    "difference": 0.04842069256157444,
+    "ci95": [
+      -0.0172171863789897,
+      0.08807895207017226
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "medium",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "p95",
+    "difference": 0.021885634326562986,
+    "ci95": [
+      -0.0001802946795086413,
+      0.08171190272583116
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "medium",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "within1",
+    "difference": 4.027777777777779,
+    "ci95": [
+      2.0833333333333335,
+      5.972222222222222
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "medium",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "over3",
+    "difference": -7.916666666666666,
+    "ci95": [
+      -10.694444444444445,
+      -5.138888888888893
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "medium",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "p90",
+    "difference": 0.08122752901616881,
+    "ci95": [
+      -0.024096945285479187,
+      0.13436143659488978
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "medium",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "p95",
+    "difference": 0.0384627612521351,
+    "ci95": [
+      -0.06742297751091098,
+      0.2197601556385235
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "strong",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "within1",
+    "difference": 0.4166666666666652,
+    "ci95": [
+      -0.5555555555555647,
+      1.5277777777777724
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "strong",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "over3",
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "strong",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "p90",
+    "difference": 0.03737099649895348,
+    "ci95": [
+      -0.044607296698954024,
+      0.08526370678187134
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "strong",
+    "model": "MiddleOnlySVR",
+    "reference": "ThreeHard",
+    "metric": "p95",
+    "difference": -0.012751617256580694,
+    "ci95": [
+      -0.15302093201181632,
+      0.029947481220087495
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "strong",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "within1",
+    "difference": 46.52777777777777,
+    "ci95": [
+      41.80555555555556,
+      51.38888888888889
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "strong",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "over3",
+    "difference": -3.6111111111111107,
+    "ci95": [
+      -5.277777777777778,
+      -2.0833333333333335
+    ],
+    "unit": "percentage points"
+  },
+  {
+    "group": "strong",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "p90",
+    "difference": -0.9897083287841353,
+    "ci95": [
+      -1.1508758569498494,
+      -0.9059162087878531
+    ],
+    "unit": "mm"
+  },
+  {
+    "group": "strong",
+    "model": "MiddleOnlySVR",
+    "reference": "REI",
+    "metric": "p95",
+    "difference": -0.8785788355119966,
+    "ci95": [
+      -1.1187910696292973,
+      -0.7502186915742313
+    ],
+    "unit": "mm"
+  }
+]

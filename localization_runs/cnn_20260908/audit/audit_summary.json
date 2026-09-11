@@ -1,0 +1,78 @@
+{
+  "events": 1440,
+  "windows_ms": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "code": {
+    "task": "surface_code:rotated_memory_z",
+    "distance": 3
+  },
+  "interpretation": "descriptive prefix/strength diagnostics; not localization accuracy or a causal estimate",
+  "groups": [
+    {
+      "window_ms": 0.25,
+      "strength_band": 0,
+      "events": 480,
+      "mean_detector_rate": 0.029266022423025437,
+      "mean_spatial_rate_std": 0.009719573570068724
+    },
+    {
+      "window_ms": 0.25,
+      "strength_band": 1,
+      "events": 480,
+      "mean_detector_rate": 0.02913058483935743,
+      "mean_spatial_rate_std": 0.009940083136289713
+    },
+    {
+      "window_ms": 0.25,
+      "strength_band": 2,
+      "events": 480,
+      "mean_detector_rate": 0.02966449129852744,
+      "mean_spatial_rate_std": 0.009887006422182577
+    },
+    {
+      "window_ms": 0.5,
+      "strength_band": 0,
+      "events": 480,
+      "mean_detector_rate": 0.02900410195390781,
+      "mean_spatial_rate_std": 0.008011783864732277
+    },
+    {
+      "window_ms": 0.5,
+      "strength_band": 1,
+      "events": 480,
+      "mean_detector_rate": 0.029075338176352706,
+      "mean_spatial_rate_std": 0.0080656593020256
+    },
+    {
+      "window_ms": 0.5,
+      "strength_band": 2,
+      "events": 480,
+      "mean_detector_rate": 0.032738393453573815,
+      "mean_spatial_rate_std": 0.010125334905513624
+    },
+    {
+      "window_ms": 1.0,
+      "strength_band": 0,
+      "events": 480,
+      "mean_detector_rate": 0.029093807349015684,
+      "mean_spatial_rate_std": 0.0069718360323013425
+    },
+    {
+      "window_ms": 1.0,
+      "strength_band": 1,
+      "events": 480,
+      "mean_detector_rate": 0.029750974933266602,
+      "mean_spatial_rate_std": 0.0072635932161587815
+    },
+    {
+      "window_ms": 1.0,
+      "strength_band": 2,
+      "events": 480,
+      "mean_detector_rate": 0.04466901797630964,
+      "mean_spatial_rate_std": 0.01623226200598747
+    }
+  ]
+}

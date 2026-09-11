@@ -1,0 +1,118 @@
+{
+  "logs": {
+    "Ridge100": {
+      "ordinary": 2.714092273410993,
+      "weak": 3.362025346047658,
+      "seconds": 0.0910474590054946,
+      "config": {
+        "alpha": 100
+      }
+    },
+    "Ridge1000": {
+      "ordinary": 2.674740630837797,
+      "weak": 3.32453225184417,
+      "seconds": 0.07296041399240494,
+      "config": {
+        "alpha": 1000
+      }
+    },
+    "SVR10": {
+      "ordinary": 2.6326736776253785,
+      "weak": 3.357449643606939,
+      "seconds": 33.12931247599772,
+      "config": {
+        "C": 10,
+        "gamma": 8.782742681047766e-05
+      }
+    },
+    "SVR100": {
+      "ordinary": 2.7230953642058657,
+      "weak": 3.4358777267413956,
+      "seconds": 36.815548404993024,
+      "config": {
+        "C": 100,
+        "gamma": 8.782742681047766e-05
+      }
+    },
+    "ET8": {
+      "ordinary": 2.67931876157927,
+      "weak": 3.258854949450205,
+      "seconds": 60.299711740997736,
+      "config": {
+        "min_samples_leaf": 8
+      }
+    },
+    "ET16": {
+      "ordinary": 2.7027505127662987,
+      "weak": 3.2638316302925214,
+      "seconds": 51.89157188600802,
+      "config": {
+        "min_samples_leaf": 16
+      }
+    },
+    "ET_weak": {
+      "ordinary": 2.7640077597610073,
+      "weak": 3.2586562060106803,
+      "seconds": 59.29710475499451,
+      "config": {
+        "min_samples_leaf": 16
+      }
+    },
+    "blend": {
+      "ordinary": 2.61295094461008,
+      "weak": 3.286781982620796
+    },
+    "SVR_parent": {
+      "ordinary": 2.6249309066696065,
+      "weak": 3.352944143455659,
+      "config": {
+        "C": 1.0,
+        "gamma": 0.0008782742681047765
+      },
+      "seconds": 42.40421286699711
+    },
+    "ET_parent": {
+      "ordinary": 2.6771606608592298,
+      "weak": 3.268229168695412,
+      "config": {
+        "min_samples_leaf": 3
+      },
+      "seconds": 89.85470366399386
+    },
+    "PCA32_SVR10": {
+      "ordinary": 2.6650840853821274,
+      "weak": 3.449308348304631
+    },
+    "PCA32_SVR1": {
+      "ordinary": 2.9400086562997307,
+      "weak": 3.4131718311969883
+    },
+    "PCA128_SVR10": {
+      "ordinary": 2.6119473876974837,
+      "weak": 3.376510428498183
+    },
+    "PCA128_SVR1": {
+      "ordinary": 2.77443438356127,
+      "weak": 3.3908373246600547
+    }
+  },
+  "blend": [
+    "SVR_parent",
+    "ET_parent"
+  ],
+  "hashes": {
+    "ET8.joblib": "b702c3fae60e3296c9d6235d0643354a17572d3073e0ff02bd3d71f097fbe7a7",
+    "SVR_parent.joblib": "c1773266d96763bb4b339a3be9b8801613ba0d82c55840f3a1126612d049fedc",
+    "PCA128_SVR1.joblib": "b35dca5eefeaf094207dd13f76641e08260412d7cfa516560597b1aa91d19524",
+    "PCA128_SVR10.joblib": "2d38f3d9953d2f95a9bb6cc9d34109cfd4e5991431ea34cdde35b835c3fbc8df",
+    "SVR100.joblib": "bc20fd557bac8a017f3dba995ae77f6e2ef1c936fda7bbcf32c53608e00b18fa",
+    "ET_weak.joblib": "cb71bcada9ce83ef885a25a3aac5f25f6293f1fcb787c7f4427f9e038aa33434",
+    "PCA32_SVR1.joblib": "78e91e11f7f5724d2bb27a5ecde64108d9e6f61a61bc9b93c6b9568a08306b7b",
+    "ET16.joblib": "2dc9df68f1135ee7020339d03352e07b6ae2b09347d80b823fa607e653b3dcbf",
+    "SVR10.joblib": "1fe1952f8d560a4adbf04aee4b5e677d719327e67cc7083d426482f55d2ec7b8",
+    "PCA32_SVR10.joblib": "bc81534f8608f29d9b36d7d29e5ba0ab915de44eab19676a65966d857ddc0ba8",
+    "ET_parent.joblib": "03d65ff9fb15af2054760a525ae70caf418a07c0be749705a6885dd5178fe682",
+    "Ridge100.joblib": "2fffc249b2959e0513f1fb05148bae42990e6cfb1d8fa166ff56d30b9dabcbb9",
+    "Ridge1000.joblib": "345d99f6e5c495b3b76413e48d03aca728cce8e56369e96b0fdf25492d84b733"
+  }
+}

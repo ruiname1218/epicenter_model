@@ -1,0 +1,10 @@
+dataset,split,model,feature,unique_real_events,evaluations,inside_95pct,inside_95pct_fraction,mean_nearest_rmse,rmse_unit
+Google MAIN,test,empirical_v5,absolute temporal response,53,53,50,0.9433962264150944,0.03605065354604986,error fraction
+Google MAIN,test,qp_ode_v5,absolute temporal response,53,53,49,0.9245283018867925,0.036508169165635485,error fraction
+Google MAIN,test,empirical_v5,normalized temporal shape,53,53,48,0.9056603773584906,0.14704140565173984,normalized excess
+Google MAIN,test,qp_ode_v5,normalized temporal shape,53,53,48,0.9056603773584906,0.15104626534174534,normalized excess
+Google FAST,leave-one-event-out,shared propagation layer,apparent speed,3,15,15,1.0,0.35314158782981525,m/s
+Google FAST,leave-one-event-out,shared propagation layer,arrival-time shape,3,15,15,1.0,101.22055879687824,us
+Google FAST,leave-one-event-out,shared propagation layer,rise width,3,15,10,0.6666666666666666,1.166026347287245,log width
+Google MAIN,test,FAST-profile zero-shot transfer,normalized spatial map,53,53,26,0.49056603773584906,0.025247255866020748,unit-total map
+Google MAIN,test,FAST-profile zero-shot transfer,pairwise spatial structure,53,53,35,0.660377358490566,0.0005599366965071196,pairwise product

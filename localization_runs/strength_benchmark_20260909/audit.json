@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "test_events": 1080,
+  "train_events": 2880,
+  "training_seeds": [
+    41,
+    42,
+    43
+  ],
+  "test_roots": [
+    2026090941,
+    2026091041,
+    2026091141
+  ],
+  "historical_seed_overlap": 0,
+  "hardware_equal": true,
+  "old_holdouts_not_trained": true,
+  "all_hashes": "passed",
+  "tests": {
+    "tests": 115,
+    "failures": 0,
+    "errors": 0
+  },
+  "rei_answer_rate": 1.0,
+  "report_hash": "0bd21c12d22bbfb30c1e4c26c013995908f46300ae868175af9eb66ac5ee5702"
+}

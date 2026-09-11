@@ -1,0 +1,13 @@
+{
+  "families": 48,
+  "seed": 20260908,
+  "device_seed": 123,
+  "syndrome_seed": 456,
+  "generation_per_us": [1e-9, 1e-8, 1e-7],
+  "range_scales": [0.5, 1.0],
+  "windows_ms": [0.512, 1.024, 2.048],
+  "bin_widths_us": [64.0, 16.0],
+  "held_out_condition": [2, 1],
+  "shots": 2,
+  "trees": 128
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "events": 1080,
+  "old_generation_seed_overlap": 0,
+  "balanced_36_strata_per_root": true,
+  "hashes": "passed",
+  "rei_answer_rate": 1.0,
+  "selection_hash": "090e917268716c4249f2d1497863daaaade495b57689a3f5536f3dd6aad5d763",
+  "timing": {
+    "shots": 2160,
+    "features_seconds": 0.6604097819999879,
+    "all_base_variants_including_loading_seconds": 8.181184798000231,
+    "rei_batch_seconds": 0.17436911699996926,
+    "caveat": "Diagnostic batch wall time, not optimized streaming latency; base bank includes multiple comparison variants."
+  },
+  "tests": {
+    "tests": 118,
+    "failures": 0,
+    "errors": 0
+  },
+  "oof_event_separation": "passed",
+  "report_hash": "95f5948973591926b4a21b7ba691c20d4953a6f3d83db7bd4a8f9f567c8dd1fd",
+  "hardware_equal": true,
+  "all_events_inside_physical_hull": true
+}

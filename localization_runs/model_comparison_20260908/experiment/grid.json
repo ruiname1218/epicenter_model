@@ -1,0 +1,113 @@
+{
+  "configurations": [
+    {
+      "family": "ridge",
+      "alpha": 10.0
+    },
+    {
+      "family": "ridge",
+      "alpha": 100.0
+    },
+    {
+      "family": "ridge",
+      "alpha": 1000.0
+    },
+    {
+      "family": "mlp",
+      "hidden": [
+        32
+      ],
+      "alpha": 1.0
+    },
+    {
+      "family": "mlp",
+      "hidden": [
+        64,
+        32
+      ],
+      "alpha": 0.1
+    },
+    {
+      "family": "mlp",
+      "hidden": [
+        64,
+        32
+      ],
+      "alpha": 10.0
+    },
+    {
+      "family": "random_forest",
+      "leaf": 4
+    },
+    {
+      "family": "random_forest",
+      "leaf": 12
+    },
+    {
+      "family": "extra_trees",
+      "leaf": 4
+    },
+    {
+      "family": "extra_trees",
+      "leaf": 12
+    },
+    {
+      "family": "hist_gradient_boosting",
+      "leaf": 8
+    },
+    {
+      "family": "hist_gradient_boosting",
+      "leaf": 16
+    },
+    {
+      "family": "kernel_ridge",
+      "gamma": 0.001,
+      "regularization": 1.0
+    },
+    {
+      "family": "kernel_ridge",
+      "gamma": 0.001,
+      "regularization": 10.0
+    },
+    {
+      "family": "kernel_ridge",
+      "gamma": 0.01,
+      "regularization": 1.0
+    },
+    {
+      "family": "kernel_ridge",
+      "gamma": 0.01,
+      "regularization": 10.0
+    },
+    {
+      "family": "svr",
+      "gamma": 0.001,
+      "regularization": 1.0
+    },
+    {
+      "family": "svr",
+      "gamma": 0.001,
+      "regularization": 10.0
+    },
+    {
+      "family": "svr",
+      "gamma": 0.01,
+      "regularization": 1.0
+    },
+    {
+      "family": "svr",
+      "gamma": 0.01,
+      "regularization": 10.0
+    }
+  ],
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "mlp_max_epochs": 150,
+  "mlp_patience": 15,
+  "selection": "external validation mean Euclidean error",
+  "source_sha256": "c7b169fe5092a26fdf74cbce59484ad5dc0ddda53978a543d61ce8b45685582e",
+  "parent_sha256": "1c90d6a21434d96ec34e9a6e2bb92791db7e92dc619b80bf92b87d6d32074f3b"
+}

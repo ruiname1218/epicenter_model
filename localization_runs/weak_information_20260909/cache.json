@@ -1,0 +1,37 @@
+{
+  "dimensions": {
+    "nom2_fixed": 169,
+    "nom2_estimated": 169,
+    "nom2_multi": 845,
+    "nom2_oracle_time": 169,
+    "nom4_fixed": 169,
+    "quiet2_fixed": 169,
+    "quiet4_fixed": 169,
+    "oracle_t1": 196,
+    "oracle_marginals": 384
+  },
+  "hashes": {
+    "x_nom2_estimated.npy": "6acccb4ecd1ade4847f23dd9575e83829f8db2d6dc6f91499f6d0a514382f20a",
+    "bank_nom4.npy": "6811602cf546071984f15d6b3fc8978f94921c25be846ce2b7262dee1369d211",
+    "counts_nom4.npy": "dabe6ca34d352d57e4b3b670366b2ff1043df5fb50b13e4ccf5d0468dd094ff2",
+    "x_nom2_oracle_time.npy": "0ab78604494aff5aea816c2ab38edaece42035ffe73cd68bad6e0c796310048b",
+    "counts_quiet4.npy": "512fd4195f2e14fb1dad97c77303206b933152c9a9a4184b64c867c38e8d4f54",
+    "x_nom4_fixed.npy": "5ce7186dc7747953344a24978de28855d0a2061c8682939f9921da143fbc3ce7",
+    "x_nom2_multi.npy": "2693c194c76f495a33abeea57ce54da26a2c23f915c3884eabe1bb1bf32d741e",
+    "x_nom2_fixed.npy": "0c42202b6603451f82f49b90f04d74e4d3d17ef774496061b909b6294804d219",
+    "calibration_quiet10.npz": "ceb286351d43d159c86e3995e147c9c2c8586b9918decb0f442736ed9a951eea",
+    "counts_nom2.npy": "48c192960955c20636b324dc0aab6e728e5ca6616db80176dcca626d7bd0d122",
+    "x_oracle_marginals.npy": "8afd7b6a318461af18add2fc24be1d30c6d75dcd917ef6bdc4e081b8a3de5edf",
+    "x_parent.npy": "496faaab12fd28a5c0ade7bf8997bf66626d604e6642341c8c502468c6c57db5",
+    "bank_nom2.npy": "8a44293d64108cff63d7339c3aac830975e843c60e7e7dd11347cd47adc462a6",
+    "calibration.joblib": "0ef681656209b8c6d87b548c545f1a9e9e7b18532126bf066634eefee45798c5",
+    "rows.csv": "dd3d61213e7364f509ab68ac9bbe0b5961a21fa7976fa3583479b6f060769ef5",
+    "x_quiet4_fixed.npy": "ebfbd3222e21b11f7f18d31a22ffd936bb9b3af0868fc9bb189fab172d46bbc7",
+    "calibration_nominal.npz": "ca475e66106376a33ab36df4437757a5f7a0ed38989c52dcc7b4f227f9db3dbf",
+    "x_quiet2_fixed.npy": "49150c5cdd4d83a04747f476b5ec645c1bab483110dabe841a9e4adf97d8e0b3",
+    "counts_quiet2.npy": "9d25ddef27501db573f8abf243397bdf9125b2fb636e3e49a44fed1f3a93d8d7",
+    "x_oracle_t1.npy": "3df123ba1ad4efc615c19b035b0ffdfcad04048e8b5c79892d3e3acc554c7fff",
+    "bank_quiet2.npy": "abf0f00795a38b3533d8de1462ea3231a9669bcbf2061c4f326c90ec5c53f3bd",
+    "bank_quiet4.npy": "8d1950ac7082e2fabbfe645dcd9bcf17b10942026a3dd7615241a748de7d30d7"
+  }
+}

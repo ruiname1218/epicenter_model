@@ -1,0 +1,13 @@
+model,group,events,mean_mm
+nom4_template/gls/1.0,lower_weak,282,3.2466697768810033
+nom4_template/gls/1.0,upper_weak,294,3.1406520951765495
+quiet2_template/composite/1.0,lower_weak,282,3.3454746477513573
+quiet2_template/composite/1.0,upper_weak,294,3.0003574105984523
+nom2_template/composite/4.0,lower_weak,282,3.2687910176330583
+nom2_template/composite/4.0,upper_weak,294,3.1762812333816117
+train_mean,lower_weak,282,3.274361811604288
+train_mean,upper_weak,294,3.1926987947272476
+parent,lower_weak,282,3.310315168788695
+parent,upper_weak,294,3.1552214268227083
+quiet4_template/composite/1.0,lower_weak,282,3.2960002308200895
+quiet4_template/composite/1.0,upper_weak,294,2.72866833979932

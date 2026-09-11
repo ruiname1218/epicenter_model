@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1125" viewBox="0 0 2000 1125" role="img" aria-labelledby="title desc">
+  <title id="title">QP-ODE radiation-to-Stim QEC pipeline</title>
+  <desc id="desc">Five event controls feed a spatial wavefront, quasiparticle ODE, T1 and T2 response, gate-sliced Pauli channels, and a Stim surface-code circuit that produces measurements, detector events, and logical flips.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.58" stop-color="#0b1729"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10243a"/>
+      <stop offset="1" stop-color="#0d1e32"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000814" flood-opacity="0.45"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#5ec8ff"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#ff9c43"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#b494ff"/>
+    </marker>
+    <style>
+      text { font-family: Inter, "Noto Sans", "DejaVu Sans", sans-serif; }
+      .title { fill:#f7fbff; font-size:45px; font-weight:800; }
+      .subtitle { fill:#a7b8cb; font-size:20px; }
+      .section { font-size:17px; font-weight:800; letter-spacing:2.4px; }
+      .axis-title { fill:#78cbff; font-size:19px; font-weight:800; }
+      .axis-body { fill:#b9c9d9; font-size:16px; }
+      .card-title { fill:#f7fbff; font-size:24px; font-weight:800; }
+      .body { fill:#c0cedc; font-size:17px; }
+      .mono { fill:#dcecff; font-size:16px; font-family:"DejaVu Sans Mono", monospace; }
+      .note { fill:#91a7bd; font-size:14px; }
+      .number { fill:#07111f; font-size:18px; font-weight:900; text-anchor:middle; dominant-baseline:middle; }
+      .badge { font-size:14px; font-weight:800; text-anchor:middle; dominant-baseline:middle; }
+    </style>
+  </defs>
+
+  <rect width="2000" height="1125" fill="url(#bg)"/>
+  <circle cx="1880" cy="30" r="310" fill="#123d63" opacity="0.17"/>
+  <circle cx="80" cy="1110" r="270" fill="#0d5b50" opacity="0.11"/>
+
+  <text x="50" y="61" class="title">QP-ODE simulator: radiation → Stim QEC pipeline</text>
+  <text x="50" y="98" class="subtitle">Event geometry → QP dynamics → T1/T2 → gate-sliced Pauli noise → measurements, detectors, and logical flips</text>
+  <rect x="1668" y="42" width="282" height="40" rx="20" fill="#123c35" stroke="#5ee6b0"/>
+  <circle cx="1694" cy="62" r="7" fill="#5ee6b0"/>
+  <text x="1820" y="63" class="badge" fill="#9af2d2">CIRCUIT-LEVEL STIM PATH</text>
+
+  <text x="50" y="139" class="section" fill="#6ed0ff">INPUT · FIVE EVENT CONTROLS</text>
+
+  <g filter="url(#shadow)">
+    <rect x="50" y="157" width="368" height="108" rx="17" fill="#10243a" stroke="#2d6e9d"/>
+    <rect x="433" y="157" width="368" height="108" rx="17" fill="#10243a" stroke="#2d6e9d"/>
+    <rect x="816" y="157" width="368" height="108" rx="17" fill="#10243a" stroke="#2d6e9d"/>
+    <rect x="1199" y="157" width="368" height="108" rx="17" fill="#10243a" stroke="#2d6e9d"/>
+    <rect x="1582" y="157" width="368" height="108" rx="17" fill="#10243a" stroke="#2d6e9d"/>
+  </g>
+  <text x="234" y="194" class="axis-title" text-anchor="middle">1 · SPREAD SHAPE</text>
+  <text x="234" y="224" class="axis-body" text-anchor="middle">circular / elliptical / correlated</text>
+  <text x="234" y="248" class="note" text-anchor="middle">spatial footprint</text>
+  <text x="617" y="194" class="axis-title" text-anchor="middle">2 · PROPAGATION</text>
+  <text x="617" y="224" class="axis-body" text-anchor="middle">ballistic / diffusive arrival</text>
+  <text x="617" y="248" class="note" text-anchor="middle">apparent wavefront</text>
+  <text x="1000" y="194" class="axis-title" text-anchor="middle">3 · RANGE</text>
+  <text x="1000" y="224" class="axis-body" text-anchor="middle">cutoff and attenuation length</text>
+  <text x="1000" y="248" class="note" text-anchor="middle">affected distance</text>
+  <text x="1383" y="194" class="axis-title" text-anchor="middle">4 · EPICENTER</text>
+  <text x="1383" y="224" class="axis-body" text-anchor="middle">source location (x₀, y₀)</text>
+  <text x="1383" y="248" class="note" text-anchor="middle">event ground truth</text>
+  <text x="1766" y="194" class="axis-title" text-anchor="middle">5 · STRENGTH</text>
+  <text x="1766" y="224" class="axis-body" text-anchor="middle">source amplitude and lifetime</text>
+  <text x="1766" y="248" class="note" text-anchor="middle">burst severity</text>
+
+  <text x="50" y="313" class="section" fill="#6ed0ff">MODEL · ONE END-TO-END EVENT PATH</text>
+
+  <g filter="url(#shadow)">
+    <rect x="50" y="335" width="580" height="245" rx="24" fill="url(#card)" stroke="#25b6d2" stroke-width="2"/>
+    <rect x="710" y="335" width="580" height="245" rx="24" fill="url(#card)" stroke="#25b6d2" stroke-width="2"/>
+    <rect x="1370" y="335" width="580" height="245" rx="24" fill="url(#card)" stroke="#ee8a25" stroke-width="2"/>
+    <rect x="1370" y="648" width="580" height="285" rx="24" fill="url(#card)" stroke="#ee8a25" stroke-width="2"/>
+    <rect x="710" y="648" width="580" height="285" rx="24" fill="url(#card)" stroke="#8c69db" stroke-width="2"/>
+    <rect x="50" y="648" width="580" height="285" rx="24" fill="#0c2a30" stroke="#5ee6b0" stroke-width="3"/>
+  </g>
+
+  <rect x="50" y="335" width="580" height="63" rx="24" fill="#159bb7"/>
+  <rect x="710" y="335" width="580" height="63" rx="24" fill="#159bb7"/>
+  <rect x="1370" y="335" width="580" height="63" rx="24" fill="#e68225"/>
+  <rect x="1370" y="648" width="580" height="63" rx="24" fill="#e68225"/>
+  <rect x="710" y="648" width="580" height="63" rx="24" fill="#7653c8"/>
+  <rect x="50" y="648" width="580" height="63" rx="24" fill="#209f7b"/>
+
+  <circle cx="82" cy="367" r="17" fill="#8be5f5"/><text x="82" y="367" class="number">1</text>
+  <text x="112" y="375" class="card-title">SPATIAL FIELD + ARRIVAL</text>
+  <text x="82" y="435" class="mono">
+    <tspan x="82" dy="0">distance(q, epicenter, shape)</tspan>
+    <tspan x="82" dy="28">t_arr(q) = ballistic or diffusive law</tspan>
+    <tspan x="82" dy="28">K(t,q) = attenuation × finite front</tspan>
+  </text>
+  <text x="82" y="541" class="note">Evaluated at every active circuit-qubit coordinate</text>
+
+  <circle cx="742" cy="367" r="17" fill="#8be5f5"/><text x="742" y="367" class="number">2</text>
+  <text x="772" y="375" class="card-title">LOCAL QP GENERATION DRIVE</text>
+  <text x="742" y="437" class="mono">
+    <tspan x="742" dy="0">g(t,q) = source(t) × front(t,q)</tspan>
+    <tspan x="742" dy="28">         × spatial(t,q) × residual(q)</tspan>
+  </text>
+  <text x="742" y="509" class="body">A local density-like source proxy</text>
+  <text x="742" y="541" class="note">Not deposited particle energy or dose</text>
+
+  <circle cx="1402" cy="367" r="17" fill="#ffd08a"/><text x="1402" y="367" class="number">3</text>
+  <text x="1432" y="375" class="card-title">QP DYNAMICS</text>
+  <text x="1402" y="445" class="mono">dx/dt = g(t,q) − s·x − r·x²</text>
+  <text x="1402" y="492" class="body">generation − trapping − recombination</text>
+  <text x="1402" y="541" class="note">Exact constant-drive integration step</text>
+
+  <circle cx="1402" cy="680" r="17" fill="#ffd08a"/><text x="1402" y="680" class="number">4</text>
+  <text x="1432" y="688" class="card-title">QP → HARDWARE RESPONSE</text>
+  <text x="1402" y="752" class="mono">
+    <tspan x="1402" dy="0">ΔΓ₁(t,q) = C(fq, ΔAl) · x_qp(t,q)</tspan>
+    <tspan x="1402" dy="29">1/T1 = 1/T1_baseline + ΔΓ₁</tspan>
+    <tspan x="1402" dy="29">optional: T2 and frequency shift</tspan>
+  </text>
+  <text x="1402" y="865" class="body">Integrate inverse rates over each QEC round</text>
+  <text x="1402" y="899" class="note">Output: event × round × active qubit</text>
+
+  <circle cx="742" cy="680" r="17" fill="#d2c0ff"/><text x="742" y="680" class="number">5</text>
+  <text x="772" y="688" class="card-title">T1/T2 → PAULI CHANNEL</text>
+  <text x="742" y="750" class="mono">
+    <tspan x="742" dy="0">λxy = exp(−dt/T2),  λz = exp(−dt/T1)</tspan>
+    <tspan x="742" dy="28">pX = pY = (1 − λz)/4</tspan>
+    <tspan x="742" dy="28">pZ = (1 − 2λxy + λz)/4</tspan>
+  </text>
+  <text x="742" y="855" class="body">Split across the circuit's gate-duration slices</text>
+  <text x="742" y="899" class="note">Scalable Pauli-twirled T1/T2 approximation</text>
+
+  <circle cx="82" cy="680" r="17" fill="#9af2d2"/><text x="82" y="680" class="number">6</text>
+  <text x="112" y="688" class="card-title">STIM SURFACE-CODE EXECUTION</text>
+  <text x="82" y="744" class="body">
+    <tspan x="82" dy="0">① Generate data + X/Z ancilla circuit and layout</tspan>
+    <tspan x="82" dy="31">② Ideal gates → qubit-wise PAULI_CHANNEL_1</tspan>
+    <tspan x="82" dy="31">③ Reset, Clifford gates, ancilla measurement</tspan>
+    <tspan x="82" dy="31">④ measurement-to-detector conversion</tspan>
+  </text>
+  <rect x="82" y="868" width="516" height="42" rx="13" fill="#123c35" stroke="#5ee6b0"/>
+  <text x="340" y="894" class="body" text-anchor="middle" fill="#d9fff0">measurements · detectors · logical flips</text>
+
+  <path d="M634 457H696" fill="none" stroke="#5ec8ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <path d="M1294 457H1356" fill="none" stroke="#5ec8ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <path d="M1660 584V634" fill="none" stroke="#ff9c43" stroke-width="4" marker-end="url(#arrowOrange)"/>
+  <path d="M1360 790H1304" fill="none" stroke="#ff9c43" stroke-width="4" marker-end="url(#arrowOrange)"/>
+  <path d="M700 790H644" fill="none" stroke="#b494ff" stroke-width="4" marker-end="url(#arrowPurple)"/>
+
+  <rect x="50" y="970" width="1900" height="102" rx="21" fill="#101f30" stroke="#314960"/>
+  <text x="82" y="1006" class="section" fill="#5ee6b0">OUTPUT</text>
+  <text x="176" y="1007" class="body">
+    <tspan fill="#d9fff0">measurement_records</tspan><tspan>  ·  </tspan>
+    <tspan fill="#d9fff0">detector_events</tspan><tspan>  ·  </tspan>
+    <tspan fill="#d9fff0">logical_observable_flips</tspan><tspan>  ·  </tspan>
+    <tspan fill="#d9fff0">optional decoder failures</tspan>
+  </text>
+  <text x="176" y="1042" class="note">The fast algebraic syndrome proxy remains available separately; it is not the circuit-level path shown here.</text>
+
+  <text x="50" y="1102" class="note">Scope: phenomenological QEC stress testing. Pauli twirling omits non-unital amplitude-damping asymmetry; hardware prediction requires device calibration.</text>
+</svg>

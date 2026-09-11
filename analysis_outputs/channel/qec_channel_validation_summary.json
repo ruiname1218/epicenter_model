@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "comparison": "exact non-unital GAD+dephasing versus unital PTGAD",
+  "circuit": "two-data/one-ancilla repeated X/Z parity-check primitive",
+  "deterministic": true,
+  "monte_carlo_shots": 0,
+  "screening_thresholds": {
+    "channel_state": 0.02,
+    "detector_tv": 0.03,
+    "detector_probability": 0.02,
+    "data_memory": 0.02
+  },
+  "threshold_interpretation": "engineering screens for this project, not universal physical accuracy tolerances",
+  "rows": 112,
+  "overall_pass_fraction": 0.17857142857142858,
+  "by_t1": [
+    {
+      "t1_us": 100.0,
+      "cases": 16,
+      "all_cases_pass": false,
+      "pass_fraction": 0.75,
+      "worst_channel_state_trace_distance": 0.004975093211300269,
+      "worst_detector_distribution_tv": 0.034695199548684906,
+      "worst_detector_probability_abs_error": 0.019605140642269942,
+      "worst_data_memory_error_abs_error": 0.014777335152005395
+    },
+    {
+      "t1_us": 50.0,
+      "cases": 16,
+      "all_cases_pass": false,
+      "pass_fraction": 0.5,
+      "worst_channel_state_trace_distance": 0.009900681674480494,
+      "worst_detector_distribution_tv": 0.06783212693543224,
+      "worst_detector_probability_abs_error": 0.03844133976860156,
+      "worst_data_memory_error_abs_error": 0.029118152724775248
+    },
+    {
+      "t1_us": 30.0,
+      "cases": 16,
+      "all_cases_pass": false,
+      "pass_fraction": 0.0,
+      "worst_channel_state_trace_distance": 0.01639200747013092,
+      "worst_detector_distribution_tv": 0.10972176456276572,
+      "worst_detector_probability_abs_error": 0.06241367025633173,
+      "worst_data_memory_error_abs_error": 0.04758152755524431
+    },
+    {
+      "t1_us": 20.0,
+      "cases": 16,
+      "all_cases_pass": false,
+      "pass_fraction": 0.0,
+      "worst_channel_state_trace_distance": 0.02438532561063772,
+      "worst_detector_distribution_tv": 0.15862371436235945,
+      "worst_detector_probability_abs_error": 0.09063480930652609,
+      "worst_data_memory_error_abs_error": 0.06964629826822676
+    },
+    {
+      "t1_us": 10.0,
+      "cases": 16,
+      "all_cases_pass": false,
+      "pass_fraction": 0.0,
+      "worst_channel_state_trace_distance": 0.04758130759000778,
+      "worst_detector_distribution_tv": 0.2850350990295531,
+      "worst_detector_probability_abs_error": 0.16484030234394723,
+      "worst_data_memory_error_abs_error": 0.12959119102093963
+    },
+    {
+      "t1_us": 5.0,
+      "cases": 16,
+      "all_cases_pass": false,
+      "pass_fraction": 0.0,
+      "worst_channel_state_trace_distance": 0.09063464759397716,
+      "worst_detector_distribution_tv": 0.4673120580448973,
+      "worst_detector_probability_abs_error": 0.27533564466616794,
+      "worst_data_memory_error_abs_error": 0.22559444906582837
+    },
+    {
+      "t1_us": 3.0,
+      "cases": 16,
+      "all_cases_pass": false,
+      "pass_fraction": 0.0,
+      "worst_channel_state_trace_distance": 0.14173436909914017,
+      "worst_detector_distribution_tv": 0.6154055360966799,
+      "worst_detector_probability_abs_error": 0.36820147770573547,
+      "worst_data_memory_error_abs_error": 0.31606048478824267
+    }
+  ],
+  "known_limitations": [
+    "The validation circuit is a three-qubit parity-check primitive, not a full surface code.",
+    "It isolates the T1/T2 channel and does not include leakage, crosstalk, or control noise.",
+    "A hardware claim still requires comparison with measured detector data."
+  ]
+}

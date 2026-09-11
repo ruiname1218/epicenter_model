@@ -1,0 +1,25 @@
+{
+  "arms": [
+    "original",
+    "original_joint",
+    "multiscale",
+    "multiscale_joint",
+    "oracle_onset",
+    "oracle_parameters"
+  ],
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "epochs": 40,
+  "patience": 8,
+  "alpha": 0.1,
+  "source_sha256": "653032f933014ee712e79ba677c33ad60d9ed1c0516716293cea0a0b77ff47a8",
+  "torch_version": "2.14.0+cpu",
+  "dataset_sha256": "ae9d32fe02cf57a7292a3524c288759d0a038e444a367b476b04f7e9969ee37f",
+  "plan_sha256": "297f7e08ee7eab5a77d54f08bbe7516924fa47f344c95203ea0872c7952bf1da",
+  "selection": "validation seed-mean position error; exclude privileged diagnostics; first seed artifact",
+  "test_policy": "freeze every model and selected arm before scoring; reuse of old test is exploratory",
+  "rei_scope": "arxiv v1 Algorithm 1 adapted to detector events; whole-prefix endpoint, not original online/noise reproduction"
+}

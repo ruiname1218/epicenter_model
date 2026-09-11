@@ -1,0 +1,43 @@
+{
+  "status": "exploratory reuse of inspected holdout",
+  "train_events": 1800,
+  "selection": "ordinary validation mean Euclidean error; choose before test scoring",
+  "blending": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "shrink_quantiles": [
+    0.1,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "grid_bins": [
+    5,
+    9
+  ],
+  "grid_leaf": [
+    4,
+    12
+  ],
+  "template_k": [
+    32,
+    128,
+    512
+  ],
+  "template_temperature": [
+    0.5,
+    2.0
+  ],
+  "decoders": [
+    "mean",
+    "geometric_median"
+  ],
+  "uncertainty": "uncalibrated grid probabilities",
+  "template_scope": "empirical event-average syndrome features; NOT physics likelihood",
+  "previous_split_sha256": "97d5473147e72b294e8ae6c4c078fec64421eb6f99856fb2d0cd7190c911a637",
+  "source_sha256": "2d55b33d2ca22ae7c1a8c16cb36680256fdf938f4fccd40ddcf04c52db99cebb"
+}

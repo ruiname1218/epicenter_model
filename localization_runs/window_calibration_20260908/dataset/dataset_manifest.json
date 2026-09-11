@@ -1,0 +1,518 @@
+{
+  "format": "qp_syndrome_shards_v1",
+  "status": "complete",
+  "source_id": "3d38d20b97844612b6ad28d2550e4feec7c1dcb6333a7347f39d16c07a33e39f",
+  "circuit_id": "3eabdfa943524b1077c76342cd49dd883c1d02e6abf0a6e9273162f3d53c340b",
+  "code": {
+    "task": "surface_code:rotated_memory_z",
+    "distance": 3
+  },
+  "simulator_config": {
+    "time": {
+      "start_ms": 0.0,
+      "end_ms": 2.052,
+      "dt_ms": 0.002
+    },
+    "epicenter": {
+      "region_probabilities": {
+        "inside": 0.7,
+        "edge": 0.2,
+        "outside": 0.1
+      },
+      "outside_margin_mm": [
+        0.25,
+        1.0
+      ]
+    },
+    "shape": {
+      "geometry_choices": [
+        "circular",
+        "elliptical"
+      ],
+      "initial_beta": [
+        1.7,
+        2.5
+      ],
+      "late_beta": [
+        0.8,
+        1.7
+      ],
+      "beta_transition_ms": [
+        2.0,
+        10.0
+      ],
+      "axis_ratio": [
+        1.0,
+        2.5
+      ],
+      "angle_degrees": [
+        0.0,
+        180.0
+      ]
+    },
+    "propagation": {
+      "law_choices": [
+        "ballistic",
+        "diffusive"
+      ],
+      "apparent_speed_m_per_s": [
+        12.0,
+        40.0
+      ],
+      "ballistic_speed_m_per_s": [
+        12.0,
+        40.0
+      ],
+      "diffusion_coefficient_mm2_per_ms": [
+        5.0,
+        20.0
+      ],
+      "front_width_ms": [
+        0.02,
+        0.12
+      ],
+      "arrival_jitter_sd_us": [
+        0.0,
+        80.0
+      ],
+      "arrival_jitter_correlation_length_mm": [
+        0.4,
+        2.0
+      ]
+    },
+    "source_model": {
+      "source_count_choices": [
+        1
+      ],
+      "separation_mm": [
+        0.5,
+        3.0
+      ],
+      "secondary_strength": [
+        0.2,
+        0.8
+      ]
+    },
+    "boundary_reflection": {
+      "enabled": false,
+      "coefficient": [
+        0.05,
+        0.4
+      ],
+      "boundary_margin_mm": [
+        0.0,
+        1.0
+      ]
+    },
+    "halo": {
+      "enabled": false,
+      "strength": [
+        0.1,
+        0.4
+      ],
+      "lambda_multiplier": [
+        1.5,
+        4.0
+      ],
+      "beta": [
+        0.5,
+        1.3
+      ],
+      "front_width_multiplier": [
+        1.0,
+        3.0
+      ]
+    },
+    "range": {
+      "initial_lambda_mm": [
+        2.0,
+        3.8
+      ],
+      "maximum_lambda_mm": [
+        3.5,
+        6.5
+      ],
+      "maximum_distance_mm": [
+        5.0,
+        10.0
+      ],
+      "spread_time_ms": [
+        0.15,
+        0.6
+      ],
+      "cutoff_width_mm": [
+        0.1,
+        0.5
+      ]
+    },
+    "strength": {
+      "maximum_amplitude": [
+        0.8,
+        1.0
+      ],
+      "prompt_fraction": [
+        0.0,
+        0.8
+      ],
+      "rise_time_ms": [
+        0.08,
+        0.5
+      ],
+      "peak_time_ms": [
+        0.5,
+        1.2
+      ],
+      "decay_time_ms": [
+        20.0,
+        35.0
+      ]
+    },
+    "noise": {
+      "baseline_total_errors": [
+        2.8,
+        3.4
+      ],
+      "qubit_baseline_log_sd": 0.18,
+      "qubit_sensitivity_log_sd": 0.12,
+      "baseline_drift_fraction": [
+        0.0,
+        0.08
+      ],
+      "missing_qubit_probability": 0.0
+    },
+    "hierarchical_sensitivity": {
+      "enabled": true,
+      "device_log_sd": 0.2,
+      "correlation_length_mm": 1.5,
+      "event_log_sd": 0.1
+    },
+    "spatial_residual": {
+      "enabled": true,
+      "initial_log_sd": [
+        0.1,
+        0.65
+      ],
+      "correlation_length_mm": [
+        0.3,
+        2.5
+      ],
+      "decay_time_ms": [
+        0.15,
+        2.5
+      ],
+      "late_fraction": [
+        0.1,
+        0.6
+      ]
+    },
+    "output": {
+      "save_probabilities": true,
+      "save_physics_diagnostics": true
+    },
+    "profile_name": "paired_window_calibration_ablation",
+    "event_timing": {
+      "onset_time_ms": [
+        0.05,
+        0.65
+      ],
+      "control_fraction": 0.0
+    },
+    "temporal_model": {
+      "backend": "qp_ode",
+      "qp_ode": {
+        "trapping_rate_per_us": 0.05,
+        "recombination_rate_per_us": 100.0,
+        "generation_scale_per_us": [
+          1e-10,
+          3e-07
+        ],
+        "baseline_t1_us": 100.0,
+        "baseline_t2_us": 200.0,
+        "measurement_exposure_us": [
+          0.2,
+          2.0
+        ],
+        "al_gap_uev": 191.0,
+        "qubit_frequency_ghz": 5.0,
+        "maximum_radiation_probability": 0.999,
+        "source_decay_mode": "independent_lognormal",
+        "source_lifetime_ms": {
+          "log_mean": 2.70805020110221,
+          "log_sd": 0.8,
+          "bounds_ms": [
+            1.0,
+            100.0
+          ]
+        }
+      }
+    },
+    "hardware_hierarchy": {
+      "enabled": true,
+      "mode": "fixed_device",
+      "qubit_t1_log_sd": 0.1,
+      "qubit_t2_log_sd": 0.05,
+      "qubit_frequency_sd_ghz": 0.05,
+      "run_t1_log_sd": 0.0,
+      "run_t2_log_sd": 0.0,
+      "run_frequency_sd_ghz": 0.0,
+      "event_t1_log_sd": 0.0,
+      "event_t2_log_sd": 0.0,
+      "event_frequency_sd_ghz": 0.0
+    },
+    "qp_model_provenance": {
+      "equation": "dx_qp/dt = g(t,q) - s*x_qp - r*x_qp^2",
+      "physical_reference": "Yelton et al., arXiv:2402.15471",
+      "google_data_role": "guide for broad event scales only; no Sycamore coordinate correction or per-event matching",
+      "google_qp_parameter_calibration": false,
+      "generation_prior_selection": "synthetic non-saturation check only; 128 generated events, no real syndrome outcomes used",
+      "generation_quantity": "local QP-generation density proxy sampled at each qubit coordinate; summing over qubits is not deposited energy",
+      "energy_conservation_scope": "not modeled; required only for particle-energy, dose, material, or chip-geometry prediction",
+      "hardware_semantics": "one persistent 100 us / 200 us / 5 GHz reference device and per-qubit calibration map is sampled once; run/event hardware drift is disabled",
+      "reference_hardware": "Baity et al., arXiv:2602.06202; replace with measured calibration for a target device",
+      "intended_use": "phenomenological superconducting-QEC stress-test data generation and sensitivity studies; not absolute hardware prediction"
+    },
+    "resolved_device_profile": "examples/localization_window_simulator.json"
+  },
+  "stim_config": {
+    "schema_version": 1,
+    "backend": "stim_surface_code",
+    "task": "surface_code:rotated_memory_z",
+    "distance": 3,
+    "rounds": 2048,
+    "round_duration_ms": 0.001,
+    "start_time_ms": 0.0,
+    "window_role": "onset_and_peak",
+    "shots_per_event": 2,
+    "layout": {
+      "qubit_pitch_mm": 1.0,
+      "rotation_degrees": 0.0,
+      "center_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "circuit_noise": {
+      "after_clifford_depolarization": 0.0005,
+      "before_round_data_depolarization": 0.0,
+      "before_measure_flip_probability": 0.001,
+      "after_reset_flip_probability": 0.001
+    },
+    "gate_schedule": {
+      "mode": "explicit",
+      "tick_durations_ns": [
+        30.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        30.0,
+        780.0
+      ]
+    },
+    "noise_accounting": {
+      "depolarizing_channels_exclude_t1_t2": true
+    },
+    "radiation_channel": {
+      "targets": "all",
+      "timing": "gate_slices"
+    },
+    "decoder": {
+      "enabled": false,
+      "mode": "fixed_circuit"
+    },
+    "seed": 20260921
+  },
+  "sampling": {
+    "geometry": [
+      "circular",
+      "elliptical"
+    ],
+    "propagation_law": [
+      "ballistic",
+      "diffusive"
+    ],
+    "epicenter_region": [
+      "inside",
+      "edge",
+      "outside"
+    ],
+    "generation_bands_per_us": [
+      [
+        1e-10,
+        1e-09
+      ],
+      [
+        1e-09,
+        1e-08
+      ],
+      [
+        1e-08,
+        3e-07
+      ]
+    ]
+  },
+  "generation": {
+    "n_events": 720,
+    "seed": 20260920,
+    "device_seed": 123,
+    "syndrome_seed": 20260921,
+    "source_hashes": {
+      "dataset.py": "7bef7372e014560a62970abd53ac34eef7a5e81758a5c5b09c4f8c5edb5034ad",
+      "api.py": "2426f7656eec60926209691f6d0bfc1399de326b04f384ba29bcc91569480661",
+      "layouts.py": "541100f814bed683751da02aaea6b6f8fab31e322fbf7ca1d52339d0a34631c9",
+      "simulator.py": "023e1021ba1ba054491910cc88155b745783bde19dd8c7835496a6c75d7c81f1",
+      "stim_qec.py": "e04a34a06e6fd1ee86b3266fb8ecd544730504b48310c8c394ac75b200f3b86c",
+      "syndrome.py": "4849e2efd6cc18e8beea8e87fbc6dbb853faf4123d5bf414ad6af4dd31006037"
+    },
+    "runtime_versions": {
+      "python": "3.10.12",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "stim": "1.16.0"
+    }
+  },
+  "completed_events": 720,
+  "shards": [
+    {
+      "npz": "events_00000000_00000036.npz",
+      "csv": "events_00000000_00000036.csv",
+      "events": 36,
+      "npz_sha256": "d60be57cc8b5f63ab4efe63d68ee5ea5ca48634e2f442bb23f99f41e7aa87d50",
+      "csv_sha256": "0c868160b978e27ba84cceee50bb04613da6e868f99f9203f086f5573822ad4a"
+    },
+    {
+      "npz": "events_00000036_00000072.npz",
+      "csv": "events_00000036_00000072.csv",
+      "events": 36,
+      "npz_sha256": "8db0d95e340b0ba9bc050b367f6510118f328e24a3d1ede7b93b374cd1c5b578",
+      "csv_sha256": "46bce9a2b84048ee61a1d2761d10feaf66938eafdc6ec2fb3238829aef618616"
+    },
+    {
+      "npz": "events_00000072_00000108.npz",
+      "csv": "events_00000072_00000108.csv",
+      "events": 36,
+      "npz_sha256": "35d5cdd3abd969caf5c7103ea82145f0961c27e2a4b46efd0024ed68c092d7c5",
+      "csv_sha256": "0efb21a8149df5f41af4765df47c2f4473575fd38903b01380677516ab272cca"
+    },
+    {
+      "npz": "events_00000108_00000144.npz",
+      "csv": "events_00000108_00000144.csv",
+      "events": 36,
+      "npz_sha256": "14a7d78c75c55b17d16f311b840838da120ce5ad9a7773aaeb838722e8145854",
+      "csv_sha256": "59f2b0c6fd57b4f994b1a9b63bce4907812472df17f2f2de477ca87f30bf8d01"
+    },
+    {
+      "npz": "events_00000144_00000180.npz",
+      "csv": "events_00000144_00000180.csv",
+      "events": 36,
+      "npz_sha256": "bf3f5c19f00706732cf17d888509e2704a01f6b9ef5ca5c13a1d5ec2aaed5181",
+      "csv_sha256": "52209835673620a64040ac650b8e157d714157f5f5d970c5a87efcb0b91e8eca"
+    },
+    {
+      "npz": "events_00000180_00000216.npz",
+      "csv": "events_00000180_00000216.csv",
+      "events": 36,
+      "npz_sha256": "68deb494a1f1be8d8b8e0bd88fcac9f6029f1222c0347420d64719f774be4403",
+      "csv_sha256": "510aca25849070af8fa0cc9113fa11455cf321fc7bc3bf89436a842701e82c82"
+    },
+    {
+      "npz": "events_00000216_00000252.npz",
+      "csv": "events_00000216_00000252.csv",
+      "events": 36,
+      "npz_sha256": "f6ed6dc17c0ade5f28a2f67461a63a718160fd41de692431d602c39a7f9e63de",
+      "csv_sha256": "dc95c3693732804fe9898549abd7d15884045bcce9f05432b50e62fa8b7c6ae0"
+    },
+    {
+      "npz": "events_00000252_00000288.npz",
+      "csv": "events_00000252_00000288.csv",
+      "events": 36,
+      "npz_sha256": "3a0375b17bbae3da09fcf4d09d5b3219bf6b2385c2351fd32f095cfda61c1c35",
+      "csv_sha256": "b6a0def0b889571ffef60e5c215bb48d28d5e27497f8aa380aadb725d6a02886"
+    },
+    {
+      "npz": "events_00000288_00000324.npz",
+      "csv": "events_00000288_00000324.csv",
+      "events": 36,
+      "npz_sha256": "be013384cee30182e71b76dd89ca95dc3103004f44f85dda0530116d6041aaea",
+      "csv_sha256": "45a38c68f17c410a35980511572bfbd359828cfc166db51c23321c009e65338d"
+    },
+    {
+      "npz": "events_00000324_00000360.npz",
+      "csv": "events_00000324_00000360.csv",
+      "events": 36,
+      "npz_sha256": "6d3f36bb851e95cb997ead8cb48998041fd4ff7c6edf01eeea222a119b2661fc",
+      "csv_sha256": "3be9c7cd8961dd7c57de6b31262b183e6ac5c43238420c1d797a038f91fc8426"
+    },
+    {
+      "npz": "events_00000360_00000396.npz",
+      "csv": "events_00000360_00000396.csv",
+      "events": 36,
+      "npz_sha256": "02cee149f3c2704a37c45a332af7ea6dba39cf33bd0f8f3aac2ccfcdcc9797fb",
+      "csv_sha256": "947994d6ad2d444b45191fcaa7f8e173699a56c06327028a39d0777a153bb088"
+    },
+    {
+      "npz": "events_00000396_00000432.npz",
+      "csv": "events_00000396_00000432.csv",
+      "events": 36,
+      "npz_sha256": "7f4296ec11cf98ec53a294cc3069c2ff85c926294e6ca0492a33c0af7f751c7e",
+      "csv_sha256": "9341e7f412558b040068e0d69bcea3b6ccb52b2cf0952b61069704e8c8488beb"
+    },
+    {
+      "npz": "events_00000432_00000468.npz",
+      "csv": "events_00000432_00000468.csv",
+      "events": 36,
+      "npz_sha256": "aa5d892b68db60a8d4f869ad4bccd3056cec16b82327b1b42662fa861392d1f6",
+      "csv_sha256": "2431ef4f9ea51eb859921daa4fb02b4f1c84f8c094a46677bbc54e95794dcfe9"
+    },
+    {
+      "npz": "events_00000468_00000504.npz",
+      "csv": "events_00000468_00000504.csv",
+      "events": 36,
+      "npz_sha256": "8e2c384ddb3ef6de59047d70138b1730120bc47dbe41f887e4f376a691f8e7e5",
+      "csv_sha256": "0f7e1dabb12174142600b128d65162e0d0db98011586237534d864c41db88037"
+    },
+    {
+      "npz": "events_00000504_00000540.npz",
+      "csv": "events_00000504_00000540.csv",
+      "events": 36,
+      "npz_sha256": "c25b1615532ec3ecd716a8bce2efe465707d4ff91d3e42af199c5742b93dbffd",
+      "csv_sha256": "3a79a75e197c2af0516fbb9f0c9da5653dfe4f90e85863a9db654a3fa7a17dfa"
+    },
+    {
+      "npz": "events_00000540_00000576.npz",
+      "csv": "events_00000540_00000576.csv",
+      "events": 36,
+      "npz_sha256": "8bd3087f19f740cbe74d3f811376133b1a9570681d1b50cd41db5418116d5998",
+      "csv_sha256": "d7ea38581bcbf056cb45c9a009648abb61b2e9cc6ab95951432832026c2e6f80"
+    },
+    {
+      "npz": "events_00000576_00000612.npz",
+      "csv": "events_00000576_00000612.csv",
+      "events": 36,
+      "npz_sha256": "d502446bc635a9f41b8b530673db5743b3177db8ca12ee45d3110013f1d801b8",
+      "csv_sha256": "7b2b54edaf9d4ef8896ba7bed2aa75b6d3de4ab6ec6d77c0913514ce20cd46a4"
+    },
+    {
+      "npz": "events_00000612_00000648.npz",
+      "csv": "events_00000612_00000648.csv",
+      "events": 36,
+      "npz_sha256": "4fe34eeefd28b1c10a5a5892e0bc5764e794b66d1c23ee878305a1cd245fe91b",
+      "csv_sha256": "27bd4e0f77d68a2080fdc27d9d3d42c3887ad23773e530256f2a7df9b8274ae4"
+    },
+    {
+      "npz": "events_00000648_00000684.npz",
+      "csv": "events_00000648_00000684.csv",
+      "events": 36,
+      "npz_sha256": "d7dd8132ca5b7c9583d287321e08cbfb5dc82ba6c04682897b66958b38b506f1",
+      "csv_sha256": "ec5a41e1e1e786665320d86b70bc8b7aa5f91d1eabd57536af2c42ea04fe3840"
+    },
+    {
+      "npz": "events_00000684_00000720.npz",
+      "csv": "events_00000684_00000720.csv",
+      "events": 36,
+      "npz_sha256": "5d71556f2dee9ca63c2e1de955a8a039124fcd046594c88573e54de6c3a2460f",
+      "csv_sha256": "4a0aac560e866194737f0abdcec8f1514db5e2c190097f2927139fc0cb0b5c9b"
+    }
+  ],
+  "coordinate_convention": "x_mm=epicenter_row, y_mm=epicenter_col"
+}

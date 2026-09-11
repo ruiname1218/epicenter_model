@@ -1,0 +1,422 @@
+[
+  {
+    "group": "ordinary",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "parent",
+    "difference_mm": 0.01356335709001683,
+    "ci95": [
+      0.0064265317459313645,
+      0.02059474711286576
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "prior",
+    "difference_mm": -0.6701918942378007,
+    "ci95": [
+      -0.7583573272946589,
+      -0.5837181482353889
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "REI",
+    "difference_mm": -0.21436646039095705,
+    "ci95": [
+      -0.25073892241989504,
+      -0.17879400754983688
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -0.6837552513278174,
+    "ci95": [
+      -0.772938057273273,
+      -0.59474780231284
+    ]
+  },
+  {
+    "group": "ordinary",
+    "model": "parent",
+    "reference": "REI",
+    "difference_mm": -0.2279298174809739,
+    "ci95": [
+      -0.2665483153256777,
+      -0.19002507818906744
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "parent",
+    "difference_mm": 0.006568638001069784,
+    "ci95": [
+      0.002696388550517113,
+      0.01130125659777828
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "prior",
+    "difference_mm": -2.145205375826392,
+    "ci95": [
+      -2.3130793260272484,
+      -1.9750470520724037
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "REI",
+    "difference_mm": -0.6202041156961101,
+    "ci95": [
+      -0.7016354116324545,
+      -0.5381728142410654
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -2.1517740138274615,
+    "ci95": [
+      -2.319715532929132,
+      -1.982504433025794
+    ]
+  },
+  {
+    "group": "strong_ellipse",
+    "model": "parent",
+    "reference": "REI",
+    "difference_mm": -0.62677275369718,
+    "ci95": [
+      -0.7079755114269747,
+      -0.5448867068474476
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "parent",
+    "difference_mm": -0.007724532856534028,
+    "ci95": [
+      -0.020849801500575065,
+      0.005572068315601244
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "prior",
+    "difference_mm": -0.0072713509653852225,
+    "ci95": [
+      -0.05115866142519192,
+      0.03866649782688715
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "REI",
+    "difference_mm": -0.0011440516781572707,
+    "ci95": [
+      -0.031132001486111772,
+      0.02877100462712012
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": 0.0004531818911488054,
+    "ci95": [
+      -0.05501413863054471,
+      0.05732149354257622
+    ]
+  },
+  {
+    "group": "weak",
+    "model": "parent",
+    "reference": "REI",
+    "difference_mm": 0.006580481178376757,
+    "ci95": [
+      -0.03127594922050272,
+      0.04386503158996822
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "parent",
+    "difference_mm": 0.03806767204709625,
+    "ci95": [
+      0.02760779670031605,
+      0.04892584913777679
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "prior",
+    "difference_mm": -0.4278958187365392,
+    "ci95": [
+      -0.49946164112449204,
+      -0.3566382651747396
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "REI",
+    "difference_mm": -0.14142366765373918,
+    "ci95": [
+      -0.18125519611147292,
+      -0.10145224741933653
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -0.46596349078363547,
+    "ci95": [
+      -0.5445620059750887,
+      -0.38820072563897184
+    ]
+  },
+  {
+    "group": "medium",
+    "model": "parent",
+    "reference": "REI",
+    "difference_mm": -0.17949133970083544,
+    "ci95": [
+      -0.22405841980180635,
+      -0.1343900792225586
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "parent",
+    "difference_mm": 0.00684957253501474,
+    "ci95": [
+      0.0036811185483001103,
+      0.010619022720716662
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "prior",
+    "difference_mm": -2.3129152538057736,
+    "ci95": [
+      -2.427469080593026,
+      -2.195351528513461
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "REI",
+    "difference_mm": -0.7034504894935512,
+    "ci95": [
+      -0.7642337730252257,
+      -0.6411245204286672
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -2.319764826340788,
+    "ci95": [
+      -2.4340099842347005,
+      -2.2023241870935415
+    ]
+  },
+  {
+    "group": "strong",
+    "model": "parent",
+    "reference": "REI",
+    "difference_mm": -0.710300062028566,
+    "ci95": [
+      -0.7716585629552672,
+      -0.6467196519630024
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "parent",
+    "difference_mm": 0.007130507068959697,
+    "ci95": [
+      0.0024889773794756933,
+      0.013265679109397303
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "prior",
+    "difference_mm": -2.4806251317851546,
+    "ci95": [
+      -2.6375683258707765,
+      -2.3196685961924968
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "REI",
+    "difference_mm": -0.7866968632909923,
+    "ci95": [
+      -0.8761644321596825,
+      -0.6957705441618375
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -2.487755638854114,
+    "ci95": [
+      -2.644702821256702,
+      -2.3269870399383867
+    ]
+  },
+  {
+    "group": "strong_circle",
+    "model": "parent",
+    "reference": "REI",
+    "difference_mm": -0.7938273703599521,
+    "ci95": [
+      -0.8842625528149879,
+      -0.7018983756394866
+    ]
+  },
+  {
+    "group": "all",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "parent",
+    "difference_mm": 0.012397570575192323,
+    "ci95": [
+      0.00649421118762251,
+      0.018245729476926622
+    ]
+  },
+  {
+    "group": "all",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "prior",
+    "difference_mm": -0.9160274745025658,
+    "ci95": [
+      -1.003360169990901,
+      -0.8290570965532583
+    ]
+  },
+  {
+    "group": "all",
+    "model": "baseline/learned_logistic_expert_0.5_1",
+    "reference": "REI",
+    "difference_mm": -0.28200606960848257,
+    "ci95": [
+      -0.31626221581295677,
+      -0.24766164987463446
+    ]
+  },
+  {
+    "group": "all",
+    "model": "parent",
+    "reference": "parent",
+    "difference_mm": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "group": "all",
+    "model": "parent",
+    "reference": "prior",
+    "difference_mm": -0.9284250450777581,
+    "ci95": [
+      -1.0162445053826394,
+      -0.8401669396286109
+    ]
+  },
+  {
+    "group": "all",
+    "model": "parent",
+    "reference": "REI",
+    "difference_mm": -0.29440364018367493,
+    "ci95": [
+      -0.3303497732766935,
+      -0.2587021534706201
+    ]
+  }
+]

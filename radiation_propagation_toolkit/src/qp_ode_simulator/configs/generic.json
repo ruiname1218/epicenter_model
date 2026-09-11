@@ -1,0 +1,19 @@
+{
+  "profile_name": "generic",
+  "strength": {
+    "prompt_fraction": [0.0, 0.8]
+  },
+  "hierarchical_sensitivity": {
+    "enabled": true,
+    "device_log_sd": 0.20,
+    "correlation_length_mm": 1.5,
+    "event_log_sd": 0.10
+  },
+  "spatial_residual": {
+    "enabled": true,
+    "initial_log_sd": [0.10, 0.65],
+    "correlation_length_mm": [0.3, 2.5],
+    "decay_time_ms": [0.15, 2.5],
+    "late_fraction": [0.1, 0.6]
+  }
+}

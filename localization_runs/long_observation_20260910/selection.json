@@ -1,0 +1,35 @@
+{
+  "selected": {
+    "2": "2_relative_SVR1",
+    "4": "4_relative_SVR1",
+    "8": "8_relative_SVR1"
+  },
+  "protocol_hash": "ba2e939974eaa7d0020631213d60d7810db1e35cf1e74effdb4c44f200674bbd",
+  "hashes": {
+    "8_relative_ET.joblib": "64c7229aa076f9b2a25bd0555bdb26ddf01f777a128a1632da48563a1523c252",
+    "8_relative_Ridge.joblib": "c8b6267fda5a249a1ce8524553b4666322eb75f938863c791cabd57a2b6fe575",
+    "4_relative_SVR1.joblib": "b5c881212aa205a425edb0f180ff0284e8d43a853dfab9b1a663a01205c6a242",
+    "4_relative_ET.joblib": "c360c2fec95e8244e1afb4f45a2a142ba55dcd80b324fa35d082db26874c5f88",
+    "4_full_Ridge.joblib": "424d579e320b1f1ffe38da2a636159c7b74db0a4461ecf1c6b5a5e657e5391fc",
+    "2_relative_SVR10.joblib": "b973aa9b956b0143fe0387092b144940083a05faa1a9a931fee1a366b4fd6f3e",
+    "4_full_ET.joblib": "b96091daf9e0377ae613bc3d2146aed995b79a21820cc852871a0279298cfac1",
+    "4_relative_SVR10.joblib": "7dc16af1aaa1da3eac17df6429554be78e22e895a5a1375d8e989a55d1102a61",
+    "8_full_ET.joblib": "589c140b3a27e61ddb62b9245dd1ed9335ea6a219c31197d0174b60aaad59688",
+    "4_full_SVR10.joblib": "a97a2e05a417450fefa09cd219e537b2187380d6e1e1bf5bd63c8a7692ea4b22",
+    "4_relative_Ridge.joblib": "d09e5118d0d09cabe6dedf1a9e83bbf2b3abb64938673c240a3dab3f87d21d3f",
+    "2_full_SVR1.joblib": "8a76ab2da090c03bfee70c2f685996819ec8e75f77f54f5cce7867ca4064deae",
+    "8_full_Ridge.joblib": "836e35b0027e774b3393e8ce7569e6ea25e279b4a77e402e6cc940b316ace051",
+    "8_full_SVR10.joblib": "4d0fcf34fb12cbefe23297cb89eed09c6967283aec46ad5804eed40cd1eaa3d4",
+    "2_relative_Ridge.joblib": "4f0276a8978071f2c3a3f0aa245f0000885bd6bd8ba5c61185485ee196483151",
+    "8_relative_SVR1.joblib": "af9d59f0b90f3639cb261a897870116b3faa8b096b25ef30ef3e1c369ed992a8",
+    "2_full_Ridge.joblib": "5027aed5a9af2aa978505d78b19e6a88c9d2f5ad65e25633169bbc974bab976b",
+    "8_full_SVR1.joblib": "a3a95ae2f7d673a812512ca71ddc1876f952d604ba497168be8f0407183189ed",
+    "4_full_SVR1.joblib": "224e2a3dc5e195970eb0e9766c96a2e8d6fced1d907c2dd1ec246c534404bba2",
+    "2_full_ET.joblib": "a378d2c3f291ddd15e35bd5ec14f8dfa2537bfa02048c1093502cc6ba2959a5c",
+    "8_relative_SVR10.joblib": "44f282378964b69c057add1b7b1c40606ca98320e8c7f950a5bc3c48099f3c32",
+    "2_full_SVR10.joblib": "cb2c4e638d59447c1e0e5973604385956df6b944a113c9fb24cf3d96df7f5dc4",
+    "2_relative_ET.joblib": "33dca0c33cedf3619ed557c6fa31f6d0487c22844c346050bb66cc90768f32a4",
+    "2_relative_SVR1.joblib": "82dc7cd1655e7b79b4a087e68e55f25ad12d0c3b4dd38ad80cb89651da6c5bd0"
+  },
+  "status": "Frozen before fresh test generation"
+}

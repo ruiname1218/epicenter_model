@@ -1,0 +1,113 @@
+{
+  "scope": "Overlap coordinate-ensemble minus adapted REI; secondary descriptive intervals, paired whole events including both shots.",
+  "records": [
+    {
+      "group": "weak",
+      "metric": "within_1mm",
+      "difference": -0.0069444444444444475,
+      "ci95": [
+        -0.018055555555555554,
+        0.0027777777777777783
+      ]
+    },
+    {
+      "group": "weak",
+      "metric": "over_3mm",
+      "difference": -0.04166666666666663,
+      "ci95": [
+        -0.06805555555555554,
+        -0.016666666666666607
+      ]
+    },
+    {
+      "group": "weak",
+      "metric": "p90_mm",
+      "difference": 0.15620814094633673,
+      "ci95": [
+        0.04525322430336498,
+        0.26236533427153014
+      ]
+    },
+    {
+      "group": "weak",
+      "metric": "p95_mm",
+      "difference": 0.20471812364293207,
+      "ci95": [
+        0.08640150409083802,
+        0.3205416071229331
+      ]
+    },
+    {
+      "group": "medium",
+      "metric": "within_1mm",
+      "difference": 0.027777777777777776,
+      "ci95": [
+        0.0069444444444444475,
+        0.04861111111111111
+      ]
+    },
+    {
+      "group": "medium",
+      "metric": "over_3mm",
+      "difference": -0.09444444444444439,
+      "ci95": [
+        -0.12361111111111106,
+        -0.06666666666666665
+      ]
+    },
+    {
+      "group": "medium",
+      "metric": "p90_mm",
+      "difference": 0.04101787728894912,
+      "ci95": [
+        -0.047918258089569496,
+        0.1456825917712814
+      ]
+    },
+    {
+      "group": "medium",
+      "metric": "p95_mm",
+      "difference": 0.09024864289444867,
+      "ci95": [
+        -0.004995058920867288,
+        0.2125943360203122
+      ]
+    },
+    {
+      "group": "strong",
+      "metric": "within_1mm",
+      "difference": 0.4194444444444445,
+      "ci95": [
+        0.37083333333333335,
+        0.4666666666666667
+      ]
+    },
+    {
+      "group": "strong",
+      "metric": "over_3mm",
+      "difference": -0.043055555555555555,
+      "ci95": [
+        -0.0625,
+        -0.02638888888888889
+      ]
+    },
+    {
+      "group": "strong",
+      "metric": "p90_mm",
+      "difference": -0.9402415893044676,
+      "ci95": [
+        -1.0942684446297675,
+        -0.8157421090496916
+      ]
+    },
+    {
+      "group": "strong",
+      "metric": "p95_mm",
+      "difference": -0.7864106463611122,
+      "ci95": [
+        -0.9711016538061736,
+        -0.6446798457841751
+      ]
+    }
+  ]
+}

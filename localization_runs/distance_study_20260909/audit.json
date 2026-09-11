@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "physical_events": 1440,
+  "paired_code_observations": 4320,
+  "shots": 8640,
+  "fixed_hardware_fields": [
+    "qp_baseline_t1_by_qubit_us",
+    "qp_baseline_t2_by_qubit_us",
+    "qp_qubit_frequency_by_qubit_ghz"
+  ],
+  "source_generation_seed_overlap_with_prior_runs": 0,
+  "earlier_generation_seeds_checked": 5760,
+  "test_events": 288,
+  "source_hashes": {
+    "distance_study.py": "aafafe0f0fc8b4a56c5340f8a7ad0d856e08f0d0a75daf656f1e50ce57de8249",
+    "fault_response.py": "6406c3ac00c788e25a787637fb4ed4309fa38ec01ba68dd74513b8a9a0fcca7a",
+    "simulator.py": "1fa06667fad87fb9fb53b486493a38ea6287709604420f2ce69ced2cef19779d",
+    "stim_qec.py": "e31ba294046602ffa2cbf7cf49d4070b4322de6cb74941a99f7dce3b5eafee23",
+    "api.py": "2426f7656eec60926209691f6d0bfc1399de326b04f384ba29bcc91569480661",
+    "circuit_building.py": "7bce0beec1c29faef550a256f3387f865a008422d9663859c2ad8e65f5d01acb",
+    "adaptive_localization.py": "6386c70c7456826fe51fc4a8cb74aa9a92b02832cda074e6ef805d189218bbd4",
+    "temporal_localization.py": "f78ee53b155828466325f41241226443dbe5423d1ce8600509fdf22e63f29048",
+    "temporal_diagnosis.py": "bed5eca77f34f6e4e1ccbb83a60b223b8a5c9edb2d3c9e886845b70ae441537a"
+  },
+  "tests": "100 tests passed, including all 3 distances, 64 forced multifault patterns and 20000-shot parity/marginal checks per distance",
+  "generation_snapshot_sha256": "296237de62fa3221f93d2fa73563d4e3d70f7191dfdd8d87a169a1b765f34050",
+  "protocol_sha256": "6b7b1c5be93bdc1945127f8778d548d03325e15ae0bad18698b6dffb76de5803"
+}

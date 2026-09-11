@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-05T22:31:19.185063+00:00",
+  "argv": [
+    ".venv/bin/qp-ode-stim",
+    "--profile",
+    "examples/localization_simulator.json",
+    "--stim-config",
+    "examples/localization_stim.json",
+    "--output",
+    "../localization_runs/first/dataset"
+  ],
+  "git_commit": "5de1632983f3a0d5bfdc907802f98ce5fb29e889",
+  "git_dirty": true,
+  "git_status": [
+    "M README.md",
+    " M docs/README_JA.md",
+    " M pyproject.toml",
+    " M setup.py",
+    "?? docs/LOCALIZATION_JA.md",
+    "?? examples/localization_simulator.json",
+    "?? examples/localization_stim.json",
+    "?? examples/plot_localization.py",
+    "?? src/qp_ode_simulator/cli/localize.py",
+    "?? src/qp_ode_simulator/localization.py",
+    "?? tests/test_localization.py"
+  ],
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0"
+  },
+  "source_sha256": {
+    "src/qp_ode_simulator/simulator.py": "3d3781a51ca9d30cfa16db33140457feae0da79d72c4978bac7fb82d57c9849a",
+    "src/qp_ode_simulator/stim_qec.py": "0d2aa99aab7c214417edeffbc8f83667b77fa6da5e5d2862807db0fffda319d3",
+    "src/qp_ode_simulator/api.py": "1128acf38ae10fa0c68bca318bfea4c44bc87e6daf57d1f26db4c89d33a67ab2"
+  },
+  "resolved_simulator_config_sha256": "436aa1ca628b1c748e9e53d50449428a351a3f89e2a74f1d0e8b4ab954bf5639",
+  "resolved_stim_config_sha256": "d70003e9b059cd5078fb053611064180fcb67f6fc899615e86c26e260ff5c154",
+  "template_circuit_sha256": "16c89f374e56ebc0b29aa850ff0cd190b64795cdbb0b95f41b1b1295162b6285",
+  "seeds": {
+    "simulation": 20260906,
+    "syndrome": 20260907
+  }
+}

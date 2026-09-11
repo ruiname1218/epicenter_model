@@ -1,0 +1,106 @@
+{
+  "name": "mdn_k4_h128",
+  "family": "mdn",
+  "seed": 43,
+  "validation_error_mm": 2.8001836120333805,
+  "epoch": 12,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_error_mm": 2.8765756681351573
+    },
+    {
+      "epoch": 2,
+      "validation_error_mm": 2.8456378115001484
+    },
+    {
+      "epoch": 3,
+      "validation_error_mm": 2.834770920624924
+    },
+    {
+      "epoch": 4,
+      "validation_error_mm": 2.823674572619761
+    },
+    {
+      "epoch": 5,
+      "validation_error_mm": 2.827371855394295
+    },
+    {
+      "epoch": 6,
+      "validation_error_mm": 2.819721353555698
+    },
+    {
+      "epoch": 7,
+      "validation_error_mm": 2.8036135174702967
+    },
+    {
+      "epoch": 8,
+      "validation_error_mm": 2.813024528522403
+    },
+    {
+      "epoch": 9,
+      "validation_error_mm": 2.8164816475124113
+    },
+    {
+      "epoch": 10,
+      "validation_error_mm": 2.806834092009926
+    },
+    {
+      "epoch": 11,
+      "validation_error_mm": 2.811671867344349
+    },
+    {
+      "epoch": 12,
+      "validation_error_mm": 2.8001836120333805
+    },
+    {
+      "epoch": 13,
+      "validation_error_mm": 2.810008882906593
+    },
+    {
+      "epoch": 14,
+      "validation_error_mm": 2.813280930906197
+    },
+    {
+      "epoch": 15,
+      "validation_error_mm": 2.8179805229671087
+    },
+    {
+      "epoch": 16,
+      "validation_error_mm": 2.806236670477877
+    },
+    {
+      "epoch": 17,
+      "validation_error_mm": 2.8168891096499307
+    },
+    {
+      "epoch": 18,
+      "validation_error_mm": 2.811729508425142
+    },
+    {
+      "epoch": 19,
+      "validation_error_mm": 2.8214250042815503
+    },
+    {
+      "epoch": 20,
+      "validation_error_mm": 2.819763592601748
+    },
+    {
+      "epoch": 21,
+      "validation_error_mm": 2.8306858916448028
+    },
+    {
+      "epoch": 22,
+      "validation_error_mm": 2.822268825098537
+    },
+    {
+      "epoch": 23,
+      "validation_error_mm": 2.819492524539032
+    },
+    {
+      "epoch": 24,
+      "validation_error_mm": 2.822905693327488
+    }
+  ],
+  "parameters": 26516
+}

@@ -1,0 +1,5 @@
+{
+  "base_profile": "localization_training_simulator.json",
+  "profile_name": "paired_window_calibration_ablation",
+  "time": {"start_ms": 0.0, "end_ms": 2.052, "dt_ms": 0.002}
+}

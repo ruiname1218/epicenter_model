@@ -1,0 +1,19 @@
+source,status,prediction_rows
+adaptive_features_20260908/confirmation/predictions.csv,Aggregated separately; do not pool across studies,23760.0
+attention_mdn_gp_20260908/confirmation/predictions.csv,Aggregated separately; do not pool across studies,6480.0
+distance_growth_20260909/predictions.csv,Aggregated separately; do not pool across studies,27648.0
+distance_study_20260909/predictions.csv,Aggregated separately; do not pool across studies,12096.0
+growth_more_models_20260908/predictions.csv,Aggregated separately; do not pool across studies,20160.0
+learning_curve_20260908/experiment/predictions.csv,Aggregated separately; do not pool across studies,17280.0
+model_comparison_20260908/confirmation/predictions.csv,Aggregated separately; do not pool across studies,16560.0
+rei_recomparison_20260908/predictions.csv,Aggregated separately; do not pool across studies,20880.0
+specialists_20260909/predictions.csv,Aggregated separately; do not pool across studies,31680.0
+syndrome_features_20260909/predictions.csv,Aggregated separately; do not pool across studies,12960.0
+temporal_diagnosis_20260908/side_confirmation/predictions.csv,Skipped: not coordinate-error predictions,
+temporal_gnn_20260908/predictions.csv,Aggregated separately; do not pool across studies,4320.0
+temporal_gnn_improvements_20260908/predictions.csv,Aggregated separately; do not pool across studies,17280.0
+uncertainty_experiments_20260908/predictions.csv,Aggregated separately; do not pool across studies,30960.0
+weak_growth_20260908/experiment/predictions.csv,Aggregated separately; do not pool across studies,19440.0
+weak_information_20260909/predictions.csv,Aggregated separately; do not pool across studies,42624.0
+weak_observation_20260908/experiment/predictions.csv,Aggregated separately; do not pool across studies,57024.0
+weak_observation_20260908/reference_audit/predictions.csv,Aggregated separately; do not pool across studies,864.0

@@ -1,0 +1,33 @@
+{
+  "test_events": 540,
+  "test_shots": 1080,
+  "train_events": 720,
+  "validation_events": 120,
+  "unseen_generation_seeds": true,
+  "artifact_hashes_verified": true,
+  "rei_answer_rate": 1.0,
+  "batch_prediction_ms_per_shot": {
+    "base_SVR": 0.15598638148133062,
+    "base_ET": 0.030603013888813386,
+    "dense_SVR": 0.2878730518520772,
+    "dense_ET": 0.03952353611111903,
+    "pair_SVR": 0.2731555027779635,
+    "pair_ET": 0.03978496203705651,
+    "oracle_onset_SVR": 0.16682034166664111,
+    "oracle_onset_ET": 0.0518205564815246,
+    "oracle_nuisance_SVR": 0.2182272564815085,
+    "oracle_nuisance_ET": 0.04097181481483858,
+    "oracle_nuisance_only_SVR": 0.08920084444441644,
+    "oracle_nuisance_only_ET": 0.02952252222198863,
+    "oracle_mean_SVR": 0.34781270648164975,
+    "oracle_mean_ET": 0.04021871851844278,
+    "rates_plain": 0.14085806018539626,
+    "coinc_plain": 0.1219235268519225,
+    "coinc_joint": 0.12586595833336442,
+    "coinc_aux": 0.12899265925920259,
+    "forward_inverse": 0.6628246472225193,
+    "template_inverse": 0.023643024074031186
+  },
+  "timing_note": "Batch throughput incl. neural deserialization; excludes acquisition/features; not online single-event latency.",
+  "oracle_note": "All oracle_* rows require unavailable truth, are diagnostics only, and were excluded from software model selection."
+}

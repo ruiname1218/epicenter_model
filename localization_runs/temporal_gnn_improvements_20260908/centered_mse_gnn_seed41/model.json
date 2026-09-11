@@ -1,0 +1,89 @@
+{
+  "arm": "centered_mse_gnn",
+  "seed": 41,
+  "config": {
+    "exchange": true,
+    "representation": "centered",
+    "loss": "mse"
+  },
+  "validation_error_mm": 2.83604401446795,
+  "epoch": 9,
+  "history": [
+    {
+      "epoch": 1,
+      "error_mm": 3.2502774362629263
+    },
+    {
+      "epoch": 2,
+      "error_mm": 3.1745970813170286
+    },
+    {
+      "epoch": 3,
+      "error_mm": 2.993347439124392
+    },
+    {
+      "epoch": 4,
+      "error_mm": 2.9840480633009556
+    },
+    {
+      "epoch": 5,
+      "error_mm": 2.89590893789391
+    },
+    {
+      "epoch": 6,
+      "error_mm": 2.9115909776926565
+    },
+    {
+      "epoch": 7,
+      "error_mm": 2.889521829328795
+    },
+    {
+      "epoch": 8,
+      "error_mm": 2.890206826579251
+    },
+    {
+      "epoch": 9,
+      "error_mm": 2.83604401446795
+    },
+    {
+      "epoch": 10,
+      "error_mm": 2.8556097825026994
+    },
+    {
+      "epoch": 11,
+      "error_mm": 2.907633591269635
+    },
+    {
+      "epoch": 12,
+      "error_mm": 2.908647571707046
+    },
+    {
+      "epoch": 13,
+      "error_mm": 2.9402797274065593
+    },
+    {
+      "epoch": 14,
+      "error_mm": 2.992534602838284
+    },
+    {
+      "epoch": 15,
+      "error_mm": 3.0039186715476793
+    },
+    {
+      "epoch": 16,
+      "error_mm": 3.0589489689553657
+    },
+    {
+      "epoch": 17,
+      "error_mm": 3.0960840332616177
+    }
+  ],
+  "center": [
+    0.06716702750762076,
+    -0.036605708987703364
+  ],
+  "scale": 3.0,
+  "seconds": 5.514747860997886,
+  "parameters": 27314,
+  "weights_sha256": "34e3daf9c575a6197646373561246c9407d52ec184a39faa97979549d25852ad"
+}

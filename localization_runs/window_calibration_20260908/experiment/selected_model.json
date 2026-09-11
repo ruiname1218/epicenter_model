@@ -1,0 +1,6 @@
+{
+  "rounds": 2048,
+  "calibrated": false,
+  "seed": 41,
+  "directory": "cnn_r2048_raw_seed41"
+}

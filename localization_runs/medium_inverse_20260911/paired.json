@@ -1,0 +1,482 @@
+[
+  {
+    "model": "n288_h16_GLS",
+    "reference": "n288_h16_binomial",
+    "difference_mm": -0.019352064294294744,
+    "ci95": [
+      -0.056168531196992104,
+      0.017402453978483255
+    ],
+    "primary": false
+  },
+  {
+    "model": "n288_h16_GLS",
+    "reference": "n288_h4_GLS",
+    "difference_mm": -0.18131370848788336,
+    "ci95": [
+      -0.28481828799835934,
+      -0.07790475854606925
+    ],
+    "primary": false
+  },
+  {
+    "model": "n288_h16_SVR",
+    "reference": "n288_h4_SVR",
+    "difference_mm": -0.237382516900831,
+    "ci95": [
+      -0.3054316615689195,
+      -0.16669749593635766
+    ],
+    "primary": false
+  },
+  {
+    "model": "n288_h16_binomial",
+    "reference": "n288_h4_binomial",
+    "difference_mm": -0.21153009505419795,
+    "ci95": [
+      -0.32409931984642393,
+      -0.09784750267087966
+    ],
+    "primary": false
+  },
+  {
+    "model": "n288_h4_GLS",
+    "reference": "n288_h4_binomial",
+    "difference_mm": -0.04956845086060932,
+    "ci95": [
+      -0.0918655342048172,
+      -0.00782892766764716
+    ],
+    "primary": false
+  },
+  {
+    "model": "n288_h8_GLS",
+    "reference": "n288_h4_GLS",
+    "difference_mm": -0.19693242830063196,
+    "ci95": [
+      -0.28260400184769263,
+      -0.11301831305023786
+    ],
+    "primary": false
+  },
+  {
+    "model": "n288_h8_GLS",
+    "reference": "n288_h8_binomial",
+    "difference_mm": -0.03240522038696917,
+    "ci95": [
+      -0.06447235886260583,
+      -0.0010581961593658068
+    ],
+    "primary": false
+  },
+  {
+    "model": "n288_h8_SVR",
+    "reference": "n288_h4_SVR",
+    "difference_mm": -0.18455801081002285,
+    "ci95": [
+      -0.24264239266446672,
+      -0.12509961891648874
+    ],
+    "primary": false
+  },
+  {
+    "model": "n288_h8_binomial",
+    "reference": "n288_h4_binomial",
+    "difference_mm": -0.2140956587742721,
+    "ci95": [
+      -0.30936519042161664,
+      -0.12180996959138998
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h16_GLS",
+    "reference": "n288_h16_GLS",
+    "difference_mm": -0.061343575932501435,
+    "ci95": [
+      -0.10609684327940166,
+      -0.018751995470530143
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h16_GLS",
+    "reference": "n576_h16_binomial",
+    "difference_mm": -0.03033626026907038,
+    "ci95": [
+      -0.06390074207529124,
+      0.0032447822511497207
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h16_GLS",
+    "reference": "n576_h4_GLS",
+    "difference_mm": -0.21938757508652118,
+    "ci95": [
+      -0.3186333258417013,
+      -0.12111952282109421
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h16_SVR",
+    "reference": "n288_h16_SVR",
+    "difference_mm": -0.04929514208638171,
+    "ci95": [
+      -0.08401071456538203,
+      -0.013788914896945134
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h16_SVR",
+    "reference": "n576_h4_SVR",
+    "difference_mm": -0.2338474332305867,
+    "ci95": [
+      -0.3039991101423256,
+      -0.16135827903362618
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h16_binomial",
+    "reference": "n288_h16_binomial",
+    "difference_mm": -0.0503593799577258,
+    "ci95": [
+      -0.10064711555074234,
+      -0.0024344092322919355
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h16_binomial",
+    "reference": "n576_h4_binomial",
+    "difference_mm": -0.21985983706850562,
+    "ci95": [
+      -0.3286332990735277,
+      -0.11278189314873165
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h4_GLS",
+    "reference": "n288_h4_GLS",
+    "difference_mm": -0.023269709333863582,
+    "ci95": [
+      -0.060460545585702734,
+      0.013140502828848695
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h4_GLS",
+    "reference": "n576_h4_binomial",
+    "difference_mm": -0.030808522251054817,
+    "ci95": [
+      -0.0752951086745867,
+      0.014356413866524975
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h4_SVR",
+    "reference": "n288_h4_SVR",
+    "difference_mm": -0.05283022575662599,
+    "ci95": [
+      -0.09333323208074558,
+      -0.01259336465279291
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h4_binomial",
+    "reference": "n288_h4_binomial",
+    "difference_mm": -0.04202963794341808,
+    "ci95": [
+      -0.08380937776100603,
+      -0.0031916501364139547
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h8_GLS",
+    "reference": "n288_h8_GLS",
+    "difference_mm": -0.029194512652286647,
+    "ci95": [
+      -0.06515059161876832,
+      0.006508045091309517
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h8_GLS",
+    "reference": "n576_h4_GLS",
+    "difference_mm": -0.20285723161905503,
+    "ci95": [
+      -0.28317563245544114,
+      -0.12483852837299277
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h8_GLS",
+    "reference": "n576_h8_binomial",
+    "difference_mm": -0.030085362596035475,
+    "ci95": [
+      -0.06528256253203905,
+      0.0038421267599075652
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h8_SVR",
+    "reference": "n288_h8_SVR",
+    "difference_mm": -0.044249368217049515,
+    "ci95": [
+      -0.08011090905643754,
+      -0.008891606233177052
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h8_SVR",
+    "reference": "n576_h4_SVR",
+    "difference_mm": -0.17597715327044636,
+    "ci95": [
+      -0.23553649754820488,
+      -0.11581748763864613
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h8_binomial",
+    "reference": "n288_h8_binomial",
+    "difference_mm": -0.03151437044322035,
+    "ci95": [
+      -0.07416560199073274,
+      0.01087250451019361
+    ],
+    "primary": false
+  },
+  {
+    "model": "n576_h8_binomial",
+    "reference": "n576_h4_binomial",
+    "difference_mm": -0.20358039127407435,
+    "ci95": [
+      -0.2904110936252797,
+      -0.11804319821799798
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n288_h16_GLS",
+    "difference_mm": -0.07601575380958524,
+    "ci95": [
+      -0.12967700559367318,
+      -0.02377629449768104
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h16_binomial",
+    "difference_mm": -0.04791782496855856,
+    "ci95": [
+      -0.08356198782054591,
+      -0.012960877997762311
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_GLS",
+    "reference": "n864_h4_GLS",
+    "difference_mm": -0.22080631852857754,
+    "ci95": [
+      -0.31933101606947195,
+      -0.12387442091667511
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_SVR",
+    "reference": "n288_h16_SVR",
+    "difference_mm": -0.05984381405580297,
+    "ci95": [
+      -0.10569331570107093,
+      -0.0130379424511244
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_SVR",
+    "reference": "n864_h4_SVR",
+    "difference_mm": -0.24830047459370763,
+    "ci95": [
+      -0.32211972633537056,
+      -0.17435991278697402
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "n288_h16_binomial",
+    "difference_mm": -0.04744999313532143,
+    "ci95": [
+      -0.10866270432370875,
+      0.013274293147222898
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "n864_h4_binomial",
+    "difference_mm": -0.20584144796611276,
+    "ci95": [
+      -0.31733678598449183,
+      -0.09481015848215738
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "old_allband_SVR4",
+    "difference_mm": -0.5576369528671798,
+    "ci95": [
+      -0.7032459306029807,
+      -0.4086916683462126
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "old_allband_template4",
+    "difference_mm": -0.24841519315647081,
+    "ci95": [
+      -0.3728833133366262,
+      -0.12119841598501706
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h16_binomial",
+    "reference": "reference",
+    "difference_mm": -0.2589800881895194,
+    "ci95": [
+      -0.3722404939803617,
+      -0.14459573795306904
+    ],
+    "primary": true
+  },
+  {
+    "model": "n864_h4_GLS",
+    "reference": "n288_h4_GLS",
+    "difference_mm": -0.036523143768891035,
+    "ci95": [
+      -0.07794011626727802,
+      0.0030073770086066153
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h4_GLS",
+    "reference": "n864_h4_binomial",
+    "difference_mm": -0.03295295440609375,
+    "ci95": [
+      -0.07977648173888778,
+      0.014248800565569838
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h4_SVR",
+    "reference": "n288_h4_SVR",
+    "difference_mm": -0.0489258563629263,
+    "ci95": [
+      -0.09942289305760967,
+      0.0007974901389385221
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h4_binomial",
+    "reference": "n288_h4_binomial",
+    "difference_mm": -0.0531386402234066,
+    "ci95": [
+      -0.09892082786484127,
+      -0.010272254516966846
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h8_GLS",
+    "reference": "n288_h8_GLS",
+    "difference_mm": -0.04013818228366581,
+    "ci95": [
+      -0.08174050715489684,
+      0.0009114715593801491
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h8_GLS",
+    "reference": "n864_h4_GLS",
+    "difference_mm": -0.20054746681540672,
+    "ci95": [
+      -0.27959788705342303,
+      -0.12206669923957526
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h8_GLS",
+    "reference": "n864_h8_binomial",
+    "difference_mm": -0.04224977082912227,
+    "ci95": [
+      -0.08013468290279549,
+      -0.0055130212385579545
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h8_SVR",
+    "reference": "n288_h8_SVR",
+    "difference_mm": -0.04955203010105915,
+    "ci95": [
+      -0.09504247258340345,
+      -0.004595681248863851
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h8_SVR",
+    "reference": "n864_h4_SVR",
+    "difference_mm": -0.18518418454815572,
+    "ci95": [
+      -0.24517855630382684,
+      -0.12436699915696423
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h8_binomial",
+    "reference": "n288_h8_binomial",
+    "difference_mm": -0.030293631841512708,
+    "ci95": [
+      -0.07869331320487216,
+      0.019860795384477714
+    ],
+    "primary": false
+  },
+  {
+    "model": "n864_h8_binomial",
+    "reference": "n864_h4_binomial",
+    "difference_mm": -0.1912506503923782,
+    "ci95": [
+      -0.27727105087015813,
+      -0.10597484026721747
+    ],
+    "primary": false
+  }
+]

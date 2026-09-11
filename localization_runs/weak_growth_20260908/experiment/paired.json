@@ -1,0 +1,212 @@
+[
+  {
+    "candidate": "svr_n3600",
+    "reference": "svr_n1800",
+    "condition": "id",
+    "difference_mm": -0.010997864991381969,
+    "ci95_mm": [
+      -0.03158009229222832,
+      0.009011289456635839
+    ]
+  },
+  {
+    "candidate": "svr_n3600",
+    "reference": "svr_n1800",
+    "condition": "ood",
+    "difference_mm": -0.07799016204254214,
+    "ci95_mm": [
+      -0.1322606392881131,
+      -0.027850518391383344
+    ]
+  },
+  {
+    "candidate": "svr_n3600",
+    "reference": "svr_n1800",
+    "condition": "low",
+    "difference_mm": 0.024245309035232403,
+    "ci95_mm": [
+      -0.008033160863498909,
+      0.05609180771708587
+    ]
+  },
+  {
+    "candidate": "et_n3600",
+    "reference": "et_n1800",
+    "condition": "id",
+    "difference_mm": -0.01342927759645688,
+    "ci95_mm": [
+      -0.03130747068160788,
+      0.0046502549219672356
+    ]
+  },
+  {
+    "candidate": "et_n3600",
+    "reference": "et_n1800",
+    "condition": "ood",
+    "difference_mm": -0.06656891934699818,
+    "ci95_mm": [
+      -0.10947106578044101,
+      -0.02472314845746739
+    ]
+  },
+  {
+    "candidate": "et_n3600",
+    "reference": "et_n1800",
+    "condition": "low",
+    "difference_mm": 0.022378942756117938,
+    "ci95_mm": [
+      -0.005392604196026907,
+      0.05052649371233937
+    ]
+  },
+  {
+    "candidate": "blend_n3600",
+    "reference": "blend_n1800",
+    "condition": "id",
+    "difference_mm": -0.007113316770989376,
+    "ci95_mm": [
+      -0.022964302465049657,
+      0.008734058597868159
+    ]
+  },
+  {
+    "candidate": "blend_n3600",
+    "reference": "blend_n1800",
+    "condition": "ood",
+    "difference_mm": -0.048192181680231,
+    "ci95_mm": [
+      -0.07960345276201208,
+      -0.018008886785294633
+    ]
+  },
+  {
+    "candidate": "blend_n3600",
+    "reference": "blend_n1800",
+    "condition": "low",
+    "difference_mm": 0.02537455450954865,
+    "ci95_mm": [
+      0.0005329596379064318,
+      0.05032947702602095
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w1",
+    "reference": "mdn_n1800_w1",
+    "condition": "id",
+    "difference_mm": 0.008284643960636943,
+    "ci95_mm": [
+      -0.011432748209369105,
+      0.027350782998849667
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w1",
+    "reference": "mdn_n1800_w1",
+    "condition": "ood",
+    "difference_mm": -0.07933515901040857,
+    "ci95_mm": [
+      -0.12687884241566008,
+      -0.03195994588344189
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w1",
+    "reference": "mdn_n1800_w1",
+    "condition": "low",
+    "difference_mm": 0.0098096029639295,
+    "ci95_mm": [
+      -0.017752749215724024,
+      0.038025273270098615
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w1",
+    "reference": "blend_n3600",
+    "condition": "id",
+    "difference_mm": -0.011746815038865124,
+    "ci95_mm": [
+      -0.03560671722492874,
+      0.012288003531079172
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w1",
+    "reference": "blend_n3600",
+    "condition": "ood",
+    "difference_mm": -0.11975779901040659,
+    "ci95_mm": [
+      -0.1954605468064871,
+      -0.04626174800942637
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w1",
+    "reference": "blend_n3600",
+    "condition": "low",
+    "difference_mm": -0.013398000691839829,
+    "ci95_mm": [
+      -0.045625108301569794,
+      0.019243961899684553
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w3",
+    "reference": "blend_n3600",
+    "condition": "id",
+    "difference_mm": -0.0018579954563158923,
+    "ci95_mm": [
+      -0.027700207838510977,
+      0.02436326272368637
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w3",
+    "reference": "blend_n3600",
+    "condition": "ood",
+    "difference_mm": -0.013920832310816273,
+    "ci95_mm": [
+      -0.06991577228197254,
+      0.04374593505922358
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w3",
+    "reference": "blend_n3600",
+    "condition": "low",
+    "difference_mm": -0.006933648230931003,
+    "ci95_mm": [
+      -0.04732799693073614,
+      0.0342603427878924
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w3",
+    "reference": "prior",
+    "condition": "id",
+    "difference_mm": -0.47493250239082224,
+    "ci95_mm": [
+      -0.5840266456266923,
+      -0.3694397634825612
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w3",
+    "reference": "prior",
+    "condition": "ood",
+    "difference_mm": -1.6094213998922284,
+    "ci95_mm": [
+      -1.873152476791971,
+      -1.338060380615125
+    ]
+  },
+  {
+    "candidate": "mdn_n3600_w3",
+    "reference": "prior",
+    "condition": "low",
+    "difference_mm": 0.003367937222855518,
+    "ci95_mm": [
+      -0.04393140696750589,
+      0.04866435456308902
+    ]
+  }
+]

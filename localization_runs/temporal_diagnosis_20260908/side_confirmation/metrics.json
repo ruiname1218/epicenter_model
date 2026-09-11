@@ -1,0 +1,210 @@
+[
+  {
+    "feature_kind": "ordinary_features",
+    "band": 0,
+    "axis": 0,
+    "split": "test_id",
+    "events": 240,
+    "auc": 0.46194180151399405,
+    "balanced_accuracy": 0.4890791027154663,
+    "auc_event_95pct": [
+      0.4073211468562503,
+      0.5102778722234774
+    ]
+  },
+  {
+    "feature_kind": "ordinary_features",
+    "band": 0,
+    "axis": 1,
+    "split": "test_id",
+    "events": 240,
+    "auc": 0.548608695652174,
+    "balanced_accuracy": 0.5212173913043479,
+    "auc_event_95pct": [
+      0.5003404103373862,
+      0.5968706537863748
+    ]
+  },
+  {
+    "feature_kind": "ordinary_features",
+    "band": 1,
+    "axis": 0,
+    "split": "test_id",
+    "events": 240,
+    "auc": 0.6162010979084149,
+    "balanced_accuracy": 0.5821867834062956,
+    "auc_event_95pct": [
+      0.5656290030085165,
+      0.6642369184236796
+    ]
+  },
+  {
+    "feature_kind": "ordinary_features",
+    "band": 1,
+    "axis": 1,
+    "split": "test_id",
+    "events": 240,
+    "auc": 0.580282717421506,
+    "balanced_accuracy": 0.5729369269241456,
+    "auc_event_95pct": [
+      0.5288367201374375,
+      0.6274894426435021
+    ]
+  },
+  {
+    "feature_kind": "ordinary_features",
+    "band": 2,
+    "axis": 0,
+    "split": "test_id",
+    "events": 120,
+    "auc": 0.949554469675194,
+    "balanced_accuracy": 0.8672750790457029,
+    "auc_event_95pct": [
+      0.9034670456408482,
+      0.9787776959649286
+    ]
+  },
+  {
+    "feature_kind": "ordinary_features",
+    "band": 2,
+    "axis": 0,
+    "split": "test_ood",
+    "events": 120,
+    "auc": 0.9437062937062937,
+    "balanced_accuracy": 0.8548951048951049,
+    "auc_event_95pct": [
+      0.9085613263574661,
+      0.9738080206830206
+    ]
+  },
+  {
+    "feature_kind": "ordinary_features",
+    "band": 2,
+    "axis": 1,
+    "split": "test_id",
+    "events": 120,
+    "auc": 0.9548804226918799,
+    "balanced_accuracy": 0.878337041156841,
+    "auc_event_95pct": [
+      0.9239457576482618,
+      0.9794558671899561
+    ]
+  },
+  {
+    "feature_kind": "ordinary_features",
+    "band": 2,
+    "axis": 1,
+    "split": "test_ood",
+    "events": 120,
+    "auc": 0.9218052455357142,
+    "balanced_accuracy": 0.8571428571428572,
+    "auc_event_95pct": [
+      0.87693655320034,
+      0.9655307077182077
+    ]
+  },
+  {
+    "feature_kind": "oracle_timing",
+    "band": 0,
+    "axis": 0,
+    "split": "test_id",
+    "events": 240,
+    "auc": 0.482932842558511,
+    "balanced_accuracy": 0.5065455934439892,
+    "auc_event_95pct": [
+      0.4297328338468056,
+      0.5303986589936166
+    ]
+  },
+  {
+    "feature_kind": "oracle_timing",
+    "band": 0,
+    "axis": 1,
+    "split": "test_id",
+    "events": 240,
+    "auc": 0.482,
+    "balanced_accuracy": 0.5,
+    "auc_event_95pct": [
+      0.43223890768791207,
+      0.5364672364672365
+    ]
+  },
+  {
+    "feature_kind": "oracle_timing",
+    "band": 1,
+    "axis": 0,
+    "split": "test_id",
+    "events": 240,
+    "auc": 0.6887985546522132,
+    "balanced_accuracy": 0.6338336460287679,
+    "auc_event_95pct": [
+      0.6395900014583524,
+      0.7355296501594107
+    ]
+  },
+  {
+    "feature_kind": "oracle_timing",
+    "band": 1,
+    "axis": 1,
+    "split": "test_id",
+    "events": 240,
+    "auc": 0.6322242289524869,
+    "balanced_accuracy": 0.5744651292025562,
+    "auc_event_95pct": [
+      0.5763016632431739,
+      0.6853756066690596
+    ]
+  },
+  {
+    "feature_kind": "oracle_timing",
+    "band": 2,
+    "axis": 0,
+    "split": "test_id",
+    "events": 120,
+    "auc": 0.9428715148031044,
+    "balanced_accuracy": 0.8554900833572866,
+    "auc_event_95pct": [
+      0.9012612699258208,
+      0.9732032972355665
+    ]
+  },
+  {
+    "feature_kind": "oracle_timing",
+    "band": 2,
+    "axis": 0,
+    "split": "test_ood",
+    "events": 120,
+    "auc": 0.9428671328671329,
+    "balanced_accuracy": 0.8674825174825175,
+    "auc_event_95pct": [
+      0.9053041017797553,
+      0.9723016566766567
+    ]
+  },
+  {
+    "feature_kind": "oracle_timing",
+    "band": 2,
+    "axis": 1,
+    "split": "test_id",
+    "events": 120,
+    "auc": 0.9511957730812014,
+    "balanced_accuracy": 0.8966907675194661,
+    "auc_event_95pct": [
+      0.9134015429048825,
+      0.9775752094595034
+    ]
+  },
+  {
+    "feature_kind": "oracle_timing",
+    "band": 2,
+    "axis": 1,
+    "split": "test_ood",
+    "events": 120,
+    "auc": 0.93408203125,
+    "balanced_accuracy": 0.8777901785714286,
+    "auc_event_95pct": [
+      0.8877767990679853,
+      0.9727423810757144
+    ]
+  }
+]

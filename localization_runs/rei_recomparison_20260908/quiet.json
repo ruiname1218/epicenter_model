@@ -1,0 +1,62 @@
+[
+  {
+    "candidate": "rei_legacy",
+    "answered": 256,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r1_k16",
+    "answered": 120,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r1_k64",
+    "answered": 247,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r1_k256",
+    "answered": 256,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r1_k1024",
+    "answered": 256,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r1_k2047",
+    "answered": 256,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r2048_k16",
+    "answered": 120,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r2048_k64",
+    "answered": 247,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r2048_k256",
+    "answered": 256,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r2048_k1024",
+    "answered": 256,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_r2048_k2047",
+    "answered": 256,
+    "shots": 256
+  },
+  {
+    "candidate": "rei_prose_gate_sensitivity",
+    "answered": 0,
+    "shots": 256
+  }
+]

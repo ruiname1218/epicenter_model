@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "benchmark": "synthetic propagation ground-truth recovery",
+  "seed": 20260901,
+  "deterministic_given_seed": true,
+  "field_level": true,
+  "binary_shot_noise_included": false,
+  "layout_qubits": 81,
+  "arrival_jitter_sd_us": 30.0,
+  "qubit_response_log_sd": 0.1,
+  "by_law": {
+    "ballistic": {
+      "trials": 60,
+      "propagation_median_absolute_percent_error": 5.126301972364223,
+      "propagation_mean_absolute_percent_error": 7.761422680989711,
+      "propagation_r_squared": 0.8053936644539113,
+      "lambda_median_absolute_percent_error": 2.4773050992858368,
+      "lambda_mean_absolute_percent_error": 3.24908844527438,
+      "epicenter_median_error_mm": 0.15482028538615653,
+      "epicenter_p90_error_mm": 0.3615566589935528,
+      "arrival_rmse_median_us": 28.419963551758425,
+      "successful_fit_fraction": 1.0
+    },
+    "diffusive": {
+      "trials": 60,
+      "propagation_median_absolute_percent_error": 0.5794486413542632,
+      "propagation_mean_absolute_percent_error": 0.6832501686536344,
+      "propagation_r_squared": 0.9990873779034035,
+      "lambda_median_absolute_percent_error": 1.301892656450876,
+      "lambda_mean_absolute_percent_error": 2.348470734946053,
+      "epicenter_median_error_mm": 0.011930321624488502,
+      "epicenter_p90_error_mm": 0.02362891348448865,
+      "arrival_rmse_median_us": 28.195723208259555,
+      "successful_fit_fraction": 1.0
+    }
+  },
+  "claim_boundary": "This self-consistency benchmark validates implementation and parameter recoverability under controlled nuisance variation. It is not evidence that the phenomenological field matches radiation transport in hardware."
+}

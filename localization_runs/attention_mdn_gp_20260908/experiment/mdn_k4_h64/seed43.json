@@ -1,0 +1,130 @@
+{
+  "name": "mdn_k4_h64",
+  "family": "mdn",
+  "seed": 43,
+  "validation_error_mm": 2.7921118478415035,
+  "epoch": 18,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_error_mm": 2.9292874693221505
+    },
+    {
+      "epoch": 2,
+      "validation_error_mm": 2.8581935758929213
+    },
+    {
+      "epoch": 3,
+      "validation_error_mm": 2.8311354276250236
+    },
+    {
+      "epoch": 4,
+      "validation_error_mm": 2.8173356920563446
+    },
+    {
+      "epoch": 5,
+      "validation_error_mm": 2.8224890574312824
+    },
+    {
+      "epoch": 6,
+      "validation_error_mm": 2.8100706913853224
+    },
+    {
+      "epoch": 7,
+      "validation_error_mm": 2.808774140472833
+    },
+    {
+      "epoch": 8,
+      "validation_error_mm": 2.812332324123072
+    },
+    {
+      "epoch": 9,
+      "validation_error_mm": 2.8024218332089808
+    },
+    {
+      "epoch": 10,
+      "validation_error_mm": 2.795856348622203
+    },
+    {
+      "epoch": 11,
+      "validation_error_mm": 2.800490386865643
+    },
+    {
+      "epoch": 12,
+      "validation_error_mm": 2.796827603797532
+    },
+    {
+      "epoch": 13,
+      "validation_error_mm": 2.7986476966476586
+    },
+    {
+      "epoch": 14,
+      "validation_error_mm": 2.7988594911185274
+    },
+    {
+      "epoch": 15,
+      "validation_error_mm": 2.8056800175896135
+    },
+    {
+      "epoch": 16,
+      "validation_error_mm": 2.7935262650262955
+    },
+    {
+      "epoch": 17,
+      "validation_error_mm": 2.798972635789813
+    },
+    {
+      "epoch": 18,
+      "validation_error_mm": 2.7921118478415035
+    },
+    {
+      "epoch": 19,
+      "validation_error_mm": 2.8018178820569712
+    },
+    {
+      "epoch": 20,
+      "validation_error_mm": 2.7938497905698654
+    },
+    {
+      "epoch": 21,
+      "validation_error_mm": 2.8008084544483713
+    },
+    {
+      "epoch": 22,
+      "validation_error_mm": 2.797208171531464
+    },
+    {
+      "epoch": 23,
+      "validation_error_mm": 2.8029854027350947
+    },
+    {
+      "epoch": 24,
+      "validation_error_mm": 2.7972525326351674
+    },
+    {
+      "epoch": 25,
+      "validation_error_mm": 2.7989400750008944
+    },
+    {
+      "epoch": 26,
+      "validation_error_mm": 2.795109955540272
+    },
+    {
+      "epoch": 27,
+      "validation_error_mm": 2.8023043577897746
+    },
+    {
+      "epoch": 28,
+      "validation_error_mm": 2.800663604459354
+    },
+    {
+      "epoch": 29,
+      "validation_error_mm": 2.8060071956046233
+    },
+    {
+      "epoch": 30,
+      "validation_error_mm": 2.807002335435903
+    }
+  ],
+  "parameters": 9172
+}

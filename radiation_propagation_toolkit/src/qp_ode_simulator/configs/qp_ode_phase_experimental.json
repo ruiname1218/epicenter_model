@@ -1,0 +1,22 @@
+{
+  "base_profile": "qp_ode_generic.json",
+  "profile_name": "generic_qec_qp_ode_phase_experimental",
+  "temporal_model": {
+    "qp_ode": {
+      "qp_dephasing": {
+        "enabled": true,
+        "charging_energy_ghz": 0.4
+      },
+      "frequency_shift": {
+        "enabled": true,
+        "coefficient_a": 0.77
+      }
+    }
+  },
+  "qp_model_provenance": {
+    "phase_reference": "Kurilovich et al., Phys. Rev. X 16, 021025 (2026)",
+    "phase_scope": "experimental optional branch; not calibrated to the 2021 Google RReCS data",
+    "coherent_simulation": "the ODE emits delta_f; Stim use requires the explicit Pauli-twirled coherent-phase approximation",
+    "absolute_hardware_calibration": false
+  }
+}

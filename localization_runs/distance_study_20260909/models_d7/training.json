@@ -1,0 +1,314 @@
+[
+  {
+    "family": "Ridge",
+    "config": {
+      "alpha": 10.0
+    },
+    "validation_mm": 2.9388892980621892
+  },
+  {
+    "family": "Ridge",
+    "config": {
+      "alpha": 100.0
+    },
+    "validation_mm": 2.814036712023495
+  },
+  {
+    "family": "Ridge",
+    "config": {
+      "alpha": 1000.0
+    },
+    "validation_mm": 2.709930197872093
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 1.0,
+      "gamma": 1.6913946587537092e-05
+    },
+    "validation_mm": 3.0196165065903053
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 1.0,
+      "gamma": 0.00016913946587537092
+    },
+    "validation_mm": 2.7309333370737194
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 1.0,
+      "gamma": 0.0016913946587537093
+    },
+    "validation_mm": 2.6818099361154424
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 10.0,
+      "gamma": 1.6913946587537092e-05
+    },
+    "validation_mm": 2.751647777698877
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 10.0,
+      "gamma": 0.00016913946587537092
+    },
+    "validation_mm": 2.728476872528403
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 10.0,
+      "gamma": 0.0016913946587537093
+    },
+    "validation_mm": 2.7913727823890397
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 100.0,
+      "gamma": 1.6913946587537092e-05
+    },
+    "validation_mm": 2.7318739595165002
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 100.0,
+      "gamma": 0.00016913946587537092
+    },
+    "validation_mm": 2.925110973817996
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 100.0,
+      "gamma": 0.0016913946587537093
+    },
+    "validation_mm": 2.8104983685471256
+  },
+  {
+    "family": "ExtraTrees",
+    "config": {
+      "leaf": 3
+    },
+    "validation_mm": 2.6857796857683316
+  },
+  {
+    "family": "ExtraTrees",
+    "config": {
+      "leaf": 8
+    },
+    "validation_mm": 2.720631544303119
+  },
+  {
+    "family": "ExtraTrees",
+    "config": {
+      "leaf": 16
+    },
+    "validation_mm": 2.7498942715664927
+  },
+  {
+    "family": "REI",
+    "history": 16,
+    "validation_mm": 3.5414974163916613,
+    "answer_rate": 0.9291666666666667
+  },
+  {
+    "family": "REI",
+    "history": 64,
+    "validation_mm": 3.0579678052970585,
+    "answer_rate": 1.0
+  },
+  {
+    "family": "REI",
+    "history": 256,
+    "validation_mm": 2.864730352521453,
+    "answer_rate": 1.0
+  },
+  {
+    "family": "REI",
+    "history": 1024,
+    "validation_mm": 2.7467310439476007,
+    "answer_rate": 1.0
+  },
+  {
+    "family": "REI",
+    "history": 2047,
+    "validation_mm": 2.800575548563245,
+    "answer_rate": 1.0
+  },
+  {
+    "family": "CNN",
+    "seed": 41,
+    "chosen_epoch": 7,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_mm": 3.246774227134146
+      },
+      {
+        "epoch": 2,
+        "validation_mm": 2.9717517934891418
+      },
+      {
+        "epoch": 3,
+        "validation_mm": 2.9284854794796376
+      },
+      {
+        "epoch": 4,
+        "validation_mm": 2.861300527688317
+      },
+      {
+        "epoch": 5,
+        "validation_mm": 2.847517038721912
+      },
+      {
+        "epoch": 6,
+        "validation_mm": 2.82089637665318
+      },
+      {
+        "epoch": 7,
+        "validation_mm": 2.8188717382073736
+      },
+      {
+        "epoch": 8,
+        "validation_mm": 2.925014718682129
+      },
+      {
+        "epoch": 9,
+        "validation_mm": 2.9280491719237403
+      },
+      {
+        "epoch": 10,
+        "validation_mm": 2.882346390492368
+      },
+      {
+        "epoch": 11,
+        "validation_mm": 2.960570185104607
+      },
+      {
+        "epoch": 12,
+        "validation_mm": 2.916325031015968
+      },
+      {
+        "epoch": 13,
+        "validation_mm": 2.9309680523908157
+      }
+    ],
+    "seconds": 142.14625514901127
+  },
+  {
+    "family": "CNN",
+    "seed": 42,
+    "chosen_epoch": 5,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_mm": 3.1494813381393754
+      },
+      {
+        "epoch": 2,
+        "validation_mm": 3.0348385330903067
+      },
+      {
+        "epoch": 3,
+        "validation_mm": 2.926266411626334
+      },
+      {
+        "epoch": 4,
+        "validation_mm": 2.931434320753755
+      },
+      {
+        "epoch": 5,
+        "validation_mm": 2.840977980183499
+      },
+      {
+        "epoch": 6,
+        "validation_mm": 2.851723980068336
+      },
+      {
+        "epoch": 7,
+        "validation_mm": 2.8500925057239557
+      },
+      {
+        "epoch": 8,
+        "validation_mm": 2.965806432945688
+      },
+      {
+        "epoch": 9,
+        "validation_mm": 2.9297250276321147
+      },
+      {
+        "epoch": 10,
+        "validation_mm": 2.9759474851562384
+      },
+      {
+        "epoch": 11,
+        "validation_mm": 3.026940407921049
+      }
+    ],
+    "seconds": 89.85112855199259
+  },
+  {
+    "family": "CNN",
+    "seed": 43,
+    "chosen_epoch": 6,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_mm": 2.9032725448833943
+      },
+      {
+        "epoch": 2,
+        "validation_mm": 2.8916688850567263
+      },
+      {
+        "epoch": 3,
+        "validation_mm": 2.8728517936316056
+      },
+      {
+        "epoch": 4,
+        "validation_mm": 2.9756505849873416
+      },
+      {
+        "epoch": 5,
+        "validation_mm": 2.9561777919010215
+      },
+      {
+        "epoch": 6,
+        "validation_mm": 2.8354713480930576
+      },
+      {
+        "epoch": 7,
+        "validation_mm": 2.8744452015324193
+      },
+      {
+        "epoch": 8,
+        "validation_mm": 2.876954511918394
+      },
+      {
+        "epoch": 9,
+        "validation_mm": 2.9506067697109213
+      },
+      {
+        "epoch": 10,
+        "validation_mm": 2.9480643259609765
+      },
+      {
+        "epoch": 11,
+        "validation_mm": 2.925539708761065
+      },
+      {
+        "epoch": 12,
+        "validation_mm": 2.965283275591159
+      }
+    ],
+    "seconds": 78.88383127799898
+  }
+]

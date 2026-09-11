@@ -1,0 +1,49 @@
+{
+  "sizes": [
+    360,
+    720,
+    1440,
+    1800
+  ],
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "sources": [
+    "../localization_runs/window_calibration_20260908/dataset",
+    "../localization_runs/temporal_diagnosis_20260908/fresh_dataset",
+    "../localization_runs/adaptive_features_20260908/fresh_dataset",
+    "../localization_runs/model_comparison_20260908/fresh_dataset"
+  ],
+  "status": "old tests explicitly promoted to training; new validation/test events",
+  "fixed_features": {
+    "cut": 345,
+    "quiet": [
+      0.026452583048363457,
+      0.023366893624816806,
+      0.03767136358085003,
+      0.028960063507572055,
+      0.02973100879335613,
+      0.038381243893502684,
+      0.021508228505129456,
+      0.02538012945774304
+    ]
+  },
+  "selection": "new ordinary validation mean error; no held-out ellipse selection",
+  "ridge_alpha": 100,
+  "svr": {
+    "C": 10,
+    "gamma": 0.001,
+    "epsilon": 0.1
+  },
+  "gnn": {
+    "epochs": 40,
+    "patience": 8,
+    "lr": 0.001,
+    "batch": 64,
+    "weight_decay": 0.001
+  },
+  "parent_sha256": "6889405f6cef7f99bf982a745c9ced1ed12756a0196d8a1eb5c6505d0aaf81dd",
+  "source_sha256": "33c61511087460016e9b5ad23698b3725f9d4534513c1805aa86af859780b1c4"
+}

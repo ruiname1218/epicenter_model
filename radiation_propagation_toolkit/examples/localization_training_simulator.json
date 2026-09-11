@@ -1,0 +1,5 @@
+{
+  "base_profile": "localization_simulator.json",
+  "profile_name": "diverse_localization_training_v1",
+  "event_timing": {"onset_time_ms": [0.05, 0.65], "control_fraction": 0.0}
+}

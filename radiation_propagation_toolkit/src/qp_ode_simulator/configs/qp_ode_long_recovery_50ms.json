@@ -1,0 +1,19 @@
+{
+  "base_profile": "qp_ode_generic.json",
+  "profile_name": "generic_qec_qp_ode_long_recovery_50ms",
+  "n_events": 4,
+  "time": {
+    "start_ms": 0.0,
+    "end_ms": 50.01,
+    "dt_ms": 0.005
+  },
+  "event_timing": {
+    "onset_time_ms": [0.1, 0.3],
+    "control_fraction": 0.25
+  },
+  "long_recovery_provenance": {
+    "purpose": "capture onset, peak, and a 50 ms recovery interval for the majority of the source-lifetime prior",
+    "scope": "phenomenological local QP-generation proxy; not an ionizing-particle energy-transport simulation",
+    "recommended_stim_config": "stim_long_recovery_50ms.json"
+  }
+}

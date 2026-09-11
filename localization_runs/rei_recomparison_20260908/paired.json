@@ -1,0 +1,92 @@
+[
+  {
+    "candidate": "constant",
+    "split": "test_id",
+    "minus_selected_rei_mm": 0.2383602346762908,
+    "event_bootstrap_95pct_mm": [
+      0.18292134131680818,
+      0.2946215910090899
+    ]
+  },
+  {
+    "candidate": "cnn_single",
+    "split": "test_id",
+    "minus_selected_rei_mm": -0.05777365547285432,
+    "event_bootstrap_95pct_mm": [
+      -0.11000483957037499,
+      -0.007669848217010008
+    ]
+  },
+  {
+    "candidate": "cnn_ensemble",
+    "split": "test_id",
+    "minus_selected_rei_mm": -0.0591469367957347,
+    "event_bootstrap_95pct_mm": [
+      -0.10906645601242763,
+      -0.010137930924669986
+    ]
+  },
+  {
+    "candidate": "fixed_ridge_100.0",
+    "split": "test_id",
+    "minus_selected_rei_mm": -0.06711828762492712,
+    "event_bootstrap_95pct_mm": [
+      -0.12707640106188042,
+      -0.007204426586524617
+    ]
+  },
+  {
+    "candidate": "svr_17",
+    "split": "test_id",
+    "minus_selected_rei_mm": -0.06554114649635416,
+    "event_bootstrap_95pct_mm": [
+      -0.14499114715722158,
+      0.013779772751964195
+    ]
+  },
+  {
+    "candidate": "constant",
+    "split": "test_ood",
+    "minus_selected_rei_mm": 0.9024988803373303,
+    "event_bootstrap_95pct_mm": [
+      0.7751807435297853,
+      1.0273655139437594
+    ]
+  },
+  {
+    "candidate": "cnn_single",
+    "split": "test_ood",
+    "minus_selected_rei_mm": -0.24481207303347383,
+    "event_bootstrap_95pct_mm": [
+      -0.43264293416326965,
+      -0.04802252785857412
+    ]
+  },
+  {
+    "candidate": "cnn_ensemble",
+    "split": "test_ood",
+    "minus_selected_rei_mm": -0.2555860828146188,
+    "event_bootstrap_95pct_mm": [
+      -0.4496463268365396,
+      -0.0564018245763815
+    ]
+  },
+  {
+    "candidate": "fixed_ridge_100.0",
+    "split": "test_ood",
+    "minus_selected_rei_mm": -0.38415963392497265,
+    "event_bootstrap_95pct_mm": [
+      -0.5558177662519238,
+      -0.20408056992025594
+    ]
+  },
+  {
+    "candidate": "svr_17",
+    "split": "test_ood",
+    "minus_selected_rei_mm": -0.47414227651066704,
+    "event_bootstrap_95pct_mm": [
+      -0.653064541122009,
+      -0.2960465306107009
+    ]
+  }
+]

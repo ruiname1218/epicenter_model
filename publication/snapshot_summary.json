@@ -1,0 +1,11 @@
+{
+  "included_files": 20903,
+  "included_bytes": 537861912,
+  "excluded_files": 20992,
+  "excluded_bytes": 9561405922,
+  "excluded_directories": 8,
+  "per_file_limit_bytes": 26214400,
+  "source_unchanged": true,
+  "git_lfs_used": false,
+  "note": "Excluded-directory contents are not counted in excluded-file totals. Credential pattern scan is a precaution, not an exhaustive security audit."
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "backend": "stim_surface_code",
+  "task": "surface_code:rotated_memory_z",
+  "distance": 3,
+  "rounds": 1024,
+  "round_duration_ms": 0.001,
+  "start_time_ms": 0.0,
+  "window_role": "onset_and_peak",
+  "shots_per_event": 4,
+  "layout": {
+    "qubit_pitch_mm": 1.0,
+    "rotation_degrees": 0.0,
+    "center_mm": [
+      0.0,
+      0.0
+    ]
+  },
+  "circuit_noise": {
+    "after_clifford_depolarization": 0.0005,
+    "before_round_data_depolarization": 0.0,
+    "before_measure_flip_probability": 0.001,
+    "after_reset_flip_probability": 0.001
+  },
+  "gate_schedule": {
+    "mode": "explicit",
+    "tick_durations_ns": [
+      30.0,
+      40.0,
+      40.0,
+      40.0,
+      40.0,
+      30.0,
+      780.0
+    ]
+  },
+  "noise_accounting": {
+    "depolarizing_channels_exclude_t1_t2": true
+  },
+  "radiation_channel": {
+    "targets": "all",
+    "timing": "gate_slices"
+  },
+  "decoder": {
+    "enabled": false,
+    "mode": "fixed_circuit"
+  },
+  "seed": 20260907
+}

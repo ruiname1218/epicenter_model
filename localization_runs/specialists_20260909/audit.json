@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "events": 720,
+  "model_hashes": "passed",
+  "data_hashes": "passed",
+  "seed_overlap": 0,
+  "rei_answer_rate": 1.0,
+  "all_historical_seed_overlap": 0,
+  "hardware_equal": true,
+  "balanced36": true,
+  "expert_training_pools": "passed",
+  "old_holdouts_not_in_training": true,
+  "tests": {
+    "tests": 109,
+    "failures": 0,
+    "errors": 0
+  },
+  "report_hash": "162cfedf63af9ed52c40648f850e6173c462eda1bfd32b33f6481c5c3848fe76"
+}

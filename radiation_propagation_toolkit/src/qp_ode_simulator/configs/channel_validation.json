@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "t1_us": [100.0, 50.0, 30.0, 20.0, 10.0, 5.0, 3.0],
+  "t2_over_t1": [2.0, 1.0],
+  "equilibrium_excited_population": [0.0, 0.01],
+  "rounds": 3,
+  "cycle_duration_us": 1.0,
+  "cases": ["z_memory_00", "z_memory_11", "x_memory_pp", "x_memory_mm"],
+  "screening_thresholds": {
+    "channel_state": 0.02,
+    "detector_tv": 0.03,
+    "detector_probability": 0.02,
+    "data_memory": 0.02
+  },
+  "threshold_note": "Project engineering screens, not universal physical tolerances"
+}

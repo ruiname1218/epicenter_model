@@ -1,0 +1,102 @@
+[
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "self_only",
+    "split": "test_id",
+    "difference_mm": -0.006028898769880811,
+    "event_ci95_mm": [
+      -0.0247552058832973,
+      0.01305170951105549
+    ]
+  },
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "gnn",
+    "split": "test_id",
+    "difference_mm": 0.004000945760176501,
+    "event_ci95_mm": [
+      -0.015379912990105086,
+      0.024087308328005624
+    ]
+  },
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "cnn_single",
+    "split": "test_id",
+    "difference_mm": -0.00785913435281733,
+    "event_ci95_mm": [
+      -0.053499557468530454,
+      0.04027942034990093
+    ]
+  },
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "fixed_ridge_100.0",
+    "split": "test_id",
+    "difference_mm": 0.0014854977992554612,
+    "event_ci95_mm": [
+      -0.047929915195223105,
+      0.05094358154914631
+    ]
+  },
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "svr_17",
+    "split": "test_id",
+    "difference_mm": -9.164332931748416e-05,
+    "event_ci95_mm": [
+      -0.06608273549435208,
+      0.06769604088099676
+    ]
+  },
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "self_only",
+    "split": "test_ood",
+    "difference_mm": -0.006090307169681624,
+    "event_ci95_mm": [
+      -0.06831181975334176,
+      0.0574027254698189
+    ]
+  },
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "gnn",
+    "split": "test_ood",
+    "difference_mm": 0.04462319879374873,
+    "event_ci95_mm": [
+      -0.017536439534002208,
+      0.10984505695777885
+    ]
+  },
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "cnn_single",
+    "split": "test_ood",
+    "difference_mm": -0.02213604078946428,
+    "event_ci95_mm": [
+      -0.1663740538615577,
+      0.1321241771404234
+    ]
+  },
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "fixed_ridge_100.0",
+    "split": "test_ood",
+    "difference_mm": 0.11721152010203466,
+    "event_ci95_mm": [
+      -0.012604385617127461,
+      0.24489188769679693
+    ]
+  },
+  {
+    "selected": "raw_huber_self_only",
+    "reference": "svr_17",
+    "split": "test_ood",
+    "difference_mm": 0.20719416268772903,
+    "event_ci95_mm": [
+      -0.0004123268454294939,
+      0.4289149089100268
+    ]
+  }
+]

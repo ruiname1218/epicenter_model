@@ -1,0 +1,23 @@
+[
+  {
+    "candidate": "mdn_k4_h64",
+    "seed": 41,
+    "nll_per_mm2": 4.151384768337795
+  },
+  {
+    "candidate": "mdn_k4_h64",
+    "seed": 42,
+    "nll_per_mm2": 4.00008247301292
+  },
+  {
+    "candidate": "mdn_k4_h64",
+    "seed": 43,
+    "nll_per_mm2": 3.910852336854218
+  },
+  {
+    "candidate": "gp_l15.0_noise1.0",
+    "seed": -1,
+    "nll_per_mm2": 4.329521546091024,
+    "marginal_95_coverage": 0.9986111111111111
+  }
+]

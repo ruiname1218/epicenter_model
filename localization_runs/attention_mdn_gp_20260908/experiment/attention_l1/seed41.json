@@ -1,0 +1,58 @@
+{
+  "name": "attention_l1",
+  "family": "attention",
+  "seed": 41,
+  "validation_error_mm": 2.833924873422031,
+  "epoch": 4,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_error_mm": 3.0549776106846274
+    },
+    {
+      "epoch": 2,
+      "validation_error_mm": 2.8688587077449754
+    },
+    {
+      "epoch": 3,
+      "validation_error_mm": 2.8571898087363934
+    },
+    {
+      "epoch": 4,
+      "validation_error_mm": 2.833924873422031
+    },
+    {
+      "epoch": 5,
+      "validation_error_mm": 2.8429585685778282
+    },
+    {
+      "epoch": 6,
+      "validation_error_mm": 2.8597125718424783
+    },
+    {
+      "epoch": 7,
+      "validation_error_mm": 2.906498053992695
+    },
+    {
+      "epoch": 8,
+      "validation_error_mm": 2.902484032054429
+    },
+    {
+      "epoch": 9,
+      "validation_error_mm": 2.9639358743057196
+    },
+    {
+      "epoch": 10,
+      "validation_error_mm": 2.998344545285363
+    },
+    {
+      "epoch": 11,
+      "validation_error_mm": 3.0103873459601065
+    },
+    {
+      "epoch": 12,
+      "validation_error_mm": 3.0431287675365173
+    }
+  ],
+  "parameters": 31698
+}

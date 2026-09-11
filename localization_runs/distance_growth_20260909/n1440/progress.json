@@ -1,0 +1,260 @@
+[
+  {
+    "family": "Ridge",
+    "config": {
+      "alpha": 10.0
+    },
+    "validation_mm": 2.7082624893580127
+  },
+  {
+    "family": "Ridge",
+    "config": {
+      "alpha": 100.0
+    },
+    "validation_mm": 2.6840216042752094
+  },
+  {
+    "family": "Ridge",
+    "config": {
+      "alpha": 1000.0
+    },
+    "validation_mm": 2.6650233156406897
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 1.0,
+      "gamma": 3.372781065088758e-05
+    },
+    "validation_mm": 2.839128627049613
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 1.0,
+      "gamma": 0.00033727810650887577
+    },
+    "validation_mm": 2.6409530442394913
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 1.0,
+      "gamma": 0.0033727810650887578
+    },
+    "validation_mm": 2.622200198427991
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 10.0,
+      "gamma": 3.372781065088758e-05
+    },
+    "validation_mm": 2.6493369895710264
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 10.0,
+      "gamma": 0.00033727810650887577
+    },
+    "validation_mm": 2.63668498228192
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 10.0,
+      "gamma": 0.0033727810650887578
+    },
+    "validation_mm": 2.709595709995111
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 100.0,
+      "gamma": 3.372781065088758e-05
+    },
+    "validation_mm": 2.6614216346783546
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 100.0,
+      "gamma": 0.00033727810650887577
+    },
+    "validation_mm": 2.6934929181508735
+  },
+  {
+    "family": "SVR",
+    "config": {
+      "C": 100.0,
+      "gamma": 0.0033727810650887578
+    },
+    "validation_mm": 2.9568363913202966
+  },
+  {
+    "family": "ExtraTrees",
+    "config": {
+      "leaf": 3
+    },
+    "validation_mm": 2.678414562135477
+  },
+  {
+    "family": "ExtraTrees",
+    "config": {
+      "leaf": 8
+    },
+    "validation_mm": 2.69919608421981
+  },
+  {
+    "family": "ExtraTrees",
+    "config": {
+      "leaf": 16
+    },
+    "validation_mm": 2.7238159168689777
+  },
+  {
+    "family": "CNN",
+    "seed": 41,
+    "chosen": 3,
+    "seconds": 87.40864717299701,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_mm": 2.9380331530743864
+      },
+      {
+        "epoch": 2,
+        "validation_mm": 2.8627130752294128
+      },
+      {
+        "epoch": 3,
+        "validation_mm": 2.775120306170334
+      },
+      {
+        "epoch": 4,
+        "validation_mm": 2.7855094694143903
+      },
+      {
+        "epoch": 5,
+        "validation_mm": 2.837230724447024
+      },
+      {
+        "epoch": 6,
+        "validation_mm": 2.986982271881329
+      },
+      {
+        "epoch": 7,
+        "validation_mm": 2.9264728049649924
+      },
+      {
+        "epoch": 8,
+        "validation_mm": 2.9911480943778743
+      },
+      {
+        "epoch": 9,
+        "validation_mm": 3.0075292942239042
+      }
+    ]
+  },
+  {
+    "family": "CNN",
+    "seed": 42,
+    "chosen": 4,
+    "seconds": 102.4238039470074,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_mm": 2.9203053142746613
+      },
+      {
+        "epoch": 2,
+        "validation_mm": 2.8461442569526625
+      },
+      {
+        "epoch": 3,
+        "validation_mm": 2.7750412563987603
+      },
+      {
+        "epoch": 4,
+        "validation_mm": 2.771374256587973
+      },
+      {
+        "epoch": 5,
+        "validation_mm": 2.7818081933272834
+      },
+      {
+        "epoch": 6,
+        "validation_mm": 2.8925875852336516
+      },
+      {
+        "epoch": 7,
+        "validation_mm": 2.9317390477782674
+      },
+      {
+        "epoch": 8,
+        "validation_mm": 2.9424498869152305
+      },
+      {
+        "epoch": 9,
+        "validation_mm": 3.0600744677258245
+      },
+      {
+        "epoch": 10,
+        "validation_mm": 3.063571553559373
+      }
+    ]
+  },
+  {
+    "family": "CNN",
+    "seed": 43,
+    "chosen": 5,
+    "seconds": 80.2165974410018,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_mm": 2.9031640822393943
+      },
+      {
+        "epoch": 2,
+        "validation_mm": 2.8432179193254927
+      },
+      {
+        "epoch": 3,
+        "validation_mm": 2.8437872165594857
+      },
+      {
+        "epoch": 4,
+        "validation_mm": 2.8025113473084136
+      },
+      {
+        "epoch": 5,
+        "validation_mm": 2.7996870439335684
+      },
+      {
+        "epoch": 6,
+        "validation_mm": 2.8028067852798193
+      },
+      {
+        "epoch": 7,
+        "validation_mm": 2.868816565701128
+      },
+      {
+        "epoch": 8,
+        "validation_mm": 2.8789950441999497
+      },
+      {
+        "epoch": 9,
+        "validation_mm": 2.986612629181611
+      },
+      {
+        "epoch": 10,
+        "validation_mm": 3.01061851464628
+      },
+      {
+        "epoch": 11,
+        "validation_mm": 3.0353079209061287
+      }
+    ]
+  }
+]

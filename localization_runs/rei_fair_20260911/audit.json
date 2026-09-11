@@ -1,0 +1,37 @@
+{
+  "hashes_verified": true,
+  "old_seed_overlap": 0,
+  "train_events": 864,
+  "validation_events": 180,
+  "test_physical_events": 756,
+  "condition_events": {
+    "ID": 540,
+    "noise2": 540,
+    "slow": 216
+  },
+  "batch_model_ms_per_shot": {
+    "h2_SVR": 0.13436159066332262,
+    "h2_Ridge": 0.00037366975304933104,
+    "h2_SVR_noquiet": 0.13615630787087327,
+    "h2_CNN": 0.07111340277751767,
+    "h2_REI_full": 0.0517560023150722,
+    "h2_REI_1024": 0.050923222221890795,
+    "h2_REI_valK": 0.050922663580209186,
+    "h4_SVR": 0.16534711651232742,
+    "h4_Ridge": 0.0005673595679851402,
+    "h4_SVR_noquiet": 0.16432834104938998,
+    "h4_CNN": 0.06631843132745528,
+    "h4_REI_full": 0.05142171643495394,
+    "h4_REI_1024": 0.0510553765432206,
+    "h4_REI_valK": 0.050749479938099,
+    "h8_SVR": 0.2614816554786737,
+    "h8_Ridge": 0.0006363962187954454,
+    "h8_SVR_noquiet": 0.2771038861883875,
+    "h8_CNN": 0.06830203858007623,
+    "h8_REI_full": 0.0517946990738791,
+    "h8_REI_1024": 0.051515940200446225,
+    "h8_REI_valK": 0.05121823881207676
+  },
+  "timing_note": "Batch prediction only, excludes feature extraction/acquisition; CNN includes checkpoint loading. Not single-event latency.",
+  "interpretation": "Adapted REI localization on event-present windows, not original implementation superiority or streaming detection. No physical latent targets used for learning. CNN seeds are initialization repeats on common training set."
+}
