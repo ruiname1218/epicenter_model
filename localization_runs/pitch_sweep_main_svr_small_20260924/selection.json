@@ -1,0 +1,27 @@
+{
+  "ultra_low": {
+    "validation_mean_mm": 2.433207910034732,
+    "features": 120,
+    "hash": "f759ca58c194b2d5ce49775462252fe2138f9c3defdeb2cf6ff69b07ab35cbf7"
+  },
+  "low": {
+    "validation_mean_mm": 2.297906523621622,
+    "features": 120,
+    "hash": "17b68af9a92cf958d772aff0b1f265e80973ca7ccc38354ca0ad2b649ab2a5c4"
+  },
+  "standard": {
+    "validation_mean_mm": 2.2948902226400723,
+    "features": 120,
+    "hash": "e695fc622c886bcdf535a820d898956e25ee6abf52535904ca07dbefba5526ed"
+  },
+  "high": {
+    "validation_mean_mm": 2.30152333469799,
+    "features": 120,
+    "hash": "902b294bdb85253e26fab9f5b5f91da7f51fc6d981bfffce392d724de6854386"
+  },
+  "ultra_high": {
+    "validation_mean_mm": 2.4332552800809215,
+    "features": 120,
+    "hash": "62edeb1928950598b946d797da229e8c191bfc75b7887b0446e8be8369d9cf8a"
+  }
+}
