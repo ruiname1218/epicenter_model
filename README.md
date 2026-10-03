@@ -9,6 +9,7 @@ reproduction of the original REI publication.
 
 - [English research brief — 4 pages](paper/research_summary_en.pdf)
 - [日本語の研究概要 — 4ページ](paper/research_summary_ja.pdf)
+- [Poster PDF](paper/Poster_Rui_Suzuki_v2.pdf)
 - [日本語ガイド](docs/README_JA.md)
 - [Content review and corrections](paper/REVIEW_JA.md)
 
@@ -38,12 +39,15 @@ docs/        Scope, provenance and reproducibility instructions
 | `rei_fair_20260911` | Primary matched-window comparison and exploratory stress tests | [Report](results/rei_fair_20260911/RESULT_JA.md) |
 | `distance_main_svr_20260923` | Supporting code-distance comparison under the main SVR protocol | [Report](results/distance_main_svr_20260923/RESULT_JA.md) |
 | `feature_ablation_main_aligned_20260923` | Supporting spatial/temporal feature ablation on the aligned test set | [Report](results/feature_ablation_main_aligned_20260923/RESULT_JA.md) |
+| `density_main_svr_20260924` | Fixed-area density comparison (49 vs 97 qubits) | [Report](results/density_main_svr_20260924/RESULT_JA.md) |
+| `qec_channel_validation` | Temporal/spatial QEC-channel validation | [Report](results/qec_channel_validation/REPORT_JA.md) |
+| `propagation_validation` | Propagation ground-truth recovery check | Summary files in the directory |
 
 Scores from different studies must not be combined into a common leaderboard.
 The compact density-pitch pilot remains on the experiment branch because it uses
-fewer events and changes the physical footprint. `main` intentionally excludes
-model checkpoints, raw syndrome arrays, feature caches and unrelated exploratory
-results.
+fewer events and changes the physical footprint; it is distinct from the fixed-area
+density comparison listed above. `main` intentionally excludes model checkpoints,
+raw syndrome arrays, feature caches and unrelated exploratory results.
 
 ## Reproduce the published figures
 

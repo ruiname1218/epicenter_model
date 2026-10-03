@@ -30,6 +30,8 @@
 11. 条件とテスト設計が揃ったcode-distance比較とfeature ablationを補助結果として追加。
     学習量・物理範囲が異なる縮小density-pitchパイロットはmainから除外し、実験ブランチに残した。
 12. 旧観測時間・旧feature-selection結果はmainの選定結果から除外し、条件の異なる結果を同じ概要で混在させない。
+13. ポスター掲載の固定面積density比較、QEC channel検証、伝播ground-truth検証、ポスターPDFをmainへ追加した。
+    density比較は符号距離比較とは別の固定面積条件として明示し、単純なdensityランキングには混ぜない。
 
 ## 実施した確認
 

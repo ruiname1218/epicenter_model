@@ -1,0 +1,14 @@
+{
+  "base": {
+    "features": 120,
+    "gamma": 0.00475,
+    "validation_mean_mm": 2.111841058615356,
+    "hash": "ba47d397569db94a312b4c52a5e8be9395fc87a56251ee060b0d0f3358d283b7"
+  },
+  "dense": {
+    "features": 240,
+    "gamma": 0.002375,
+    "validation_mean_mm": 2.056675860941855,
+    "hash": "18baabab0aea8fa559c360a402e4ec125127092f34d2a66d6270e0cc50cd4fb2"
+  }
+}
