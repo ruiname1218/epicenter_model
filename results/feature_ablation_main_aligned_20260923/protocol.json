@@ -1,0 +1,16 @@
+{
+  "source_run": "/home/rui/Downloads/epicenter_model/localization_runs/rei_fair_20260911",
+  "train_events": 864,
+  "validation_events": 180,
+  "nominal_test_events": 540,
+  "shots_per_event": 2,
+  "distance": 5,
+  "checks": 24,
+  "horizon_ms": 4.096,
+  "features": "primary x4 relative spatial distribution reshaped as 24 checks x 5 windows",
+  "learner": "StandardScaler + independent RBF SVR for x/y; C=1, epsilon=.1, gamma=.57/120",
+  "train_mean_for_early_late_only": true,
+  "selection": "No test selection; fixed primary SVR hyperparameters. Validation metrics recorded only.",
+  "test": "ID domain only; noise2 and slow domains excluded from this nominal feature figure",
+  "interpretation": "Re-analysis on the primary corpus; not the planned five independent training-replicate study."
+}

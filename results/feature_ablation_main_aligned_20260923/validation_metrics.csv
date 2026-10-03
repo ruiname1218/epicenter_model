@@ -1,0 +1,10 @@
+model,validation_mean_mm
+F0_relative_spatiotemporal,2.1404624007211805
+F1_spatial_only,2.107125234611516
+F2_temporal_only,3.2563335664465733
+F3_global_level,3.244096614260766
+F4_spatial_dynamics,3.06143497496703
+F5_early_only,2.2850730684185216
+F6_late_only,2.2581650551496617
+N1_shuffled_checks,3.3145745382843947
+N2_shuffled_time,2.2188579991766106

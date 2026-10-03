@@ -1,0 +1,20 @@
+{
+  "3": {
+    "features": 40,
+    "gamma": 0.014249999999999999,
+    "validation_mean_mm": 2.4860094853194497,
+    "hash": "753f8cc08a6789b5b64eee11e7b5fb997bfb0d99b7c9bd38e0a42b5633b59bd8"
+  },
+  "5": {
+    "features": 120,
+    "gamma": 0.00475,
+    "validation_mean_mm": 2.251520921790006,
+    "hash": "2004fc15f4ecda7f6550138cb9ed08bedaf19f33a1521279ddfe69c201e1fd97"
+  },
+  "7": {
+    "features": 240,
+    "gamma": 0.002375,
+    "validation_mean_mm": 2.1504183102615526,
+    "hash": "5acd0051426c95586b4e6b147e2cc280fc71655e42800d73bdb3e01fb826c6fc"
+  }
+}

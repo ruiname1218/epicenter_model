@@ -36,13 +36,14 @@ docs/        Scope, provenance and reproducibility instructions
 | Study | Role | Full report |
 |---|---|---|
 | `rei_fair_20260911` | Primary matched-window comparison and exploratory stress tests | [Report](results/rei_fair_20260911/RESULT_JA.md) |
-| `long_observation_20260910` | Supporting paired observation-window experiment | [Report](results/long_observation_20260910/RESULT_JA.md) |
-| `feature_selection_20260910` | Supporting feature / kernel-parameter analysis | [Report](results/feature_selection_20260910/RESULT_JA.md) |
+| `distance_main_svr_20260923` | Supporting code-distance comparison under the main SVR protocol | [Report](results/distance_main_svr_20260923/RESULT_JA.md) |
+| `feature_ablation_main_aligned_20260923` | Supporting spatial/temporal feature ablation on the aligned test set | [Report](results/feature_ablation_main_aligned_20260923/RESULT_JA.md) |
 
 Scores from different studies must not be combined into a common leaderboard.
-Historical reports retain their original context; the briefs use only the selected
-comparisons. `main` intentionally excludes model checkpoints, raw syndrome arrays,
-feature caches and unrelated exploratory results.
+The compact density-pitch pilot remains on the experiment branch because it uses
+fewer events and changes the physical footprint. `main` intentionally excludes
+model checkpoints, raw syndrome arrays, feature caches and unrelated exploratory
+results.
 
 ## Reproduce the published figures
 

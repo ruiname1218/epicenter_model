@@ -23,14 +23,14 @@ plt.rcParams.update({'font.family': ['DejaVu Sans', fm.FontProperties(fname=FONT
                      'text.color': '#26364a', 'axes.edgecolor': '#b4bdc7'})
 BLUE, GRAY, TEAL, ORANGE = '#2066a8', '#929ba8', '#258878', '#d88730'
 SOURCES = ['rei_fair_20260911/metrics.csv', 'rei_fair_20260911/paired.json',
-           'long_observation_20260910/metrics.csv',
-           'feature_selection_20260910/factorial_metrics.csv']
+           'distance_main_svr_20260923/metrics.csv',
+           'feature_ablation_main_aligned_20260923/metrics.csv']
 def read_csv(name):
     with (RUNS / name).open() as f:
         return list(csv.DictReader(f))
 MAIN = read_csv(SOURCES[0])
 PAIRS = json.loads((RUNS / SOURCES[1]).read_text())
-LONG = read_csv(SOURCES[2])
+DIST = read_csv(SOURCES[2])
 FEAT = read_csv(SOURCES[3])
 def row(data, **keys):
     found = [r for r in data if all(str(r[k]) == str(v) for k, v in keys.items())]
@@ -145,32 +145,38 @@ def build(lang):
         source(f, '[1] rei_fair_20260911  |  All results on this page use ~4 ms.')
         finish(pdf, f, 2)
 
-        f = page(3, '観測時間と特徴量による精度の違い', 'Observation time and feature choice',
-                 '補助実験：各図の中では同じテストを使用。前ページとは別の学習・テスト条件。',
-                 'Supporting studies: matched tests within each panel; different training/tests from pages 1–2.')
-        ax = f.add_axes([.14, .568, .76, .215])
-        for group, color, label in [('medium', BLUE, tr('中', 'Medium')), ('strong', TEAL, tr('強', 'Strong'))]:
-            vals = [float(row(LONG, model=f'{h}_relative_SVR1', group=group)['mean_mm']) for h in [2,4,8]]
-            ax.plot([2,4,8], vals, marker='o', color=color, label=label)
-            for h, v in zip([2,4,8], vals): ax.annotate(f'{v:.3f}', (h,v), xytext=(0,9), textcoords='offset points', ha='center', fontsize=9)
-        ax.set_xticks([2,4,8]); ax.set_ylim(0,3.15); style(ax)
-        ax.set_xlabel(tr('観測時間 [ms、概数]', 'Observation time [ms, rounded]'), fontsize=9)
-        ax.legend(frameon=False, ncol=2, fontsize=9, loc='upper right')
-        txt(f, .512,
-            '観測時間：中は約8 msまで改善。強は4→8 msの追加効果が不明確。\n中の2→8 msの差 −0.415 mm、98.75%区間 −0.541〜−0.294 mm（4主比較の補正）。\n同一記録の先頭を比較。学習1,080・テスト540件。窓ごとに再学習し、特徴次元とγも変わる。',
-            'Medium events improve up to ~8 ms; the strong-event 4→8 ms gain is unclear.\nMedium, 2→8 ms: −0.415 mm (98.75% CI −0.541 to −0.294; adjusted for four primary contrasts).\nSame prefixes; 1,080 train / 540 test events. Models are refit; feature dimension and γ vary by window.', 10)
-        ax = f.add_axes([.14, .245, .76, .165])
-        for i,(feat,label,c) in enumerate([('full',tr('全特徴', 'Full features'),GRAY),('relative',tr('相対空間分布', 'Relative spatial pattern'),BLUE)]):
-            vals = [float(row(FEAT, model=f'{feat}__{g}', group='strong')['mean_mm']) for g in ['g265','g120','g72']]
-            bars = ax.bar(np.arange(3)+(i-.5)*.28, vals, .26, label=label, color=c)
-            ax.bar_label(bars,fmt='%.3f',fontsize=8,padding=3)
-        ax.set_xticks(np.arange(3), ['0.00215', '0.00475', '0.00792']); ax.set_ylim(0,2.05); style(ax)
-        ax.set_xlabel(tr('共通のSVRカーネル幅パラメータ γ', 'Common SVR kernel parameter γ'),fontsize=9)
-        ax.legend(frameon=False,ncol=2,fontsize=8,loc='upper left')
-        txt(f, .184,
-            '特徴表現：強では、同じγの3設定すべてで相対空間分布のみの平均誤差が小さい。\nγの変更だけでは利益を説明できない。ただし特徴次元・距離分布の違いは残る。\nこの特徴比較は探索的。両補助実験とも強い楕円を学習から除外しており、主比較と区別する。',
-            'Representation: relative spatial patterns give lower strong-event means at all three shared γ values.\nChanging γ alone does not explain the benefit; feature dimension and distance distributions still differ.\nThis feature contrast is exploratory. Both supporting studies exclude strong ellipses from training.', 9)
-        source(f, '[2] long_observation_20260910  |  [3] feature_selection_20260910')
+        f = page(3, '符号距離と特徴量の影響', 'Code distance and feature choice',
+                 '主比較と同じ観測プロトコル・SVR設定を用いた補助実験。',
+                 'Supporting studies using the main observation protocol and SVR settings.')
+        ax = f.add_axes([.14, .56, .76, .22])
+        for group, color, label, marker in [('all', BLUE, tr('全体', 'All'), 'o'),
+                                             ('weak', GRAY, tr('弱', 'Weak'), 's'),
+                                             ('medium', GRAY, tr('中', 'Medium'), '^'),
+                                             ('strong', GRAY, tr('強', 'Strong'), 'D')]:
+            vals = [float(row(DIST, distance=d, group=group)['mean_mm']) for d in [3,5,7]]
+            ax.plot([3,5,7], vals, marker=marker, linewidth=2.0, color=color, label=label)
+            for d, v in zip([3,5,7], vals): ax.annotate(f'{v:.2f}', (d,v), xytext=(0,8), textcoords='offset points', ha='center', fontsize=8)
+        ax.set_xticks([3,5,7]); ax.set_ylim(0,3.65); style(ax)
+        ax.set_xlabel(tr('surface-code distance', 'Surface-code distance'), fontsize=9)
+        ax.legend(frameon=False, ncol=4, fontsize=8, loc='upper center', bbox_to_anchor=(.5,1.18))
+        txt(f, .50,
+            '符号距離を3→7に増やすと、全体誤差は2.419→2.079 mm、強イベントは1.115→0.632 mmに低下した。\n中イベントはd=5で最良、弱イベントの改善は小さい。これは観測範囲とcheck数も同時に増える比較である。',
+            'Increasing code distance from 3 to 7 lowers overall error from 2.419 to 2.079 mm and strong-event error from 1.115 to 0.632 mm.\nMedium events are best at d=5; weak events improve little. The comparison also increases the observed area and check count.', 9)
+        ax = f.add_axes([.14, .245, .76, .16])
+        feature_order = [('F0_relative_spatiotemporal', tr('空間+時間', 'Spatial + temporal'), BLUE),
+                         ('F1_spatial_only', tr('空間のみ', 'Spatial only'), BLUE),
+                         ('F2_temporal_only', tr('時間のみ', 'Temporal only'), GRAY),
+                         ('N1_shuffled_checks', tr('位置シャッフル', 'Shuffled positions'), GRAY),
+                         ('N2_shuffled_time', tr('時間シャッフル', 'Shuffled time'), GRAY)]
+        vals = [float(row(FEAT, model=name, group='all')['mean_mm']) for name, _, _ in feature_order]
+        bars = ax.bar(np.arange(len(vals)), vals, color=[c for _,_,c in feature_order], width=.62)
+        ax.bar_label(bars, fmt='%.2f', fontsize=7, padding=2)
+        ax.set_xticks(np.arange(len(vals)), [label for _,label,_ in feature_order], rotation=18, ha='right', fontsize=8)
+        ax.set_ylim(0,3.65); style(ax)
+        txt(f, .182,
+            '空間情報を除くと全体誤差は約3.25–3.31 mmに悪化し、空間情報が重要であることを示す。\nこの特徴量比較は主比較と同じテストを使うが、特徴量アブレーションとして探索的に報告する。',
+            'Removing spatial information increases overall error to about 3.25–3.31 mm, indicating that spatial information is important.\nThis ablation uses the same test set as the primary comparison but remains exploratory.', 8)
+        source(f, '[2] distance_main_svr_20260923  |  [3] feature_ablation_main_aligned_20260923')
         finish(pdf, f, 3)
 
         f = page(4, '論文で主張すること・しないこと', 'A focused research story',
@@ -186,22 +192,22 @@ def build(lang):
             '1. Inference uses no test truth. Strength groups use true labels, not a tested strength classifier.\n2. SVR/Ridge subtract quiet rates; CNN uses training-set scaling. Prior information differs from REI.\n3. REI validation selects full history at ~4/8 ms. Uncalibrated SVR: 2.257 mm at nominal ~4 ms.\n4. Adapted REI is not a full reproduction. Original-paper and computational superiority are unproven.\n5. Intervals condition on training data; secondary and research-wide repeated searches are unadjusted.\n6. One simulated device: phenomenological propagation + local QP-ODE + Pauli approximation.', 10)
         txt(f, .399, '主比較に混ぜない結果', 'Keep separate from the primary comparison', 13)
         txt(f, .361,
-            '物理照合は潜在確率を学習に使う別方式。oracleは真値を使う診断で、実用精度ではない。\n学習量・符号距離の旧実験は補足候補。異なるテストの最良値を集めて優劣をつけない。\n弱・中・強は生成器の強度帯であり、実測エネルギーによる普遍的な分類ではない。',
-            'Physical-template methods use latent probabilities during training; oracle results are diagnostics.\nOlder data-size and code-distance studies can be supplementary, not a cross-test best-score leaderboard.\nWeak / medium / strong are simulator generation bands, not universal measured-energy classes.', 10)
+            '物理照合は潜在確率を学習に使う別方式。oracleは真値を使う診断で、実用精度ではない。\n密度pitchの縮小パイロットは標本数と物理範囲が主比較と異なるため、実験ブランチに分離する。\n符号距離・特徴量結果は補助分析であり、異なるテストの最良値を集めて優劣をつけない。\n弱・中・強は生成器の強度帯であり、実測エネルギーによる普遍的な分類ではない。',
+            'Physical-template methods use latent probabilities during training; oracle results are diagnostics.\nThe compact density-pitch pilot remains on the experiment branch because its sample size and physical extent differ.\nCode-distance and feature results are supporting analyses, not a cross-test best-score leaderboard.\nWeak / medium / strong are simulator generation bands, not universal measured-energy classes.', 10)
         txt(f, .273, '投稿に向けて必要な検証', 'Before submission', 13)
         txt(f, .235,
             '独立した学習集合で追試／物理モデルの妥当性・先行研究との差を確認／待ち時間込みの速度評価。\n実機・BB code・連続監視・複数イベント・復号への効果は未実証。論文としての新規性は別途検証する。',
             'Repeat with independent training sets; validate physics and literature novelty; measure end-to-end latency.\nReal hardware, BB codes, continuous monitoring, multiple events and decoding benefits are not established.', 10)
         txt(f, .147,
-            '出典（実験フォルダ内のRESULT_JA.mdと保存済み評価データ）\n[1] rei_fair_20260911  [2] long_observation_20260910  [3] feature_selection_20260910\n同梱のsources.jsonに入力ファイルのSHA-256を保存。図はCSVから再生成し、棒の軸はゼロ始まり。',
-            'Sources: saved evaluation data and RESULT_JA.md in each experiment directory.\n[1] rei_fair_20260911  [2] long_observation_20260910  [3] feature_selection_20260910\nInput SHA-256 hashes are in sources.json. Charts are generated from CSV; bars start at zero.', 8)
+            '出典（実験フォルダ内のRESULT_JA.mdと保存済み評価データ）\n[1] rei_fair_20260911  [2] distance_main_svr_20260923  [3] feature_ablation_main_aligned_20260923\n同梱のsources.jsonに入力ファイルのSHA-256を保存。図はCSVから再生成し、棒の軸はゼロ始まり。',
+            'Sources: saved evaluation data and RESULT_JA.md in each experiment directory.\n[1] rei_fair_20260911  [2] distance_main_svr_20260923  [3] feature_ablation_main_aligned_20260923\nInput SHA-256 hashes are in sources.json. Charts are generated from CSV; bars start at zero.', 8)
         finish(pdf, f, 4)
 
 if __name__ == '__main__':
     assert abs(metric('SVR')-2.214011)<1e-5
     assert pair()['primary'] is True
     manifest = {}
-    for name in SOURCES + [f'{r}/RESULT_JA.md' for r in ['rei_fair_20260911','long_observation_20260910','feature_selection_20260910']]:
+    for name in SOURCES + [f'{r}/RESULT_JA.md' for r in ['rei_fair_20260911','distance_main_svr_20260923','feature_ablation_main_aligned_20260923']]:
         p = RUNS / name
         manifest[name] = hashlib.sha256(p.read_bytes()).hexdigest()
     for lang in ['ja','en']: build(lang)
