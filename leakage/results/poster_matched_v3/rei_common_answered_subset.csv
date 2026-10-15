@@ -1,0 +1,16 @@
+study,condition,model,mean_on_rei_answered,shots_per_rep
+models,nominal,Adapted REI,1.8242359250370241,720
+models,nominal,CNN,1.548818802527939,720
+models,nominal,Constant,3.5958571894487306,720
+models,nominal,Ridge,1.6266079883924074,720
+models,nominal,SVR,1.563701698569666,720
+robustness,double_noise,Adapted REI,2.4140912661793017,863
+robustness,double_noise,CNN,2.044103276923868,863
+robustness,double_noise,Constant,3.756335271069825,863
+robustness,double_noise,Ridge,2.125467369642371,863
+robustness,double_noise,SVR,2.1085558064566987,863
+robustness,slow_transport,Adapted REI,1.626253668627342,729
+robustness,slow_transport,CNN,1.4655316042305788,729
+robustness,slow_transport,Constant,3.583668508818717,729
+robustness,slow_transport,Ridge,1.522377634983783,729
+robustness,slow_transport,SVR,1.4417119700980237,729

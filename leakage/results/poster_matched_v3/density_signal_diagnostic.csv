@@ -1,0 +1,3 @@
+dataset,checks,svr_features,training_events,expected_background_detections,observed_detections,excess_over_quiet
+nominal,24,120,864,3.1651611328125,8.057407407407407,4.892246274594907
+density_d15,224,1120,864,32.8770751953125,39.364814814814814,6.487739619502314

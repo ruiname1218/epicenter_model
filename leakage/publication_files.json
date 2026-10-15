@@ -1,0 +1,147 @@
+[
+  {
+    "path": "results/poster_matched_v3/metrics.csv",
+    "sha256": "fd5c2f220745b57008dc7e1642f4aaa6ce73ae11dff2b6a9c691b3a1555c99ba",
+    "bytes": 25229
+  },
+  {
+    "path": "results/poster_matched_v3/predictions.csv",
+    "sha256": "cecfabc649b6623070ced684f437c77fea96eddb6ed85a484b8dc798e894a1d4",
+    "bytes": 10424175
+  },
+  {
+    "path": "results/poster_matched_v3/protocol.json",
+    "sha256": "91076cc66310c244ba09db617fda7d8c12100f5acaac5f125344218160ca5174",
+    "bytes": 1635
+  },
+  {
+    "path": "results/poster_matched_v3/selection.json",
+    "sha256": "07d885b171a5edeb328d6968a616a0c6a49140b799e7dc9ed6e4543c8166ce67",
+    "bytes": 34123
+  },
+  {
+    "path": "results/poster_matched_v3/audit.json",
+    "sha256": "7b85c93a58a4bd12d37afefbd9527994793b4641e563e9b89e05cc5bde3ecc02",
+    "bytes": 414
+  },
+  {
+    "path": "results/poster_matched_v3/tests.xml",
+    "sha256": "3f60029f318c81424811059ae920be6504a98c00a25e0d7ebb717476c5cfa227",
+    "bytes": 924
+  },
+  {
+    "path": "results/poster_matched_v3/paired_vs_rei.csv",
+    "sha256": "fc7fb5b5134da919b42d4e1deab644620069751c3ead225e18cc915c89a2c78a",
+    "bytes": 818
+  },
+  {
+    "path": "results/poster_matched_v3/paired_svr_contrasts.csv",
+    "sha256": "88e74532fba6b5aac75a60b0ff589f2e6eabe9d06013e5354c1672c463779c89",
+    "bytes": 767
+  },
+  {
+    "path": "results/poster_matched_v3/rei_common_answered_subset.csv",
+    "sha256": "14bc6ec9c72b78451e8e27ed872903304de8ad7682e95d95a0e2d4dd1a5a2c55",
+    "bytes": 824
+  },
+  {
+    "path": "results/poster_matched_v3/density_signal_diagnostic.csv",
+    "sha256": "dab3befb9423ca2bd0471f2aa72421fedbba9dbd2caa28e54837570a2084dd6e",
+    "bytes": 263
+  },
+  {
+    "path": "results/poster_matched_v3/REPORT_JA.md",
+    "sha256": "f8504cfb6a77822166c9766544942015da80f5fa2f18edef3e178d942116ab78",
+    "bytes": 11716
+  },
+  {
+    "path": "results/poster_matched_v3/environment.json",
+    "sha256": "79bd3955f754d91d68d907e511249b18ddb5a4cc7c9532dce8e3f40ede7b87f4",
+    "bytes": 242
+  },
+  {
+    "path": "results/poster_matched_v3/overview.png",
+    "sha256": "38358d907b79471a404ad94a4a186d0cbd7544537f154799999d888ce468ec99",
+    "bytes": 151892
+  },
+  {
+    "path": "results/poster_matched_v3/overview.pdf",
+    "sha256": "ad23db0bbf86a10cb2c86fdee073db6df564c5930707938039af5f4e69fc88ca",
+    "bytes": 21392
+  },
+  {
+    "path": "results/poster_matched_v3/models_by_strength.png",
+    "sha256": "6cd3045dbdad07c367c90b7436cb4808db100475a89a319278725a6f929d80f3",
+    "bytes": 48438
+  },
+  {
+    "path": "results/poster_matched_v3/models_by_strength.pdf",
+    "sha256": "38113ad62b77c5b308fdbb708a8bb563cbb1abfbb042d9898291c3431bf56500",
+    "bytes": 14934
+  },
+  {
+    "path": "results/poster_matched_v3/distance_by_strength.png",
+    "sha256": "e7e81960f8d488f505c56dba58dd78dab261a7f484148113205073a76597a062",
+    "bytes": 77470
+  },
+  {
+    "path": "results/poster_matched_v3/distance_by_strength.pdf",
+    "sha256": "1028a70c3a57f9621bc623cca9358101ec077453d07a7ca16537fbec6c0f01bd",
+    "bytes": 16539
+  },
+  {
+    "path": "results/legacy_centroid_reference_v3/metrics.csv",
+    "sha256": "31e2d449036ef50ecb06d1ef05b8f4c382da89fa0af4bf812398f071d4f728ec",
+    "bytes": 1810
+  },
+  {
+    "path": "results/legacy_centroid_reference_v3/predictions.csv",
+    "sha256": "c5d68ae1ade4469e18a9c8cfe522f7e9b439151b29b39f9a65a8e45dc4c0a55a",
+    "bytes": 313931
+  },
+  {
+    "path": "results/legacy_centroid_reference_v3/paired_differences.csv",
+    "sha256": "e93dea336a99e038e1420d451d3e89f9a274102a3b8ea0b881ad0817cc2c211a",
+    "bytes": 1226
+  },
+  {
+    "path": "results/leakage_poster_summary/leakage_results_poster_en.pdf",
+    "sha256": "4b6f8d96568ba867dd1b099f22c6172df693bbb1af2aa507ac01a43b67badc6e",
+    "bytes": 41175
+  },
+  {
+    "path": "results/leakage_poster_summary/leakage_results_poster_en.png",
+    "sha256": "e20d456b11546122ebdb3aed656d12fa3da0acc36f8ff72fe1a585c0546bc3fa",
+    "bytes": 973198
+  },
+  {
+    "path": "results/leakage_poster_summary/READ_ME_JA.txt",
+    "sha256": "f5325cac2c3dbca84827594fd5f9dc39bd34876e8279c8739e25d5de9b63e94f",
+    "bytes": 2373
+  },
+  {
+    "path": "results/leakage_research_report_complete_20261009/leakage_research_report_en.pdf",
+    "sha256": "59bdb264ba4d17c95c3267d0f226ea949b4488da933bf161acf9faaa120ea0a6",
+    "bytes": 211739
+  },
+  {
+    "path": "results/leakage_research_report_complete_20261009/report_text_en.txt",
+    "sha256": "427b4b413baccbdf77e9e4f97cf54e1bfbb43fef4076bb5fe6f3e069af91795c",
+    "bytes": 9649
+  },
+  {
+    "path": "results/leakage_research_report_complete_20261009/controlled_comparisons.png",
+    "sha256": "2938c3f6cc4b8400951e54c72f7e5cbb86f5153daeb60e3882417c661c2d280e",
+    "bytes": 188115
+  },
+  {
+    "path": "results/leakage_research_report_complete_20261009/controlled_comparisons.pdf",
+    "sha256": "8aa011b81781c8ed88f0030914be9b8d5274328bd21b9e68a3334aa94bfaea62",
+    "bytes": 19184
+  },
+  {
+    "path": "results/leakage_research_report_complete_20261009/poster_result_coverage.csv",
+    "sha256": "9237620389d609d0fdbae228d18bb31c7dbd9a47adaee6220a597a945a0d6437",
+    "bytes": 11019
+  }
+]

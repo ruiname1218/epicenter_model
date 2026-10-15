@@ -1,0 +1,39 @@
+{
+  "train_events_per_rep": 864,
+  "validation_events_per_rep": 180,
+  "test_events": 540,
+  "training_seeds": [
+    41,
+    42,
+    43
+  ],
+  "shots_per_event": 2,
+  "primary_rounds": 16,
+  "observed_internal_rounds": 15,
+  "discarded": "initial and terminal partial detector rounds",
+  "onset": "uniform integers 0,1,2; shared between shots",
+  "strength_proxy": {
+    "weak": 0.15,
+    "medium": 0.3,
+    "strong": 0.5
+  },
+  "strength_caveat": "Bernoulli corruption probability, not radiation energy or measured leakage amplitude",
+  "nominal": {
+    "distance": 5,
+    "noise_reference_argument": 0.003,
+    "gate_noise": 0.0005,
+    "measurement_noise": 0.001,
+    "reset_noise": 0.001,
+    "transport": 0.123,
+    "decay": 7.63,
+    "persist": 32,
+    "pitch": 1
+  },
+  "coordinates": "(Stim xy - full-qubit bounding-box center) * nominal pitch; mm is a chosen spatial scale, not calibrated hardware",
+  "density": "d5 pitch1 vs d15 pitch1/3; identical full 10x10 footprint and exactly identical 25 allowed source coordinates",
+  "distance": "d3,d5,d7 pitch1; same nine source coordinates in [-2,2]^2",
+  "robustness": "frozen nominal models + quiet reference; p=.006 or unseen transport=.03",
+  "scope": "detector-level synthetic injection, data-qubit seeds, rotated surface code only; no measured response comparison; no decoding claim",
+  "inference": "one shot only; no truth strength/onset/position; 2 shots grouped only for split and uncertainty",
+  "uncertainty": "2000 paired event bootstrap replicates; training replicas averaged for CI, min/max separately; exploratory multiple comparisons, no confirmatory p-values"
+}

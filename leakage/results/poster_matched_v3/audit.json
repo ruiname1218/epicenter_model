@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "prediction_rows": 90720,
+  "metric_rows": 112,
+  "datasets": 7,
+  "tests": [
+    "coordinate error recomputation",
+    "event split disjointness",
+    "two shots share event truth",
+    "exact paired layout/condition targets",
+    "identical repeated F0 predictions",
+    "metric recomputation"
+  ],
+  "note": "Does not establish real-device validity or unseen-location generalization"
+}
