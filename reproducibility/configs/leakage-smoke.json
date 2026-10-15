@@ -1,0 +1,1 @@
+{"study":"leakage","profile":"smoke","train_events":36,"validation_events":12,"test_events":12,"training_seeds":[41],"cnn_epochs":2,"protocol":"leakage/results/poster_matched_v3/protocol.json","suite":"models,ablation,robustness,observation,distance,density"}

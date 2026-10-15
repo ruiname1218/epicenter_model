@@ -1,0 +1,13 @@
+{
+  "radiation": {
+    "url": "https://github.com/ruiname1218/epicenter_model.git",
+    "commit": "faeb34da5b5daf91d5b0e0d8931ffa2ebbae91b9",
+    "sparse_path": "radiation_propagation_toolkit/src",
+    "upstream_base_commit": "5de1632983f3a0d5bfdc907802f98ce5fb29e889"
+  },
+  "leakage": {
+    "url": "https://github.com/droman9/ReserveQ-leakage.git",
+    "commit": "441718dad676283216352c0a11a156425b70f0ff",
+    "sparse_path": "reserveq"
+  }
+}

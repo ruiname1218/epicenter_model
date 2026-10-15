@@ -21,3 +21,6 @@ leakage/generated/
 *.h5
 *.hdf5
 *.onnx
+.repro_sources/
+.repro_runs/
+.venv-repro/

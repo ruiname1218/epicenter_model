@@ -1,0 +1,1 @@
+{"study":"radiation","profile":"paper","train_events":864,"validation_events":180,"id_test_events":540,"slow_test_events":216,"horizons":[2,4,8],"cnn_seeds":[41,42,43],"cnn_epochs":80,"workers":2,"protocol":"radiation/results/rei_fair_20260911/protocol.json","specs":"radiation/results/rei_fair_20260911/specs.json"}

@@ -1,0 +1,80 @@
+--- a/reserveq/events.py
++++ b/reserveq/events.py
+@@ -192,6 +192,9 @@
+         "qubit_ids": sorted(data_qubits | measure_qubits),
+         "neighbors": dict(bipartite_adj),
+         "leak_detectors": leak_detectors,
++        "qubit_coords": {int(q): tuple(map(float, xy)) for q, xy in qubit_coords.items()},
++        "data_qubits": sorted(data_qubits),
++        "measure_qubits": sorted(measure_qubits),
+     }
+ 
+ 
+@@ -232,6 +235,9 @@
+         "qubit_ids": list(range(n_qubits)),
+         "neighbors": dict(data_adj),
+         "leak_detectors": leak_detectors,
++        "qubit_coords": {int(q): (float(q), 0.0) for q in range(n_qubits)},
++        "data_qubits": list(range(n_qubits)),
++        "measure_qubits": [],
+     }
+ 
+ 
+@@ -280,7 +286,8 @@
+            rad_flip=0.867, rad_persist=4, rad_decay_tau=2.0,
+            rad_corr_scale=1.6,
+            leak_onset="uniform", rad_onset="uniform",
+-           seed: int | None = 0) -> tuple[SyndromeData, np.ndarray]:
++           seed: int | None = 0, seed_qubits=None, forced_seed_qubit=None,
++           return_metadata: bool = False, forced_onset_round=None):
+     """Return a copy of ``sd`` with events injected, plus an integer label array.
+ 
+     Leakage: graph-aware injection with population conservation. A random data
+@@ -373,17 +380,37 @@
+     # Build code graph once for all shots (cached on sd)
+     graph = _get_code_graph(sd)
+     qubit_ids = graph["qubit_ids"]
++    if seed_qubits is None:
++        seed_candidates = list(qubit_ids)
++    else:
++        seed_candidates = [int(q) for q in seed_qubits if int(q) in set(qubit_ids)]
++        if not seed_candidates:
++            raise ValueError('seed_qubits contains no qubits in the code graph')
+     neighbors = graph["neighbors"]
+     leak_dets = graph["leak_detectors"]
++    metadata = [dict(label=int(labels[i]), seed_qubit=None, seed_xy=None,
++                     onset_round=None) for i in range(N)]
+ 
+     for i in range(N):
+         lab = labels[i]
+         if lab == 1:  # leakage: graph-aware transport with conservation
+             if not qubit_ids:
+                 continue
+-            seed_qubit = rng.choice(qubit_ids)
++            if forced_seed_qubit is None:
++                seed_qubit = int(rng.choice(seed_candidates))
++            else:
++                seed_qubit = int(forced_seed_qubit)
++                if seed_qubit not in seed_candidates:
++                    raise ValueError('forced_seed_qubit is not an allowed seed qubit')
+             t_start = _draw_onset(rng, nr, leak_persist, leak_onset)
++            if forced_onset_round is not None:
++                t_start = int(forced_onset_round)
++                if not 0 <= t_start < nr:
++                    raise ValueError('onset outside detector window')
+             t_end = min(nr, t_start + leak_persist)
++            metadata[i].update(seed_qubit=seed_qubit,
++                               seed_xy=graph.get('qubit_coords', {}).get(seed_qubit),
++                               onset_round=int(t_start))
+ 
+             # Leaked population per qubit: {qubit: amplitude}.
+             # Relaxation and transport are kept strictly separate:
+@@ -480,4 +507,6 @@
+                        circuit=getattr(sd, "circuit", None))
+     if getattr(sd, "_code_graph", None) is not None:
+         out._code_graph = sd._code_graph
+-    return out, labels
+\ No newline at end of file
++    if return_metadata:
++        return out, labels, metadata
++    return out, labels

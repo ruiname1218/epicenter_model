@@ -49,6 +49,10 @@ localization, unseen-location generalization or decoding evaluation is included.
 
 ## Verify and rebuild
 
+To **generate records and train models**, use the new
+[end-to-end runner](../reproducibility/README.md), which includes all six primary
+leakage studies. The commands below only verify/rebuild the saved publication.
+
 From this directory, in a separate virtual environment:
 
 ```bash

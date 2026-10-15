@@ -1,0 +1,1 @@
+{"study":"leakage","profile":"paper","train_events":864,"validation_events":180,"test_events":540,"training_seeds":[41,42,43],"cnn_epochs":60,"protocol":"leakage/results/poster_matched_v3/protocol.json","suite":"models,ablation,robustness,observation,distance,density"}

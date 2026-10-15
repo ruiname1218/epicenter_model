@@ -1,6 +1,6 @@
 # Reproducibility, scope and provenance
 
-## Two reproducibility levels
+## Reproducibility levels
 
 1. **This main branch:** rebuild the bilingual report from saved CSV files, verify
    the nominal 4 ms metrics against saved predictions, inspect configuration/selection
@@ -8,7 +8,12 @@
 2. **Experiment snapshot:** simulation, training, inference code and historical
    artifacts in their original directory layout. Raw arrays/checkpoints have a
    separate large-file storage policy. Original pipelines also depend on earlier
-   runs and frozen file hashes; this main branch is not a standalone retraining kit.
+   runs and frozen file hashes.
+3. **New end-to-end launcher:** [reproduction guide](../../reproducibility/README.md).
+   It fetches an immutable snapshot and uses the archived protocol/specs directly,
+   removing the main benchmark's dependency on older local experiment directories.
+   Smoke and paper profiles cover the matched main benchmark, not every supporting
+   radiation study. See the [validation record](../../reproducibility/VALIDATION.md).
 
 The PDFs and metrics are retained as experiment evidence, not a claim that every
 original pipeline is independently reproducible with these lightweight files alone.
@@ -26,8 +31,8 @@ Saved timing measurements are not comparable end-to-end inference latency.
   540 independent physical events. There are 756 unique test events including slow OOD.
 - The primary mean-error interval uses paired event bootstrap with fixed trained models.
   Secondary analyses and repeated research-wide exploration are not globally corrected.
-- Strong ellipses are included in the main benchmark's training but excluded from
-  training in the two older supporting studies. Do not rank scores across studies.
+- Supporting studies have their own source domains and protocols. Consult each
+  study's configuration rather than assuming that all panels share one test set.
 
 ## Original code provenance
 

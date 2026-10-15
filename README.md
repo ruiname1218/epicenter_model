@@ -15,6 +15,7 @@ reproduction of the original REI publication.
 ```text
 radiation/   Existing radiation results, bilingual briefs, poster and scripts
 leakage/     Leakage results, complete English report, poster and scripts
+reproducibility/  Pinned source retrieval, environments and end-to-end experiment runners
 ```
 
 The leakage report includes every result series shown on the leakage poster:
@@ -37,7 +38,13 @@ python leakage/scripts/verify_results.py
 ```
 
 These checks and report builders use saved evaluation files. They do **not**
-regenerate syndromes or retrain the models. Raw arrays, feature caches, trained
+regenerate syndromes or retrain the models. For that, use the separate
+[end-to-end reproduction guide](reproducibility/README.md): it provides smoke and
+paper-condition profiles, pinned upstream source retrieval and a CPU environment
+lockfile. See [tested coverage](reproducibility/VALIDATION.md) before interpreting
+this as complete reproduction of every poster panel.
+
+Raw arrays, feature caches, trained
 models, virtual environments and files over 25 MiB are intentionally excluded.
 Original experiment data remain in the local research workspace.
 

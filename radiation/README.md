@@ -51,6 +51,10 @@ raw syndrome arrays, feature caches and unrelated exploratory results.
 
 ## Reproduce the published figures
 
+To generate fresh records and retrain the **main matched benchmark**, use the
+[end-to-end runner](../reproducibility/README.md). Other radiation supporting
+studies are not yet automated by that launcher. The commands below use saved data.
+
 Run these commands from `radiation/` (the former repository root).
 
 ```bash

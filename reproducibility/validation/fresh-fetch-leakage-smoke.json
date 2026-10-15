@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "study": "leakage",
+  "profile": "smoke",
+  "prediction_rows": 672,
+  "metric_rows": 112,
+  "elapsed_seconds": 6.911294460296631,
+  "checks": [
+    "fresh generated record splits",
+    "per-shot coordinate error",
+    "aggregate errors",
+    "configured event counts"
+  ]
+}
